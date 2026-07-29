@@ -1,0 +1,21 @@
+---
+description: >-
+  Stage Superpowers (or similar) with Toolbelt research skills without merging
+  conflicting workflows. Use when both Superpowers and Toolbelt skills apply
+  (brainstorming, verification-before-completion, using-superpowers + recon/docs).
+alwaysApply: false
+---
+
+# Research skill coexistence (soft)
+
+When Superpowers (e.g. `using-superpowers`, `verification-before-completion`, `brainstorming`) **and** Toolbelt research skills both apply:
+
+## Staging (preferred)
+
+1. **Process layer (Superpowers OK):** Use Superpowers to choose *how* to work (invoke relevant skills, verify before claiming done, debug systematically) — announce `Using superpowers:<skill>`.
+2. **Research artifacts (Toolbelt owns):** For recon/docs/notes/ADRs/`AGENTS.md`, use Toolbelt skills and **fill Toolbelt templates** (`codebase-recon`, `docs-research`, `research-protocol`, `author-agents-md`, `draft-adr`) with PROTOCOL grades. Depth modes (`normal` vs `deep`) are Toolbelt-owned — including deep’s diminishing-returns stop and integrator merge.
+3. **Do not merge** competing git/PR/worktree policies — prefer repo `AGENTS.md` / human instructions.
+4. If Superpowers says “MUST invoke a skill” and the task is Toolbelt research, invoking the matching **Toolbelt** skill satisfies the intent; also invoke Superpowers process skills when they clearly apply (e.g. verification before “pass”).
+5. **Deep campaigns:** Superpowers may own *dispatching* parallel agents; each gatherer still writes Toolbelt-graded notes. Do not invent a hybrid research protocol that drops cite-or-omit or the deep stop rule.
+
+Advisory only — no hard hook.

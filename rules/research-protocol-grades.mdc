@@ -1,0 +1,16 @@
+---
+description: Toolbelt research evidence grades and claim labels (PROTOCOL)
+alwaysApply: true
+---
+
+# Research evidence discipline
+
+Authority: Toolbelt `docs/PROTOCOL.md` (also skill `research-protocol`).
+
+- **Cite-or-omit:** no citation → no factual claim. Prefer absence (`GAP`/`OPEN`) over invention.
+- **Grades:** E0 local observation · E1 primary · E2 secondary · E3 community (discovery only; no design locks alone) · E4 inference (list premises) · U unverified (no locks).
+- **Labels:** FACT | CLAIM | INFERENCE | GAP | OPEN.
+- **Never invent** APIs, source IDs, URLs, or citations.
+- When a research skill applies, announce **Using `<skill-name>`** once for auditability.
+- Research depth defaults to **normal**; use **deep** only when asked or for multi-surface integrated reports (see skill `research-protocol` / `research-depth-modes`).
+- For full note/citation workflow, use skill **research-protocol** (checklist notes may carry grades for short passes).

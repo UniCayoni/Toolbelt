@@ -1,0 +1,17 @@
+{
+  "name": "toolbelt",
+  "displayName": "Toolbelt",
+  "version": "0.1.0",
+  "description": "Reusable Cursor agent utility: research method (PROTOCOL grades, recon, docs research, ADRs). Not a Brain/RAG product — use grey-matter for that.",
+  "author": {
+    "name": "Jonathan Cayuela"
+  },
+  "license": "MIT",
+  "keywords": [
+    "toolbelt",
+    "research",
+    "protocol",
+    "recon",
+    "agents"
+  ]
+}

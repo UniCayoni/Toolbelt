@@ -1,0 +1,11 @@
+---
+description: Draft and proposed research notes are not accepted sources of truth
+alwaysApply: true
+---
+
+# Draft is not SoT
+
+- Notes/reports with `status: draft` or `proposed` are **not** accepted design law.
+- Do not lock architecture, libraries, or MVP scope from draft research alone.
+- Treat `accepted` research / ADRs / E0+E1 corroborated facts as higher authority.
+- Product stubs (e.g. grey-matter Brain shell) ≠ live product; stack locks remain deferred until researched and accepted.
