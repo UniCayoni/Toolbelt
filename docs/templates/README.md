@@ -20,6 +20,7 @@ Reports:
 | Researching public/third-party documentation | `documentation-research.md` (Theme 3 **D0–D14**) |
 | Portable repo agent instructions | `agents-md-skeleton.md` |
 | Recording a design decision (after research) | `adr-minimal.md` |
+| Author/compose Cursor skills, rules, commands, hooks | `author-cursor-surfaces.md` |
 
 ## Rules
 

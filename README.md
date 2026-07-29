@@ -1,6 +1,6 @@
 # Toolbelt
 
-Reusable Cursor **agent utility** plugin: research method (PROTOCOL grades, codebase recon, documentation research, ADRs, `AGENTS.md` authoring).
+Reusable Cursor **agent utility** plugin: research method (PROTOCOL grades, codebase recon, documentation research, ADRs, `AGENTS.md` authoring, Cursor surface authoring).
 
 | Install this for… | Use instead for… |
 |-------------------|------------------|
@@ -20,9 +20,9 @@ Operational load uses `~/.cursor/plugins/local/toolbelt` (same pattern as grey-m
 
 1. **Developer: Reload Window**
 2. **Customize** → Plugins: `toolbelt` (display name **Toolbelt**) is listed
-3. Skills: `codebase-recon`, `docs-research`, `research-protocol`, `author-agents-md`, `draft-adr`
+3. Skills: `codebase-recon`, `docs-research`, `research-protocol`, `author-agents-md`, `draft-adr`, `author-cursor-surfaces`
 4. Rules: grades + draft≠SoT always-on; explore-before-write + coexistence available
-5. Smoke slash skills: `/author-agents-md` or `/draft-adr` appears in Agent `/` search
+5. Smoke slash skills: `/author-agents-md`, `/draft-adr`, or `/author-cursor-surfaces` appears in Agent `/` search
 
 ## After editing method SoT
 
@@ -38,7 +38,8 @@ Reload Window after sync.
 ## Layout
 
 ```text
-skills/          Research pack (recon, docs-research, research-protocol, author-agents-md, draft-adr)
+skills/          Research + authoring pack (recon, docs-research, research-protocol,
+                 author-agents-md, draft-adr, author-cursor-surfaces)
 rules/           Grades + draft≠SoT (always); explore-before-write + Superpowers coexistence (intelligent)
 docs/PROTOCOL.md Method law
 docs/templates/  Checklist SoT (skills copy into references/)
@@ -56,6 +57,7 @@ docs/packs/      Future quality / workflow packs (stub only)
 | `research-protocol` | Full Method-envelope research notes; **normal** (default) vs **deep** theme campaigns |
 | `author-agents-md` | Create/revise `AGENTS.md` (`/` invoke) |
 | `draft-adr` | Record an architecture/process decision (`/` invoke) |
+| `author-cursor-surfaces` | Author/compose skills, rules, commands, hooks to Theme 4 standards (`/` invoke); optional Cursor `/create-*` scaffold then Toolbelt reinforce |
 
 Announce **Using `<skill-name>`** once when a research skill applies.
 

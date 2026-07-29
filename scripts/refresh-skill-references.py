@@ -11,6 +11,7 @@ Mapping:
   docs/templates/agents-md-skeleton.md → skills/author-agents-md/references/agents-md-skeleton.md
   docs/templates/doc-layers.md → skills/author-agents-md/references/doc-layers.md
   docs/templates/adr-minimal.md → skills/draft-adr/references/adr-minimal.md
+  docs/templates/author-cursor-surfaces.md → skills/author-cursor-surfaces/references/author-cursor-surfaces.md
 
 Usage:
   python d:\\Toolbelt\\scripts\\refresh-skill-references.py
@@ -33,6 +34,7 @@ COPIES: list[tuple[Path, Path]] = [
     (ROOT / "docs" / "templates" / "agents-md-skeleton.md", ROOT / "skills" / "author-agents-md" / "references" / "agents-md-skeleton.md"),
     (ROOT / "docs" / "templates" / "doc-layers.md", ROOT / "skills" / "author-agents-md" / "references" / "doc-layers.md"),
     (ROOT / "docs" / "templates" / "adr-minimal.md", ROOT / "skills" / "draft-adr" / "references" / "adr-minimal.md"),
+    (ROOT / "docs" / "templates" / "author-cursor-surfaces.md", ROOT / "skills" / "author-cursor-surfaces" / "references" / "author-cursor-surfaces.md"),
 ]
 
 
