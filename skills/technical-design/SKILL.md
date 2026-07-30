@@ -42,6 +42,14 @@ Authority: Theme 5 accepted (T5B). Run **`design-process`** spine first for non-
 
 Thin guidance only (research non-P0): treat OS-specific hosting as a **construction/interface** concern and ADR it if it binds the project; do not invent platform law.
 
+## Handoffs
+
+| Need | Use |
+|------|-----|
+| Shared design spine / gate | `design-process` |
+| Lock Decision | `draft-adr` |
+| After accept → plan | `implementation-plan` → `implementation-plan-verify` → execute |
+
 ## References
 
 - Read `references/technical-design-checklist.md` **when** doing a full architecture pass

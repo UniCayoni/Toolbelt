@@ -28,8 +28,16 @@ Explicit skill (`/author-agents-md`). Writes durable repo guidance — not a for
 - Working tree `AGENTS.md` (and nested overrides if justified)
 - Do not invent project commands — verify with E0 (package scripts / Makefile / README) or leave `GAP`
 
+## Handoffs
+
+| Need | Use |
+|------|-----|
+| Cursor skills/rules/commands | `author-cursor-surfaces` |
+| Architecture Decision | `draft-adr` |
+| Verify install/build/test claims | `codebase-recon` (E0) |
+
 ## References
 
-- `references/agents-md-skeleton.md`
-- `references/doc-layers.md`
+- Read `references/agents-md-skeleton.md` **when** creating or restructuring an `AGENTS.md`
+- Read `references/doc-layers.md` **when** choosing among `llms.txt` / `AGENTS.md` / rules / ADRs
 - SoT: Toolbelt `docs/templates/agents-md-skeleton.md`

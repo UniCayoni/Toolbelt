@@ -29,10 +29,11 @@ Authority: Theme 7 accepted. **Same spine as `implementation-execute`** — this
 3. For each task (serial default; Plan #2 parallel-safe only when marked):
    - Build a **handoff packet** (not a chat dump): Objective, Files, Interfaces, Deps, Done-when, Verify command+expected signal, Do-not, plan Global Constraints / Always·Block If·Never, path refs to design/ADR
    - Dispatch a **fresh** implementer subagent with that packet
-   - On return: run or require **Verify evidence**; optional fresh **task reviewer** subagent for spec+quality when stakes are high
+   - On return: run or require **Verify evidence** (N=2 owned by Execute spine)
+   - When non-trivial (incl. **SUB** this mode): invoke **`implementation-execute-verify`** post-green with a **fresh** reviewer context (Evidence + Faithfulness + Readability/coherence) — not optional self-review in the implementer
    - Mark task `done` or `blocked`(+reason); continue when green
 4. Escalate to human on blocked / major deviation (same checklist as `implementation-execute`)
-5. After all tasks: optional light end review (fresh context); fuller review later
+5. After all tasks on a durable plan: required **`implementation-execute-verify`** EOP review + light converge (append Convergence tasks; no silent Goal rewrite). Re-dispatch for appended tasks. Debug/PR later — not here.
 
 ## Implementer contract
 
@@ -52,10 +53,13 @@ Default serial implementers. Parallel only if plan marks parallel-safe **and** e
 | Need | Use |
 |------|-----|
 | Spine without subagents | `implementation-execute` |
-| Plan missing / wrong | `implementation-plan` / human |
-| Checklist detail | `implementation-execute` → `references/implementation-execute-checklist.md` |
+| Post-green / EOP converge | **`implementation-execute-verify`** |
+| Plan missing / wrong | `implementation-plan` / `implementation-plan-verify` / human |
+| Checklist detail | Read Execute checklist (below) |
 
 ## References
 
+- Via skill **`implementation-execute`**: read `references/implementation-execute-checklist.md` **when** running a full controller session or recovering a skipped spine step (shared checklist; no duplicate under this skill)
+- Via skill **`implementation-execute-verify`**: read its checklist / `review-dimensions.md` / `converge-light.md` **when** running post-green or EOP converge
 - Theme 7: Toolbelt `docs/research/reports/theme-7-execute-pocket.md` (accepted)
 - Companion spine: skill `implementation-execute`

@@ -28,7 +28,7 @@ Prefer (in order):
 
 ## Instructions
 
-1. **Copy** `references/d0-d14-checklist.md` into a new note under the note output path (do not overwrite the reference).
+1. Read `references/d0-d14-checklist.md` **when** starting docs research, then **copy** it into a new note under the note output path (do not overwrite the reference).
 2. **D0 first** — pin identity:
    - **Packages / libraries:** installed version (E0) + docs version/URL.
    - **Hosted products / IDEs (e.g. Cursor):** `status: in_use` + session/workspace corroboration; `build` or app version if obtainable, else **`GAP`** (do not invent).
@@ -53,8 +53,17 @@ Re-open `references/d0-d14-checklist.md` only when recovering missing D-steps; k
 - Never invent APIs, endpoints, or version pins
 - Cite both sides of conflicts
 
+## Handoffs
+
+| Need | Use |
+|------|-----|
+| Full Method-envelope note / deep campaign | `research-protocol` |
+| Code corroboration | `codebase-recon` |
+| Decision lock | `draft-adr` |
+| Design / plan after facts | `design-process` / `implementation-plan` |
+
 ## References
 
-- `references/d0-d14-checklist.md`
+- Read `references/d0-d14-checklist.md` **when** starting or recovering D0–D14 steps
 - SoT: Toolbelt `docs/templates/documentation-research.md`
 - Theme: Toolbelt `docs/research/reports/theme-3-researching-documentation.md`

@@ -1,7 +1,9 @@
 ---
 title: Implementation plan checklist
 status: active
-aligned_with: docs/research/reports/theme-6-plan-pocket.md
+aligned_with:
+  - docs/research/reports/theme-6-plan-pocket.md
+  - docs/research/reports/theme-8-verify-gates.md
 ---
 
 # Implementation plan checklist
@@ -41,7 +43,7 @@ Use with skill `implementation-plan`.
 - [ ] Bulky ADR/design linked (T1/T2), not pasted wholesale
 - [ ] No chat/history dump (T3)
 
-## Pre-exec (V1–V8)
+## Pre-exec (V1–V8) — light authoring
 
 - [ ] V1 No unresolved clarifications / intent gaps
 - [ ] V2 Files + interfaces + out-of-scope + verify present
@@ -51,6 +53,12 @@ Use with skill `implementation-plan`.
 - [ ] V6 Design Open Questions that change build are closed
 - [ ] V7 Binding constraints explicit
 - [ ] V8 Hybrid density respected
+
+## Plan-verify (before Meta ready)
+
+- [ ] Ran **`implementation-plan-verify`** (or documented trivial skip)
+- [ ] Verdict PASS / PASS WITH NOTES (not NEEDS REVISION)
+- [ ] Inventable gaps → `blocked` + `intent-gap` (no invent)
 
 ## Artifact
 

@@ -24,7 +24,7 @@ Explicit skill (`/draft-adr`). Prefer after `design-process` / research notes wh
 
 ## Instructions
 
-1. Copy `references/adr-minimal.md` to `docs/adr/NNNN-short-title.md` (or user path). Re-open the reference **when** recovering a missing section.
+1. Read `references/adr-minimal.md` **when** creating an ADR, then copy it to `docs/adr/NNNN-short-title.md` (or user path). Re-open the reference **when** recovering a missing section.
 2. Set `status: proposed` until the human accepts — **proposed ≠ project law**.
 3. **Context:** forces at play; link research/design notes.
 4. **Considered Options:** real alternatives with pros/cons (skip only when there is truly one forced option — say so).
@@ -34,8 +34,16 @@ Explicit skill (`/draft-adr`). Prefer after `design-process` / research notes wh
 8. Do not invent constraints or library locks without cited research (`research-protocol` / `docs-research` / `codebase-recon` as needed).
 9. When the decision changes later: **supersede** with a new ADR — do not rewrite history in place.
 
+## Handoffs
+
+| Need | Use |
+|------|-----|
+| Design options first | `design-process` / `technical-design` |
+| Evidence before locking | `research-protocol` / `docs-research` / `codebase-recon` |
+| After accept → plan | `implementation-plan` → `implementation-plan-verify` |
+
 ## References
 
-- `references/adr-minimal.md`
+- Read `references/adr-minimal.md` **when** creating or recovering ADR sections
 - SoT: Toolbelt `docs/templates/adr-minimal.md`
 - Method: Theme 5 / Theme 2 accepted reports

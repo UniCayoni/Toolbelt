@@ -1,10 +1,10 @@
 # Toolbelt
 
-Reusable Cursor **agent utility** plugin: research method (PROTOCOL grades, codebase recon, documentation research, ADRs, `AGENTS.md` authoring, Cursor surface authoring), Design, Plan (`implementation-plan`), and Execute (`implementation-execute`).
+Reusable Cursor **agent utility** plugin: research method (PROTOCOL grades, codebase recon, documentation research, ADRs, `AGENTS.md` authoring, Cursor surface authoring), Design, Plan, Execute, and **Verify gates** (plan-verify / execute-verify). Not a Brain/RAG product.
 
 | Install this for… | Use instead for… |
 |-------------------|------------------|
-| **Toolbelt** — how agents research and grade evidence | **grey-matter** — Brain / RAG MCP product |
+| **Toolbelt** — how agents research, design, plan, execute, and verify | **grey-matter** — Brain / RAG MCP product |
 
 ## Install (local plugin)
 
@@ -20,9 +20,9 @@ Operational load uses `~/.cursor/plugins/local/toolbelt` (same pattern as grey-m
 
 1. **Developer: Reload Window**
 2. **Customize** → Plugins: `toolbelt` (display name **Toolbelt**) is listed
-3. Skills: research + Design + Plan (`implementation-plan`) + Execute (`implementation-execute`, `implementation-execute-subagents`) + authoring
+3. Skills: Research (6) + Design (5) + Plan + Plan-verify + Execute + Execute-subagents + Execute-verify (**16** total)
 4. Rules: grades + draft≠SoT always-on; explore-before-write + coexistence available
-5. Smoke: `/implementation-execute`, `/implementation-plan`, `/design-process` (or Customize → Skills)
+5. Smoke: `/implementation-plan`, `/implementation-execute`, `/design-process`, `/author-cursor-surfaces` (or Customize → Skills)
 
 ## After editing method SoT
 
@@ -33,12 +33,12 @@ python d:\Toolbelt\scripts\refresh-skill-references.py
 python d:\Toolbelt\scripts\sync-toolbelt-local-plugin.py
 ```
 
-Reload Window after sync.
+Reload Window after sync. **Elevating or revising skills/rules:** use `/author-cursor-surfaces` (Theme 4 reinforce) before treating as SoT.
 
 ## Layout
 
 ```text
-skills/          Research + Design + Plan + Execute (`implementation-execute*`) + authoring
+skills/          Research + Design + Plan + Execute + Verify + authoring (16)
 rules/           Grades + draft≠SoT (always); explore-before-write + Superpowers coexistence (intelligent)
 docs/PROTOCOL.md Method law
 docs/templates/  Checklist/template SoT (skills copy into references/)
@@ -47,10 +47,12 @@ docs/design/     Design notes (when used)
 docs/adr/        ADRs
 docs/research/   Theme reports + gatherer notes (method history)
 docs/archive/    Smoke, sources, elevation map, harness ADR (frozen)
-docs/packs/      Pack index (Research / Design / Plan shipped; Quality stub)
+docs/packs/      Pack index (Research / Design / Plan / Execute / Verify shipped; Debug stub)
 ```
 
-## Skills (v1)
+## Skills
+
+### Research
 
 | Skill | Use when |
 |-------|----------|
@@ -59,9 +61,29 @@ docs/packs/      Pack index (Research / Design / Plan shipped; Quality stub)
 | `research-protocol` | Full Method-envelope research notes; **normal** (default) vs **deep** theme campaigns |
 | `author-agents-md` | Create/revise `AGENTS.md` (`/` invoke) |
 | `draft-adr` | Record an architecture/process decision (`/` invoke) |
-| `author-cursor-surfaces` | Author/compose skills, rules, commands, hooks to Theme 4 standards (`/` invoke); optional Cursor `/create-*` scaffold then Toolbelt reinforce |
+| `author-cursor-surfaces` | Author/compose skills, rules, commands, hooks to Theme 4 standards (`/` invoke) |
 
-Announce **Using `<skill-name>`** once when a research skill applies.
+### Design
+
+| Skill | Use when |
+|-------|----------|
+| `design-process` | Shared design spine + human gate |
+| `technical-design` | Code architecture / stack / services |
+| `creative-systems-design` | Game/creative systems |
+| `creative-narrative-design` | Story / quests / interactive narrative |
+| `creative-world-character-design` | World bible / characters |
+
+### Plan → Verify → Execute → Verify
+
+| Skill | Use when |
+|-------|----------|
+| `implementation-plan` | Hybrid implementation plans for agents |
+| `implementation-plan-verify` | Graded plan validate before Meta `ready` |
+| `implementation-execute` | Execute approved plans (Done-when, N=2) |
+| `implementation-execute-subagents` | Controller + fresh implementers |
+| `implementation-execute-verify` | Post-green quality/readability + EOP converge |
+
+Announce **Using `<skill-name>`** once when a Toolbelt skill applies.
 
 ## Note output paths
 
@@ -75,6 +97,6 @@ Do not assume GreyMatter paths.
 
 ## Growth
 
-Future packs (code quality, standards, parallel workflows) land as additional flat `skills/<name>/` entries. See [docs/packs/README.md](./docs/packs/README.md). Do not pile new always-apply rules without need.
+Future packs (Debug/PR, UX/T5C, standards) land as additional flat `skills/<name>/` entries after accepted research + `/author-cursor-surfaces`. See [docs/packs/README.md](./docs/packs/README.md). Do not pile new always-apply rules without need.
 
-Plugin packaging / skill-authoring policy: accepted Theme 4 report — [docs/research/reports/theme-4-cursor-plugin-components.md](./docs/research/reports/theme-4-cursor-plugin-components.md).
+Plugin packaging / skill-authoring policy: accepted Theme 4 report — [docs/research/reports/theme-4-cursor-plugin-components.md](./docs/research/reports/theme-4-cursor-plugin-components.md). Full surface audit: [docs/research/notes/theme-8-verify/author-surfaces-full-plugin-audit.md](./docs/research/notes/theme-8-verify/author-surfaces-full-plugin-audit.md).

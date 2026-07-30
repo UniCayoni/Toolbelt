@@ -34,7 +34,7 @@ Do not assume a GreyMatter-only layout.
 
 ## Instructions
 
-1. **Copy** `references/s0-s18-checklist.md` to a new file under the note output path. Do not edit the skill reference as the deliverable.
+1. Read `references/s0-s18-checklist.md` **when** starting recon, then **copy** it to a new file under the note output path. Do not edit the skill reference as the deliverable.
 2. Fill **S0–S16**. Mark unmet items `GAP` — never invent paths, APIs, or commands.
 3. **S2:** `systematic` | `as-needed` | `hybrid`; if as-needed, note missed-interaction risk.
 4. **S8–S9:** Locate/search before edit. Prefer search → view → then edit. For large/unfamiliar scope, **recommend** Explore / investigation subagent; return summaries. Not mandatory for tiny known-file fixes.
@@ -60,8 +60,17 @@ If Superpowers (or similar) demands “invoke skill before any response,” stil
 - Draft recon notes ≠ accepted design law
 - Prefer progressive disclosure over whole-tree dumps
 
+## Handoffs
+
+| Need | Use |
+|------|-----|
+| Full graded multi-pass note | `research-protocol` |
+| Docs/API corroboration | `docs-research` |
+| After gate → design | `design-process` |
+| After gate → plan/implement | `implementation-plan` → verify → execute |
+
 ## References
 
-- `references/s0-s18-checklist.md`
+- Read `references/s0-s18-checklist.md` **when** starting or recovering S0–S16 steps
 - SoT: Toolbelt `docs/templates/codebase-reconnaissance.md`
 - Theme: Toolbelt `docs/research/reports/theme-1-codebase-research-for-agents.md`

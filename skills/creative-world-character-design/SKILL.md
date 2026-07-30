@@ -43,6 +43,14 @@ Anti-pattern: incoherent “everything” settings. Prefer focus (inside-out or 
 - Consistency critique (rules broken, kitchen-sink creep)
 - Human decides; short quotes only — no copyrighted lore dumps
 
+## Handoffs
+
+| Need | Use |
+|------|-----|
+| Shared design spine / gate | `design-process` |
+| Narrative / systems coupling | `creative-narrative-design` / `creative-systems-design` |
+| After accept → plan | `implementation-plan` → `implementation-plan-verify` |
+
 ## References
 
 - Read `references/creative-world-character-checklist.md` **when** building or auditing a bible/cast

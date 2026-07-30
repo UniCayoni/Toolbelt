@@ -71,9 +71,18 @@ Record in Method: `depth: normal | deep` (and for deep: `waves`, `stop_reason`).
 - [ ] Conflicts logged when sources disagree
 - [ ] Draft/proposed not treated as design law
 
+## Handoffs
+
+| Need | Use |
+|------|-----|
+| Codebase map first | `codebase-recon` |
+| Product/docs pin | `docs-research` |
+| After accepted research → design/plan | `design-process` / `implementation-plan` |
+| Author Cursor surfaces from findings | `author-cursor-surfaces` |
+
 ## References
 
-- `references/PROTOCOL.md` (SoT: Toolbelt `docs/PROTOCOL.md`)
-- `references/research-depth-modes.md` (SoT: Toolbelt `docs/templates/research-depth-modes.md`)
-- `references/research-note.md`
-- `references/claim-citation.md`
+- Read `references/PROTOCOL.md` **when** enforcing grades, labels, or cite-or-omit (SoT: Toolbelt `docs/PROTOCOL.md`)
+- Read `references/research-depth-modes.md` **when** choosing or running depth modes (SoT: `docs/templates/research-depth-modes.md`)
+- Read `references/research-note.md` **when** writing a full Method-envelope note
+- Read `references/claim-citation.md` **when** choosing citation shape or conflict-log fields

@@ -38,6 +38,14 @@ Prefer designs that state **how beats touch game state** (flags, qualities, trig
 - Critique pacing, agency, and ludonarrative conflict
 - Human decides; keep lore dumps out of decision records — record *structure* choices
 
+## Handoffs
+
+| Need | Use |
+|------|-----|
+| Shared design spine / gate | `design-process` |
+| Systems / world coupling | `creative-systems-design` / `creative-world-character-design` |
+| After accept → plan | `implementation-plan` → `implementation-plan-verify` |
+
 ## References
 
 - Read `references/creative-narrative-checklist.md` **when** doing a full narrative pass

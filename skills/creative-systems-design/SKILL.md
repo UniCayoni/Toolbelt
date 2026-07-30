@@ -38,6 +38,14 @@ MDA (Mechanics–Dynamics–Aesthetics) is one E1 lens among others (Schell tetr
 - Critique for broken loops, dominant strategies, unfun dynamics
 - Human decides; record significant system locks (project doc or ADR if it binds tech)
 
+## Handoffs
+
+| Need | Use |
+|------|-----|
+| Shared design spine / gate | `design-process` |
+| Tech binding from systems | `technical-design` / `draft-adr` |
+| After accept → plan | `implementation-plan` → `implementation-plan-verify` |
+
 ## References
 
 - Read `references/creative-systems-checklist.md` **when** running a full systems pass

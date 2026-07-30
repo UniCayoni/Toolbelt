@@ -61,9 +61,18 @@ Explicit skill (`/author-cursor-surfaces`). **Author / compose** — not marketp
 - Optional filled checklist note under host `docs/research/notes/` (or user path)
 - Brief summary: surface chosen, scaffold used, compose map, verify status
 
+## Handoffs
+
+| Need | Use |
+|------|-----|
+| AGENTS.md house docs | `author-agents-md` |
+| Decision record | `draft-adr` |
+| Unknown Cursor API facts | `docs-research` / `research-protocol` |
+| Marketplace audit | create-plugin `review-plugin-submission` (not this skill) |
+
 ## References
 
-- `references/author-cursor-surfaces.md`
+- Read `references/author-cursor-surfaces.md` **when** authoring, composing, or migrating Cursor surfaces (checklist §0–§5)
 - SoT template: Toolbelt `docs/templates/author-cursor-surfaces.md`
 - Theme 4 (accepted): Toolbelt `docs/research/reports/theme-4-cursor-plugin-components.md`
-- Related Toolbelt skills: `author-agents-md`, `draft-adr`, `research-protocol` (depth modes when researching unknowns)
+- Related Toolbelt skills: `author-agents-md`, `draft-adr`, `research-protocol`

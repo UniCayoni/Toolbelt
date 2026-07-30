@@ -4,9 +4,10 @@ description: >-
   Write Toolbelt hybrid implementation plans for agents/subagents: consume
   approved design/ADR, decompose into checkable tasks (files, interfaces,
   Done-when + verify), serial_implement_review default, T0–T3 paste, light
-  V1–V8 pre-exec checks. Use when writing a plan, task breakdown, write-plan,
-  planning before implement, handoff packets for fresh agents, or after
-  design-process gate. Prefer over jumping straight to multi-file coding.
+  V1–V8 pre-exec checks, then implementation-plan-verify before Meta ready.
+  Use when writing a plan, task breakdown, write-plan, planning before
+  implement, handoff packets for fresh agents, or after design-process gate.
+  Prefer over jumping straight to multi-file coding.
 ---
 
 # Implementation plan
@@ -42,8 +43,9 @@ Authority: Theme 6 accepted (Plan method guidance). **Unapproved / draft plans �
 6. **Execution shape** — `exec_default: serial_implement_review` on shared checkout. Mark `parallel-safe` / `[P]` **only** when independence + exclusive file ownership **or** worktrees are stated
 7. **Paste/load (T0–T3)** — T0 inline binding brief; T1 path+extract; T2 cold ADR/design bodies; T3 never dump chat/history. No invented numeric token budgets
 8. **Durable path** — non-trivial: write `docs/plans/YYYY-MM-DD-<slug>-plan.md` (host path overrides OK) using the house template
-9. **Pre-exec check (V1–V8)** — light Plan-pocket validation before handoff to implementers
-10. **Handoff** — for subagents: controller spine + per-task packet (objective, I/O, boundaries, path refs) — not a chat dump. Status vocab: `ready` · `in_progress` · `blocked` (`intent-gap` / `verify-fail` / `needs-human`) · `done`. HALT ≡ `blocked`+`intent-gap`
+9. **Pre-exec check (V1–V8)** — light Plan-pocket validation (authoring self-check)
+10. **Plan-verify** — run **`implementation-plan-verify`** before Meta `ready` (graded Reality‖Drift‖Coverage; skip only documented trivial). On NEEDS REVISION → fix plan, re-verify; on inventable gap → `blocked`+`intent-gap`
+11. **Handoff** — Meta `ready` only after PASS / PASS WITH NOTES. For subagents: controller spine + per-task packet (objective, I/O, boundaries, path refs) — not a chat dump. Status vocab: `ready` · `in_progress` · `blocked` (`intent-gap` / `verify-fail` / `needs-human`) · `done`. HALT ≡ `blocked`+`intent-gap`
 
 ## Status vocabulary
 
@@ -70,6 +72,7 @@ Authority: Theme 6 accepted (Plan method guidance). **Unapproved / draft plans �
 | Need design first | `design-process` (then return here) |
 | Significant locks missing | `draft-adr` |
 | Unfamiliar codebase before planning | `codebase-recon` |
+| Validate plan before ready | **`implementation-plan-verify`** |
 | Execute the plan | **`implementation-execute`** (or **`implementation-execute-subagents`** for controller + fresh implementers) |
 
 ## References

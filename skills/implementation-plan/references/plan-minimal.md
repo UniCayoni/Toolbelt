@@ -3,7 +3,9 @@ title: "Implementation plan (minimal)"
 status: active
 aligned_with:
   - docs/research/reports/theme-6-plan-pocket.md
+  - docs/research/reports/theme-8-verify-gates.md
   - skills/implementation-plan/SKILL.md
+  - skills/implementation-plan-verify/SKILL.md
 note: "House template for durable plans. Skill copies via refresh-skill-references.py."
 ---
 
@@ -83,6 +85,12 @@ note: "House template for durable plans. Skill copies via refresh-skill-referenc
 - [ ] V7 Binding constraints / Always·Block If·Never explicit
 - [ ] V8 No reliance on mandatory full impl-code dumps (hybrid)
 
+## Plan-verify (before Meta ready)
+
+- [ ] Ran **`implementation-plan-verify`** (or documented trivial skip)
+- [ ] Verdict: `PASS` \| `PASS WITH NOTES` \| `NEEDS REVISION` — Meta `ready` only on PASS*
+- [ ] Optional task flag: mark `review-required` in Do-not / notes when post-green review must run even if otherwise “small”
+
 ## Execution notes
 
 - After Meta `ready`: run Toolbelt **`implementation-execute`** (or **`implementation-execute-subagents`**).
@@ -90,6 +98,7 @@ note: "House template for durable plans. Skill copies via refresh-skill-referenc
 - Parallel only when a task is marked parallel-safe with independence + exclusive file ownership or worktrees.
 - Highly recommend fresh chat **or** fresh subagent at plan→execute (keeps parent context short).
 - Verify: command → expected signal; up to **N=2** enhanced local fixes then `blocked`+`verify-fail`.
+- Non-trivial / EOP: **`implementation-execute-verify`** (post-green quality+readability; EOP light converge may append `## Convergence` tasks — append-only, no Goal rewrite).
 - Meta Status sync (S1): aggregate of tasks (`blocked` if any blocked; `done` iff all done).
 - Trivial one-file tweaks may skip a durable plan file (intelligent exception); non-trivial work: save under `docs/plans/YYYY-MM-DD-<slug>-plan.md`.
 - TDD ceremony is **optional**; verify is **required**.
