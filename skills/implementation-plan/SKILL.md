@@ -70,7 +70,7 @@ Authority: Theme 6 accepted (Plan method guidance). **Unapproved / draft plans â
 | Need design first | `design-process` (then return here) |
 | Significant locks missing | `draft-adr` |
 | Unfamiliar codebase before planning | `codebase-recon` |
-| Implement | Follow plan serially (or parallel-safe tasks only); verify each Done-when â€” Implement craft is not this skill |
+| Execute the plan | **`implementation-execute`** (or **`implementation-execute-subagents`** for controller + fresh implementers) |
 
 ## References
 

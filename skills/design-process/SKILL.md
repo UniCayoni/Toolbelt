@@ -40,7 +40,7 @@ Simple work can still use a **short** design (a few sentences) + approval — sk
    - Significant / multi-option locks → **`draft-adr`** → `docs/adr/NNNN-slug.md`
    - Broader feature shape (when useful) → short design note under host `docs/design/YYYY-MM-DD-<topic>-design.md` (user path overrides OK)
 10. **Self-review** (written artifacts): placeholders/TODOs, internal contradictions, scope too large, ambiguous requirements — fix before asking for final review
-11. **Gate** — only after approval proceed to **`implementation-plan`** (then implement). Trivial one-file work may skip a durable plan (intelligent exception)
+11. **Gate** — only after approval proceed to **`implementation-plan`** then **`implementation-execute`** (or `implementation-execute-subagents`). Trivial one-file work may skip durable plan/execute (intelligent exception)
 
 ## Lanes (keep separate)
 

@@ -1,6 +1,6 @@
 # Toolbelt
 
-Reusable Cursor **agent utility** plugin: research method (PROTOCOL grades, codebase recon, documentation research, ADRs, `AGENTS.md` authoring, Cursor surface authoring), Design pocket, and Plan pocket (`implementation-plan`).
+Reusable Cursor **agent utility** plugin: research method (PROTOCOL grades, codebase recon, documentation research, ADRs, `AGENTS.md` authoring, Cursor surface authoring), Design, Plan (`implementation-plan`), and Execute (`implementation-execute`).
 
 | Install this for… | Use instead for… |
 |-------------------|------------------|
@@ -20,9 +20,9 @@ Operational load uses `~/.cursor/plugins/local/toolbelt` (same pattern as grey-m
 
 1. **Developer: Reload Window**
 2. **Customize** → Plugins: `toolbelt` (display name **Toolbelt**) is listed
-3. Skills: research pack + Design (`design-process`, …) + Plan (`implementation-plan`) + `author-agents-md`, `draft-adr`, `author-cursor-surfaces`
+3. Skills: research + Design + Plan (`implementation-plan`) + Execute (`implementation-execute`, `implementation-execute-subagents`) + authoring
 4. Rules: grades + draft≠SoT always-on; explore-before-write + coexistence available
-5. Smoke: `/implementation-plan`, `/design-process`, `/author-cursor-surfaces` (or Customize → Skills)
+5. Smoke: `/implementation-execute`, `/implementation-plan`, `/design-process` (or Customize → Skills)
 
 ## After editing method SoT
 
@@ -38,7 +38,7 @@ Reload Window after sync.
 ## Layout
 
 ```text
-skills/          Research + Design + Plan (`implementation-plan`) + authoring
+skills/          Research + Design + Plan + Execute (`implementation-execute*`) + authoring
 rules/           Grades + draft≠SoT (always); explore-before-write + Superpowers coexistence (intelligent)
 docs/PROTOCOL.md Method law
 docs/templates/  Checklist/template SoT (skills copy into references/)

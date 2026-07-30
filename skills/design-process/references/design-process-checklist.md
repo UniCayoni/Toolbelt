@@ -20,5 +20,5 @@ Use with skill `design-process`.
 - [ ] Optional `docs/design/…` note written when the feature shape needs a durable spec
 - [ ] Self-review: placeholders, consistency, scope, ambiguity
 - [ ] Implementation not started before gate
-- [ ] Non-trivial → `implementation-plan` after gate (trivial one-file may skip durable plan)
+- [ ] Non-trivial → `implementation-plan` then `implementation-execute` (or `-subagents`) after gate
 - [ ] Domain skill used for depth (technical / creative-*) without replacing the spine

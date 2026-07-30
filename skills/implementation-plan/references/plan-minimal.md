@@ -85,7 +85,11 @@ note: "House template for durable plans. Skill copies via refresh-skill-referenc
 
 ## Execution notes
 
-- Default: **serial implement → review/verify** on shared checkout.
+- After Meta `ready`: run Toolbelt **`implementation-execute`** (or **`implementation-execute-subagents`**).
+- Default: **serial implement → verify** on shared checkout; continuous when green; HITL on blocked / major deviation.
 - Parallel only when a task is marked parallel-safe with independence + exclusive file ownership or worktrees.
+- Highly recommend fresh chat **or** fresh subagent at plan→execute (keeps parent context short).
+- Verify: command → expected signal; up to **N=2** enhanced local fixes then `blocked`+`verify-fail`.
+- Meta Status sync (S1): aggregate of tasks (`blocked` if any blocked; `done` iff all done).
 - Trivial one-file tweaks may skip a durable plan file (intelligent exception); non-trivial work: save under `docs/plans/YYYY-MM-DD-<slug>-plan.md`.
 - TDD ceremony is **optional**; verify is **required**.

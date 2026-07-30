@@ -2,7 +2,7 @@
   "name": "toolbelt",
   "displayName": "Toolbelt",
   "version": "0.1.0",
-  "description": "Reusable Cursor agent utility: research method + Design pocket + Plan pocket (implementation-plan). Not a Brain/RAG product — use grey-matter for that.",
+  "description": "Reusable Cursor agent utility: research method + Design + Plan (implementation-plan) + Execute (implementation-execute). Not a Brain/RAG product — use grey-matter for that.",
   "author": {
     "name": "Jonathan Cayuela"
   },
@@ -12,6 +12,7 @@
     "research",
     "design",
     "plan",
+    "execute",
     "protocol",
     "recon",
     "adr",
