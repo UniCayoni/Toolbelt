@@ -6,8 +6,8 @@ date: YYYY-MM-DD
 
 # ADR {NNNN}: {Short title}
 
-> Template grounded in Nygard ADR + MADR (Theme 2). Use after research notes exist.  
-> Do not treat `proposed` as project law.
+> Toolbelt house ADR (Theme 2 + Theme 5): Nygard core + explicit options (Fowler/MADR).  
+> Path: `docs/adr/NNNN-short-title.md`. Do not treat `proposed` as project law.
 
 ## Status
 
@@ -17,9 +17,19 @@ date: YYYY-MM-DD
 
 Forces at play (value-neutral). Link research notes with citations.
 
+## Considered Options
+
+List real alternatives (at least two when a choice exists). For each:
+
+| Option | Pros | Cons |
+|--------|------|------|
+| A |  |  |
+| B |  |  |
+
 ## Decision
 
-We will …
+We will …  
+Because … (why this option over the others)
 
 ## Consequences
 
