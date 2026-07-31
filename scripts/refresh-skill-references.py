@@ -14,6 +14,7 @@ Mapping:
   docs/templates/author-cursor-surfaces.md → skills/author-cursor-surfaces/references/author-cursor-surfaces.md
   docs/templates/plan-minimal.md → skills/implementation-plan/references/plan-minimal.md
   docs/templates/repro-light.md → skills/reproduce-bug/references/repro-light.md
+  docs/templates/happy-path.md → skills/implementation-happy-path/references/implementation-happy-path-checklist.md
 
 Usage:
   python d:\\Toolbelt\\scripts\\refresh-skill-references.py
@@ -39,6 +40,10 @@ COPIES: list[tuple[Path, Path]] = [
     (ROOT / "docs" / "templates" / "author-cursor-surfaces.md", ROOT / "skills" / "author-cursor-surfaces" / "references" / "author-cursor-surfaces.md"),
     (ROOT / "docs" / "templates" / "plan-minimal.md", ROOT / "skills" / "implementation-plan" / "references" / "plan-minimal.md"),
     (ROOT / "docs" / "templates" / "repro-light.md", ROOT / "skills" / "reproduce-bug" / "references" / "repro-light.md"),
+    (
+        ROOT / "docs" / "templates" / "happy-path.md",
+        ROOT / "skills" / "implementation-happy-path" / "references" / "implementation-happy-path-checklist.md",
+    ),
 ]
 
 

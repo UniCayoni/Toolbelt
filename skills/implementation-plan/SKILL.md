@@ -69,6 +69,7 @@ Authority: Theme 6 accepted (Plan method guidance). **Unapproved / draft plans â
 
 | Next | Skill / action |
 |------|----------------|
+| Full Toolbelt ladder (cold start / controller) | **`implementation-happy-path`** |
 | Need design first | `design-process` (then return here) |
 | Significant locks missing | `draft-adr` |
 | Unfamiliar codebase before planning | `codebase-recon` |

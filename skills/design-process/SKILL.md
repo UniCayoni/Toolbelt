@@ -77,6 +77,7 @@ Simple work can still use a **short** design (a few sentences) + approval — sk
 
 | Need | Use |
 |------|-----|
+| Full Toolbelt ladder (cold start / controller) | **`implementation-happy-path`** |
 | Implementation plan | `implementation-plan` |
 | Validate plan before ready | `implementation-plan-verify` |
 | Execute | `implementation-execute` / `-subagents` + `implementation-execute-verify` |

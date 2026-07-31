@@ -52,6 +52,7 @@ Default serial implementers. Parallel only if plan marks parallel-safe **and** e
 
 | Need | Use |
 |------|-----|
+| Full Toolbelt ladder (controller routing) | **`implementation-happy-path`** (workers still one pocket) |
 | Spine without subagents | `implementation-execute` |
 | Post-green / EOP converge | **`implementation-execute-verify`** |
 | Plan missing / wrong | `implementation-plan` / `implementation-plan-verify` / human |

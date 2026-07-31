@@ -78,6 +78,7 @@ Record in Method: `depth: normal | deep` (and for deep: `waves`, `stop_reason`).
 | Codebase map first | `codebase-recon` |
 | Product/docs pin | `docs-research` |
 | After accepted research → design/plan | `design-process` / `implementation-plan` |
+| Full Toolbelt ladder | **`implementation-happy-path`** |
 | Author Cursor surfaces from findings | `author-cursor-surfaces` |
 
 ## References

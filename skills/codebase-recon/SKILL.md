@@ -68,6 +68,7 @@ If Superpowers (or similar) demands “invoke skill before any response,” stil
 | Docs/API corroboration | `docs-research` |
 | After gate → design | `design-process` |
 | After gate → plan/implement | `implementation-plan` → verify → execute |
+| Full Toolbelt ladder | **`implementation-happy-path`** |
 
 ## References
 

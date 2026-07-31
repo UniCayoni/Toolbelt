@@ -1,6 +1,6 @@
 # Toolbelt
 
-Reusable Cursor **agent utility** plugin: research method (PROTOCOL grades, codebase recon, documentation research, ADRs, `AGENTS.md` authoring, Cursor surface authoring), Design, Plan, Execute, **Verify gates** (plan-verify / execute-verify), and **Debug** (systematic-debug / reproduce-bug). Not a Brain/RAG product.
+Reusable Cursor **agent utility** plugin: research method (PROTOCOL grades, codebase recon, documentation research, ADRs, `AGENTS.md` authoring, Cursor surface authoring), Design, Plan, Execute, **Verify gates**, **Debug**, and **happy-path** orchestration (`implementation-happy-path`). Not a Brain/RAG product.
 
 | Install this for… | Use instead for… |
 |-------------------|------------------|
@@ -20,7 +20,7 @@ Operational load uses `~/.cursor/plugins/local/toolbelt` (same pattern as grey-m
 
 1. **Developer: Reload Window**
 2. **Customize** → Plugins: `toolbelt` (display name **Toolbelt**) is listed
-3. Skills: Research (6) + Design (5) + Plan + Plan-verify + Execute + Execute-subagents + Execute-verify + systematic-debug + reproduce-bug (**18** total)
+3. Skills: Research (6) + Design (5) + Plan + Plan-verify + Execute + Execute-subagents + Execute-verify + systematic-debug + reproduce-bug + happy-path (**19** total)
 4. Rules: grades + draft≠SoT always-on; explore-before-write + coexistence available
 5. Smoke: `/implementation-plan`, `/implementation-execute`, `/design-process`, `/author-cursor-surfaces` (or Customize → Skills)
 
@@ -38,7 +38,7 @@ Reload Window after sync. **Elevating or revising skills/rules:** use `/author-c
 ## Layout
 
 ```text
-skills/          Research + Design + Plan + Execute + Verify + Debug + authoring (18)
+skills/          Research + Design + Plan + Execute + Verify + Debug + Happy-path + authoring (19)
 rules/           Grades + draft≠SoT (always); explore-before-write + Superpowers coexistence (intelligent)
 docs/PROTOCOL.md Method law
 docs/templates/  Checklist/template SoT (skills copy into references/)
@@ -47,7 +47,7 @@ docs/design/     Design notes (when used)
 docs/adr/        ADRs
 docs/research/   Theme reports + gatherer notes (method history)
 docs/archive/    Smoke, sources, elevation map, harness ADR (frozen)
-docs/packs/      Pack index (Research / Design / Plan / Execute / Verify / Debug shipped; PR stub)
+docs/packs/      Pack index (Research / Design / Plan / Execute / Verify / Debug / Happy-path shipped; PR stub)
 ```
 
 ## Skills
@@ -73,10 +73,11 @@ docs/packs/      Pack index (Research / Design / Plan / Execute / Verify / Debug
 | `creative-narrative-design` | Story / quests / interactive narrative |
 | `creative-world-character-design` | World bible / characters |
 
-### Plan → Verify → Execute → Verify → Debug
+### Plan → Verify → Execute → Verify → Debug → Happy path
 
 | Skill | Use when |
 |-------|----------|
+| `implementation-happy-path` | Cold-start / controller: which Toolbelt skills in what order |
 | `implementation-plan` | Hybrid implementation plans for agents |
 | `implementation-plan-verify` | Graded plan validate before Meta `ready` |
 | `implementation-execute` | Execute approved plans (Done-when, N=2) |

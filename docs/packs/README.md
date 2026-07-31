@@ -8,6 +8,7 @@
 | **Execute** | shipped (Theme 7 accept + elevate) | `implementation-execute`, `implementation-execute-subagents` (+ wire to `implementation-execute-verify` + Debug handoffs); consumes `docs/plans/` + Theme 6 Plan law. See `docs/research/reports/theme-7-execute-pocket.md` |
 | **Verify gates** | shipped (Theme 8 accept + elevate) | `implementation-plan-verify`, `implementation-execute-verify`; wired from Plan/Execute/-subagents. **Not** Debug/PR. See `docs/research/reports/theme-8-verify-gates.md` |
 | **Debug / investigate** | shipped (Theme 9 accept + elevate) | `systematic-debug`, `reproduce-bug`; template `docs/templates/repro-light.md`; wired from Execute / -subagents / execute-verify. **Not** Theme 8 Verify. See `docs/research/reports/theme-9-debug-pocket.md` |
+| **Happy path** | shipped (Theme 10 accept + elevate) | `implementation-happy-path`; template `docs/templates/happy-path.md`; orchestrates pockets (compose only). See `docs/research/reports/theme-10-happy-path.md` |
 | PR / workflow | stub | Phase 2 (listed in Theme 9 parks) |
 
 Keep new rules **intelligent / opt-in** by default except thin always-on (draft≠SoT). Elevate further surfaces only after accepted research. UX skills wait on [`docs/research/notes/theme-5-design/t5c-ux-placeholder.md`](../research/notes/theme-5-design/t5c-ux-placeholder.md).
