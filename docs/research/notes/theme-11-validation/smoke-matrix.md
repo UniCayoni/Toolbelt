@@ -1,0 +1,63 @@
+---
+title: "Theme 11 — P0 smoke matrix"
+status: draft
+theme: theme-11-validation
+created: 2026-07-30
+updated: 2026-07-30
+authors: [coordinator]
+campaign_phase: phase_b_integrated
+aligned_with:
+  - docs/research/notes/theme-11-validation/campaign-brief.md
+  - docs/research/notes/theme-11-validation/phase-b-evaluation-20260730.md
+  - docs/research/notes/theme-11-validation/runs/CONTROLLER-SUMMARY-20260730.md
+supersedes: null
+---
+
+# Theme 11 — P0 smoke matrix
+
+**Model default:** `cursor-grok-4.5-high-fast`  
+**Runs log:** `docs/research/notes/theme-11-validation/runs/`  
+**Claim cards:** `claim-cards/`  
+**Controller summary:** [CONTROLLER-SUMMARY-20260730.md](./runs/CONTROLLER-SUMMARY-20260730.md)  
+**Phase B evaluation:** [phase-b-evaluation-20260730.md](./phase-b-evaluation-20260730.md) — **18/18 PASS**, 0 NEEDS REVISION (2026-07-30).
+
+| ID | Surface | Lane | Fixture | Card | Run status |
+|----|---------|------|---------|------|------------|
+| U1 | draft-is-not-sot | fresh_chat | none | [u1](./claim-cards/u1-draft-is-not-sot.md) | PASS (`U1-20260730.md`; out-of-scope for pocket controller) |
+| U2 | research-protocol-grades | fresh_chat | none | [u2](./claim-cards/u2-research-protocol-grades.md) | PASS (`U2-20260730.md`; out-of-scope for pocket controller) |
+| R1 | research-protocol | subagent | none / notes path | [r1](./claim-cards/r1-research-protocol.md) | PASS (`R1-20260730.md`) |
+| R2 | codebase-recon | subagent | Toolbelt repo | [r2](./claim-cards/r2-codebase-recon.md) | PASS (`R2-20260730.md`) |
+| R3 | docs-research | subagent | public URL pin | [r3](./claim-cards/r3-docs-research.md) | PASS (`R3-20260730.md`) |
+| R4 | draft-adr | subagent | temp | [r4](./claim-cards/r4-draft-adr.md) | PASS (`R4-20260730.md`) |
+| R5 | author-agents-md | subagent | temp | [r5](./claim-cards/r5-author-agents-md.md) | PASS (`R5-20260730.md`) |
+| R6 | author-cursor-surfaces | subagent | temp | [r6](./claim-cards/r6-author-cursor-surfaces.md) | PASS (`R6-20260730.md`) |
+| D1 | design-process | subagent | none | [d1](./claim-cards/d1-design-process.md) | PASS (`D1-20260730.md`) |
+| D2 | technical-design | subagent | none | [d2](./claim-cards/d2-technical-design.md) | PASS (`D2-20260730.md`) |
+| P1 | implementation-plan | subagent | smoke-app context | [p1](./claim-cards/p1-implementation-plan.md) | PASS (`P1-20260730.md`) |
+| P2 | implementation-plan-verify | subagent | plan from P1 or stub | [p2](./claim-cards/p2-implementation-plan-verify.md) | PASS (`P2-20260730.md`; skill inner verdict PASS WITH NOTES) |
+| E1 | implementation-execute | subagent | copy of smoke-app | [e1](./claim-cards/e1-implementation-execute.md) | PASS (`E1-20260730.md`) |
+| E2 | implementation-execute-subagents | subagent | copy of smoke-app | [e2](./claim-cards/e2-implementation-execute-subagents.md) | PASS (`E2-20260730.md`) |
+| E3 | implementation-execute-verify | subagent | after green task | [e3](./claim-cards/e3-implementation-execute-verify.md) | PASS (`E3-20260730.md`) |
+| G1 | systematic-debug | subagent | copy of smoke-app | [g1](./claim-cards/g1-systematic-debug.md) | PASS (`G1-20260730.md`) |
+| G2 | reproduce-bug | subagent | copy of smoke-app | [g2](./claim-cards/g2-reproduce-bug.md) | PASS (`G2-20260730.md`) |
+| H1 | implementation-happy-path | fresh_chat | Toolbelt | [h1](./claim-cards/h1-implementation-happy-path.md) | PASS (`H1-20260730.md`; out-of-scope for pocket controller) |
+
+**P1 (deferred):** creative-* design skills; research-before-write; coexistence rule.
+
+## Phase B run order
+
+1. U1, U2 (fresh)  
+2. R1–R6 (parallel subagents OK)  
+3. D1, D2  
+4. P1 → P2  
+5. G2 → G1 (prove then fix) **or** E1 on fixed plan  
+6. E1 / E2 / E3  
+7. H1 fresh chat  
+
+## Runner instructions (subagent)
+
+1. Read claim card.  
+2. Announce Using the target skill.  
+3. Follow pinned smoke prompt only; do not elevate or redesign.  
+4. Fill Score columns + Verdict.  
+5. Write run log: `runs/<ID>-YYYYMMDD.md` with evidence quotes.  
