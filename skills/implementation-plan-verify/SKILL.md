@@ -8,7 +8,7 @@ description: >-
   escalate). Use when plan-validate, validate-plan, review-plan before
   implement, pre-exec validate, after implementation-plan write, before Meta
   ready, or before implementation-execute. Prefer over jumping from draft plan
-  to code. Not for execute-verify, converge, Debug, or PR packaging.
+  to code. Not for execute-verify, converge, systematic-debug, or PR packaging.
 ---
 
 # Implementation plan-verify
@@ -17,7 +17,7 @@ Announce once: **Using `implementation-plan-verify`**.
 
 Authority: Theme 8 accepted (Verify gates — Plan extension). Theme 6 Plan law still owns authoring + light V1–V8. **Draft plans ≠ law** (`draft-is-not-sot`).
 
-**Identity:** Verification **extension of Plan** — not the Debug/PR pack. Quality + readability of the *plan as an agent contract* first; ease is a side effect.
+**Identity:** Verification **extension of Plan** — not the Debug method pocket or PR pack. Quality + readability of the *plan as an agent contract* first; ease is a side effect.
 
 ## When to use
 
@@ -27,7 +27,7 @@ Authority: Theme 8 accepted (Verify gates — Plan extension). Theme 6 Plan law 
 
 **Skip (document “trivial skip”):** chat-ephemeral single-file one-task tweak with no durable plan and no risk signals (Interfaces, deps, multi-file, subagent mode).
 
-**Out of scope:** Execute evidence/converge (`implementation-execute-verify`); Debug/PR; mandatory TDD auditor; foreign CLI deps; inventing missing design intent.
+**Out of scope:** Execute evidence/converge (`implementation-execute-verify`); Debug method (`systematic-debug`); PR; mandatory TDD auditor; foreign CLI deps; inventing missing design intent.
 
 ## Preconditions
 
@@ -75,7 +75,7 @@ True if any: **DUR** (durable `docs/plans/…`) · **MF** (≥2 files/paths/task
 - Jumping to code to “validate” the plan
 - Importing TDD auditor / council consultants / Spec Kit CLI as law
 - Silencing inventable gaps instead of `intent-gap`
-- Fat Quality / Debug pocket ceremony
+- Fat Quality / Debug ceremony inside plan-verify
 
 ## Handoffs
 

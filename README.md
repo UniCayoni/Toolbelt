@@ -1,10 +1,10 @@
 # Toolbelt
 
-Reusable Cursor **agent utility** plugin: research method (PROTOCOL grades, codebase recon, documentation research, ADRs, `AGENTS.md` authoring, Cursor surface authoring), Design, Plan, Execute, and **Verify gates** (plan-verify / execute-verify). Not a Brain/RAG product.
+Reusable Cursor **agent utility** plugin: research method (PROTOCOL grades, codebase recon, documentation research, ADRs, `AGENTS.md` authoring, Cursor surface authoring), Design, Plan, Execute, **Verify gates** (plan-verify / execute-verify), and **Debug** (systematic-debug / reproduce-bug). Not a Brain/RAG product.
 
 | Install this for… | Use instead for… |
 |-------------------|------------------|
-| **Toolbelt** — how agents research, design, plan, execute, and verify | **grey-matter** — Brain / RAG MCP product |
+| **Toolbelt** — how agents research, design, plan, execute, verify, and debug | **grey-matter** — Brain / RAG MCP product |
 
 ## Install (local plugin)
 
@@ -20,7 +20,7 @@ Operational load uses `~/.cursor/plugins/local/toolbelt` (same pattern as grey-m
 
 1. **Developer: Reload Window**
 2. **Customize** → Plugins: `toolbelt` (display name **Toolbelt**) is listed
-3. Skills: Research (6) + Design (5) + Plan + Plan-verify + Execute + Execute-subagents + Execute-verify (**16** total)
+3. Skills: Research (6) + Design (5) + Plan + Plan-verify + Execute + Execute-subagents + Execute-verify + systematic-debug + reproduce-bug (**18** total)
 4. Rules: grades + draft≠SoT always-on; explore-before-write + coexistence available
 5. Smoke: `/implementation-plan`, `/implementation-execute`, `/design-process`, `/author-cursor-surfaces` (or Customize → Skills)
 
@@ -38,7 +38,7 @@ Reload Window after sync. **Elevating or revising skills/rules:** use `/author-c
 ## Layout
 
 ```text
-skills/          Research + Design + Plan + Execute + Verify + authoring (16)
+skills/          Research + Design + Plan + Execute + Verify + Debug + authoring (18)
 rules/           Grades + draft≠SoT (always); explore-before-write + Superpowers coexistence (intelligent)
 docs/PROTOCOL.md Method law
 docs/templates/  Checklist/template SoT (skills copy into references/)
@@ -47,7 +47,7 @@ docs/design/     Design notes (when used)
 docs/adr/        ADRs
 docs/research/   Theme reports + gatherer notes (method history)
 docs/archive/    Smoke, sources, elevation map, harness ADR (frozen)
-docs/packs/      Pack index (Research / Design / Plan / Execute / Verify shipped; Debug stub)
+docs/packs/      Pack index (Research / Design / Plan / Execute / Verify / Debug shipped; PR stub)
 ```
 
 ## Skills
@@ -73,7 +73,7 @@ docs/packs/      Pack index (Research / Design / Plan / Execute / Verify shipped
 | `creative-narrative-design` | Story / quests / interactive narrative |
 | `creative-world-character-design` | World bible / characters |
 
-### Plan → Verify → Execute → Verify
+### Plan → Verify → Execute → Verify → Debug
 
 | Skill | Use when |
 |-------|----------|
@@ -82,6 +82,8 @@ docs/packs/      Pack index (Research / Design / Plan / Execute / Verify shipped
 | `implementation-execute` | Execute approved plans (Done-when, N=2) |
 | `implementation-execute-subagents` | Controller + fresh implementers |
 | `implementation-execute-verify` | Post-green quality/readability + EOP converge |
+| `systematic-debug` | Investigate / root-cause / fix with evidence (compose Cursor Debug Mode) |
+| `reproduce-bug` | Never-fix: prove bug + light dossier before patch |
 
 Announce **Using `<skill-name>`** once when a Toolbelt skill applies.
 
@@ -97,6 +99,6 @@ Do not assume GreyMatter paths.
 
 ## Growth
 
-Future packs (Debug/PR, UX/T5C, standards) land as additional flat `skills/<name>/` entries after accepted research + `/author-cursor-surfaces`. See [docs/packs/README.md](./docs/packs/README.md). Do not pile new always-apply rules without need.
+Future packs (PR/workflow, UX/T5C, standards) land as additional flat `skills/<name>/` entries after accepted research + `/author-cursor-surfaces`. See [docs/packs/README.md](./docs/packs/README.md). Do not pile new always-apply rules without need.
 
 Plugin packaging / skill-authoring policy: accepted Theme 4 report — [docs/research/reports/theme-4-cursor-plugin-components.md](./docs/research/reports/theme-4-cursor-plugin-components.md). Full surface audit: [docs/research/notes/theme-8-verify/author-surfaces-full-plugin-audit.md](./docs/research/notes/theme-8-verify/author-surfaces-full-plugin-audit.md).

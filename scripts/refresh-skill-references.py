@@ -13,6 +13,7 @@ Mapping:
   docs/templates/adr-minimal.md → skills/draft-adr/references/adr-minimal.md
   docs/templates/author-cursor-surfaces.md → skills/author-cursor-surfaces/references/author-cursor-surfaces.md
   docs/templates/plan-minimal.md → skills/implementation-plan/references/plan-minimal.md
+  docs/templates/repro-light.md → skills/reproduce-bug/references/repro-light.md
 
 Usage:
   python d:\\Toolbelt\\scripts\\refresh-skill-references.py
@@ -37,6 +38,7 @@ COPIES: list[tuple[Path, Path]] = [
     (ROOT / "docs" / "templates" / "adr-minimal.md", ROOT / "skills" / "draft-adr" / "references" / "adr-minimal.md"),
     (ROOT / "docs" / "templates" / "author-cursor-surfaces.md", ROOT / "skills" / "author-cursor-surfaces" / "references" / "author-cursor-surfaces.md"),
     (ROOT / "docs" / "templates" / "plan-minimal.md", ROOT / "skills" / "implementation-plan" / "references" / "plan-minimal.md"),
+    (ROOT / "docs" / "templates" / "repro-light.md", ROOT / "skills" / "reproduce-bug" / "references" / "repro-light.md"),
 ]
 
 
