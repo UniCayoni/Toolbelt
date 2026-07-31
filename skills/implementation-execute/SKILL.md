@@ -14,7 +14,7 @@ description: >-
 
 Announce once: **Using `implementation-execute`**.
 
-Authority: Theme 7 accepted (Execution method guidance). Consumes Theme 6 Plan law. **Draft / non-ready plans ≠ law** (`draft-is-not-sot`). Standalone Toolbelt — inspire from other projects; **do not depend** on Superpowers or foreign CLIs.
+Authority: Theme 7 accepted (Execution method guidance). Consumes Theme 6 Plan law. **Draft / non-ready plans ≠ law** (`draft-is-not-sot`). Standalone Toolbelt — inspire from other projects; **do not import** third-party workflow packaging or foreign CLIs as Toolbelt law.
 
 ## When to use
 
@@ -75,7 +75,7 @@ Default **serial**. Parallel writers only when the plan marks the task parallel-
 - Inventing requirements or silently rewriting the plan
 - Claiming done without running Verify / reading evidence
 - Pausing for human approval on every green task
-- Mandatory Superpowers/OpenSpec/BMAD packaging as Toolbelt law
+- Mandatory third-party workflow packaging as Toolbelt law
 - Drive-by refactors and scope creep outside Done-when
 
 ## Handoffs

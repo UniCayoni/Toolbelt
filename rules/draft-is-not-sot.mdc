@@ -12,5 +12,5 @@ alwaysApply: true
 - Draft designs, **unapproved / draft plans**, and **proposed** ADRs are **not** accepted architecture, product, or implementation law.
 - Do not lock architecture, libraries, MVP scope, or multi-file implementation from draft research, draft design, or draft plans alone.
 - Treat `accepted` research / **accepted** ADRs / E0+E1 corroborated facts as higher authority.
-- Product stubs (e.g. grey-matter Brain shell) ≠ live product; stack locks remain deferred until researched and accepted.
+- Product stubs or scaffold shells ≠ live product; stack locks remain deferred until researched and accepted.
 - UX/UI Design skills are **not** elevated until Theme 5 T5C is researched and accepted.

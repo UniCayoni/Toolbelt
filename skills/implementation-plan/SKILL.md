@@ -25,7 +25,7 @@ Authority: Theme 6 accepted (Plan method guidance). **Unapproved / draft plans â
 
 **Intelligent exception:** trivial one-file tweaks may stay chat-ephemeral (same spirit as short Design). Prefer a durable plan when scope, risk, or handoff needs it.
 
-**Out of scope:** Re-opening Design options; mandatory TDD/git/worktree/PR ceremony; UX planning (T5C); importing Superpowers execution skills as Toolbelt law.
+**Out of scope:** Re-opening Design options; mandatory TDD/git/worktree/PR ceremony; UX planning (T5C); importing third-party execution skills as Toolbelt law.
 
 ## Preconditions
 

@@ -1,7 +1,7 @@
 ---
 title: "{short descriptive title}"
 status: draft  # draft | proposed | accepted | superseded
-theme: ""  # e.g. theme-1 | theme-2 | greymatter-priming
+theme: ""  # e.g. theme-1 | theme-2 | theme-11-validation
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 authors: []

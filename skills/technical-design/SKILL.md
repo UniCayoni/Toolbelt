@@ -21,7 +21,7 @@ Authority: Theme 5 accepted (T5B). Run **`design-process`** spine first for non-
 - Feature design before code
 - Applying clean/standards as **constraints** (contested — see below)
 
-**Out:** Full lint catalogs; grey-matter stack locks; product UX (T5C); game MDA as software layering.
+**Out:** Full lint catalogs; product stack locks from draft research; product UX (T5C); game MDA as software layering.
 
 ## Core criteria
 

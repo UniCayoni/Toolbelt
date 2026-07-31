@@ -14,7 +14,7 @@ description: >-
 
 Announce once: **Using `systematic-debug`**.
 
-Authority: Theme 9 accepted (`docs/research/reports/theme-9-debug-pocket.md`). Standalone Toolbelt — inspire from community; **do not depend** on Superpowers / silkyland / debug-agent packaging. **Draft ≠ law** (`draft-is-not-sot`).
+Authority: Theme 9 accepted (`docs/research/reports/theme-9-debug-pocket.md`). Standalone Toolbelt — inspire from community; **do not import** third-party debug packaging as Toolbelt law. **Draft ≠ law** (`draft-is-not-sot`).
 
 **Identity:** Debug / investigate / reproduce **method** pocket. **Not** Theme 8 Verify gates. **Not** PR/CI/Bugbot pack.
 

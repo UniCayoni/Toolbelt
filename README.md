@@ -1,10 +1,8 @@
 # Toolbelt
 
-Reusable Cursor **agent utility** plugin: research method (PROTOCOL grades, codebase recon, documentation research, ADRs, `AGENTS.md` authoring, Cursor surface authoring), Design, Plan, Execute, **Verify gates**, **Debug**, and **happy-path** orchestration (`implementation-happy-path`). Not a Brain/RAG product.
+Reusable Cursor **agent utility** plugin: research method (PROTOCOL grades, codebase recon, documentation research, ADRs, `AGENTS.md` authoring, Cursor surface authoring), Design, Plan, Execute, **Verify gates**, **Debug**, and **happy-path** orchestration (`implementation-happy-path`).
 
-| Install this for… | Use instead for… |
-|-------------------|------------------|
-| **Toolbelt** — how agents research, design, plan, execute, verify, and debug | **grey-matter** — Brain / RAG MCP product |
+**Scope:** agent method (research → design → plan → execute → verify → debug). **Out of scope:** Brain / RAG products.
 
 ## Install (local plugin)
 
@@ -14,14 +12,14 @@ python d:\Toolbelt\scripts\sync-toolbelt-local-plugin.py
 
 Then **Developer: Reload Window**. Confirm Customize → Plugins lists `toolbelt`.
 
-Operational load uses `~/.cursor/plugins/local/toolbelt` (same pattern as grey-matter). Cursor `workspaceOpen`→`pluginPaths` auto-load remains a known limitation on some builds — prefer this sync script.
+Operational load uses `~/.cursor/plugins/local/toolbelt`. Cursor `workspaceOpen`→`pluginPaths` auto-load remains a known limitation on some builds — prefer this sync script.
 
 ### Verify after sync
 
 1. **Developer: Reload Window**
 2. **Customize** → Plugins: `toolbelt` (display name **Toolbelt**) is listed
 3. Skills: Research (6) + Design (5) + Plan + Plan-verify + Execute + Execute-subagents + Execute-verify + systematic-debug + reproduce-bug + happy-path (**19** total)
-4. Rules: grades + draft≠SoT always-on; explore-before-write + coexistence available
+4. Rules: grades + draft≠SoT always-on; explore-before-write available (intelligent)
 5. Smoke: `/implementation-plan`, `/implementation-execute`, `/design-process`, `/author-cursor-surfaces` (or Customize → Skills)
 
 ## After editing method SoT
@@ -39,7 +37,7 @@ Reload Window after sync. **Elevating or revising skills/rules:** use `/author-c
 
 ```text
 skills/          Research + Design + Plan + Execute + Verify + Debug + Happy-path + authoring (19)
-rules/           Grades + draft≠SoT (always); explore-before-write + Superpowers coexistence (intelligent)
+rules/           Grades + draft≠SoT (always); explore-before-write (intelligent)
 docs/PROTOCOL.md Method law
 docs/templates/  Checklist/template SoT (skills copy into references/)
 docs/plans/      Durable implementation plans (non-trivial)
@@ -96,7 +94,7 @@ Prefer the **host project’s** research notes directory:
 2. Else a path the user specifies
 3. Else ask before writing
 
-Do not assume GreyMatter paths.
+Do not assume paths from other products or plugins.
 
 ## Growth
 

@@ -2,7 +2,7 @@
 
 Status: active  
 Created: 2026-07-27  
-Updated: 2026-07-29 (depth modes: normal vs deep; migrated from GreyMatter → Toolbelt)  
+Updated: 2026-07-30 (standalone wording; depth modes: normal vs deep)  
 Purpose: Rules for how agents research and how research is written so claims stay evidence-backed.
 
 ## Non-negotiables
@@ -49,7 +49,7 @@ For Alexandria RAG chunks:
 For local commands/files:
 
 ```text
-[E0: path=`d:\GreyMatter\...` or command=`...` observed 2026-07-27]
+[E0: path=`d:\Toolbelt\...` or command=`...` observed 2026-07-30]
 ```
 
 ## Depth modes (normal vs deep)
@@ -93,4 +93,4 @@ The integrator:
 ## Out of scope for this protocol
 
 - Locking host-product libraries or MVP feature scope (e.g. Brain/RAG stack)
-- Inventing product APIs from stubs (e.g. grey-matter plugin scaffold ≠ live Brain)
+- Inventing product APIs from stubs or scaffolds (stub ≠ live product)

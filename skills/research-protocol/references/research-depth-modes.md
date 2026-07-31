@@ -49,7 +49,7 @@ Record the stop reason in the integrator Method / progress board. Prefer **confi
 
 1. **Opt-in / goal-triggered only** — never auto-escalate “look this up” to a fleet.
 2. **Stop rule is mandatory** — deep without diminishing-returns stop is context waste.
-3. **Superpowers coexistence:** Superpowers (or similar) may own *process* dispatch (parallel agents). Toolbelt owns *research artifacts* (templates, grades, depth mode, integrator merge). Do **not** invent a merged git/PR policy. See rule `research-skill-coexistence`.
+3. **Toolbelt owns deep dispatch + artifacts** — parallel gatherers, depth mode, templates, grades, and integrator merge. Do **not** import third-party git/PR/worktree packaging as Toolbelt law.
 4. **`draft` / `proposed` ≠ SoT** — deep integrated reports stay non-authoritative until human acceptance (`draft-is-not-sot`).
 5. **Cite-or-omit still binds** — parallel notes must not invent APIs/IDs; integrator does not invent either.
 6. **Normal stays cheap** — if unsure, choose normal and list OPEN follow-ups.

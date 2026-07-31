@@ -36,7 +36,7 @@ Explicit skill (`/author-cursor-surfaces`). **Author / compose** — not marketp
 3. **No plugin `agents/` for Task isolation** — use runtime Subagent/Task (or `/create-subagent` for `.cursor/agents/`) until Cursor documents plugin-agent wire-up (Theme 4 GAP).
 4. **Built-ins optional** — `/create-skill` etc. are scaffolds; if unavailable, author from Theme 4 alone. Never treat scaffold output as finished SoT.
 5. **Draft until human accepts** — new surfaces stay draft/proposed; `draft-is-not-sot`.
-6. **Coexistence** — Superpowers may own process; Toolbelt owns Cursor-surface standards. Do not invent merged git/PR policy (`research-skill-coexistence`).
+6. **Standalone** — Toolbelt owns Cursor-surface standards. Do not invent merged third-party git/PR policy as Toolbelt law.
 7. **Not a review skill** — do not substitute for create-plugin `review-plugin-submission` / template validators.
 
 ## Instructions

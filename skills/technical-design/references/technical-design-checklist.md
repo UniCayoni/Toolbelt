@@ -13,5 +13,5 @@ Use with skill `technical-design` (after `design-process` spine).
 - [ ] Options for deploy shape / stack if relevant (both sides when contested)
 - [ ] Clean/standards noted as constraints (no false SoT)
 - [ ] ADR drafted under `docs/adr/` when triggers fire
-- [ ] No grey-matter / product stack lock from draft research
+- [ ] No product stack lock from draft research
 - [ ] Implementation plan only after decision

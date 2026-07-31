@@ -30,7 +30,7 @@ Prefer (in order):
 2. A path the user specified
 3. Ask before writing
 
-Do not assume a GreyMatter-only layout.
+Do not assume a foreign product or plugin layout.
 
 ## Instructions
 
@@ -49,10 +49,6 @@ Do not assume a GreyMatter-only layout.
 **Depth:** Default **normal** (this S0–S16 checklist). If the user asks for deep/theme codebase research across many subsystems with an integrated report, escalate to skill **`research-protocol`** depth=`deep` — do not spawn unbounded explore fleets for ordinary recon.
 
 When filling the checklist, keep the copied note as the working artifact; re-open `references/s0-s18-checklist.md` only if the copy is missing sections.
-
-## Coexistence
-
-If Superpowers (or similar) demands “invoke skill before any response,” still run this skill when the task is codebase recon. Prefer Toolbelt grades/checklists for *research artifacts*; do not invent a merge of conflicting git workflows.
 
 ## Hard constraints
 

@@ -71,7 +71,7 @@ Prefer writing `docs/repro/<slug>.md` or `REPRO.md` in the host repo.
 - Calling a green run a repro  
 - Overselling `NOT-YET` as deterministic  
 - Investigating only against production  
-- Fat ceremony (full silkyland port) — keep the 8 fields  
+- Fat ceremony / full foreign debug-port — keep the 8 fields  
 
 ## Handoffs
 

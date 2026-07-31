@@ -12,7 +12,7 @@ description: >-
 
 Announce once: **Using `implementation-execute-subagents`**.
 
-Authority: Theme 7 accepted. **Same spine as `implementation-execute`** — this skill is the **broad-use controller mode** (fresh implementer per task). Standalone Toolbelt; no Superpowers dependency.
+Authority: Theme 7 accepted. **Same spine as `implementation-execute`** — this skill is the **broad-use controller mode** (fresh implementer per task). Standalone Toolbelt; no third-party workflow-pack dependency.
 
 ## When to use
 

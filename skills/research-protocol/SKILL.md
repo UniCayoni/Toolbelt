@@ -42,7 +42,7 @@ Read `references/research-depth-modes.md` **when** choosing or running a campaig
 
 1. Do **not** auto-escalate normal questions to a gatherer fleet.
 2. Deep **requires** the diminishing-returns stop rule (no endless agents).
-3. Superpowers may dispatch parallel agents (process); Toolbelt owns templates/grades/depth/integrator merge — do not merge conflicting git/PR policies (`research-skill-coexistence`).
+3. Toolbelt owns deep dispatch, templates, grades, depth mode, and integrator merge — do not import third-party git/PR/worktree packaging as Toolbelt law.
 4. Deep outputs stay `draft`/`proposed` until human acceptance (`draft-is-not-sot`).
 5. Cite-or-omit binds every gatherer and the integrator.
 
