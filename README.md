@@ -2,7 +2,7 @@
 
 Reusable Cursor **agent utility** plugin: research method (PROTOCOL grades, codebase recon, documentation research, ADRs, `AGENTS.md` authoring, Cursor surface authoring), Design, Plan, Execute, **Verify gates**, **Debug**, and **happy-path** orchestration (`implementation-happy-path`).
 
-**Scope:** agent method (research → design → plan → execute → verify → debug). **Out of scope:** Brain / RAG products.
+**Scope:** agent method (research → design → plan → execute → verify → debug).
 
 **Repo:** [github.com/UniCayoni/toolbelt](https://github.com/UniCayoni/toolbelt) · **License:** MIT · See [CHANGELOG.md](./CHANGELOG.md).
 
