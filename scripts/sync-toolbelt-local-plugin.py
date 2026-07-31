@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Copy d:\\Toolbelt → ~/.cursor/plugins/local/toolbelt (replace).
+"""Copy this Toolbelt checkout → ~/.cursor/plugins/local/toolbelt (replace).
 
 Operational load path for local Cursor plugins.
 
-Usage (from anywhere):
-  python d:\\Toolbelt\\scripts\\sync-toolbelt-local-plugin.py
+Usage (from the clone root or via absolute path to this script):
+  python scripts/sync-toolbelt-local-plugin.py
 """
 from __future__ import annotations
 
@@ -12,7 +12,7 @@ import shutil
 import sys
 from pathlib import Path
 
-REPO_PLUGIN = Path(r"d:\Toolbelt")
+REPO_PLUGIN = Path(__file__).resolve().parent.parent
 LOCAL_PLUGIN = Path.home() / ".cursor" / "plugins" / "local" / "toolbelt"
 
 

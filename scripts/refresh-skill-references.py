@@ -17,7 +17,7 @@ Mapping:
   docs/templates/happy-path.md → skills/implementation-happy-path/references/implementation-happy-path-checklist.md
 
 Usage:
-  python d:\\Toolbelt\\scripts\\refresh-skill-references.py
+  python scripts/refresh-skill-references.py
 """
 from __future__ import annotations
 
@@ -25,7 +25,7 @@ import shutil
 import sys
 from pathlib import Path
 
-ROOT = Path(r"d:\Toolbelt")
+ROOT = Path(__file__).resolve().parent.parent
 
 COPIES: list[tuple[Path, Path]] = [
     (ROOT / "docs" / "PROTOCOL.md", ROOT / "skills" / "research-protocol" / "references" / "PROTOCOL.md"),

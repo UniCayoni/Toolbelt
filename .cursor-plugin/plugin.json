@@ -4,9 +4,13 @@
   "version": "0.1.0",
   "description": "Reusable Cursor agent utility: research method + Design + Plan + Execute + Verify + Debug + happy-path orchestration. Not a Brain/RAG product.",
   "author": {
-    "name": "Jonathan Cayuela"
+    "name": "Jonathan Cayuela",
+    "email": "81636886+UniCayoni@users.noreply.github.com"
   },
+  "homepage": "https://github.com/UniCayoni/toolbelt",
+  "repository": "https://github.com/UniCayoni/toolbelt",
   "license": "MIT",
+  "logo": "assets/logo.png",
   "keywords": [
     "toolbelt",
     "research",

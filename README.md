@@ -4,15 +4,42 @@ Reusable Cursor **agent utility** plugin: research method (PROTOCOL grades, code
 
 **Scope:** agent method (research → design → plan → execute → verify → debug). **Out of scope:** Brain / RAG products.
 
-## Install (local plugin)
+**Repo:** [github.com/UniCayoni/toolbelt](https://github.com/UniCayoni/toolbelt) · **License:** MIT · See [CHANGELOG.md](./CHANGELOG.md).
+
+## Install
+
+### From GitHub (consumers / marketplace prep)
+
+1. Clone or add the plugin from the public repo:
 
 ```text
-python d:\Toolbelt\scripts\sync-toolbelt-local-plugin.py
+git clone https://github.com/UniCayoni/toolbelt.git
 ```
 
-Then **Developer: Reload Window**. Confirm Customize → Plugins lists `toolbelt`.
+2. Load it as a **local plugin** (until listed on the Cursor marketplace):
 
-Operational load uses `~/.cursor/plugins/local/toolbelt`. Cursor `workspaceOpen`→`pluginPaths` auto-load remains a known limitation on some builds — prefer this sync script.
+```text
+# From the clone root (adjust path to your machine)
+python scripts/sync-toolbelt-local-plugin.py
+```
+
+Or copy/symlink the repo to `~/.cursor/plugins/local/toolbelt`.
+
+3. **Developer: Reload Window** → Customize → Plugins → confirm **Toolbelt** (`toolbelt`).
+
+When published: install from [Cursor marketplace](https://cursor.com/marketplace) (or Teams dashboard) as **toolbelt** — submit flow: [marketplace/publish](https://cursor.com/marketplace/publish).
+
+### Contributor sync (this checkout)
+
+If you already have the repo checked out (e.g. development):
+
+```text
+python scripts/sync-toolbelt-local-plugin.py
+```
+
+(On Windows with a fixed clone path you may use an absolute path to that script.) Then **Reload Window**.
+
+Operational load uses `~/.cursor/plugins/local/toolbelt`. Cursor `workspaceOpen`→`pluginPaths` auto-load remains a known limitation on some builds — prefer the sync script.
 
 ### Verify after sync
 
@@ -27,8 +54,8 @@ Operational load uses `~/.cursor/plugins/local/toolbelt`. Cursor `workspaceOpen`
 Edit `docs/PROTOCOL.md` and `docs/templates/`, then refresh skill runtime copies:
 
 ```text
-python d:\Toolbelt\scripts\refresh-skill-references.py
-python d:\Toolbelt\scripts\sync-toolbelt-local-plugin.py
+python scripts/refresh-skill-references.py
+python scripts/sync-toolbelt-local-plugin.py
 ```
 
 Reload Window after sync. **Elevating or revising skills/rules:** use `/author-cursor-surfaces` (Theme 4 reinforce) before treating as SoT.
@@ -38,6 +65,7 @@ Reload Window after sync. **Elevating or revising skills/rules:** use `/author-c
 ```text
 skills/          Research + Design + Plan + Execute + Verify + Debug + Happy-path + authoring (19)
 rules/           Grades + draft≠SoT (always); explore-before-write (intelligent)
+assets/          Logo and static assets (marketplace)
 docs/PROTOCOL.md Method law
 docs/templates/  Checklist/template SoT (skills copy into references/)
 docs/plans/      Durable implementation plans (non-trivial)
@@ -100,4 +128,4 @@ Do not assume paths from other products or plugins.
 
 Future packs (PR/workflow, UX/T5C, standards) land as additional flat `skills/<name>/` entries after accepted research + `/author-cursor-surfaces`. See [docs/packs/README.md](./docs/packs/README.md). Do not pile new always-apply rules without need.
 
-Plugin packaging / skill-authoring policy: accepted Theme 4 report — [docs/research/reports/theme-4-cursor-plugin-components.md](./docs/research/reports/theme-4-cursor-plugin-components.md). Full surface audit: [docs/research/notes/theme-8-verify/author-surfaces-full-plugin-audit.md](./docs/research/notes/theme-8-verify/author-surfaces-full-plugin-audit.md).
+Plugin packaging / skill-authoring policy: accepted Theme 4 report — [docs/research/reports/theme-4-cursor-plugin-components.md](./docs/research/reports/theme-4-cursor-plugin-components.md). Full surface audit: [docs/research/notes/theme-8-verify/author-surfaces-full-plugin-audit.md](./docs/research/notes/theme-8-verify/author-surfaces-full-plugin-audit.md). Marketplace prep review: [docs/research/notes/marketplace-prep/review-plugin-submission-2026-07-30.md](./docs/research/notes/marketplace-prep/review-plugin-submission-2026-07-30.md).
