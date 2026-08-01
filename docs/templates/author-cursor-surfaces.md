@@ -60,7 +60,7 @@ Record: scaffold used? `yes (name)` / `no` / `GAP (unavailable)`.
 - [ ] Body lean; detail in `references/` with **“read X when Y”** gates
 - [ ] Budgets: prefer &lt;500 lines / Spec guidance; progressive disclosure
 - [ ] Announce **Using \`skill-name\`** once if Toolbelt-style auditability wanted
-- [ ] Compose: point to existing Toolbelt/host skills instead of duplicating (e.g. run `codebase-recon` then …)
+- [ ] Compose: point to existing Toolbelt/host skills instead of duplicating (e.g. run `research-codebase-recon` then …)
 
 ### Rules
 
@@ -99,4 +99,4 @@ Prefer **orchestration skill** (numbered steps + “Using X”) over copying oth
 
 - Marketplace submission audit → create-plugin `review-plugin-submission` if available  
 - Full plugin scaffold from zero → create-plugin scaffold / `plugin-template`  
-- Deep research on unknown Cursor APIs → `docs-research` / `research-protocol` (depth as needed)  
+- Deep research on unknown Cursor APIs → `research-docs` / `research-protocol` (depth as needed)  

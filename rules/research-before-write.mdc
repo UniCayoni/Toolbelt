@@ -1,6 +1,6 @@
 ---
 description: >-
-  Soft explore-before-edit: run codebase-recon (or get a human waive) before
+  Soft explore-before-edit: run research-codebase-recon (or get a human waive) before
   non-trivial implementation writes. Use when editing unfamiliar code, large
   refactors, or starting feature work without a filled recon note.
 alwaysApply: false
@@ -10,7 +10,7 @@ alwaysApply: false
 
 When exploring an unfamiliar area or making **non-trivial implementation** changes to product/code:
 
-1. Prefer skill **codebase-recon** (S0–S16) before **implementation** write tools (`Write`/`StrReplace`/`Delete` on code), or get an explicit human waive.
+1. Prefer skill **research-codebase-recon** (S0–S16) before **implementation** write tools (`Write`/`StrReplace`/`Delete` on code), or get an explicit human waive.
 2. Locate and read relevant code before editing; do not invent APIs or paths.
 3. For broad/unfamiliar recon, recommend Explore / investigation subagent; not mandatory for tiny known-file fixes.
 4. **Out of scope for this gate:** creating/updating research notes under the host project's research notes path (and skill reference copies used as working notes). Those are allowed during recon.

@@ -65,7 +65,7 @@ supersedes: null
 | Name | **`research-scope`** |
 | Role | Companion: expand concept → atomize → track board → propose depth per track → enough?/human gate |
 | Not | Note writing, cite-or-omit enforcement, deep wave dispatch, recon checklist, docs D0–D14 |
-| After scope | Hand off to `codebase-recon` / `docs-research` / `research-protocol` (and deep waves) as needed |
+| After scope | Hand off to `research-codebase-recon` / `research-docs` / `research-protocol` (and deep waves) as needed |
 | Composability | Controllers/users may invoke before research, between waves, or from other pockets — order not owned solely by happy-path |
 
 ### 3.1 Candidate spine (skill body)
@@ -79,7 +79,7 @@ supersedes: null
 5  Suggest depth per track — normal | deep (default normal); do not auto-launch fleets
 6  Write campaign brief / checklist from template
 7  Enough-to-start? — agent proposes; human accepts before treating scope as ready for gather
-8  Handoff — list next skills per track (protocol / recon / docs-research); stop
+8  Handoff — list next skills per track (protocol / recon / research-docs); stop
 ```
 
 **Anti-patterns:** Becoming a second research-protocol; auto-deep fleets; mandatory on every lookup; pasting S0–S18/D0–D14; owning design; conflating concept atoms with D11 checkable atoms.
@@ -99,7 +99,7 @@ supersedes: null
 | `docs/templates/happy-path.md` (+ checklist copy) | Matching one-liner |
 | `docs/packs/README.md` | List `research-scope` under Research pack |
 | `docs/research/reports/theme-12-research-scoping.md` | Accepted report after elevate |
-| `codebase-recon` / `docs-research` | Optional Handoff only — **no** spine rewrite |
+| `research-codebase-recon` / `research-docs` | Optional Handoff only — **no** spine rewrite |
 
 ---
 

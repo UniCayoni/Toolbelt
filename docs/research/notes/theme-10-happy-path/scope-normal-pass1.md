@@ -50,12 +50,12 @@ supersedes: null
 
 | Pack | Skills (abbrev) | Authority |
 |------|-----------------|-----------|
-| Research | codebase-recon, docs-research, research-protocol, author-agents-md, draft-adr, author-cursor-surfaces | Themes 1–4 (+ ADR) |
+| Research | research-codebase-recon, research-docs, research-protocol, author-agents-md, research-draft-adr, author-cursor-surfaces | Themes 1–4 (+ ADR) |
 | Design | design-process + technical / creative-* | Theme 5 |
 | Plan | implementation-plan | Theme 6 |
 | Execute | implementation-execute, -subagents | Theme 7 |
 | Verify | implementation-plan-verify, implementation-execute-verify | Theme 8 |
-| Debug | systematic-debug, reproduce-bug | Theme 9 |
+| Debug | debug-systematic, debug-reproduce | Theme 9 |
 | PR / workflow | stub | Phase 2 |
 
 - `FACT` [E0] Packs list Debug shipped; PR stub separate; no happy-path pack/skill today. [E0: `docs/packs/README.md`]
@@ -72,10 +72,10 @@ supersedes: null
 Cold agents today must **discover** the ladder by reading many Handoffs tables. Pattern already encoded:
 
 ```text
-[optional] codebase-recon / docs-research / research-protocol
+[optional] research-codebase-recon / research-docs / research-protocol
         ↓
-design-process → (technical-design | creative-*) → human gate
-        ↓ optional draft-adr
+design-process → (design-technical | creative-*) → human gate
+        ↓ optional research-draft-adr
 implementation-plan
         ↓
 implementation-plan-verify → Meta ready
@@ -84,15 +84,15 @@ implementation-execute  OR  implementation-execute-subagents
         ↓
 implementation-execute-verify (post-green + EOP converge)
         ↓ on fail / bug
-systematic-debug  (or reproduce-bug prove-first)
+debug-systematic  (or debug-reproduce prove-first)
         ↓
 PR / CI  (Phase 2 — park)
 ```
 
-Supporting side-doors (not main ladder): `author-agents-md`, `author-cursor-surfaces`, creative domain swaps, `draft-adr` mid-stream.
+Supporting side-doors (not main ladder): `author-agents-md`, `author-cursor-surfaces`, creative domain swaps, `research-draft-adr` mid-stream.
 
-- `FACT` [E0] Design → Plan → Plan-verify → Execute → Execute-verify chain appears in design-process, technical-design, draft-adr, plan, plan-verify, execute Handoffs. [E0: respective `SKILL.md` Handoffs]
-- `FACT` [E0] Execute/Verify already point to `systematic-debug` / `reproduce-bug` on verify-fail / Critical / user bug. [E0: Theme 9 wire in execute / execute-verify / -subagents]
+- `FACT` [E0] Design → Plan → Plan-verify → Execute → Execute-verify chain appears in design-process, design-technical, research-draft-adr, plan, plan-verify, execute Handoffs. [E0: respective `SKILL.md` Handoffs]
+- `FACT` [E0] Execute/Verify already point to `debug-systematic` / `debug-reproduce` on verify-fail / Critical / user bug. [E0: Theme 9 wire in execute / execute-verify / -subagents]
 - `GAP` No single skill announces the full ladder with skip gates for cold start. Searched: skills + packs. Result: absent — this theme’s job.
 
 ## 5. Candidate spine for `implementation-happy-path`
@@ -102,14 +102,14 @@ Orchestration only — each step = **Using `<skill>`** (read that skill’s SoT)
 | Step | Action | Skip when |
 |------|--------|-----------|
 | 0 | Classify ask (feature / bug / research-only / authoring / trivial) | — |
-| 1 | Research as needed: `codebase-recon` / `docs-research` / `research-protocol` | Familiar code + no docs pin + no deep campaign |
+| 1 | Research as needed: `research-codebase-recon` / `research-docs` / `research-protocol` | Familiar code + no docs pin + no deep campaign |
 | 2 | `design-process` → domain design skill → **human accept** | Trivial tweak; pure bugfix with clear repro; research-only |
-| 3 | `draft-adr` if locks need recording | No architectural lock |
+| 3 | `research-draft-adr` if locks need recording | No architectural lock |
 | 4 | `implementation-plan` | Trivial chat-ephemeral exception (same spirit as Plan/Design) |
 | 5 | `implementation-plan-verify` → Meta `ready` | No durable plan |
 | 6 | `implementation-execute` **or** `-subagents` | No ready plan |
 | 7 | `implementation-execute-verify` when non-trivial / EOP | Trivial optional |
-| 8 | Branch: `reproduce-bug` → `systematic-debug` on T-VF/T-UB/T-MD/T-CR/T-NYR | Green path |
+| 8 | Branch: `debug-reproduce` → `debug-systematic` on T-VF/T-UB/T-MD/T-CR/T-NYR | Green path |
 | 9 | Stop / hand human; PR Phase 2 pointer only | — |
 
 ### 5.1 Entry classifiers (candidate)
@@ -117,7 +117,7 @@ Orchestration only — each step = **Using `<skill>`** (read that skill’s SoT)
 | Ask type | Entry |
 |----------|--------|
 | New/changed feature | Step 1→2→… happy path |
-| Bug / verify-fail / unclear Critical | `reproduce-bug` and/or `systematic-debug` (may return to plan if design wrong) |
+| Bug / verify-fail / unclear Critical | `debug-reproduce` and/or `debug-systematic` (may return to plan if design wrong) |
 | Research / theme campaign | `research-protocol` (+ recon/docs); stop or continue to design after accept |
 | Author skill/rule | `author-cursor-surfaces` (not the feature ladder) |
 | Trivial one-file | Intelligent skip durable Design/Plan (document skip) |

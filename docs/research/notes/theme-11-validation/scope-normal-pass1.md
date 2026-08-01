@@ -114,7 +114,7 @@ For each skill/rule:
 ### 5.4 Fixture lean
 
 - Small **host smoke workspace** (or temp dir) with tiny code + optional fake bug — not Toolbelt method SoT as the only SUT for Design/Plan/Execute.  
-- Toolbelt repo OK as SUT for `codebase-recon`, `docs-research`, `author-*`, happy-path **routing** smokes.  
+- Toolbelt repo OK as SUT for `research-codebase-recon`, `research-docs`, `author-*`, happy-path **routing** smokes.  
 - Rubrics/claim cards **read-only** for the agent under test (OpenAI reward-hacking caution — E3/E1 spirit).
 
 ### 5.5 Run order
@@ -129,11 +129,11 @@ For each skill/rule:
 
 | ID | Surface | Lane lean | Priority |
 |----|---------|-----------|----------|
-| R1–R6 | research-protocol, codebase-recon, docs-research, draft-adr, author-agents-md, author-cursor-surfaces | subagent + 1 fresh for discovery | P0 |
+| R1–R6 | research-protocol, research-codebase-recon, research-docs, research-draft-adr, author-agents-md, author-cursor-surfaces | subagent + 1 fresh for discovery | P0 |
 | D1–D5 | design-process + technical + 3 creative | subagent (creative can sample 1) | P0 design-process+technical; P1 creative |
 | P1–P2 | implementation-plan, plan-verify | subagent | P0 |
 | E1–E3 | execute, -subagents, execute-verify | subagent (+ controller pair) | P0 |
-| G1–G2 | systematic-debug, reproduce-bug | subagent | P0 |
+| G1–G2 | debug-systematic, debug-reproduce | subagent | P0 |
 | H1 | implementation-happy-path | **fresh chat** + controller | P0 |
 | U1–U2 | draft-is-not-sot, research-protocol-grades | fresh chat | P0 |
 | U3–U4 | research-before-write, coexistence | fresh / as-needed | P1 |

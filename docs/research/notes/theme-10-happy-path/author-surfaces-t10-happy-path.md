@@ -21,5 +21,5 @@ supersedes: null
 | Mode | compose |
 | Scaffold | no |
 | Surfaces | `implementation-happy-path`, `docs/templates/happy-path.md` |
-| Wire | design-process, codebase-recon, research-protocol, plan, execute, -subagents; packs; README |
+| Wire | design-process, research-codebase-recon, research-protocol, plan, execute, -subagents; packs; README |
 | Always-on | Rejected |

@@ -25,7 +25,7 @@ Authority: Theme 12 accepted (`docs/research/reports/theme-12-research-scoping.m
 - User asks to expand or atomize before researching
 - Controller wants a reusable scope step in **any** order (not only happy-path)
 
-**Skip** (document skip): ordinary single-note lookup with a clear question — go straight to `research-protocol` / `codebase-recon` / `docs-research`.
+**Skip** (document skip): ordinary single-note lookup with a clear question — go straight to `research-protocol` / `research-codebase-recon` / `research-docs`.
 
 ## Glossary
 
@@ -69,8 +69,8 @@ Authority: Theme 12 accepted (`docs/research/reports/theme-12-research-scoping.m
 | Need | Use |
 |------|-----|
 | Graded notes / deep waves | `research-protocol` |
-| Codebase map | `codebase-recon` |
-| Product/docs pin | `docs-research` |
+| Codebase map | `research-codebase-recon` |
+| Product/docs pin | `research-docs` |
 | After accepted research → design | `design-process` |
 | Full ladder | `implementation-happy-path` |
 | Author surfaces from findings | `author-cursor-surfaces` |

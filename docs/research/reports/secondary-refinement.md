@@ -48,7 +48,7 @@ Coordinator integrated notes from [Secondary P0](9693d283-4bc1-482d-b1fd-0225612
 
 ## Elevation preview
 
-See `reports/cursor-elevation-map.md`. Proposed skills: `codebase-recon`, `docs-research`, `research-protocol`, `author-agents-md`, `draft-adr`.
+See `reports/cursor-elevation-map.md`. Proposed skills: `research-codebase-recon`, `research-docs`, `research-protocol`, `author-agents-md`, `research-draft-adr`.
 
 ## Next step (your call)
 

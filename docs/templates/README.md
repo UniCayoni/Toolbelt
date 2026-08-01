@@ -14,7 +14,7 @@ Reports:
 |-----------|----------|
 | Any research / evidence-gathering write-up | `research-note.md` |
 | Choosing normal vs deep research campaigns | `research-depth-modes.md` |
-| Exploring a codebase/workspace before docs or code changes | `codebase-reconnaissance.md` (Theme 1 **S0–S18**) |
+| Exploring a codebase/workspace before docs or code changes | `codebase-reconnaissance.md` (Theme 1 **S0–S18**; skill `research-codebase-recon`) |
 | Emitting / checking claims with citations | `claim-citation.md` |
 | Choosing which doc format to create | `doc-layers.md` |
 | Researching public/third-party documentation | `documentation-research.md` (Theme 3 **D0–D14**) |

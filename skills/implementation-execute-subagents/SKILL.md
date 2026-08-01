@@ -33,7 +33,7 @@ Authority: Theme 7 accepted. **Same spine as `implementation-execute`** — this
    - When non-trivial (incl. **SUB** this mode): invoke **`implementation-execute-verify`** post-green with a **fresh** reviewer context (Evidence + Faithfulness + Readability/coherence) — not optional self-review in the implementer
    - Mark task `done` or `blocked`(+reason); continue when green
 4. Escalate to human on blocked / major deviation (same checklist as `implementation-execute`)
-5. After all tasks on a durable plan: required **`implementation-execute-verify`** EOP review + light converge (append Convergence tasks; no silent Goal rewrite). Re-dispatch for appended tasks. On `verify-fail` / unclear Critical → **`systematic-debug`** (or **`reproduce-bug`**). PR later — not here.
+5. After all tasks on a durable plan: required **`implementation-execute-verify`** EOP review + light converge (append Convergence tasks; no silent Goal rewrite). Re-dispatch for appended tasks. On `verify-fail` / unclear Critical → **`debug-systematic`** (or **`debug-reproduce`**). PR later — not here.
 
 ## Implementer contract
 
@@ -56,7 +56,7 @@ Default serial implementers. Parallel only if plan marks parallel-safe **and** e
 | Spine without subagents | `implementation-execute` |
 | Post-green / EOP converge | **`implementation-execute-verify`** |
 | Plan missing / wrong | `implementation-plan` / `implementation-plan-verify` / human |
-| Verify-fail / user bug / unclear Critical | **`systematic-debug`** / **`reproduce-bug`** |
+| Verify-fail / user bug / unclear Critical | **`debug-systematic`** / **`debug-reproduce`** |
 | Checklist detail | Read Execute checklist (below) |
 
 ## References

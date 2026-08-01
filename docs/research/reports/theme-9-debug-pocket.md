@@ -17,15 +17,15 @@ aligned_with:
   - docs/research/notes/theme-9-debug/t9-w3-plus1-residual.md
   - docs/research/reports/theme-7-execute-pocket.md
   - docs/research/reports/theme-8-verify-gates.md
-  - skills/systematic-debug/SKILL.md
-  - skills/reproduce-bug/SKILL.md
+  - skills/debug-systematic/SKILL.md
+  - skills/debug-reproduce/SKILL.md
 supersedes: null
 ---
 
 # Theme 9 — Debug pocket (integrated report)
 
 **Status:** **accepted** (method guidance) — 2026-07-30.  
-**Elevated:** `systematic-debug` + `reproduce-bug` (+ Execute / Execute-verify / -subagents wire).  
+**Elevated:** `debug-systematic` + `debug-reproduce` (+ Execute / Execute-verify / -subagents wire).  
 **Campaign stop:** `low_return_plus_one`.
 
 **Using `research-protocol`** · integrator merge.
@@ -40,7 +40,7 @@ Standalone Toolbelt (inspire; **do not depend** on Superpowers / silkyland / deb
 | ID | Decision |
 |----|----------|
 | F1 | **B** — spine + never-fix reproduce companion |
-| F2 | Spine **`systematic-debug`**; companion **`reproduce-bug`** (avoid `debug-mode` / bare `debug`) |
+| F2 | Spine **`debug-systematic`**; companion **`debug-reproduce`** (avoid `debug-mode` / bare `debug`) |
 | F3 | **`debug-fix-cycles` = 3** (failed fix cycles after strong/confirmed hypothesis); **≠** Execute `verify-retry N=2` |
 | F4 | **Light flaky checklist** in method (measure → force → rate / not-yet); not a third skill |
 | F5 | Companion = **never-fix + 8-field light dossier** (`docs/templates/repro-light.md`) |
@@ -82,7 +82,7 @@ Notes under `docs/research/notes/theme-9-debug/` (pass1–3, W1 T9A–T9E, W2-AL
    (≠ Execute verify-retry N=2)
 ```
 
-Never-fix path: use **`reproduce-bug`** first when the job is prove-the-bug / dossier only.
+Never-fix path: use **`debug-reproduce`** first when the job is prove-the-bug / dossier only.
 
 ---
 
@@ -90,7 +90,7 @@ Never-fix path: use **`reproduce-bug`** first when the job is prove-the-bug / do
 
 | Theme 9 owns | Theme 7 / Execute | Theme 8 | Later / park |
 |--------------|-------------------|---------|--------------|
-| `systematic-debug` + `reproduce-bug` | `verify-retry N=2`, HITL, task loop | plan-verify / execute-verify | PR/CI/Bugbot Phase 2 |
+| `debug-systematic` + `debug-reproduce` | `verify-retry N=2`, HITL, task loop | plan-verify / execute-verify | PR/CI/Bugbot Phase 2 |
 | Compose Debug Mode / Terminal / Browser | Done-when Verify | Evidence iron law / converge | T9F swarm; collectors |
 | Agent instrumentation teaching | major-deviation / verify-fail escalate | Faithfulness/readability | Private Cursor wire; always-on debug rule |
 
@@ -117,7 +117,7 @@ Never-fix path: use **`reproduce-bug`** first when the job is prove-the-bug / do
 | T-UB | User-reported bug / unexpected behavior outside plan |
 | T-MD | Major-deviation / weird runtime beyond plan Files |
 | T-CR | Execute-verify Critical / unclear faithfulness break |
-| T-NYR | Need never-fix first → `reproduce-bug` then spine fix |
+| T-NYR | Need never-fix first → `debug-reproduce` then spine fix |
 
 Do **not** burn more Execute verify-retries under Debug.
 
@@ -136,8 +136,8 @@ Do **not** burn more Execute verify-retries under Debug.
 
 | Surface | Status |
 |---------|--------|
-| `systematic-debug` | **Shipped** |
-| `reproduce-bug` | **Shipped** |
+| `debug-systematic` | **Shipped** |
+| `debug-reproduce` | **Shipped** |
 | `docs/templates/repro-light.md` | **Shipped** |
 | Execute / -subagents / execute-verify wire | **Shipped** |
 | Always-on debug rule | **Rejected** |

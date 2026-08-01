@@ -51,7 +51,7 @@ Each step **invokes** existing skills (`Using X`); does not restate pocket law.
 |-------------|-------|
 | `skills/implementation-happy-path/SKILL.md` | Classifier + numbered compose map + anti-patterns |
 | `references/implementation-happy-path-checklist.md` (and/or `docs/templates/happy-path.md`) | Progress checklist; G1 pick at elevate |
-| Wire | packs row; README skills table; Handoffs from `design-process` / `codebase-recon` / plan / execute (entry pointers) |
+| Wire | packs row; README skills table; Handoffs from `design-process` / `research-codebase-recon` / plan / execute (entry pointers) |
 | Subagent note | Controller may hold happy-path; workers = one pocket |
 
 ---

@@ -18,7 +18,7 @@ Announce once: **Using `research-protocol`**.
 - Any claim-bearing research write-up that needs a Method envelope
 - Merging parallel notes into reports
 - Auditing notes for missing citations or invented IDs
-- Optional after `codebase-recon` / `docs-research` when a **full** note is warranted (short smokes may keep grades inside the checklist instead)
+- Optional after `research-codebase-recon` / `research-docs` when a **full** note is warranted (short smokes may keep grades inside the checklist instead)
 - **Deep** theme / multi-surface campaigns (user asks, or durable integrated-report goal)
 
 ## Note output path
@@ -76,8 +76,8 @@ Record in Method: `depth: normal | deep` (and for deep: `waves`, `stop_reason`).
 | Need | Use |
 |------|-----|
 | Expand / atomize / tracks before gather | **`research-scope`** (companion — when complex, theme/campaign, or user asks) |
-| Codebase map first | `codebase-recon` |
-| Product/docs pin | `docs-research` |
+| Codebase map first | `research-codebase-recon` |
+| Product/docs pin | `research-docs` |
 | After accepted research → design/plan | `design-process` / `implementation-plan` |
 | Full Toolbelt ladder | **`implementation-happy-path`** |
 | Author Cursor surfaces from findings | `author-cursor-surfaces` |

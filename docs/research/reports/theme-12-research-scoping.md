@@ -45,7 +45,7 @@ supersedes: null
 
 ## 1. Executive summary
 
-Themes 1–3 shipped recon, citation/provenance, and docs-research. Later campaigns invented track boards in practice; that step was not a Research skill. Theme 12 elevates **`research-scope`** as a **companion**: expand the concept, atomize into tracks, suggest depth, gate enough-to-start — then hand off to existing research surfaces. Composable in other orders when the user or controller wants.
+Themes 1–3 shipped recon, citation/provenance, and research-docs. Later campaigns invented track boards in practice; that step was not a Research skill. Theme 12 elevates **`research-scope`** as a **companion**: expand the concept, atomize into tracks, suggest depth, gate enough-to-start — then hand off to existing research surfaces. Composable in other orders when the user or controller wants.
 
 ---
 
@@ -58,7 +58,7 @@ Themes 1–3 shipped recon, citation/provenance, and docs-research. Later campai
 ## 3. Ladder touch (accepted)
 
 ```text
-[optional] research-scope  →  codebase-recon / docs-research / research-protocol
+[optional] research-scope  →  research-codebase-recon / research-docs / research-protocol
         → design-process … (Theme 10 as-needed research preface unchanged)
 ```
 

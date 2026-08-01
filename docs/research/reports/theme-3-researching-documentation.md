@@ -9,11 +9,11 @@
 
 | ID | Path | Role |
 |----|------|------|
-| N-T3A | `docs/research/notes/theme-3/t3a-alexandria-docs-research.md` | Alexandria: docs quality, living docs, RAG-over-docs pitfalls |
+| N-T3A | `docs/research/notes/theme-3/t3a-alexandria-research-docs.md` | Alexandria: docs quality, living docs, RAG-over-docs pitfalls |
 | N-T3B | `docs/research/notes/theme-3/t3b-official-docs-reading-methods.md` | Official reading methods: Diátaxis, version pin, contracts, `llms.txt` |
 | N-T3C | `docs/research/notes/theme-3/t3c-forums-issues-limitations.md` | Limitation scan: issues/forums/changelogs; E3→E0/E1 ladder |
 | N-T3D | `docs/research/notes/theme-3/t3d-docs-vs-code-verification.md` | Docs↔code drift, executable docs, conflict resolution |
-| C-T3 | `docs/research/sources/coordinator-t3-docs-research-kickoff.md` | Coordinator kickoff: PROTOCOL E3 exception, Docs as Code, drift |
+| C-T3 | `docs/research/sources/coordinator-t3-research-docs-kickoff.md` | Coordinator kickoff: PROTOCOL E3 exception, Docs as Code, drift |
 
 **Cross-links only (not re-researched):**  
 - Theme 1 report: `docs/research/reports/theme-1-codebase-research-for-agents.md` (docs as beacons; recon → verify)  

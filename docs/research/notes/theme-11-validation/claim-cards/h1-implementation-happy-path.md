@@ -41,4 +41,4 @@ surface_id: H1
 
 **Implicit (discovery, separate fresh chat):** “What’s the Toolbelt order of skills for a small feature fix?”
 
-**Negative:** “Only draft an ADR for logging.” → should route draft-adr / authoring, not full feature ladder as mandatory.
+**Negative:** “Only draft an ADR for logging.” → should route research-draft-adr / authoring, not full feature ladder as mandatory.

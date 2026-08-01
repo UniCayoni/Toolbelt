@@ -33,8 +33,8 @@ Explicit skill (`/author-agents-md`). Writes durable repo guidance — not a for
 | Need | Use |
 |------|-----|
 | Cursor skills/rules/commands | `author-cursor-surfaces` |
-| Architecture Decision | `draft-adr` |
-| Verify install/build/test claims | `codebase-recon` (E0) |
+| Architecture Decision | `research-draft-adr` |
+| Verify install/build/test claims | `research-codebase-recon` (E0) |
 
 ## References
 

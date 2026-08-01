@@ -10,6 +10,19 @@ Format inspired by [Keep a Changelog](https://keepachangelog.com/). Versioning f
 
 - Theme 12: companion skill `research-scope` + template `research-campaign-brief` (expand/atomize tracks before gather)
 
+### Changed
+
+- **Breaking skill renames** (domain-first ids; Reload Window after sync):
+  - `codebase-recon` → `research-codebase-recon`
+  - `docs-research` → `research-docs`
+  - `draft-adr` → `research-draft-adr`
+  - `technical-design` → `design-technical`
+  - `creative-systems-design` → `design-systems`
+  - `creative-narrative-design` → `design-narrative`
+  - `creative-world-character-design` → `design-world-character`
+  - `systematic-debug` → `debug-systematic`
+  - `reproduce-bug` → `debug-reproduce`
+
 ## [0.1.0] — 2026-07-30
 
 ### Added

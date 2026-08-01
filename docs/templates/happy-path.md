@@ -24,14 +24,14 @@ Entry skill / skip notes:
 ```text
 Happy-path Progress:
 - [ ] 0 Classified ask
-- [ ] 1 Research as needed (optional research-scope → codebase-recon / docs-research / research-protocol) — or N/A
+- [ ] 1 Research as needed (optional research-scope → research-codebase-recon / research-docs / research-protocol) — or N/A
 - [ ] 2 design-process → domain design → human accept — or skip documented
-- [ ] 3 draft-adr if locks — or N/A
+- [ ] 3 research-draft-adr if locks — or N/A
 - [ ] 4 implementation-plan — or trivial skip documented
 - [ ] 5 implementation-plan-verify → Meta ready
 - [ ] 6 implementation-execute OR implementation-execute-subagents
 - [ ] 7 implementation-execute-verify (non-trivial / EOP)
-- [ ] 8 Debug branch if needed (reproduce-bug / systematic-debug)
+- [ ] 8 Debug branch if needed (debug-reproduce / debug-systematic)
 - [ ] 9 Stop / human handoff (PR Phase 2 only if asked)
 ```
 

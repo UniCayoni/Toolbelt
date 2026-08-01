@@ -9,7 +9,7 @@ description: >-
   verification-before-completion, post-green review, converge against plan,
   intent coverage, after task Done-when green, or end-of-plan quality check.
   Prefer with implementation-execute / implementation-execute-subagents. Not
-  for plan writing, systematic-debug, or PR packaging.
+  for plan writing, debug-systematic, or PR packaging.
 ---
 
 # Implementation execute-verify
@@ -18,7 +18,7 @@ Announce once: **Using `implementation-execute-verify`**.
 
 Authority: Theme 8 accepted (Verify gates — Execute extension). Theme 7 Execute law still owns the task loop, **N=2**, and HITL. **Draft plans ≠ law** (`draft-is-not-sot`).
 
-**Identity:** Verification **extension of Execute** — not the Debug method pocket (`systematic-debug`) or PR pack. Quality + code **readability** + faithfulness to plan/design first; ease is a side effect.
+**Identity:** Verification **extension of Execute** — not the Debug method pocket (`debug-systematic`) or PR pack. Quality + code **readability** + faithfulness to plan/design first; ease is a side effect.
 
 ## When to use
 
@@ -26,7 +26,7 @@ Authority: Theme 8 accepted (Verify gates — Execute extension). Theme 7 Execut
 - At **end of a durable plan** (required): post-green review + **light converge**
 - When asked for execute-verify / verification-before-completion / converge / intent coverage
 
-**Out of scope:** Plan authoring/validate (`implementation-plan` / `implementation-plan-verify`); Debug method (`systematic-debug` / `reproduce-bug`); PR/git/merge; re-litigating N=2; foreign CLI deps; silent Goal rewrite.
+**Out of scope:** Plan authoring/validate (`implementation-plan` / `implementation-plan-verify`); Debug method (`debug-systematic` / `debug-reproduce`); PR/git/merge; re-litigating N=2; foreign CLI deps; silent Goal rewrite.
 
 ## Preconditions
 
@@ -44,7 +44,7 @@ IDENTIFY → RUN → READ → VERIFY → claim. Ban “should / probably / looks
 
 Fresh context. Score **Critical / Important / Minor** (OpenSpec CRITICAL/WARNING/SUGGESTION = optional aliases — not Plan PASS trio).  
 Dimensions: **Evidence · Faithfulness · Readability/coherence** — read `references/review-dimensions.md` when scoring.  
-Routing: Critical → fix + re-evidence (or Theme 7 major-deviation); if root cause unclear → **`systematic-debug`** before thrashing patches. Important → fix before proceed; Minor → note. HITL = Theme 7 only.
+Routing: Critical → fix + re-evidence (or Theme 7 major-deviation); if root cause unclear → **`debug-systematic`** before thrashing patches. Important → fix before proceed; Minor → note. HITL = Theme 7 only.
 
 ### C. Light converge (**EOP-only** on durable plans)
 
@@ -77,7 +77,7 @@ True if any: **DUR** · **MF** · **IF** · **DEP** · **FLAG** · **SUB** (same
 | Task loop / N=2 / HITL | `implementation-execute` or `-subagents` |
 | Plan still wrong | `implementation-plan` + `implementation-plan-verify` |
 | Appended Convergence tasks | Re-enter Execute loop |
-| Unclear Critical / need investigate | **`systematic-debug`** (or **`reproduce-bug`** prove-first) |
+| Unclear Critical / need investigate | **`debug-systematic`** (or **`debug-reproduce`** prove-first) |
 | PR / merge | Phase 2 — not here |
 
 ## References

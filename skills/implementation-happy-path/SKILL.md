@@ -32,7 +32,7 @@ Authority: Theme 10 accepted (`docs/research/reports/theme-10-happy-path.md`).
 | Ask type | Entry |
 |----------|--------|
 | New / changed **feature** | Happy path below (research as needed → design → …) |
-| **Bug** / verify-fail / unclear Critical | `reproduce-bug` and/or `systematic-debug` (return to plan if design wrong) |
+| **Bug** / verify-fail / unclear Critical | `debug-reproduce` and/or `debug-systematic` (return to plan if design wrong) |
 | **Research** / theme campaign | Optional **`research-scope`** if tracks unclear → `research-protocol` (+ recon/docs); continue to design only after accept |
 | **Author** skill/rule/command | `author-cursor-surfaces` |
 | **Trivial** one-file tweak | Document skip of durable Design/Plan; implement carefully (Plan/Design intelligent exception) |
@@ -41,16 +41,16 @@ Authority: Theme 10 accepted (`docs/research/reports/theme-10-happy-path.md`).
 
 Each step: announce **Using `<skill>`** and follow that skill. Do **not** paste its spine here.
 
-1. **Research (as needed)** — optional **`research-scope`** when expand-first / tracks unclear → then `codebase-recon` / `docs-research` / `research-protocol`  
+1. **Research (as needed)** — optional **`research-scope`** when expand-first / tracks unclear → then `research-codebase-recon` / `research-docs` / `research-protocol`  
    Skip research when code is familiar, no docs pin, and no deep campaign. Skip scope when the research question is already clear.
-2. **Design** — `design-process` → domain skill (`technical-design` or creative-*) → **human accept**  
+2. **Design** — `design-process` → domain skill (`design-technical` / `design-systems` / `design-narrative` / `design-world-character`) → **human accept**  
    Skip for pure bug-fix with clear repro, research-only, or documented trivial exception.
-3. **ADR (optional)** — `draft-adr` when architectural locks need recording.
+3. **ADR (optional)** — `research-draft-adr` when architectural locks need recording.
 4. **Plan** — `implementation-plan` → durable `docs/plans/…` when non-trivial.
 5. **Plan-verify** — `implementation-plan-verify` → Meta `ready` (PASS*).
 6. **Execute** — `implementation-execute` **or** `implementation-execute-subagents`.
 7. **Execute-verify** — `implementation-execute-verify` when non-trivial / required EOP.
-8. **Debug branch** — on T-VF / T-UB / T-MD / T-CR / T-NYR → `reproduce-bug` (prove-first) and/or `systematic-debug`.  
+8. **Debug branch** — on T-VF / T-UB / T-MD / T-CR / T-NYR → `debug-reproduce` (prove-first) and/or `debug-systematic`.  
    Do not burn more Execute `verify-retry N=2` under Debug; Debug uses `debug-fix-cycles` (Theme 9).
 9. **Stop** — hand human; PR/CI/Bugbot = Phase 2 stub only (not owned here).
 
@@ -78,10 +78,10 @@ Template SoT: Toolbelt `docs/templates/happy-path.md`.
 | Need | Use |
 |------|-----|
 | Expand concept / track board | `research-scope` |
-| Unfamiliar code | `codebase-recon` |
+| Unfamiliar code | `research-codebase-recon` |
 | Design spine | `design-process` |
 | Plan / verify / execute | `implementation-plan` → `implementation-plan-verify` → `implementation-execute` (+ `-subagents`, `-verify`) |
-| Bug / root cause | `reproduce-bug` / `systematic-debug` |
+| Bug / root cause | `debug-reproduce` / `debug-systematic` |
 | Author Cursor surfaces | `author-cursor-surfaces` |
 | PR / CI | Phase 2 — not this skill |
 

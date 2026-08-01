@@ -66,8 +66,8 @@ Explicit skill (`/author-cursor-surfaces`). **Author / compose** — not marketp
 | Need | Use |
 |------|-----|
 | AGENTS.md house docs | `author-agents-md` |
-| Decision record | `draft-adr` |
-| Unknown Cursor API facts | `docs-research` / `research-protocol` |
+| Decision record | `research-draft-adr` |
+| Unknown Cursor API facts | `research-docs` / `research-protocol` |
 | Marketplace audit | create-plugin `review-plugin-submission` (not this skill) |
 
 ## References
@@ -75,4 +75,4 @@ Explicit skill (`/author-cursor-surfaces`). **Author / compose** — not marketp
 - Read `references/author-cursor-surfaces.md` **when** authoring, composing, or migrating Cursor surfaces (checklist §0–§5)
 - SoT template: Toolbelt `docs/templates/author-cursor-surfaces.md`
 - Theme 4 (accepted): Toolbelt `docs/research/reports/theme-4-cursor-plugin-components.md`
-- Related Toolbelt skills: `author-agents-md`, `draft-adr`, `research-protocol`
+- Related Toolbelt skills: `author-agents-md`, `research-draft-adr`, `research-protocol`

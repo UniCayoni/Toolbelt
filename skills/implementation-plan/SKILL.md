@@ -71,8 +71,8 @@ Authority: Theme 6 accepted (Plan method guidance). **Unapproved / draft plans â
 |------|----------------|
 | Full Toolbelt ladder (cold start / controller) | **`implementation-happy-path`** |
 | Need design first | `design-process` (then return here) |
-| Significant locks missing | `draft-adr` |
-| Unfamiliar codebase before planning | `codebase-recon` |
+| Significant locks missing | `research-draft-adr` |
+| Unfamiliar codebase before planning | `research-codebase-recon` |
 | Validate plan before ready | **`implementation-plan-verify`** |
 | Execute the plan | **`implementation-execute`** (or **`implementation-execute-subagents`** for controller + fresh implementers) |
 

@@ -45,7 +45,7 @@ Operational load uses `~/.cursor/plugins/local/toolbelt`. Cursor `workspaceOpen`
 
 1. **Developer: Reload Window**
 2. **Customize** → Plugins: `toolbelt` (display name **Toolbelt**) is listed
-3. Skills: Research (7) + Design (5) + Plan + Plan-verify + Execute + Execute-subagents + Execute-verify + systematic-debug + reproduce-bug + happy-path (**20** total)
+3. Skills: Research (7) + Design (5) + Plan + Plan-verify + Execute + Execute-subagents + Execute-verify + debug-systematic + debug-reproduce + happy-path (**20** total)
 4. Rules: grades + draft≠SoT always-on; explore-before-write available (intelligent)
 5. Smoke: `/implementation-plan`, `/implementation-execute`, `/design-process`, `/author-cursor-surfaces` (or Customize → Skills)
 
@@ -82,12 +82,12 @@ docs/packs/      Pack index (Research / Design / Plan / Execute / Verify / Debug
 
 | Skill | Use when |
 |-------|----------|
-| `codebase-recon` | Unfamiliar repo / before non-trivial implementation |
-| `docs-research` | Third-party or product docs with version pin |
+| `research-codebase-recon` | Unfamiliar repo / before non-trivial implementation |
+| `research-docs` | Third-party or product docs with version pin |
 | `research-protocol` | Full Method-envelope research notes; **normal** (default) vs **deep** theme campaigns |
 | `research-scope` | Companion: expand/atomize concept → tracks → enough-to-start before gather |
 | `author-agents-md` | Create/revise `AGENTS.md` (`/` invoke) |
-| `draft-adr` | Record an architecture/process decision (`/` invoke) |
+| `research-draft-adr` | Record an architecture/process decision (`/` invoke) |
 | `author-cursor-surfaces` | Author/compose skills, rules, commands, hooks to Theme 4 standards (`/` invoke) |
 
 ### Design
@@ -95,10 +95,10 @@ docs/packs/      Pack index (Research / Design / Plan / Execute / Verify / Debug
 | Skill | Use when |
 |-------|----------|
 | `design-process` | Shared design spine + human gate |
-| `technical-design` | Code architecture / stack / services |
-| `creative-systems-design` | Game/creative systems |
-| `creative-narrative-design` | Story / quests / interactive narrative |
-| `creative-world-character-design` | World bible / characters |
+| `design-technical` | Code architecture / stack / services |
+| `design-systems` | Game/creative systems |
+| `design-narrative` | Story / quests / interactive narrative |
+| `design-world-character` | World bible / characters |
 
 ### Plan → Verify → Execute → Verify → Debug → Happy path
 
@@ -110,8 +110,8 @@ docs/packs/      Pack index (Research / Design / Plan / Execute / Verify / Debug
 | `implementation-execute` | Execute approved plans (Done-when, N=2) |
 | `implementation-execute-subagents` | Controller + fresh implementers |
 | `implementation-execute-verify` | Post-green quality/readability + EOP converge |
-| `systematic-debug` | Investigate / root-cause / fix with evidence (compose Cursor Debug Mode) |
-| `reproduce-bug` | Never-fix: prove bug + light dossier before patch |
+| `debug-systematic` | Investigate / root-cause / fix with evidence (compose Cursor Debug Mode) |
+| `debug-reproduce` | Never-fix: prove bug + light dossier before patch |
 
 Announce **Using `<skill-name>`** once when a Toolbelt skill applies.
 

@@ -52,4 +52,4 @@ Human gate: accept | revise | defer
 
 ## After accept
 
-Hand off per track to `codebase-recon` / `docs-research` / `research-protocol` (depth per lean). Do not auto-launch deep fleets from this template alone.
+Hand off per track to `research-codebase-recon` / `research-docs` / `research-protocol` (depth per lean). Do not auto-launch deep fleets from this template alone.

@@ -8,7 +8,7 @@ description: >-
   escalate). Use when plan-validate, validate-plan, review-plan before
   implement, pre-exec validate, after implementation-plan write, before Meta
   ready, or before implementation-execute. Prefer over jumping from draft plan
-  to code. Not for execute-verify, converge, systematic-debug, or PR packaging.
+  to code. Not for execute-verify, converge, debug-systematic, or PR packaging.
 ---
 
 # Implementation plan-verify
@@ -27,7 +27,7 @@ Authority: Theme 8 accepted (Verify gates — Plan extension). Theme 6 Plan law 
 
 **Skip (document “trivial skip”):** chat-ephemeral single-file one-task tweak with no durable plan and no risk signals (Interfaces, deps, multi-file, subagent mode).
 
-**Out of scope:** Execute evidence/converge (`implementation-execute-verify`); Debug method (`systematic-debug`); PR; mandatory TDD auditor; foreign CLI deps; inventing missing design intent.
+**Out of scope:** Execute evidence/converge (`implementation-execute-verify`); Debug method (`debug-systematic`); PR; mandatory TDD auditor; foreign CLI deps; inventing missing design intent.
 
 ## Preconditions
 

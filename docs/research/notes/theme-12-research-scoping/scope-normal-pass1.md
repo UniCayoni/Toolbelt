@@ -36,7 +36,7 @@ supersedes: null
 
 - **Question:** What did original Research investigate; where (if anywhere) do atomize/expand and track/gap determination live today; what OPEN human decisions and GAPs remain; is the next pass **compose/normal** or **deep**?
 - **In:** E0 inventory of Themes 1–3 + PROTOCOL/depth-modes + mature campaign practice; map vs operator mental model (simple/complex → atomize → campaign → enough?); candidate enhancement tracks; human decision board; deep-vs-normal verdict lean.
-- **Out:** Editing `research-protocol` / recon / docs-research this pass; re-litigating S0–S18 or D0–D14 content; deep literature fleet; elevating skills; changing happy-path ladder shape beyond a possible one-liner pointer.
+- **Out:** Editing `research-protocol` / recon / research-docs this pass; re-litigating S0–S18 or D0–D14 content; deep literature fleet; elevating skills; changing happy-path ladder shape beyond a possible one-liner pointer.
 
 ---
 
@@ -66,7 +66,7 @@ Research in Toolbelt is **Themes 1–3 + PROTOCOL elevation**, not a single late
 
 - `FACT` [E0] Theme 1 integrator merges T1A/T1B/T1C into S0–S18 and program-comprehension mapping; status on report header is “integrated report” (not Theme-10-style `accepted:` frontmatter). [E0: `docs/research/reports/theme-1-codebase-research-for-agents.md`]
 - `FACT` [E0] Theme 2/3 reports are “integrated” merges of listed notes; Theme 3 D0–D14 is an E4-composed checklist (no single primary lists that exact sequence). [E0: theme-2 / theme-3 reports §1–2]
-- `FACT` [E0] Elevated Research skills today: `codebase-recon`, `docs-research`, `research-protocol` (+ `author-agents-md`, `draft-adr`, `author-cursor-surfaces` in Research pack framing). [E0: Theme 10 scope pack table; `skills/research-protocol/SKILL.md`]
+- `FACT` [E0] Elevated Research skills today: `research-codebase-recon`, `research-docs`, `research-protocol` (+ `author-agents-md`, `research-draft-adr`, `author-cursor-surfaces` in Research pack framing). [E0: Theme 10 scope pack table; `skills/research-protocol/SKILL.md`]
 - `FACT` [E0] `research-protocol` owns note Method, grades, cite-or-omit, and **normal vs deep** depth modes; deep shape = pin identity → waves → integrator + diminishing-returns stop. [E0: `skills/research-protocol/SKILL.md`; `docs/templates/research-depth-modes.md`]
 - `FACT` [E0] Theme 10 accepted: Research on the happy path is an **as-needed preface**, not an always-on ladder step (D3). [E0: `docs/research/reports/theme-10-happy-path.md`]
 
@@ -182,7 +182,7 @@ Human accepted coordinator leans aimed at **quality + enhance existing Research 
 
 ## 9. Implications (post-decision)
 
-- `INFERENCE` [E4] Elevate path = **new companion `research-scope` + templates**; `research-protocol` / recon / docs-research get **Handoffs only**. Premises: O3 pivot B+C [E0]; O2 no T1–T3 rewrite.
+- `INFERENCE` [E4] Elevate path = **new companion `research-scope` + templates**; `research-protocol` / recon / research-docs get **Handoffs only**. Premises: O3 pivot B+C [E0]; O2 no T1–T3 rewrite.
 - `INFERENCE` [E4] Companion keeps protocol identity clean and allows **other orders** (user/controller may invoke scope mid-design, before deep, etc.). Premises: O3/O4 [E0].
 - `INFERENCE` [E4] Complexity and depth stay **two axes** so ordinary lookups stay cheap. Premises: O4/O5 locked; depth-modes caveats [E0].
 - `FACT` [E0] O3 pivoted to companion skill 2026-07-31 (human). [E0: this note §7.1; chat]
