@@ -22,6 +22,7 @@ surface_id: R2
 | C2 | Chooses systematic/as-needed/hybrid | Mode stated | |
 | C3 | Reports layout / entrypoints with paths | Real paths | |
 | C4 | Does not invent modules | No fake files | |
+| C5 | Handoff table can point to `research-scope` (Theme 12) | Skill has Handoff row OR smoke may n/a if not exercised | |
 
 ## Anti-patterns
 
@@ -31,4 +32,4 @@ surface_id: R2
 
 ## Smoke
 
-**Prompt:** “Using `codebase-recon` (as-needed), map d:\\Toolbelt plugin layout: skills count, rules count, where PROTOCOL.md lives. Short checklist findings only.”
+**Prompt:** “Using `codebase-recon` (as-needed), map d:\\Toolbelt plugin layout: skills count, rules count, where PROTOCOL.md lives, and whether `research-scope` skill exists. Short checklist findings only.”

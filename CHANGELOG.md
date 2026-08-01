@@ -4,6 +4,12 @@ All notable changes to the Toolbelt Cursor plugin are documented here.
 
 Format inspired by [Keep a Changelog](https://keepachangelog.com/). Versioning follows semver for marketplace releases.
 
+## [Unreleased]
+
+### Added
+
+- Theme 12: companion skill `research-scope` + template `research-campaign-brief` (expand/atomize tracks before gather)
+
 ## [0.1.0] — 2026-07-30
 
 ### Added

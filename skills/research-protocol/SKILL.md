@@ -75,6 +75,7 @@ Record in Method: `depth: normal | deep` (and for deep: `waves`, `stop_reason`).
 
 | Need | Use |
 |------|-----|
+| Expand / atomize / tracks before gather | **`research-scope`** (companion — when complex, theme/campaign, or user asks) |
 | Codebase map first | `codebase-recon` |
 | Product/docs pin | `docs-research` |
 | After accepted research → design/plan | `design-process` / `implementation-plan` |

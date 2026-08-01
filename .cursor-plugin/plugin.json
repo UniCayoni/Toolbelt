@@ -26,6 +26,7 @@
     "happy-path",
     "implementation-happy-path",
     "protocol",
+    "research-scope",
     "recon",
     "adr",
     "agents"

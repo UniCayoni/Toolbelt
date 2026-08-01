@@ -1,6 +1,6 @@
 # Toolbelt
 
-Reusable Cursor **agent utility** plugin: research method (PROTOCOL grades, codebase recon, documentation research, ADRs, `AGENTS.md` authoring, Cursor surface authoring), Design, Plan, Execute, **Verify gates**, **Debug**, and **happy-path** orchestration (`implementation-happy-path`).
+Reusable Cursor **agent utility** plugin: research method (PROTOCOL grades, codebase recon, documentation research, **research-scope** companion, ADRs, `AGENTS.md` authoring, Cursor surface authoring), Design, Plan, Execute, **Verify gates**, **Debug**, and **happy-path** orchestration (`implementation-happy-path`).
 
 **Scope:** agent method (research → design → plan → execute → verify → debug).
 
@@ -45,7 +45,7 @@ Operational load uses `~/.cursor/plugins/local/toolbelt`. Cursor `workspaceOpen`
 
 1. **Developer: Reload Window**
 2. **Customize** → Plugins: `toolbelt` (display name **Toolbelt**) is listed
-3. Skills: Research (6) + Design (5) + Plan + Plan-verify + Execute + Execute-subagents + Execute-verify + systematic-debug + reproduce-bug + happy-path (**19** total)
+3. Skills: Research (7) + Design (5) + Plan + Plan-verify + Execute + Execute-subagents + Execute-verify + systematic-debug + reproduce-bug + happy-path (**20** total)
 4. Rules: grades + draft≠SoT always-on; explore-before-write available (intelligent)
 5. Smoke: `/implementation-plan`, `/implementation-execute`, `/design-process`, `/author-cursor-surfaces` (or Customize → Skills)
 
@@ -63,7 +63,7 @@ Reload Window after sync. **Elevating or revising skills/rules:** use `/author-c
 ## Layout
 
 ```text
-skills/          Research + Design + Plan + Execute + Verify + Debug + Happy-path + authoring (19)
+skills/          Research + Design + Plan + Execute + Verify + Debug + Happy-path + authoring (20)
 rules/           Grades + draft≠SoT (always); explore-before-write (intelligent)
 assets/          Logo and static assets (marketplace)
 docs/PROTOCOL.md Method law
@@ -85,6 +85,7 @@ docs/packs/      Pack index (Research / Design / Plan / Execute / Verify / Debug
 | `codebase-recon` | Unfamiliar repo / before non-trivial implementation |
 | `docs-research` | Third-party or product docs with version pin |
 | `research-protocol` | Full Method-envelope research notes; **normal** (default) vs **deep** theme campaigns |
+| `research-scope` | Companion: expand/atomize concept → tracks → enough-to-start before gather |
 | `author-agents-md` | Create/revise `AGENTS.md` (`/` invoke) |
 | `draft-adr` | Record an architecture/process decision (`/` invoke) |
 | `author-cursor-surfaces` | Author/compose skills, rules, commands, hooks to Theme 4 standards (`/` invoke) |

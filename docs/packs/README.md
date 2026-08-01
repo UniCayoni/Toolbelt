@@ -2,7 +2,7 @@
 
 | Pack | Status | Surfaces |
 |------|--------|----------|
-| **Research** | shipped | `codebase-recon`, `docs-research`, `research-protocol`, `author-agents-md`, `draft-adr`, `author-cursor-surfaces` |
+| **Research** | shipped | `codebase-recon`, `docs-research`, `research-protocol`, **`research-scope`** (Theme 12 companion), `author-agents-md`, `draft-adr`, `author-cursor-surfaces` |
 | **Design** | shipped (Theme 5 accept) | `design-process`, `technical-design`, `creative-systems-design`, `creative-narrative-design`, `creative-world-character-design`; rule `draft-is-not-sot` (includes draft design ≠ accepted). **UX (T5C) deferred** |
 | **Plan** | shipped (Theme 6 accept + elevate) | `implementation-plan` (+ wire to `implementation-plan-verify`); template `docs/templates/plan-minimal.md`; house path `docs/plans/`; rule `draft-is-not-sot` (draft plans ≠ law). See `docs/research/reports/theme-6-plan-pocket.md` |
 | **Execute** | shipped (Theme 7 accept + elevate) | `implementation-execute`, `implementation-execute-subagents` (+ wire to `implementation-execute-verify` + Debug handoffs); consumes `docs/plans/` + Theme 6 Plan law. See `docs/research/reports/theme-7-execute-pocket.md` |

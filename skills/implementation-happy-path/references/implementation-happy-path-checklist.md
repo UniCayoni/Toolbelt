@@ -3,12 +3,14 @@ title: "Toolbelt happy-path checklist"
 status: active
 aligned_with: docs/research/reports/theme-10-happy-path.md
 created: 2026-07-30
+updated: 2026-07-31
 ---
 
 # Happy-path checklist
 
 Authority: Theme 10 accepted. Used by skill `implementation-happy-path`.  
-Orchestration only — run each step via **Using `<skill>`**; do not paste pocket law here.
+Orchestration only — run each step via **Using `<skill>`**; do not paste pocket law here.  
+Theme 12: optional **`research-scope`** before research when tracks are unclear.
 
 ## Classifier
 
@@ -22,7 +24,7 @@ Entry skill / skip notes:
 ```text
 Happy-path Progress:
 - [ ] 0 Classified ask
-- [ ] 1 Research as needed (codebase-recon / docs-research / research-protocol) — or N/A
+- [ ] 1 Research as needed (optional research-scope → codebase-recon / docs-research / research-protocol) — or N/A
 - [ ] 2 design-process → domain design → human accept — or skip documented
 - [ ] 3 draft-adr if locks — or N/A
 - [ ] 4 implementation-plan — or trivial skip documented

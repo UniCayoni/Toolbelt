@@ -57,6 +57,7 @@ Re-open `references/d0-d14-checklist.md` only when recovering missing D-steps; k
 
 | Need | Use |
 |------|-----|
+| Expand / tracks before docs research | `research-scope` |
 | Full Method-envelope note / deep campaign | `research-protocol` |
 | Code corroboration | `codebase-recon` |
 | Decision lock | `draft-adr` |

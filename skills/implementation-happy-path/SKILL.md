@@ -33,7 +33,7 @@ Authority: Theme 10 accepted (`docs/research/reports/theme-10-happy-path.md`).
 |----------|--------|
 | New / changed **feature** | Happy path below (research as needed → design → …) |
 | **Bug** / verify-fail / unclear Critical | `reproduce-bug` and/or `systematic-debug` (return to plan if design wrong) |
-| **Research** / theme campaign | `research-protocol` (+ recon/docs); continue to design only after accept |
+| **Research** / theme campaign | Optional **`research-scope`** if tracks unclear → `research-protocol` (+ recon/docs); continue to design only after accept |
 | **Author** skill/rule/command | `author-cursor-surfaces` |
 | **Trivial** one-file tweak | Document skip of durable Design/Plan; implement carefully (Plan/Design intelligent exception) |
 
@@ -41,8 +41,8 @@ Authority: Theme 10 accepted (`docs/research/reports/theme-10-happy-path.md`).
 
 Each step: announce **Using `<skill>`** and follow that skill. Do **not** paste its spine here.
 
-1. **Research (as needed)** — `codebase-recon` / `docs-research` / `research-protocol`  
-   Skip when code is familiar, no docs pin, and no deep campaign.
+1. **Research (as needed)** — optional **`research-scope`** when expand-first / tracks unclear → then `codebase-recon` / `docs-research` / `research-protocol`  
+   Skip research when code is familiar, no docs pin, and no deep campaign. Skip scope when the research question is already clear.
 2. **Design** — `design-process` → domain skill (`technical-design` or creative-*) → **human accept**  
    Skip for pure bug-fix with clear repro, research-only, or documented trivial exception.
 3. **ADR (optional)** — `draft-adr` when architectural locks need recording.
@@ -77,6 +77,7 @@ Template SoT: Toolbelt `docs/templates/happy-path.md`.
 
 | Need | Use |
 |------|-----|
+| Expand concept / track board | `research-scope` |
 | Unfamiliar code | `codebase-recon` |
 | Design spine | `design-process` |
 | Plan / verify / execute | `implementation-plan` → `implementation-plan-verify` → `implementation-execute` (+ `-subagents`, `-verify`) |

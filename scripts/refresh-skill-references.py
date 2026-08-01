@@ -15,6 +15,7 @@ Mapping:
   docs/templates/plan-minimal.md → skills/implementation-plan/references/plan-minimal.md
   docs/templates/repro-light.md → skills/reproduce-bug/references/repro-light.md
   docs/templates/happy-path.md → skills/implementation-happy-path/references/implementation-happy-path-checklist.md
+  docs/templates/research-campaign-brief.md → skills/research-scope/references/research-campaign-brief.md
 
 Usage:
   python scripts/refresh-skill-references.py
@@ -43,6 +44,10 @@ COPIES: list[tuple[Path, Path]] = [
     (
         ROOT / "docs" / "templates" / "happy-path.md",
         ROOT / "skills" / "implementation-happy-path" / "references" / "implementation-happy-path-checklist.md",
+    ),
+    (
+        ROOT / "docs" / "templates" / "research-campaign-brief.md",
+        ROOT / "skills" / "research-scope" / "references" / "research-campaign-brief.md",
     ),
 ]
 

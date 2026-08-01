@@ -60,6 +60,7 @@ When filling the checklist, keep the copied note as the working artifact; re-ope
 
 | Need | Use |
 |------|-----|
+| Expand / tracks before recon | `research-scope` |
 | Full graded multi-pass note | `research-protocol` |
 | Docs/API corroboration | `docs-research` |
 | After gate → design | `design-process` |
