@@ -21,7 +21,8 @@ supersedes: null
 **Claim cards:** `claim-cards/`  
 **Controller summary:** [CONTROLLER-SUMMARY-20260730.md](./runs/CONTROLLER-SUMMARY-20260730.md)  
 **Phase B evaluation:** [phase-b-evaluation-20260730.md](./phase-b-evaluation-20260730.md) — **18/18 PASS**, 0 NEEDS REVISION (2026-07-30).  
-**Theme 12 delta (2026-07-31):** re-smoke R1–R3, H1 + new **R7** `research-scope` — all **PASS** (see `*-20260731.md`).
+**Theme 12 delta (2026-07-31):** re-smoke R1–R3, H1 + new **R7** `research-scope` — all **PASS** (see `*-20260731.md`).  
+**Theme 14 delta (2026-07-31):** new **I1** `implementation-router` + H1 re-smoke — in-session **2/2** + fresh **2/2** = **4/4 PASS** ([theme-14-smoke-delta-20260731.md](./theme-14-smoke-delta-20260731.md)).
 
 | ID | Surface | Lane | Fixture | Card | Run status |
 |----|---------|------|---------|------|------------|
@@ -43,7 +44,8 @@ supersedes: null
 | E3 | implementation-execute-verify | subagent | after green task | [e3](./claim-cards/e3-implementation-execute-verify.md) | PASS (`E3-20260730.md`; not re-run) |
 | G1 | debug-systematic | subagent | copy of smoke-app | [g1](./claim-cards/g1-debug-systematic.md) | PASS (`G1-20260730.md`; not re-run) |
 | G2 | debug-reproduce | subagent | copy of smoke-app | [g2](./claim-cards/g2-debug-reproduce.md) | PASS (`G2-20260730.md`; not re-run) |
-| H1 | implementation-happy-path | fresh_chat | Toolbelt | [h1](./claim-cards/h1-implementation-happy-path.md) | PASS (`H1-20260731.md`; prior `H1-20260730.md`) |
+| H1 | implementation-happy-path | fresh_chat | Toolbelt | [h1](./claim-cards/h1-implementation-happy-path.md) | PASS fresh (`H1-fresh-20260731.md`); prior in-session `H1-20260731-theme14.md` **Theme 14** |
+| I1 | implementation-router | either | none | [i1](./claim-cards/i1-implementation-router.md) | PASS fresh (`I1-fresh-20260731.md`); prior in-session `I1-20260731.md` **Theme 14** |
 
 **P1 (deferred):** design-systems / narrative / world-character deep smokes; research-before-write.
 

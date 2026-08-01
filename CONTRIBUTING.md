@@ -1,6 +1,6 @@
 # Contributing to Toolbelt
 
-Thank you for interest in improving **Toolbelt** — a Cursor **agent utility** plugin (research → design → plan → execute → verify → debug → happy-path). This is not an application runtime or Brain/RAG product.
+Thank you for interest in improving **Toolbelt** — a Cursor **agent utility** plugin (research → design → plan → execute → verify → debug; pocket routers + happy-path). This is not an application runtime or Brain/RAG product.
 
 Authority for this guide: accepted Theme 13 report — [`docs/research/reports/theme-13-contributor-workflow.md`](./docs/research/reports/theme-13-contributor-workflow.md).
 
@@ -63,7 +63,7 @@ Details: [README.md](./README.md).
 - Fuzzy / multi-surface themes: start with **`research-scope`** (track board + human enough-to-start).  
 - Depth: default **normal**; **deep** only when asked or clearly needed ([`docs/templates/research-depth-modes.md`](./docs/templates/research-depth-modes.md)).  
 - Design: `design-process` → domain skill → **human accept** before plan/implement locks.  
-- Happy-path orchestration: `implementation-happy-path` — PR/CI is **not** owned there (Phase 2).
+- Pocket routers / entry: `research-scope`, `design-process`, `implementation-router` (see Theme 14). Happy-path: `implementation-happy-path` chains those — PR/CI is **not** owned there (Phase 2).
 
 ## Pull requests
 

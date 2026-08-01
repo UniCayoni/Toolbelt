@@ -16,7 +16,8 @@ Announce once: **Using `research-scope`**.
 
 Authority: Theme 12 accepted (`docs/research/reports/theme-12-research-scoping.md`).  
 **Companion** — does not own cite-or-omit, Method envelopes, S0–S18, or D0–D14.  
-**Draft ≠ law** (`draft-is-not-sot`).
+**Draft ≠ law** (`draft-is-not-sot`).  
+Theme 14: treated as Research **pocket router / entry** (de facto; name unchanged).
 
 ## When to use
 
@@ -72,6 +73,7 @@ Authority: Theme 12 accepted (`docs/research/reports/theme-12-research-scoping.m
 | Codebase map | `research-codebase-recon` |
 | Product/docs pin | `research-docs` |
 | After accepted research → design | `design-process` |
+| Implementation pocket wire | `implementation-router` |
 | Full ladder | `implementation-happy-path` |
 | Author surfaces from findings | `author-cursor-surfaces` |
 

@@ -83,6 +83,7 @@ Default **serial**. Parallel writers only when the plan marks the task parallel-
 | Need | Use |
 |------|-----|
 | Full Toolbelt ladder (cold start / controller) | **`implementation-happy-path`** |
+| Implementation pocket wire / unclear next leaf | **`implementation-router`** |
 | No plan yet | `implementation-plan` (after `design-process` as needed) |
 | Multi-task / fresh implementers | `implementation-execute-subagents` |
 | Post-green / EOP converge | **`implementation-execute-verify`** |

@@ -45,7 +45,7 @@ Publish when ready: [marketplace/publish](https://cursor.com/marketplace/publish
 
 | Component | Present | Notes |
 |-----------|---------|-------|
-| Skills `skills/*/SKILL.md` | **20** | PASS (incl. `research-scope`; domain-first renames) |
+| Skills `skills/*/SKILL.md` | **21** | PASS (incl. `research-scope`, `implementation-router`) |
 | Rules `rules/*.mdc` | **3** | PASS |
 | Agents | none | OK — not required; Theme 4 intentional |
 | Commands | none | OK — skills cover invoke |
@@ -57,7 +57,7 @@ Publish when ready: [marketplace/publish](https://cursor.com/marketplace/publish
 
 | Check | Result |
 |-------|--------|
-| Skills: `name` + `description`; `name` == folder | **20/20** PASS |
+| Skills: `name` + `description`; `name` == folder | **21/21** PASS |
 | Rules: `description` + `alwaysApply` | **3/3** PASS |
 | Agents / commands frontmatter | N/A |
 
@@ -100,7 +100,7 @@ Publish when ready: [marketplace/publish](https://cursor.com/marketplace/publish
 | 2 | `assets/logo.png` + `"logo"` | **done** (verify icon **displays** after G0) |
 | 3 | README GitHub / marketplace install | **done** |
 | 4 | `CHANGELOG.md` | **done** |
-| 5 | Local sync + Reload smoke (Customize → Plugins → skills count **20**) | **operator** |
+| 5 | Local sync + Reload smoke (Customize → Plugins → skills count **21**) | **operator** |
 | 6 | Confirm marketplace `name` `toolbelt` uniqueness at submit | **operator** at publish |
 
 ### P1 — GitHub contributor readiness (Theme 13 → marketplace hygiene)
@@ -140,7 +140,7 @@ Do in roughly this order:
 3. [ ] Enable **Discussions** (Settings → Features)  
 4. [ ] Verify **Contributing** tab + **PR template** on GitHub  
 5. [ ] Verify **logo** loads in Customize → Plugins (after public)  
-6. [ ] **Reload Window**; smoke Customize → Plugins → **20** skills; spot-check `/research-scope` or `/research-codebase-recon`  
+6. [ ] **Reload Window**; smoke Customize → Plugins → **21** skills; spot-check `/implementation-router` or `/research-scope`  
 7. [ ] At submit: confirm `toolbelt` name free; bump to `1.0.0` if you want first listing semver  
 8. [ ] Submit at [cursor.com/marketplace/publish](https://cursor.com/marketplace/publish)  
 

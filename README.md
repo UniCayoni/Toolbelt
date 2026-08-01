@@ -45,7 +45,7 @@ Operational load uses `~/.cursor/plugins/local/toolbelt`. Cursor `workspaceOpen`
 
 1. **Developer: Reload Window**
 2. **Customize** → Plugins: `toolbelt` (display name **Toolbelt**) is listed
-3. Skills: Research (7) + Design (5) + Plan + Plan-verify + Execute + Execute-subagents + Execute-verify + debug-systematic + debug-reproduce + happy-path (**20** total)
+3. Skills: Research (7) + Design (5) + Plan + Plan-verify + Execute + Execute-subagents + Execute-verify + debug-systematic + debug-reproduce + happy-path + **implementation-router** (**21** total)
 4. Rules: grades + draft≠SoT always-on; explore-before-write available (intelligent)
 5. Smoke: `/implementation-plan`, `/implementation-execute`, `/design-process`, `/author-cursor-surfaces` (or Customize → Skills)
 
@@ -63,7 +63,7 @@ Reload Window after sync. **Elevating or revising skills/rules:** use `/author-c
 ## Layout
 
 ```text
-skills/          Research + Design + Plan + Execute + Verify + Debug + Happy-path + authoring (20)
+skills/          Research + Design + Plan + Execute + Verify + Debug + Routers + Happy-path + authoring (21)
 rules/           Grades + draft≠SoT (always); explore-before-write (intelligent)
 assets/          Logo and static assets (marketplace)
 docs/PROTOCOL.md Method law
@@ -104,7 +104,8 @@ docs/packs/      Pack index (Research / Design / Plan / Execute / Verify / Debug
 
 | Skill | Use when |
 |-------|----------|
-| `implementation-happy-path` | Cold-start / controller: which Toolbelt skills in what order |
+| `implementation-router` | Implementation pocket: wire plan → verify → execute → execute-verify |
+| `implementation-happy-path` | Cold-start / controller: chain pocket routers/entries |
 | `implementation-plan` | Hybrid implementation plans for agents |
 | `implementation-plan-verify` | Graded plan validate before Meta `ready` |
 | `implementation-execute` | Execute approved plans (Done-when, N=2) |

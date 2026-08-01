@@ -14,7 +14,8 @@ description: >-
 
 Announce once: **Using `design-process`**.
 
-Authority: Theme 5 accepted (T5A method guidance). **Draft/proposed designs and ADRs ≠ accepted law.**
+Authority: Theme 5 accepted (T5A method guidance). **Draft/proposed designs and ADRs ≠ accepted law.**  
+Theme 14: treated as Design **pocket router / entry** (de facto; name unchanged).
 
 ## When to use
 
@@ -40,7 +41,7 @@ Simple work can still use a **short** design (a few sentences) + approval — sk
    - Significant / multi-option locks → **`research-draft-adr`** → `docs/adr/NNNN-slug.md`
    - Broader feature shape (when useful) → short design note under host `docs/design/YYYY-MM-DD-<topic>-design.md` (user path overrides OK)
 10. **Self-review** (written artifacts): placeholders/TODOs, internal contradictions, scope too large, ambiguous requirements — fix before asking for final review
-11. **Gate** — only after approval proceed to **`implementation-plan`** → **`implementation-plan-verify`** → **`implementation-execute`** (or `-subagents`) with **`implementation-execute-verify`** at non-trivial/EOP. Trivial one-file work may skip durable plan/execute (intelligent exception)
+11. **Gate** — only after approval proceed via **`implementation-router`** (or leaves: **`implementation-plan`** → **`implementation-plan-verify`** → **`implementation-execute`** / `-subagents` → **`implementation-execute-verify`**). Trivial one-file work may skip durable plan/execute (intelligent exception)
 
 ## Lanes (keep separate)
 
@@ -78,7 +79,8 @@ Simple work can still use a **short** design (a few sentences) + approval — sk
 | Need | Use |
 |------|-----|
 | Full Toolbelt ladder (cold start / controller) | **`implementation-happy-path`** |
-| Implementation plan | `implementation-plan` |
+| Implementation pocket wire (prefer) | **`implementation-router`** |
+| Implementation plan (leaf) | `implementation-plan` |
 | Validate plan before ready | `implementation-plan-verify` |
 | Execute | `implementation-execute` / `-subagents` + `implementation-execute-verify` |
 | Lock Decision | `research-draft-adr` |
