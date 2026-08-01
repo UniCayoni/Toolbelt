@@ -68,7 +68,7 @@ Publish when ready: [marketplace/publish](https://cursor.com/marketplace/publish
 | Multi-plugin `marketplace.json` | N/A — omit for single-plugin |
 | Public GitHub repo | **PENDING operator** — E0 2026-07-31: still **private** (`gh api`); marketplace + relative `logo` raw resolution need **public** |
 | Open source / no binaries | PASS (markdown + scripts) |
-| Contributor docs on default branch | **PENDING push** — `CONTRIBUTING.md` + `.github/pull_request_template.md` (Theme 13) must be on `main` |
+| Contributor docs on default branch | **PASS** — Theme 13 on `main` (`b232e28`) |
 
 ## 5. Documentation quality — **PASS** (after prep)
 
@@ -89,7 +89,7 @@ Publish when ready: [marketplace/publish](https://cursor.com/marketplace/publish
 | # | Item | Status |
 |---|------|--------|
 | G0 | **Make GitHub repo public** | **pending** — required for marketplace + `logo` via `raw.githubusercontent.com` |
-| G1 | **Push** Theme 13 + any unpushed `main` commits (`CONTRIBUTING`, PR template, renames, etc.) | **pending** until `git status` clean & synced with origin |
+| G1 | **Push** Theme 13 + any unpushed `main` commits (`CONTRIBUTING`, PR template, renames, etc.) | **done** 2026-07-31 (`b232e28` on `main`) |
 | G2 | Confirm marketplace listing can see public `repository` / homepage | after G0 |
 
 ### P1 — do before publish
@@ -109,8 +109,8 @@ Treat as **required before marketplace** so the public listing points at a contr
 
 | # | Item | Where | Status |
 |---|------|--------|--------|
-| C1 | `CONTRIBUTING.md` on default branch | repo root | **in-repo**; needs **push** (G1) |
-| C2 | `.github/pull_request_template.md` on default branch | `.github/` | **in-repo**; needs **push** (G1) |
+| C1 | `CONTRIBUTING.md` on default branch | repo root | **done** (G1) |
+| C2 | `.github/pull_request_template.md` on default branch | `.github/` | **done** (G1) |
 | C3 | After push: open github.com/…/toolbelt → **Contributing** tab / sidebar link works | GitHub UI | **operator** |
 | C4 | After push: **New pull request** shows the template body | GitHub UI | **operator** |
 | C5 | **Enable Discussions** (Settings → General → Features) for proposal intake | GitHub Settings | **pending** (`has_discussions: false` E0 2026-07-31) |
@@ -135,7 +135,7 @@ Treat as **required before marketplace** so the public listing points at a contr
 
 Do in roughly this order:
 
-1. [ ] Commit + **push** all pending Toolbelt work to `main` (incl. Theme 13 contributor files)  
+1. [x] Commit + **push** all pending Toolbelt work to `main` (incl. Theme 13 contributor files) — `b232e28` 
 2. [ ] Make **`UniCayoni/toolbelt` public** (Settings → General → Danger Zone / Change visibility)  
 3. [ ] Enable **Discussions** (Settings → Features)  
 4. [ ] Verify **Contributing** tab + **PR template** on GitHub  
