@@ -10,6 +10,6 @@
 | **Debug / investigate** | shipped (Theme 9 accept + elevate) | `debug-systematic`, `debug-reproduce`; template `docs/templates/repro-light.md`; wired from Execute / -subagents / execute-verify. **Not** Theme 8 Verify. See `docs/research/reports/theme-9-debug-pocket.md` |
 | **Happy path** | shipped (Theme 10 accept + elevate) | `implementation-happy-path`; template `docs/templates/happy-path.md`; orchestrates pockets (compose only). See `docs/research/reports/theme-10-happy-path.md` |
 | **Validation / E0 smokes** | shipped (Theme 11 accept; no new elevation) | P0 E0 smokes 18/18 PASS. Evidence `docs/research/notes/theme-11-validation/runs/`. See `docs/research/reports/theme-11-validation.md` |
-| PR / workflow | stub | Phase 2 (listed in Theme 9 parks) |
+| **Contributor / GitHub** | shipped (Theme 13 docs) | Root [`CONTRIBUTING.md`](../../CONTRIBUTING.md) + [`.github/pull_request_template.md`](../../.github/pull_request_template.md). **CI / Bugbot still Phase 2.** See [`docs/research/reports/theme-13-contributor-workflow.md`](../research/reports/theme-13-contributor-workflow.md) |
 
 Keep new rules **intelligent / opt-in** by default except thin always-on (draft≠SoT). Elevate further surfaces only after accepted research. UX skills wait on [`docs/research/notes/theme-5-design/t5c-ux-placeholder.md`](../research/notes/theme-5-design/t5c-ux-placeholder.md).

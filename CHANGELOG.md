@@ -9,6 +9,7 @@ Format inspired by [Keep a Changelog](https://keepachangelog.com/). Versioning f
 ### Added
 
 - Theme 12: companion skill `research-scope` + template `research-campaign-brief` (expand/atomize tracks before gather)
+- Theme 13: `CONTRIBUTING.md` + `.github/pull_request_template.md` (contributor path; CI/Bugbot still Phase 2)
 
 ### Changed
 

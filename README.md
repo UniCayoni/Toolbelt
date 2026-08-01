@@ -4,7 +4,7 @@ Reusable Cursor **agent utility** plugin: research method (PROTOCOL grades, code
 
 **Scope:** agent method (research → design → plan → execute → verify → debug).
 
-**Repo:** [github.com/UniCayoni/toolbelt](https://github.com/UniCayoni/toolbelt) · **License:** MIT · See [CHANGELOG.md](./CHANGELOG.md).
+**Repo:** [github.com/UniCayoni/toolbelt](https://github.com/UniCayoni/toolbelt) · **License:** MIT · See [CHANGELOG.md](./CHANGELOG.md) · **Contribute:** [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## Install
 
@@ -129,4 +129,4 @@ Do not assume paths from other products or plugins.
 
 Future packs (PR/workflow, UX/T5C, standards) land as additional flat `skills/<name>/` entries after accepted research + `/author-cursor-surfaces`. See [docs/packs/README.md](./docs/packs/README.md). Do not pile new always-apply rules without need.
 
-Plugin packaging / skill-authoring policy: accepted Theme 4 report — [docs/research/reports/theme-4-cursor-plugin-components.md](./docs/research/reports/theme-4-cursor-plugin-components.md). Full surface audit: [docs/research/notes/theme-8-verify/author-surfaces-full-plugin-audit.md](./docs/research/notes/theme-8-verify/author-surfaces-full-plugin-audit.md). Marketplace prep review: [docs/research/notes/marketplace-prep/review-plugin-submission-2026-07-30.md](./docs/research/notes/marketplace-prep/review-plugin-submission-2026-07-30.md).
+Plugin packaging / skill-authoring policy: accepted Theme 4 report — [docs/research/reports/theme-4-cursor-plugin-components.md](./docs/research/reports/theme-4-cursor-plugin-components.md). Full surface audit: [docs/research/notes/theme-8-verify/author-surfaces-full-plugin-audit.md](./docs/research/notes/theme-8-verify/author-surfaces-full-plugin-audit.md). Marketplace prep + **pre-publish operator checklist** (public repo, Discussions, Contributing/PR UI, Reload smoke): [docs/research/notes/marketplace-prep/review-plugin-submission-2026-07-30.md](./docs/research/notes/marketplace-prep/review-plugin-submission-2026-07-30.md).
