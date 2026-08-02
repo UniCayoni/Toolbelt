@@ -11,10 +11,12 @@ Format inspired by [Keep a Changelog](https://keepachangelog.com/). Versioning f
 - Theme 12: companion skill `research-scope` + template `research-campaign-brief` (expand/atomize tracks before gather)
 - Theme 13: `CONTRIBUTING.md` + `.github/pull_request_template.md` (contributor path; CI/Bugbot still Phase 2)
 - Theme 14: pocket router layer — `implementation-router` + template; packs **Routers / pocket entry** row (`research-scope` / `design-process` documented as de-facto routers; `debug-router` deferred)
+- Theme 15: `implementation-closeout` + `closeout-profile` template (host-defined readiness check; ceremony out of scope)
 
 ### Changed
 
 - Theme 14: `implementation-happy-path` thins to chain pocket routers/entries (Implementation stage → `implementation-router`) instead of listing every Implementation leaf
+- Theme 15: happy-path optional closeout stage before Stop; Phase 2 narrowed to CI/Bugbot/merge automation (readiness is Theme 15)
 - **Breaking skill renames** (domain-first ids; Reload Window after sync):
   - `codebase-recon` → `research-codebase-recon`
   - `docs-research` → `research-docs`

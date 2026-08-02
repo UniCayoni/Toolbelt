@@ -37,6 +37,7 @@ Authority: Theme 10 accepted (`docs/research/reports/theme-10-happy-path.md`);
 | **Author** skill/rule/command | `author-cursor-surfaces` |
 | **Trivial** one-file tweak | Document skip of durable Design/Plan; implement carefully |
 | **Implementation pocket only** | Prefer **`implementation-router`** (no full ladder) |
+| **Closeout / ship-ready check** | **`implementation-closeout`** (readiness — not PR ceremony) |
 
 ## Happy path (feature)
 
@@ -51,7 +52,8 @@ Each stage: announce **Using `<skill>`** and follow that skill. Do **not** paste
    Do not re-list those leaves here unless recovering without the router.
 5. **Debug branch** — on T-VF / T-UB / T-MD / T-CR / T-NYR → `debug-reproduce` and/or `debug-systematic` (Debug router deferred).  
    Do not burn more Execute `verify-retry N=2` under Debug; Debug uses `debug-fix-cycles` (Theme 9).
-6. **Stop** — hand human; PR/CI/Bugbot = Phase 2 stub only (not owned here).
+6. **Closeout readiness (optional)** — **`implementation-closeout`** when a host profile exists or user asks ship-ready/closeout check. Skip by default for trivial work. Readiness only — not merge/push/PR create.
+7. **Stop** — hand human for host ceremony; CI/Bugbot/**merge automation** = Phase 2 / host (not owned here).
 
 Read `references/implementation-happy-path-checklist.md` **when** running a full session or recovering stage.  
 Template SoT: Toolbelt `docs/templates/happy-path.md`.
@@ -72,6 +74,7 @@ Template SoT: Toolbelt `docs/templates/happy-path.md`.
 - Always-on rule or forcing Design on every bug  
 - Conflating Execute `verify-retry N=2` with Debug `debug-fix-cycles`  
 - Owning PR/merge ceremony here  
+- Skipping optional closeout when user explicitly asked ship-ready check  
 
 ## Handoffs
 
@@ -80,9 +83,10 @@ Template SoT: Toolbelt `docs/templates/happy-path.md`.
 | Research pocket entry | `research-scope` |
 | Design pocket entry | `design-process` |
 | Implementation pocket router | **`implementation-router`** |
+| Closeout readiness (define/check) | **`implementation-closeout`** |
 | Bug / root cause | `debug-reproduce` / `debug-systematic` |
 | Author Cursor surfaces | `author-cursor-surfaces` |
-| PR / CI | Phase 2 — not this skill |
+| PR / CI / merge ceremony | Host / human — Phase 2 automation still not this skill |
 
 ## References
 

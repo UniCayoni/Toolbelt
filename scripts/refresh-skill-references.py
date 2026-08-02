@@ -17,6 +17,8 @@ Mapping:
   docs/templates/happy-path.md → skills/implementation-happy-path/references/implementation-happy-path-checklist.md
   docs/templates/research-campaign-brief.md → skills/research-scope/references/research-campaign-brief.md
   docs/templates/implementation-router.md → skills/implementation-router/references/implementation-router-checklist.md
+  docs/templates/closeout-profile.md → skills/implementation-closeout/references/closeout-profile.md
+  docs/templates/closeout-readiness-checklist.md → skills/implementation-closeout/references/closeout-readiness-checklist.md
 
 Usage:
   python scripts/refresh-skill-references.py
@@ -53,6 +55,14 @@ COPIES: list[tuple[Path, Path]] = [
     (
         ROOT / "docs" / "templates" / "implementation-router.md",
         ROOT / "skills" / "implementation-router" / "references" / "implementation-router-checklist.md",
+    ),
+    (
+        ROOT / "docs" / "templates" / "closeout-profile.md",
+        ROOT / "skills" / "implementation-closeout" / "references" / "closeout-profile.md",
+    ),
+    (
+        ROOT / "docs" / "templates" / "closeout-readiness-checklist.md",
+        ROOT / "skills" / "implementation-closeout" / "references" / "closeout-readiness-checklist.md",
     ),
 ]
 

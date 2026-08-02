@@ -63,7 +63,7 @@ Details: [README.md](./README.md).
 - Fuzzy / multi-surface themes: start with **`research-scope`** (track board + human enough-to-start).  
 - Depth: default **normal**; **deep** only when asked or clearly needed ([`docs/templates/research-depth-modes.md`](./docs/templates/research-depth-modes.md)).  
 - Design: `design-process` → domain skill → **human accept** before plan/implement locks.  
-- Pocket routers / entry: `research-scope`, `design-process`, `implementation-router` (see Theme 14). Happy-path: `implementation-happy-path` chains those — PR/CI is **not** owned there (Phase 2).
+- Pocket routers / entry: `research-scope`, `design-process`, `implementation-router` (Theme 14). Closeout readiness: `implementation-closeout` (Theme 15) — host criteria + evidence; **not** merge/push. Happy-path chains those; CI/Bugbot/**ceremony automation** still Phase 2 / host.
 
 ## Pull requests
 

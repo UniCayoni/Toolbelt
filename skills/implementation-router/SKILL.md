@@ -74,6 +74,7 @@ Template SoT: Toolbelt `docs/templates/implementation-router.md`.
 | Plan / verify / execute leaves | `implementation-plan` → `implementation-plan-verify` → `implementation-execute` (+ `-subagents`, `-verify`) |
 | Bug / root cause | `debug-reproduce` / `debug-systematic` |
 | Research unclear | `research-scope` / research leaves |
+| Closeout readiness | `implementation-closeout` |
 | Author surfaces | `author-cursor-surfaces` |
 
 ## References
