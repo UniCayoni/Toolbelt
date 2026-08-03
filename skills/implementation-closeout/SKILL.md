@@ -1,12 +1,13 @@
 ---
 name: implementation-closeout
 description: >-
-  Help define or check host closeout readiness: author/update a host-owned
-  closeout profile and score criteria against cited evidence without owning
-  git commit, push, PR, approve, or merge ceremony. Use when closeout,
-  ship-ready, definition of done, ready to hand off, ready for PR check,
-  closeout profile, or after execute-verify before human ship. Prefer over
-  inventing a universal merge checklist or running gh merge as Toolbelt law.
+  Help define or check host closeout readiness via implementation-closeout:
+  author/update a host-owned closeout profile and score criteria against cited
+  evidence without owning git commit, push, PR, approve, or merge ceremony.
+  Use when implementation-closeout, closeout, ship-ready, definition of done,
+  ready to hand off, ready for PR check, closeout profile, or after
+  execute-verify before human ship. Prefer over inventing a universal merge
+  checklist or running gh merge as Toolbelt law.
 ---
 
 # Implementation closeout

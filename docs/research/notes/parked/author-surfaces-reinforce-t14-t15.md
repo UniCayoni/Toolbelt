@@ -1,31 +1,29 @@
 ---
 title: "Parked — author-cursor-surfaces reinforce (Themes 14–15)"
-status: draft
+status: accepted
 created: 2026-08-02
-parked_until: after-theme-16-elevate
+updated: 2026-08-02
+parked_until: done
+completed: 2026-08-02
 ---
 
 # Parked — reinforce elevations that skipped `author-cursor-surfaces`
 
-**Human:** 2026-08-02 — park until Theme 16 elevation via `/author-cursor-surfaces` completes.  
-**Theme 16 elevate:** done 2026-08-02 — this park is now **unblocked** whenever you want the T14/T15 reinforce pass.
+**Completed** 2026-08-02 after Theme 16 elevate + push.
 
-## Scope
+## Delivered
 
-Themes **14** (`implementation-router`) and **15** (`implementation-closeout`) were elevated **without** an `author-surfaces-*` note / explicit `/author-cursor-surfaces` pass (unlike Themes 8–10).
+| Theme | Surface | Note |
+|-------|---------|------|
+| 14 | `implementation-router` | `docs/research/notes/theme-14-pocket-routers/author-surfaces-t14-implementation-router.md` |
+| 15 | `implementation-closeout` | `docs/research/notes/theme-15-closeout-readiness/author-surfaces-t15-implementation-closeout.md` |
 
-## Intent (when unparked)
+## Packaging fix
 
-1. Run `/author-cursor-surfaces` in **reinforce** mode on:
-   - `skills/implementation-router/`
-   - `skills/implementation-closeout/`
-   - related templates already SoT under `docs/templates/`
-2. Fill short notes (pattern: `docs/research/notes/theme-10-happy-path/author-surfaces-t10-happy-path.md`).
-3. Fix any Theme 4 checklist gaps (frontmatter, description pushiness, reference gates, sync).
-4. Do **not** redesign routers/closeout method — reinforce packaging only.
+- `implementation-closeout` description: added skill-id keywords for Theme 4 discovery parity.
 
-## Out of scope here
+## Out of scope (still)
 
-- Theme 16 elevation (active)
-- Renaming closeout
+- Method redesign
+- Rename closeout
 - debug-router
