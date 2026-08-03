@@ -1,0 +1,17 @@
+---
+description: >-
+  Thin standards resolve gate: when an accepted host standards catalog exists,
+  resolve relevant modules via standards-router; otherwise no-op. Does not embed
+  coding standards bodies.
+alwaysApply: true
+---
+
+# Standards resolve gate
+
+Ambient **resolve** only — not Toolbelt coding law. Authority: Theme 19.
+
+1. Look for a host standards **catalog** (lean default: `docs/standards/index.md`, or path from `AGENTS.md`).
+2. If **missing**, or catalog/modules are not **accepted**, or there are **zero** accepted modules → **no-op** (do nothing). Do not invent standards.
+3. If an accepted catalog exists → announce **Using `standards-router`** and follow that skill: classify the current action/wording/skill/paths → emit **module path pointers** → load only those modules.
+4. **Never** paste full standards corpora into this rule or into every reply. Progressive load only.
+5. Draft/proposed profiles stay non-law (`draft-is-not-sot`). Authoring → skill **`author-standards`**.

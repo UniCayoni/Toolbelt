@@ -45,8 +45,8 @@ Operational load uses `~/.cursor/plugins/local/toolbelt`. Cursor `workspaceOpen`
 
 1. **Developer: Reload Window**
 2. **Customize** → Plugins: `toolbelt` (display name **Toolbelt**) is listed
-3. Skills: Research (8) + Design (5) + Plan + Plan-verify + Execute + Execute-subagents + Execute-verify + debug-systematic + debug-reproduce + **debug-router** + happy-path + implementation-router + implementation-closeout + author-standards (**24** total)
-4. Rules: grades + draft≠SoT always-on; explore-before-write available (intelligent)
+3. Skills: Research (8) + Design (5) + Plan + Plan-verify + Execute + Execute-subagents + Execute-verify + debug-systematic + debug-reproduce + **debug-router** + **standards-router** + happy-path + implementation-router + implementation-closeout + author-standards (**25** total)
+4. Rules: grades + draft≠SoT + **standards-resolve-gate** always-on; explore-before-write available (intelligent)
 5. Smoke: `/implementation-plan`, `/implementation-execute`, `/design-process`, `/author-cursor-surfaces` (or Customize → Skills)
 
 ## After editing method SoT
@@ -63,8 +63,8 @@ Reload Window after sync. **Elevating or revising skills/rules:** use `/author-c
 ## Layout
 
 ```text
-skills/          Research + Design + Plan + Execute + Verify + Debug + Routers + Closeout + Host standards + Happy-path + authoring (24)
-rules/           Grades + draft≠SoT (always); explore-before-write (intelligent)
+skills/          Research + Design + Plan + Execute + Verify + Debug + Routers + Closeout + Host standards + Happy-path + authoring (25)
+rules/           Grades + draft≠SoT + standards-resolve-gate (always); explore-before-write (intelligent)
 assets/          Logo and static assets (marketplace)
 docs/PROTOCOL.md Method law
 docs/templates/  Checklist/template SoT (skills copy into references/)
@@ -88,6 +88,7 @@ docs/packs/      Pack index (Research / Design / Plan / Execute / Verify / Debug
 | `research-scope` | Companion: expand/atomize concept → tracks → enough-to-start before gather |
 | `author-agents-md` | Create/revise `AGENTS.md` (`/` invoke) |
 | `author-standards` | Host principles + checkable standards profiles; brownfield derive (`/` invoke) |
+| `standards-router` | Selective host standards modules (pointers only; catalog if-present) |
 | `research-draft-adr` | Record an architecture/process decision (`/` invoke) |
 | `author-cursor-surfaces` | Author/compose skills, rules, commands, hooks to Theme 4 standards (`/` invoke) |
 

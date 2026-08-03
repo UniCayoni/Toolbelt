@@ -6,20 +6,22 @@ aligned_with:
   - docs/research/reports/theme-14-pocket-routers.md
   - docs/research/reports/theme-15-closeout-readiness.md
   - docs/research/reports/theme-17-debug-router.md
+  - docs/research/reports/theme-19-standards-apply.md
 created: 2026-07-30
-updated: 2026-08-02
+updated: 2026-08-03
 ---
 
 # Happy-path checklist
 
-Authority: Theme 10 accepted; composition Themes 14–15 / 17. Used by skill `implementation-happy-path`.  
+Authority: Theme 10 accepted; composition Themes 14–15 / 17 / 19. Used by skill `implementation-happy-path`.  
 Orchestration only — chain **pocket routers / entries** via **Using `<skill>`**; do not paste pocket law here.
 
 ## Classifier
 
 ```text
-Ask type: feature | bug | research-only | authoring | trivial | implementation-only | closeout
+Ask type: feature | bug | research-only | authoring | standards-resolve | trivial | implementation-only | closeout
 Entry skill / skip notes:
+  (standards modules → standards-router; author profiles → author-standards; ambient gate no-ops if no catalog)
 ```
 
 ## Progress

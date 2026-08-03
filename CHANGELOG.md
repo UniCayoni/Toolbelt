@@ -8,6 +8,7 @@ Format inspired by [Keep a Changelog](https://keepachangelog.com/). Versioning f
 
 ### Added
 
+- Theme 19: **`standards-router`** + standards catalog/module templates + always-on thin **`standards-resolve-gate`** (selective module apply; empty/absent no-op)
 - Theme 18: recon conditional **S12b** (git history / recency) + `author-standards` derive conflict-tiebreak glue (default 12m window; host override)
 - Theme 12: companion skill `research-scope` + template `research-campaign-brief` (expand/atomize tracks before gather)
 - Theme 13: `CONTRIBUTING.md` + `.github/pull_request_template.md` (contributor path; CI/Bugbot still Phase 2)
@@ -18,6 +19,7 @@ Format inspired by [Keep a Changelog](https://keepachangelog.com/). Versioning f
 
 ### Changed
 
+- Theme 19: Theme 16 D12 clarified — always-on **resolve gate** allowed; always-on standards **bodies** still forbidden
 - Theme 14: `implementation-happy-path` thins to chain pocket routers/entries (Implementation stage → `implementation-router`) instead of listing every Implementation leaf
 - Theme 15: happy-path optional closeout stage before Stop; Phase 2 narrowed to CI/Bugbot/merge automation (readiness is Theme 15)
 - Theme 16: Plan / Execute / Closeout / happy-path / `author-agents-md` handoffs to `author-standards`; closeout profile optional C9 for host standards

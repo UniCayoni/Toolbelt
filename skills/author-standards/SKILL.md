@@ -77,6 +77,7 @@ Profile SoTs: `references/principles-profile.md`, `references/standards-profile.
 | AGENTS.md pointer / budgets | `author-agents-md` |
 | Cursor skill/rule packaging | `author-cursor-surfaces` |
 | Codebase recon for derive | `research-codebase-recon` |
+| Which modules to load (apply) | **`standards-router`** |
 | Architecture locks | `research-draft-adr` / `design-process` |
 | Plan / Execute / Closeout | `implementation-plan`, `implementation-execute`, `implementation-closeout` |
 | Full ladder | `implementation-happy-path` |
