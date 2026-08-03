@@ -43,7 +43,7 @@ narrows:
 |---|----------|
 | D1 | Theme id **`theme-15-closeout-readiness`** |
 | D2 | Shape **O1** — skill + template: **define/update** + **check** |
-| D3 | Skill name **`implementation-closeout`** |
+| D3 | Skill name **`implementation-closeout`** (alternate ids e.g. `closeout-readiness` later considered; **wontfix** rename 2026-08-03 — [`parked/closeout-rename-wontfix.md`](../notes/parked/closeout-rename-wontfix.md)) |
 | D4 | Template SoT **`docs/templates/closeout-profile.md`**; host default `docs/closeout/closeout-profile.md` (override OK) |
 | D5 | **Ceremony out of scope** |
 | D6 | Evidence locators; verdicts `ready` \| `blocked` \| `waived` \| `n/a` |

@@ -39,7 +39,7 @@ Wire conditional **S12b** (git history / recency) into `research-codebase-recon`
 | L6 | Cite-or-omit; **proposed** only; CLI examples not law |
 | L7 | Honor `.git-blame-ignore-revs` when present |
 | L8 | Surfaces: recon template/skill + derive glue; smoke **R9** |
-| L9 | Parks: closeout rename; dual-era profile schema v2; hard N-thresholds; Phase 2 CI |
+| L9 | Parks: dual-era profile schema v2; hard N-thresholds; Phase 2 CI (closeout rename → **wontfix** 2026-08-03) |
 
 ## 3. Surfaces
 

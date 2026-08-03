@@ -58,7 +58,7 @@ Lean locks (window + conflict tiebreak): accepted 2026-08-03
 | L6 | **Fence:** cite-or-omit; emit **proposed** only; no auto-promote; CLI churn one-liners = examples not mandatory procedure |
 | L7 | **ignore-revs:** if `.git-blame-ignore-revs` present, use when blaming (formatter noise ≠ culture) |
 | L8 | **Surfaces:** extend recon template + skill checklist; tighten `author-standards` derive to expect those fields; smoke 2/2 |
-| L9 | **Parks:** closeout rename; dual-era full profile schema; hard N-exemplar thresholds; Phase 2 CI; always-on standards rule |
+| L9 | **Parks:** dual-era full profile schema; hard N-exemplar thresholds; Phase 2 CI; always-on standards rule (closeout rename → **wontfix** 2026-08-03 — `docs/research/notes/parked/closeout-rename-wontfix.md`) |
 
 ## Expand (short)
 

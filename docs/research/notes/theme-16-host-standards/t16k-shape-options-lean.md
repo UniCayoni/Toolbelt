@@ -35,7 +35,7 @@ Prefer **O1**:
 ## Parks
 
 - Toolbelt-universal coding standard as law  
-- Renaming `implementation-closeout`  
+- Renaming `implementation-closeout` — **wontfix** 2026-08-03 (`docs/research/notes/parked/closeout-rename-wontfix.md`)  
 - Always-on standards rule  
 - Auto-promote brownfield derive without human accept  
 

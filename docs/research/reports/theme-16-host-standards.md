@@ -48,7 +48,7 @@ Help hosts **define and maintain** principles + checkable standards feedstock th
 | D9 | **Brownfield derive:** recon (+ Theme 18 **S12b**) → recency window (default 12m / host override) + conflict tiebreak (**most recent non-one-off**) + light churn support + blame (respect `.git-blame-ignore-revs`) → quarantine legacy → **proposed** until human accept; dual-era via suppressions / touch-to-clean / format wave |
 | D10 | **Bind:** Plan/Execute/Closeout load profiles when present, skip when absent; AGENTS short pointer → profile/skill (Cursor/Claude/Codex patterns). AGENTS vs Team/Project/User conflict = **product-undefined GAP** |
 | D11 | Keep **`implementation-closeout`**; closeout criteria may reference standards/principles |
-| D12 | No always-on standards rule; no auto-promote derive; no closeout rename this theme |
+| D12 | No always-on standards rule; no auto-promote derive; no closeout rename this theme (**rename later closed as wontfix** — 2026-08-03; see [`parked/closeout-rename-wontfix.md`](../notes/parked/closeout-rename-wontfix.md)) |
 
 ## 3. Deep campaign method
 
@@ -92,8 +92,9 @@ Help hosts **define and maintain** principles + checkable standards feedstock th
 ## 6. Parks
 
 - Toolbelt-universal coding standard as law  
-- Rename `implementation-closeout`  
 - Always-on standards rule  
 - Auto-promote brownfield derive  
 - Fat CI / ceremony as standards content  
-- debug-router / global meta-router (unrelated)
+- global meta-router (unrelated; debug-router shipped Theme 17)
+
+**Closed parks:** Rename `implementation-closeout` → **wontfix** (2026-08-03) — [`parked/closeout-rename-wontfix.md`](../notes/parked/closeout-rename-wontfix.md).
