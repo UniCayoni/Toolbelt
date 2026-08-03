@@ -98,6 +98,7 @@ Teach protocol atoms only — **no Toolbelt collector**, no invented Cursor priv
 | Need | Use |
 |------|-----|
 | Prove / dossier only (never-fix) | **`debug-reproduce`** |
+| Which Debug skill / pocket wire | **`debug-router`** |
 | Plan still wrong | `implementation-plan` + `implementation-plan-verify` |
 | Execute task loop / N=2 | `implementation-execute` |
 | Post-green / converge | `implementation-execute-verify` |

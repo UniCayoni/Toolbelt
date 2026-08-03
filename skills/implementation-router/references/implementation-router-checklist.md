@@ -36,7 +36,7 @@ Constraints (e.g. no writes / files in scope):
 - [ ] implementation-plan-verify → Meta ready — or N/A
 - [ ] implementation-execute OR implementation-execute-subagents — or N/A
 - [ ] implementation-execute-verify (non-trivial / EOP) — or N/A
-- [ ] On verify-fail / unclear Critical → hand off debug-reproduce / debug-systematic (not owned here)
+- [ ] On verify-fail / unclear Critical → hand off **debug-router** (not owned here)
 ```
 
 ## Stop

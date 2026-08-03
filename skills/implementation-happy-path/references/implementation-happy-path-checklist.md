@@ -5,13 +5,14 @@ aligned_with:
   - docs/research/reports/theme-10-happy-path.md
   - docs/research/reports/theme-14-pocket-routers.md
   - docs/research/reports/theme-15-closeout-readiness.md
+  - docs/research/reports/theme-17-debug-router.md
 created: 2026-07-30
 updated: 2026-08-02
 ---
 
 # Happy-path checklist
 
-Authority: Theme 10 accepted; composition Themes 14–15. Used by skill `implementation-happy-path`.  
+Authority: Theme 10 accepted; composition Themes 14–15 / 17. Used by skill `implementation-happy-path`.  
 Orchestration only — chain **pocket routers / entries** via **Using `<skill>`**; do not paste pocket law here.
 
 ## Classifier
@@ -30,7 +31,7 @@ Happy-path Progress:
 - [ ] 2 design-process → domain design → human accept — or skip documented
 - [ ] 3 research-draft-adr if locks — or N/A
 - [ ] 4 implementation-router (plan → plan-verify → execute|-subagents → execute-verify) — or N/A
-- [ ] 5 Debug branch if needed (debug-reproduce / debug-systematic) — Debug router deferred
+- [ ] 5 Debug branch if needed — debug-router (reproduce / systematic)
 - [ ] 6 implementation-closeout (optional define/check) — or N/A / trivial skip
 - [ ] 7 Stop / human handoff (host ceremony; CI/Bugbot automation Phase 2)
 ```

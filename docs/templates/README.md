@@ -22,6 +22,7 @@ Reports:
 | Recording a design decision (after research) | `adr-minimal.md` |
 | Author/compose Cursor skills, rules, commands, hooks | `author-cursor-surfaces.md` |
 | Host principles / standards profiles | `principles-profile.md`, `standards-profile.md`, `author-standards-checklist.md` |
+| Debug pocket router checklist | `debug-router.md` |
 
 ## Rules
 

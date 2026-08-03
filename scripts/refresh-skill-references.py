@@ -22,6 +22,7 @@ Mapping:
   docs/templates/principles-profile.md → skills/author-standards/references/principles-profile.md
   docs/templates/standards-profile.md → skills/author-standards/references/standards-profile.md
   docs/templates/author-standards-checklist.md → skills/author-standards/references/author-standards-checklist.md
+  docs/templates/debug-router.md → skills/debug-router/references/debug-router-checklist.md
 
 Usage:
   python scripts/refresh-skill-references.py
@@ -78,6 +79,10 @@ COPIES: list[tuple[Path, Path]] = [
     (
         ROOT / "docs" / "templates" / "author-standards-checklist.md",
         ROOT / "skills" / "author-standards" / "references" / "author-standards-checklist.md",
+    ),
+    (
+        ROOT / "docs" / "templates" / "debug-router.md",
+        ROOT / "skills" / "debug-router" / "references" / "debug-router-checklist.md",
     ),
 ]
 

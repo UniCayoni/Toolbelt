@@ -78,6 +78,7 @@ Prefer writing `docs/repro/<slug>.md` or `REPRO.md` in the host repo.
 | Need | Use |
 |------|-----|
 | Fix with evidence | **`debug-systematic`** |
+| Which Debug skill / pocket wire | **`debug-router`** |
 | Execute / verify loop | `implementation-execute` / `implementation-execute-verify` |
 | Unfamiliar code | `research-codebase-recon` |
 

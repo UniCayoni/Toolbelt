@@ -56,7 +56,7 @@ Default serial implementers. Parallel only if plan marks parallel-safe **and** e
 | Spine without subagents | `implementation-execute` |
 | Post-green / EOP converge | **`implementation-execute-verify`** |
 | Plan missing / wrong | `implementation-plan` / `implementation-plan-verify` / human |
-| Verify-fail / user bug / unclear Critical | **`debug-systematic`** / **`debug-reproduce`** |
+| Verify-fail / user bug / unclear Critical | Direct leaf OK (repro-first) or **`debug-router`** when path unclear |
 | Checklist detail | Read Execute checklist (below) |
 
 ## References

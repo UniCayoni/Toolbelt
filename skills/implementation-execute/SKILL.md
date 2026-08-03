@@ -89,9 +89,9 @@ Default **serial**. Parallel writers only when the plan marks the task parallel-
 | Post-green / EOP converge | **`implementation-execute-verify`** |
 | Plan never validated | `implementation-plan-verify` |
 | Unfamiliar codebase before a task | `research-codebase-recon` (as-needed) |
-| Verify fails after N=2 / unclear root cause | **`debug-systematic`** (or **`debug-reproduce`** prove-first); escalate human if architecture |
-| User bug / major-deviation runtime | **`debug-systematic`** |
-| Unclear Critical from execute-verify | **`debug-systematic`** before more patches |
+| Verify fails after N=2 / unclear root cause | Direct leaf OK (repro-first: no solid repro → **`debug-reproduce`**; repro in hand → **`debug-systematic`**); use **`debug-router`** when which path is unclear; escalate human if architecture |
+| User bug / major-deviation runtime | Direct leaf OK (repro-first) or **`debug-router`** if path unclear |
+| Unclear Critical from execute-verify | Direct leaf OK (repro-first) or **`debug-router`** before thrashing patches |
 | Host principles / standards feedstock | **`author-standards`** (respect accepted profiles when present; skip when absent) |
 | PR / CI / Bugbot | Phase 2 — not Execute |
 

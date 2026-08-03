@@ -2,8 +2,8 @@
 name: implementation-happy-path
 description: >-
   Orchestrate Toolbelt’s end-to-end happy path: classify the ask, then chain
-  pocket routers / entries (research-scope, design-process, implementation-router)
-  plus optional ADR and debug leaves — without restating pocket law. Use when
+  pocket routers / entries (research-scope, design-process, implementation-router,
+  debug-router) plus optional ADR — without restating pocket law. Use when
   happy-path, toolbelt workflow, full feature pipeline, cold-start ladder, where
   do I start, or controller routing for subagent development. Prefer over
   inventing an ad-hoc multi-skill order.
@@ -14,8 +14,8 @@ description: >-
 Announce once: **Using `implementation-happy-path`**.
 
 Authority: Theme 10 accepted (`docs/research/reports/theme-10-happy-path.md`);  
-**composition amended** by Theme 14 (`docs/research/reports/theme-14-pocket-routers.md`).  
-**Compose only** — pocket SoT stays in Themes 5–9 / 12 / 14 skills. **Draft ≠ law** (`draft-is-not-sot`).
+**composition amended** by Theme 14 / Theme 17 (`theme-14-pocket-routers`, `theme-17-debug-router`).  
+**Compose only** — pocket SoT stays in Themes 5–9 / 12 / 14 / 17 skills. **Draft ≠ law** (`draft-is-not-sot`).
 
 **Identity:** Thin **cross-pocket caller** for cold agents and subagent **controllers**. Chains **pocket routers / entries**, not a dump of every leaf. Not a method pocket. Not an always-on rule. Not PR/CI packaging.
 
@@ -32,7 +32,7 @@ Authority: Theme 10 accepted (`docs/research/reports/theme-10-happy-path.md`);
 | Ask type | Entry |
 |----------|--------|
 | New / changed **feature** | Happy path below |
-| **Bug** / verify-fail / unclear Critical | `debug-reproduce` and/or `debug-systematic` (return to design/plan if design wrong) |
+| **Bug** / verify-fail / unclear Critical | **`debug-router`** (return to design/plan if design wrong) |
 | **Research** / theme campaign | Research pocket entry (`research-scope` if tracks unclear) → research leaves; continue to design only after accept |
 | **Author** skill/rule/command | `author-cursor-surfaces` |
 | **Host principles / standards** | **`author-standards`** |
@@ -51,7 +51,7 @@ Each stage: announce **Using `<skill>`** and follow that skill. Do **not** paste
 3. **ADR (optional)** — `research-draft-adr` when architectural locks need recording (leaf; not a router).
 4. **Implementation** — pocket router: **`implementation-router`** (wires plan → plan-verify → execute or -subagents → execute-verify with explicit skips).  
    Do not re-list those leaves here unless recovering without the router.
-5. **Debug branch** — on T-VF / T-UB / T-MD / T-CR / T-NYR → `debug-reproduce` and/or `debug-systematic` (Debug router deferred).  
+5. **Debug branch** — on T-VF / T-UB / T-MD / T-CR / T-NYR → **`debug-router`** (wires `debug-reproduce` / `debug-systematic`).  
    Do not burn more Execute `verify-retry N=2` under Debug; Debug uses `debug-fix-cycles` (Theme 9).
 6. **Closeout readiness (optional)** — **`implementation-closeout`** when a host profile exists or user asks ship-ready/closeout check. Skip by default for trivial work. Readiness only — not merge/push/PR create.
 7. **Stop** — hand human for host ceremony; CI/Bugbot/**merge automation** = Phase 2 / host (not owned here).
@@ -85,7 +85,7 @@ Template SoT: Toolbelt `docs/templates/happy-path.md`.
 | Design pocket entry | `design-process` |
 | Implementation pocket router | **`implementation-router`** |
 | Closeout readiness (define/check) | **`implementation-closeout`** |
-| Bug / root cause | `debug-reproduce` / `debug-systematic` |
+| Debug pocket router | **`debug-router`** |
 | Author Cursor surfaces | `author-cursor-surfaces` |
 | PR / CI / merge ceremony | Host / human — Phase 2 automation still not this skill |
 

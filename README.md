@@ -45,7 +45,7 @@ Operational load uses `~/.cursor/plugins/local/toolbelt`. Cursor `workspaceOpen`
 
 1. **Developer: Reload Window**
 2. **Customize** → Plugins: `toolbelt` (display name **Toolbelt**) is listed
-3. Skills: Research (8) + Design (5) + Plan + Plan-verify + Execute + Execute-subagents + Execute-verify + debug-systematic + debug-reproduce + happy-path + implementation-router + implementation-closeout + **author-standards** (**23** total)
+3. Skills: Research (8) + Design (5) + Plan + Plan-verify + Execute + Execute-subagents + Execute-verify + debug-systematic + debug-reproduce + **debug-router** + happy-path + implementation-router + implementation-closeout + author-standards (**24** total)
 4. Rules: grades + draft≠SoT always-on; explore-before-write available (intelligent)
 5. Smoke: `/implementation-plan`, `/implementation-execute`, `/design-process`, `/author-cursor-surfaces` (or Customize → Skills)
 
@@ -63,7 +63,7 @@ Reload Window after sync. **Elevating or revising skills/rules:** use `/author-c
 ## Layout
 
 ```text
-skills/          Research + Design + Plan + Execute + Verify + Debug + Routers + Closeout + Host standards + Happy-path + authoring (23)
+skills/          Research + Design + Plan + Execute + Verify + Debug + Routers + Closeout + Host standards + Happy-path + authoring (24)
 rules/           Grades + draft≠SoT (always); explore-before-write (intelligent)
 assets/          Logo and static assets (marketplace)
 docs/PROTOCOL.md Method law
@@ -106,6 +106,7 @@ docs/packs/      Pack index (Research / Design / Plan / Execute / Verify / Debug
 | Skill | Use when |
 |-------|----------|
 | `implementation-router` | Implementation pocket: wire plan → verify → execute → execute-verify |
+| `debug-router` | Debug pocket: wire prove vs investigate/fix (`debug-reproduce` / `debug-systematic`) |
 | `implementation-closeout` | Host closeout profile define/check (readiness; not PR merge) |
 | `implementation-happy-path` | Cold-start / controller: chain pocket routers/entries + optional closeout |
 | `implementation-plan` | Hybrid implementation plans for agents |

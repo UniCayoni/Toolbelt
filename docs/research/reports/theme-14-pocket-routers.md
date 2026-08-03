@@ -39,7 +39,7 @@ amends:
 | D1 | Theme id **`theme-14-pocket-routers`**; vocabulary **router** (not guide) |
 | D2 | Shape **O1** — new `implementation-router`; keep `research-scope` + `design-process` as de-facto pocket routers (document; no rename this theme) |
 | D3 | Packs: first-class row **Routers / pocket entry**; Happy-path = chains routers |
-| D4 | Defer **`debug-router`**; Debug stays leaf Handoffs + happy-path classifier |
+| D4 | Defer **`debug-router`** *(superseded by Theme 17 — shipped)* |
 | D5 | Implementation router = **pure select/wire** among fixed leaves (not a planner/decomposer) |
 | D6 | **Park** global always-on / meta `skill-router` |
 | D7 | Happy-path remains compose-only (Theme 10 D8); workers = one pocket; no always-on rule |
@@ -73,7 +73,7 @@ Loose use       → leaf or pocket router directly
 | Research | `research-scope` (de facto; Theme 12) |
 | Design | `design-process` (de facto; Theme 5) |
 | Implementation | **`implementation-router`** (new) |
-| Debug | leaves only (router deferred) |
+| Debug | **`debug-router`** (Theme 17) |
 | Cross-pocket | `implementation-happy-path` |
 
 ---
@@ -86,7 +86,7 @@ Loose use       → leaf or pocket router directly
 | `docs/templates/implementation-router.md` | **Shipped** |
 | Happy-path thin rewire | **Shipped** |
 | Packs Routers row | **Shipped** |
-| `debug-router` | **Deferred** |
+| `debug-router` | **Shipped** (Theme 17) |
 | Global skill-router | **Parked** |
 | Rename scope/process → `*-router` | **Parked** (optional later) |
 

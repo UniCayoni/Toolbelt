@@ -77,7 +77,7 @@ True if any: **DUR** · **MF** · **IF** · **DEP** · **FLAG** · **SUB** (same
 | Task loop / N=2 / HITL | `implementation-execute` or `-subagents` |
 | Plan still wrong | `implementation-plan` + `implementation-plan-verify` |
 | Appended Convergence tasks | Re-enter Execute loop |
-| Unclear Critical / need investigate | **`debug-systematic`** (or **`debug-reproduce`** prove-first) |
+| Unclear Critical / need investigate | Direct leaf OK (repro-first) or **`debug-router`** when path unclear |
 | PR / merge | Phase 2 — not here |
 
 ## References

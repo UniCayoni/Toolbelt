@@ -38,7 +38,7 @@ Authority: Theme 14 accepted (`docs/research/reports/theme-14-pocket-routers.md`
 4. **Wire plan** — ordered leaves + explicit N/A skips. Default feature path:
    - `implementation-plan` → `implementation-plan-verify` → `implementation-execute` **or** `implementation-execute-subagents` → `implementation-execute-verify` (non-trivial / EOP).
 5. **Invoke** each selected leaf: announce **Using `<skill>`** and follow that skill. Do **not** paste its spine here.
-6. **On leaf exit** — if `blocked` / verify-fail / unclear Critical → hand off `debug-reproduce` and/or `debug-systematic` (Debug router deferred; use leaves). If design was wrong → return toward `design-process` / happy-path classify — do not invent requirements.
+6. **On leaf exit** — if `blocked` / verify-fail / unclear Critical → hand off **`debug-router`**. If design was wrong → return toward `design-process` / happy-path classify — do not invent requirements.
 7. **Stop** — summarize wire outcome for human or for `implementation-happy-path` next stage.
 
 Read `references/implementation-router-checklist.md` **when** running a non-trivial wire or recovering mid-pocket.  
@@ -54,7 +54,7 @@ Template SoT: Toolbelt `docs/templates/implementation-router.md`.
 | Multi-task / fresh agents | execute-subagents |
 | Greens done; EOP / converge | execute-verify |
 | One-file trivial | document trivial-skip; careful edit without durable plan |
-| Bug / verify-fail dominant | leave Implementation; Debug leaves |
+| Bug / verify-fail dominant | leave Implementation; **`debug-router`** |
 
 ## Anti-patterns
 
@@ -72,7 +72,7 @@ Template SoT: Toolbelt `docs/templates/implementation-router.md`.
 | Full Toolbelt ladder | `implementation-happy-path` |
 | Design not accepted | `design-process` |
 | Plan / verify / execute leaves | `implementation-plan` → `implementation-plan-verify` → `implementation-execute` (+ `-subagents`, `-verify`) |
-| Bug / root cause | `debug-reproduce` / `debug-systematic` |
+| Debug pocket | **`debug-router`** |
 | Research unclear | `research-scope` / research leaves |
 | Closeout readiness | `implementation-closeout` |
 | Host principles / standards | `author-standards` |
