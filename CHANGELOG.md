@@ -8,6 +8,7 @@ Format inspired by [Keep a Changelog](https://keepachangelog.com/). Versioning f
 
 ### Added
 
+- Theme 18: recon conditional **S12b** (git history / recency) + `author-standards` derive conflict-tiebreak glue (default 12m window; host override)
 - Theme 12: companion skill `research-scope` + template `research-campaign-brief` (expand/atomize tracks before gather)
 - Theme 13: `CONTRIBUTING.md` + `.github/pull_request_template.md` (contributor path; CI/Bugbot still Phase 2)
 - Theme 14: pocket router layer — `implementation-router` + template; packs **Routers / pocket entry** row (`research-scope` / `design-process` documented as de-facto routers; `debug-router` deferred)

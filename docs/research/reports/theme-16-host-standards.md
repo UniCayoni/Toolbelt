@@ -45,7 +45,7 @@ Help hosts **define and maintain** principles + checkable standards feedstock th
 | D6 | **v1 standard types:** naming · layout · patterns (prefer/avoid) · tests/docs · safety/secrets (+ optional API/error). **Park:** performance, i18n, a11y (exemplar exists but not v1 type law), process/PR, architecture → ADR |
 | D7 | **Anatomy (standards):** purpose, scope, rules, examples, exceptions, enforcement pointer, evolution/version |
 | D8 | **Principles:** philosophy/tone/continuity; short imperative or narrative; separate file *or* AGENTS “Core Principles” section — both evidenced |
-| D9 | **Brownfield derive:** recon → host-declared recency/churn+blame (respect `.git-blame-ignore-revs`) → prefer hot-path eras / quarantine legacy → **proposed** until human accept; dual-era via suppressions / touch-to-clean / format wave |
+| D9 | **Brownfield derive:** recon (+ Theme 18 **S12b**) → recency window (default 12m / host override) + conflict tiebreak (**most recent non-one-off**) + light churn support + blame (respect `.git-blame-ignore-revs`) → quarantine legacy → **proposed** until human accept; dual-era via suppressions / touch-to-clean / format wave |
 | D10 | **Bind:** Plan/Execute/Closeout load profiles when present, skip when absent; AGENTS short pointer → profile/skill (Cursor/Claude/Codex patterns). AGENTS vs Team/Project/User conflict = **product-undefined GAP** |
 | D11 | Keep **`implementation-closeout`**; closeout criteria may reference standards/principles |
 | D12 | No always-on standards rule; no auto-promote derive; no closeout rename this theme |
@@ -74,8 +74,8 @@ Help hosts **define and maintain** principles + checkable standards feedstock th
 |-----|-------------------------|
 | Named industry conflict stack ADR > principles > standards | Author as **accepted Toolbelt method**, not “industry already says” |
 | Cursor AGENTS.md vs Team/Project/User / alwaysApply win-order | Document as undefined; prefer non-conflicting pointers; E0 experiment optional later |
-| Normative N-month recency default for derive | Host-declared window; no Toolbelt numeric law |
-| Recon skill lacks git/history steps | Wire in elevate or follow-up track |
+| Normative *industry* N-month recency default | Still no industry SoT — **Toolbelt method** (Theme 18): default **12 months** + host override (date/months/years) |
+| Recon skill lacks git/history steps | **Closed Theme 18** — conditional **S12b**; conflict tiebreak = most recent non-one-off |
 
 ## 5. Acceptance checklist (human)
 

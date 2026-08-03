@@ -4,9 +4,9 @@ description: >-
   Run Toolbelt S0–S16 codebase/workspace reconnaissance before implementation
   or architecture docs. Use when exploring an unfamiliar repo, mapping structure,
   locating symbols before edits, investigating before coding, priming on a
-  codebase, or soft explore-before-edit. Prefer locate→view before edit;
-  recommend Explore for broad searches; do not invent APIs. Formerly
-  codebase-recon.
+  codebase, soft explore-before-edit, or brownfield derive needing git history /
+  recency (conditional S12b). Prefer locate→view before edit; recommend Explore
+  for broad searches; do not invent APIs. Formerly codebase-recon.
 ---
 
 # Codebase reconnaissance
@@ -41,11 +41,12 @@ Do not assume a foreign product or plugin layout.
 4. **S8–S9:** Locate/search before edit. Prefer search → view → then edit. For large/unfamiliar scope, **recommend** Explore / investigation subagent; return summaries. Not mandatory for tiny known-file fixes.
 5. **E0 on Windows:** Prefer small path-exists / Python checks over brittle PowerShell one-liners when listing trees (smoke: empty PS output ≠ missing files).
 6. **S12:** Architecture/dependency recovery only if the goal warrants it.
-7. **S13 durable findings (either is OK):**
+7. **S12b (conditional):** Git history / recency when derive, brownfield, era conflict, or user asks — default window **12 months** (host may override date/months/years). On conflicting patterns, prefer **most recent non-one-off** as propose candidate; light hot-path churn only supports one-off/quarantine. Honor `.git-blame-ignore-revs` when present. Skip + reason otherwise. Cite-or-omit; output stays evidence for **proposed** standards, not silent SoT (Theme 18).
+8. **S13 durable findings (either is OK):**
    - **Short / smoke:** graded findings section inside the filled checklist note (FACT/CLAIM/… + citations), **or**
    - **Full / multi-pass:** also run `research-protocol` / copy `research-note.md` with Method block.
-8. **S16:** Do **not implement product/code changes** until gate passes or human waives. Soft only (no hard hooks unless product opts in later).
-9. After gate: incremental edit → verify/test from repo instructions (S17).
+9. **S16:** Do **not implement product/code changes** until gate passes or human waives. Soft only (no hard hooks unless product opts in later).
+10. After gate: incremental edit → verify/test from repo instructions (S17).
 
 **Depth:** Default **normal** (this S0–S16 checklist). If the user asks for deep/theme codebase research across many subsystems with an integrated report, escalate to skill **`research-protocol`** depth=`deep` — do not spawn unbounded explore fleets for ordinary recon.
 
@@ -66,6 +67,7 @@ When filling the checklist, keep the copied note as the working artifact; re-ope
 | Docs/API corroboration | `research-docs` |
 | After gate → design | `design-process` |
 | After gate → plan/implement | `implementation-plan` → verify → execute |
+| Brownfield standards derive (consumes S12b) | `author-standards` (`derive`) |
 | Full Toolbelt ladder | **`implementation-happy-path`** |
 
 ## References

@@ -47,11 +47,14 @@ Authority: Theme 16 accepted (`docs/research/reports/theme-16-host-standards.md`
 3. **`principles`** — fill principles template: short named guidance; conflict note; AGENTS pointer only. Stop at draft/proposed until human accept.
 4. **`standards`** — fill standards template: scope; v1 types (naming, layout, patterns, tests/docs, safety/secrets; optional API/errors); checkable rules; enforcement pointer; evolution. Park perf/i18n/a11y/process/architecture-as-ADR unless host insists.
 5. **`derive`**
-   - As-needed: `research-codebase-recon`.
-   - Prefer lint/formatter configs already in-repo.
-   - Recency: host-declared window; hot paths / churn; `git blame` with `.git-blame-ignore-revs` when present (formatter mega-commits are noise).
+   - As-needed: `research-codebase-recon` **with conditional S12b** (history/recency) filled — Theme 18.
+   - Prefer lint/formatter configs already in-repo (high-confidence before git tiebreaks).
+   - Recency window: default **12 months**; host may override with absolute date, months, or years.
+   - **Conflict tiebreak:** when approaches conflict → prefer **most recent non-one-off** as default *candidate*; demote one-offs (singleton path/commit, contradicts config SoT, not repeated in hot paths).
+   - Light hot-path/churn supports one-off + quarantine only — not the primary selector. Use `git blame` with `.git-blame-ignore-revs` when present (formatter mega-commits are noise).
    - Dual-era: quarantine legacy paths; do not force one era without host choice.
    - Emit **proposed** profile edits or a candidate list — **never** silent SoT.
+
 6. **`bind-check`** — confirm AGENTS (or agreed path) points at profiles; Plan/Execute/Closeout can skip when absent; do not invent Cursor AGENTS vs Team/Project rule precedence (documented GAP).
 7. **Conflict lean (host may adopt):** design/ADR > principles > standards > inferred-from-code — **host-authored method**, not claimed industry SoT.
 8. Hand **human accept** before Plan/Execute/Closeout treat profiles as law.
@@ -84,3 +87,4 @@ Profile SoTs: `references/principles-profile.md`, `references/standards-profile.
 - Read `references/principles-profile.md` **when** creating/updating principles (SoT: `docs/templates/principles-profile.md`)
 - Read `references/standards-profile.md` **when** creating/updating standards (SoT: `docs/templates/standards-profile.md`)
 - Theme 16: Toolbelt `docs/research/reports/theme-16-host-standards.md` (accepted)
+- Theme 18: Toolbelt `docs/research/notes/theme-18-recon-history/campaign-brief.md` (recon S12b + derive glue)

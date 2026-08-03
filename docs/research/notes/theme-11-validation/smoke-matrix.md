@@ -25,7 +25,8 @@ supersedes: null
 **Theme 14 delta (2026-07-31):** new **I1** `implementation-router` + H1 re-smoke — in-session **2/2** + fresh **2/2** = **4/4 PASS** ([theme-14-smoke-delta-20260731.md](./theme-14-smoke-delta-20260731.md)).  
 **Theme 15 delta (2026-08-02):** new **C1** `implementation-closeout` — in-session + fresh **2/2 PASS**.  
 **Theme 16 delta (2026-08-02):** new **S1** `author-standards` — in-session + fresh **2/2 PASS**.  
-**Theme 17 delta (2026-08-02):** new **R8** `debug-router` — in-session + fresh **2/2 PASS**.
+**Theme 17 delta (2026-08-02):** new **R8** `debug-router` — in-session + fresh **2/2 PASS**.  
+**Theme 18 delta (2026-08-03):** new **R9** recon **S12b** / derive glue — in-session + fresh **2/2 PASS**.
 
 | ID | Surface | Lane | Fixture | Card | Run status |
 |----|---------|------|---------|------|------------|
@@ -52,6 +53,7 @@ supersedes: null
 | C1 | implementation-closeout | either | none | [c1](./claim-cards/c1-implementation-closeout.md) | PASS fresh (`C1-fresh-20260802.md`); prior in-session `C1-20260802.md` **Theme 15** |
 | S1 | author-standards | either | none | [s1](./claim-cards/s1-author-standards.md) | PASS fresh (`S1-fresh-20260802.md`); prior in-session `S1-20260802.md` **Theme 16** |
 | R8 | debug-router | either | none | [r8](./claim-cards/r8-debug-router.md) | PASS fresh (`R8-fresh-20260802.md`); prior in-session `R8-20260802.md` **Theme 17** |
+| R9 | recon S12b / derive glue | either | none | [r9](./claim-cards/r9-recon-history.md) | PASS fresh (`R9-fresh-20260803.md`); prior in-session `R9-20260803.md` **Theme 18** |
 
 **P1 (deferred):** design-systems / narrative / world-character deep smokes; research-before-write.
 

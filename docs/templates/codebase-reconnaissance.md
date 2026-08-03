@@ -5,13 +5,14 @@ created: YYYY-MM-DD
 workspace_roots: []
 project_id: null
 aligned_with: docs/research/reports/theme-1-codebase-research-for-agents.md
-protocol_steps: S0-S18
+protocol_steps: S0-S18 (+ conditional S12b)
 ---
 
 # Codebase / workspace reconnaissance
 
 Use **before** documenting architecture or implementing changes.  
 Authority: `docs/research/PROTOCOL.md` + Theme 1 integrated report (S0–S18).  
+History/recency (S12b): Theme 18 accepted (`docs/research/notes/theme-18-recon-history/campaign-brief.md`).  
 Full evidence table: `docs/research/reports/theme-1-codebase-research-for-agents.md` §2.
 
 Checklist maps 1:1 to report steps. Mark unmet items `GAP` rather than inventing.
@@ -100,6 +101,35 @@ Only if goal warrants:
 - [ ] Dep extract → abstract modules → view
 - [ ] Expected vs observed
 - [ ] Cycles flagged
+- If skipped: reason =
+
+## S12b — History / recency (conditional)
+
+**Run when** any of: `author-standards` **derive** / brownfield standards work; era or style **conflict** already seen; user asks for git/history/recency.  
+**Skip** for ordinary locate→edit recon — record reason below.
+
+Authority: Theme 18 L1–L9 (Toolbelt method; not industry SoT). Prefer lint/formatter configs as high-confidence signals before git tiebreaks.
+
+| Field | Value |
+|-------|-------|
+| Trigger | derive \| brownfield \| era-conflict \| user-ask \| **skipped** |
+| Recency window | default **12 months**; or host override (absolute date / months / years) = |
+| `.git-blame-ignore-revs` | present? yes/no — if yes, use when blaming |
+
+Light hot-path support (optional; aid for one-off + quarantine, **not** the primary selector):
+
+- [ ] High-churn paths in window noted (example: `git log --format=format: --name-only --since=<window>` then count/sort — **example**, not mandatory CLI law)
+- Hot paths / quarantine candidates:
+
+**Conflict tiebreak (primary):** when approaches conflict → prefer **most recent non-one-off** as default *candidate* (still **proposed** until human accept).
+
+**One-off heuristics** (demote; do not auto-win): singleton path/commit; contradicts lint/format config SoT; not repeated in hot paths.
+
+| Conflict | Era A (older / legacy) | Era B (recent candidate) | One-off? | Evidence (path + cite) | Propose lean |
+|----------|------------------------|--------------------------|----------|------------------------|--------------|
+|  |  |  | yes/no |  | recent-non-oneoff \| quarantine-A \| host-decide \| GAP |
+
+- [ ] Dual-era / legacy dirs logged for quarantine (do not force one era)
 - If skipped: reason =
 
 ## S13 — Synthesize cited notes
