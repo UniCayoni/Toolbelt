@@ -23,7 +23,8 @@ supersedes: null
 **Phase B evaluation:** [phase-b-evaluation-20260730.md](./phase-b-evaluation-20260730.md) — **18/18 PASS**, 0 NEEDS REVISION (2026-07-30).  
 **Theme 12 delta (2026-07-31):** re-smoke R1–R3, H1 + new **R7** `research-scope` — all **PASS** (see `*-20260731.md`).  
 **Theme 14 delta (2026-07-31):** new **I1** `implementation-router` + H1 re-smoke — in-session **2/2** + fresh **2/2** = **4/4 PASS** ([theme-14-smoke-delta-20260731.md](./theme-14-smoke-delta-20260731.md)).  
-**Theme 15 delta (2026-08-02):** new **C1** `implementation-closeout` — in-session + fresh **2/2 PASS**.
+**Theme 15 delta (2026-08-02):** new **C1** `implementation-closeout` — in-session + fresh **2/2 PASS**.  
+**Theme 16 delta (2026-08-02):** new **S1** `author-standards` — in-session + fresh **2/2 PASS**.
 
 | ID | Surface | Lane | Fixture | Card | Run status |
 |----|---------|------|---------|------|------------|
@@ -48,6 +49,7 @@ supersedes: null
 | H1 | implementation-happy-path | fresh_chat | Toolbelt | [h1](./claim-cards/h1-implementation-happy-path.md) | PASS fresh (`H1-fresh-20260731.md`); prior in-session `H1-20260731-theme14.md` **Theme 14** |
 | I1 | implementation-router | either | none | [i1](./claim-cards/i1-implementation-router.md) | PASS fresh (`I1-fresh-20260731.md`); prior in-session `I1-20260731.md` **Theme 14** |
 | C1 | implementation-closeout | either | none | [c1](./claim-cards/c1-implementation-closeout.md) | PASS fresh (`C1-fresh-20260802.md`); prior in-session `C1-20260802.md` **Theme 15** |
+| S1 | author-standards | either | none | [s1](./claim-cards/s1-author-standards.md) | PASS fresh (`S1-fresh-20260802.md`); prior in-session `S1-20260802.md` **Theme 16** |
 
 **P1 (deferred):** design-systems / narrative / world-character deep smokes; research-before-write.
 

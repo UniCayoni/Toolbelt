@@ -1,6 +1,6 @@
 # Toolbelt
 
-Reusable Cursor **agent utility** plugin: research method (PROTOCOL grades, codebase recon, documentation research, **research-scope** companion, ADRs, `AGENTS.md` authoring, Cursor surface authoring), Design, Plan, Execute, **Verify gates**, **Debug**, and **happy-path** orchestration (`implementation-happy-path`).
+Reusable Cursor **agent utility** plugin: research method (PROTOCOL grades, codebase recon, documentation research, **research-scope** companion, ADRs, `AGENTS.md` authoring, Cursor surface authoring, **host standards**), Design, Plan, Execute, **Verify gates**, **Debug**, and **happy-path** orchestration (`implementation-happy-path`).
 
 **Scope:** agent method (research → design → plan → execute → verify → debug).
 
@@ -45,7 +45,7 @@ Operational load uses `~/.cursor/plugins/local/toolbelt`. Cursor `workspaceOpen`
 
 1. **Developer: Reload Window**
 2. **Customize** → Plugins: `toolbelt` (display name **Toolbelt**) is listed
-3. Skills: Research (7) + Design (5) + Plan + Plan-verify + Execute + Execute-subagents + Execute-verify + debug-systematic + debug-reproduce + happy-path + implementation-router + **implementation-closeout** (**22** total)
+3. Skills: Research (8) + Design (5) + Plan + Plan-verify + Execute + Execute-subagents + Execute-verify + debug-systematic + debug-reproduce + happy-path + implementation-router + implementation-closeout + **author-standards** (**23** total)
 4. Rules: grades + draft≠SoT always-on; explore-before-write available (intelligent)
 5. Smoke: `/implementation-plan`, `/implementation-execute`, `/design-process`, `/author-cursor-surfaces` (or Customize → Skills)
 
@@ -63,7 +63,7 @@ Reload Window after sync. **Elevating or revising skills/rules:** use `/author-c
 ## Layout
 
 ```text
-skills/          Research + Design + Plan + Execute + Verify + Debug + Routers + Closeout + Happy-path + authoring (22)
+skills/          Research + Design + Plan + Execute + Verify + Debug + Routers + Closeout + Host standards + Happy-path + authoring (23)
 rules/           Grades + draft≠SoT (always); explore-before-write (intelligent)
 assets/          Logo and static assets (marketplace)
 docs/PROTOCOL.md Method law
@@ -87,6 +87,7 @@ docs/packs/      Pack index (Research / Design / Plan / Execute / Verify / Debug
 | `research-protocol` | Full Method-envelope research notes; **normal** (default) vs **deep** theme campaigns |
 | `research-scope` | Companion: expand/atomize concept → tracks → enough-to-start before gather |
 | `author-agents-md` | Create/revise `AGENTS.md` (`/` invoke) |
+| `author-standards` | Host principles + checkable standards profiles; brownfield derive (`/` invoke) |
 | `research-draft-adr` | Record an architecture/process decision (`/` invoke) |
 | `author-cursor-surfaces` | Author/compose skills, rules, commands, hooks to Theme 4 standards (`/` invoke) |
 

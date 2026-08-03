@@ -19,6 +19,9 @@ Mapping:
   docs/templates/implementation-router.md → skills/implementation-router/references/implementation-router-checklist.md
   docs/templates/closeout-profile.md → skills/implementation-closeout/references/closeout-profile.md
   docs/templates/closeout-readiness-checklist.md → skills/implementation-closeout/references/closeout-readiness-checklist.md
+  docs/templates/principles-profile.md → skills/author-standards/references/principles-profile.md
+  docs/templates/standards-profile.md → skills/author-standards/references/standards-profile.md
+  docs/templates/author-standards-checklist.md → skills/author-standards/references/author-standards-checklist.md
 
 Usage:
   python scripts/refresh-skill-references.py
@@ -63,6 +66,18 @@ COPIES: list[tuple[Path, Path]] = [
     (
         ROOT / "docs" / "templates" / "closeout-readiness-checklist.md",
         ROOT / "skills" / "implementation-closeout" / "references" / "closeout-readiness-checklist.md",
+    ),
+    (
+        ROOT / "docs" / "templates" / "principles-profile.md",
+        ROOT / "skills" / "author-standards" / "references" / "principles-profile.md",
+    ),
+    (
+        ROOT / "docs" / "templates" / "standards-profile.md",
+        ROOT / "skills" / "author-standards" / "references" / "standards-profile.md",
+    ),
+    (
+        ROOT / "docs" / "templates" / "author-standards-checklist.md",
+        ROOT / "skills" / "author-standards" / "references" / "author-standards-checklist.md",
     ),
 ]
 

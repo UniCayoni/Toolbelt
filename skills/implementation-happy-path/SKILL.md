@@ -35,6 +35,7 @@ Authority: Theme 10 accepted (`docs/research/reports/theme-10-happy-path.md`);
 | **Bug** / verify-fail / unclear Critical | `debug-reproduce` and/or `debug-systematic` (return to design/plan if design wrong) |
 | **Research** / theme campaign | Research pocket entry (`research-scope` if tracks unclear) → research leaves; continue to design only after accept |
 | **Author** skill/rule/command | `author-cursor-surfaces` |
+| **Host principles / standards** | **`author-standards`** |
 | **Trivial** one-file tweak | Document skip of durable Design/Plan; implement carefully |
 | **Implementation pocket only** | Prefer **`implementation-router`** (no full ladder) |
 | **Closeout / ship-ready check** | **`implementation-closeout`** (readiness — not PR ceremony) |

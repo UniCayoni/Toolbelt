@@ -75,6 +75,7 @@ Template SoT: Toolbelt `docs/templates/implementation-router.md`.
 | Bug / root cause | `debug-reproduce` / `debug-systematic` |
 | Research unclear | `research-scope` / research leaves |
 | Closeout readiness | `implementation-closeout` |
+| Host principles / standards | `author-standards` |
 | Author surfaces | `author-cursor-surfaces` |
 
 ## References

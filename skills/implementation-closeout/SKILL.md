@@ -33,7 +33,7 @@ Authority: Theme 15 accepted (`docs/research/reports/theme-15-closeout-readiness
 2. **Profile path** — prefer existing host file (e.g. `docs/closeout/closeout-profile.md`); else copy SoT template `docs/templates/closeout-profile.md` (or skill `references/closeout-profile.md`) into the host path the user agrees.
 3. **Define/update mode**
    - Elicit host requirements (what must be true to ship/hand off).
-   - Seed Toolbelt-default slots (design accept, plan Meta ready, verify, draft≠SoT, secrets) — host may mark N/A or add rows.
+   - Seed Toolbelt-default slots (design accept, plan Meta ready, verify, draft≠SoT, secrets; optional host standards/principles) — host may mark N/A or add rows.
    - Ceremony = optional human note only (“follow CONTRIBUTING”), never executable merge spine.
 4. **Check mode**
    - Load profile; for each **required** criterion set `ready` | `blocked` | `waived` | `n/a`.
@@ -70,6 +70,7 @@ Profile SoT template: Toolbelt `docs/templates/closeout-profile.md`.
 | Full ladder | `implementation-happy-path` |
 | Implementation wire | `implementation-router` |
 | Missing design/plan/verify | respective leaf skills |
+| Host principles / standards feedstock | **`author-standards`** |
 | Method authoring | `author-cursor-surfaces` |
 | GitHub ceremony | **Host / human** — not this skill |
 

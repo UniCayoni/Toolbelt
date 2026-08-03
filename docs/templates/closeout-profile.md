@@ -38,7 +38,7 @@ Do **not** invent greens.
 | C6 | Human reviewed the diff (esp. agent-authored) | host | | |
 | C7 | Docs / CHANGELOG updated if host requires | host | | |
 | C8 | Secrets / destructive ops handled per host rules | yes | | |
-| C9 | *(add host-specific)* | | | |
+| C9 | Host standards/principles profiles respected when present (or N/A if none) | host | | |
 | C10 | *(add host-specific)* | | | |
 
 \*Toolbelt defaults — mark `n/a` with reason when intelligent exception applies (e.g. trivial one-file).

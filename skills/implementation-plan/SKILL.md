@@ -76,6 +76,7 @@ Authority: Theme 6 accepted (Plan method guidance). **Unapproved / draft plans â
 | Unfamiliar codebase before planning | `research-codebase-recon` |
 | Validate plan before ready | **`implementation-plan-verify`** |
 | Execute the plan | **`implementation-execute`** (or **`implementation-execute-subagents`** for controller + fresh implementers) |
+| Host principles / standards feedstock | **`author-standards`** (load profile paths when present; skip when absent) |
 
 ## References
 

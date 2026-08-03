@@ -2,7 +2,7 @@
   "name": "toolbelt",
   "displayName": "Toolbelt",
   "version": "0.1.0",
-  "description": "Reusable Cursor agent utility: research method + Design + Plan + Execute + Verify + Debug + pocket routers + closeout readiness + happy-path orchestration. Not a Brain/RAG product.",
+  "description": "Reusable Cursor agent utility: research method + Design + Plan + Execute + Verify + Debug + pocket routers + closeout readiness + host standards authoring + happy-path orchestration. Not a Brain/RAG product.",
   "author": {
     "name": "Jonathan Cayuela",
     "email": "81636886+UniCayoni@users.noreply.github.com"
@@ -28,6 +28,9 @@
     "implementation-router",
     "implementation-closeout",
     "closeout",
+    "author-standards",
+    "standards",
+    "principles",
     "router",
     "protocol",
     "research-scope",

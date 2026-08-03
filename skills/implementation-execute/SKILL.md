@@ -92,6 +92,7 @@ Default **serial**. Parallel writers only when the plan marks the task parallel-
 | Verify fails after N=2 / unclear root cause | **`debug-systematic`** (or **`debug-reproduce`** prove-first); escalate human if architecture |
 | User bug / major-deviation runtime | **`debug-systematic`** |
 | Unclear Critical from execute-verify | **`debug-systematic`** before more patches |
+| Host principles / standards feedstock | **`author-standards`** (respect accepted profiles when present; skip when absent) |
 | PR / CI / Bugbot | Phase 2 — not Execute |
 
 ## References
