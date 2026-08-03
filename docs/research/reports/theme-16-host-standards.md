@@ -87,7 +87,7 @@ Help hosts **define and maintain** principles + checkable standards feedstock th
 - [x] Smoke S1 — in-session + fresh **2/2 PASS** (2026-08-02)
 - [x] Packs/README/CHANGELOG + sync local plugin  
 
-- [ ] **Parked:** reinforce Theme 14/15 elevations — `docs/research/notes/parked/author-surfaces-reinforce-t14-t15.md`
+- [x] Reinforce Theme 14/15 via `author-cursor-surfaces` — 2026-08-02 (`696d55a`)
 
 ## 6. Parks
 
