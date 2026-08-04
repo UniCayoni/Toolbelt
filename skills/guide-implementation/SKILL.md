@@ -15,7 +15,8 @@ description: >-
 
 Announce once: **Using `guide-implementation`**.
 
-Authority: Theme 14 accepted (`docs/research/reports/theme-14-pocket-routers.md`).  
+Authority: Theme 14 accepted (`docs/research/reports/theme-14-pocket-routers.md`);  
+Theme 21 fan-out (`docs/research/reports/theme-21-standards-fanout.md`).  
 **Compose only** — Plan / Execute / Verify SoT stays in Themes 6–8 skills.  
 **Draft ≠ law** (`draft-is-not-sot`).  
 **Selection ≠ solving** — this skill guides; leaves do the work.
@@ -35,12 +36,16 @@ Authority: Theme 14 accepted (`docs/research/reports/theme-14-pocket-routers.md`
 
 1. **Classify** impl ask: `full-ladder` | `plan-only` | `plan+verify` | `execute` | `execute-subagents` | `execute-verify` | `resume-blocked` | `trivial-skip`.
 2. **Preconditions** — design/ADR accepted paths, or documented Design skip / trivial exception. Do not treat draft design as law.
-3. **Structured handoff** — fill goal, prior actions, facts+source, open question, constraints (see template).
-4. **Wire plan** — ordered leaves + explicit N/A skips. Default feature path:
+3. **Standards resolve (if-present)** — Theme 21:
+   - If `standards_modules` already pinned this turn → **skip** (document).
+   - Else if accepted host catalog → **Using `guide-standards`**; emit pointers for **Implementation** (technical modules matching paths/skills); attach to handoff. Do not paste module bodies.
+   - Else → **no-op** (document). Do not invent Toolbelt-universal standards.
+4. **Structured handoff** — fill goal, prior actions, facts+source, open question, constraints, plus `standards_catalog` / `standards_modules` (see template).
+5. **Wire plan** — ordered leaves + explicit N/A skips. Default feature path:
    - `implementation-plan` → `implementation-plan-verify` → `implementation-execute` **or** `implementation-execute-subagents` → `implementation-execute-verify` (non-trivial / EOP).
-5. **Invoke** each selected leaf: announce **Using `<skill>`** and follow that skill. Do **not** paste its spine here.
-6. **On leaf exit** — if `blocked` / verify-fail / unclear Critical → hand off **`guide-debug`**. If design was wrong → return toward `guide-design` / happy-path classify — do not invent requirements.
-7. **Stop** — summarize wire outcome for human or for `implementation-happy-path` next stage.
+6. **Invoke** each selected leaf: announce **Using `<skill>`** and follow that skill; pass `standards_modules` into Task prompts when present. Do **not** paste leaf spines here.
+7. **On leaf exit** — if `blocked` / verify-fail / unclear Critical → hand off **`guide-debug`**. If design was wrong → return toward `guide-design` / happy-path classify — do not invent requirements.
+8. **Stop** — summarize wire outcome for human or for `implementation-happy-path` next stage.
 
 Read `references/guide-implementation-checklist.md` **when** running a non-trivial wire or recovering mid-pocket.  
 Template SoT: Toolbelt `docs/templates/guide-implementation.md`.
@@ -76,7 +81,8 @@ Template SoT: Toolbelt `docs/templates/guide-implementation.md`.
 | Debug pocket | **`guide-debug`** |
 | Research unclear | `guide-research` / research leaves |
 | Closeout readiness | `implementation-closeout` |
-| Host principles / standards | `author-standards` |
+| Which standards modules apply | **`guide-standards`** (if-present; Theme 21) |
+| Host principles / standards authoring | `author-standards` |
 | Author surfaces | `author-cursor-surfaces` |
 
 ## References
@@ -84,4 +90,5 @@ Template SoT: Toolbelt `docs/templates/guide-implementation.md`.
 - Read `references/guide-implementation-checklist.md` **when** wiring a session
 - SoT template: Toolbelt `docs/templates/guide-implementation.md`
 - Theme 14: Toolbelt `docs/research/reports/theme-14-pocket-routers.md` (accepted)
+- Theme 21: Toolbelt `docs/research/reports/theme-21-standards-fanout.md` (accepted)
 - Leaf law: Themes 6–8 accepted reports (via their skills)

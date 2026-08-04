@@ -1,13 +1,16 @@
 ---
 title: "Toolbelt guide-debug checklist"
 status: active
-aligned_with: docs/research/reports/theme-17-debug-router.md
+aligned_with:
+  - docs/research/reports/theme-17-debug-router.md
+  - docs/research/reports/theme-21-standards-fanout.md
 created: 2026-08-02
+updated: 2026-08-04
 ---
 
-# Debug-router checklist
+# Guide-debug checklist
 
-Authority: Theme 17 accepted. Used by skill `guide-debug`.  
+Authority: Theme 17 accepted; Theme 21 fan-out. Used by skill `guide-debug`.  
 **Compose only** — invoke leaves via **Using `<skill>`**; do not paste Theme 9 Debug law here.
 
 ## Classifier
@@ -18,6 +21,15 @@ Seam (if any): T-VF | T-UB | T-MD | T-CR | T-NYR | n/a
 Named leaf already?: yes (which) | no
 ```
 
+## Standards resolve (if-present) — Theme 21
+
+```text
+Resolve: done (pointers) | no-op (no accepted catalog) | already-pinned (skip) | n/a
+standards_catalog:
+standards_modules: (id / path / reason) or none
+Pocket lean: technical / safety modules matching debug ask — skip if already pinned from Implementation
+```
+
 ## Structured handoff (fill before first leaf)
 
 ```text
@@ -26,6 +38,7 @@ Prior actions / results (incl. Execute N=2 exhausted?):
 Key facts + where from (error/stack/repro?):
 Open question for next leaf:
 Constraints (e.g. no product fix until repro / NOT-YET):
+standards_catalog / standards_modules: (from resolve, or none)
 ```
 
 ## Wire plan

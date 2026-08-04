@@ -19,6 +19,7 @@ Format inspired by [Keep a Changelog](https://keepachangelog.com/). Versioning f
 
 ### Changed
 
+- Theme 21: T19J fan-out — all pocket **`guide-*`** run if-present **`guide-standards`** resolve (already-pinned skip; research/design lean principles modules; impl/debug lean technical). Single sync cutover.
 - Theme 20: pocket entry skills renamed to symmetric **`guide-*`** prefix (hard cutover; Reload Window after sync):
   - `research-scope` → `guide-research`
   - `design-process` → `guide-design`

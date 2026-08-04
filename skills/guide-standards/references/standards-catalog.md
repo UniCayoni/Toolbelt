@@ -1,8 +1,11 @@
 ---
 title: "Toolbelt standards catalog (host-owned index)"
 status: active
-aligned_with: docs/research/reports/theme-19-standards-apply.md
+aligned_with:
+  - docs/research/reports/theme-19-standards-apply.md
+  - docs/research/reports/theme-21-standards-fanout.md
 created: 2026-08-03
+updated: 2026-08-04
 ---
 
 # Standards catalog (index)
@@ -25,9 +28,13 @@ Legacy single-file standards profile (optional module):
 | ID | Path | Status | Types (v1) | applies_to_paths | applies_to_skills / pockets | Notes |
 |----|------|--------|------------|------------------|-----------------------------|-------|
 | core-safety | docs/standards/modules/core-safety.md | | safety | **/* | * | thin must-include when any module loads (host choice) |
-| | | | | | | |
+| | | | | | guide-research / research | research breadth / method inclinations (optional) |
+| | | | | | guide-design / design | design inclinations (option count, prototype vs prod) (optional) |
+| | | | | | guide-implementation / impl | technical naming/layout/tests (typical) |
+| | | | | | guide-debug / debug | technical + safety as needed |
 
-**One-file hosts:** list a single row pointing at `docs/standards/standards-profile.md` (Theme 16 template) with broad globs.
+**One-file hosts:** list a single row pointing at `docs/standards/standards-profile.md` (Theme 16 template) with broad globs.  
+**Theme 21:** pocket guides call resolve if-present; tag `applies_to_skills / pockets` so research/design do not pull Impl-only rows by default.
 
 ## Resolve contract
 

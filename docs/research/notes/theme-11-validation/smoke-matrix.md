@@ -28,7 +28,8 @@ supersedes: null
 **Theme 17 delta (2026-08-02):** new **R8** `guide-debug` — in-session + fresh **2/2 PASS**.  
 **Theme 18 delta (2026-08-03):** new **R9** recon **S12b** / derive glue — in-session + fresh **2/2 PASS**.  
 **Theme 19 delta (2026-08-03):** new **S2** `guide-standards` — in-session PASS; fresh optional / pending review.  
-**Theme 20 delta (2026-08-04):** re-smoke all five **`guide-*`** after rename — **5/5 PASS** ([CONTROLLER-SUMMARY-theme20-20260804.md](./runs/CONTROLLER-SUMMARY-theme20-20260804.md)).
+**Theme 20 delta (2026-08-04):** re-smoke all five **`guide-*`** after rename — **5/5 PASS** ([CONTROLLER-SUMMARY-theme20-20260804.md](./runs/CONTROLLER-SUMMARY-theme20-20260804.md)).  
+**Theme 21 delta (2026-08-04):** **S3** standards fan-out (T19J) — **PASS** (`S3-theme21-20260804.md`).
 
 | ID | Surface | Lane | Fixture | Card | Run status |
 |----|---------|------|---------|------|------------|
@@ -55,6 +56,7 @@ supersedes: null
 | C1 | implementation-closeout | either | none | [c1](./claim-cards/c1-implementation-closeout.md) | PASS fresh (`C1-fresh-20260802.md`); prior in-session `C1-20260802.md` **Theme 15** |
 | S1 | author-standards | either | none | [s1](./claim-cards/s1-author-standards.md) | PASS fresh (`S1-fresh-20260802.md`); prior in-session `S1-20260802.md` **Theme 16** |
 | S2 | guide-standards | either | t19-catalog artifact | [s2](./claim-cards/s2-standards-router.md) | PASS Theme 20 (`S2-theme20-20260804.md`); prior `S2-20260803.md` |
+| S3 | standards fan-out (T19J) | either | t19-catalog + Toolbelt absent | [s3](./claim-cards/s3-standards-fanout.md) | PASS (`S3-theme21-20260804.md`) **Theme 21** |
 | R8 | guide-debug | either | none | [r8](./claim-cards/r8-debug-router.md) | PASS Theme 20 (`R8-theme20-20260804.md`); prior fresh `R8-fresh-20260802.md` |
 | R9 | recon S12b / derive glue | either | none | [r9](./claim-cards/r9-recon-history.md) | PASS fresh (`R9-fresh-20260803.md`); prior in-session `R9-20260803.md` **Theme 18** |
 

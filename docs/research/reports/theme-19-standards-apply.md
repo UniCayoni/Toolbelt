@@ -3,7 +3,7 @@ title: "Theme 19 — Standards application (integrated report)"
 status: accepted
 theme: theme-19-standards-apply
 created: 2026-08-03
-updated: 2026-08-03
+updated: 2026-08-04
 accepted: 2026-08-03
 acceptance_scope: method_and_elevate_t19_standards_apply
 accepted_by: human (Jonathan)
@@ -31,7 +31,7 @@ amends:
 
 ## 1. Executive summary
 
-Theme 16 shipped **host standards feedstock** and soft Plan/Execute/Closeout bind. Theme 19 adds an **application process**: thin ambient **resolve gate** → small **`guide-standards`** → **catalog/module pointers** → selective load — so agents do **not** stuff full standards into every context. Not writing Toolbelt coding-style content. Pocket-router fan-out of the same gate is **later** (T19J).
+Theme 16 shipped **host standards feedstock** and soft Plan/Execute/Closeout bind. Theme 19 adds an **application process**: thin ambient **resolve gate** → small **`guide-standards`** → **catalog/module pointers** → selective load — so agents do **not** stuff full standards into every context. Not writing Toolbelt coding-style content. Pocket-guide fan-out of the same resolve (**T19J**) shipped Theme 21 — see [`theme-21-standards-fanout.md`](./theme-21-standards-fanout.md).
 
 ## 2. Elevation decisions (accepted)
 
@@ -47,7 +47,7 @@ Theme 16 shipped **host standards feedstock** and soft Plan/Execute/Closeout bin
 | D8 | Classifier dimensions: action, wording, skill id, path globs, perceived intent (ask or core-only when ambiguous) |
 | D9 | Subagent/Task: pass `standards_modules` in handoff; child loads paths; re-resolve if missing |
 | D10 | Smoke **S2** (or next free id): classify→pointers; absent no-op; refuse Toolbelt-universal law / full dump |
-| D11 | Parks: writing host style content; global meta-router; dual-era schema v2; expanding apply into other pocket routers (**T19J later**) |
+| D11 | Parks: writing host style content; global meta-router; dual-era schema v2. **T19J fan-out** → **shipped Theme 21** ([`theme-21-standards-fanout.md`](./theme-21-standards-fanout.md)) |
 
 ## 3. Evidence summary (cite-or-omit)
 

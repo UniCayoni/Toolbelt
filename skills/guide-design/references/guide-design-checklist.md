@@ -1,13 +1,16 @@
 ---
-title: Design process checklist
+title: Guide design checklist
 status: active
-aligned_with: docs/research/reports/theme-5-design-pocket.md
+aligned_with:
+  - docs/research/reports/theme-5-design-pocket.md
+  - docs/research/reports/theme-21-standards-fanout.md
 ---
 
-# Design process checklist
+# Guide design checklist
 
 Use with skill `guide-design`.
 
+- [ ] Standards resolve: done | no-op | already-pinned (Theme 21; design-inclination modules only if tagged)
 - [ ] Context explored (files/docs/patterns as needed)
 - [ ] Multi-subsystem ask decomposed (if applicable)
 - [ ] Clarifying Qs done (prefer one-at-a-time)

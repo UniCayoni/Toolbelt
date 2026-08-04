@@ -15,7 +15,8 @@ description: >-
 Announce once: **Using `guide-debug`**.
 
 Authority: Theme 17 accepted (`docs/research/reports/theme-17-debug-router.md`);  
-amends Theme 14 D4. Leaf law: Theme 9 (`debug-systematic` / `debug-reproduce`).  
+amends Theme 14 D4; Theme 21 fan-out (`docs/research/reports/theme-21-standards-fanout.md`).  
+Leaf law: Theme 9 (`debug-systematic` / `debug-reproduce`).  
 **Compose only.** **Draft ≠ law** (`draft-is-not-sot`).  
 **Selection ≠ solving** — this skill guides; leaves do the work.
 
@@ -35,16 +36,20 @@ amends Theme 14 D4. Leaf law: Theme 9 (`debug-systematic` / `debug-reproduce`).
 
 1. **Classify** debug ask: `prove-only` | `investigate-fix` | `prove-then-fix` | `skip-to-named-leaf` | `exit-design`.
 2. **Seam** — note T-VF / T-UB / T-MD / T-CR / T-NYR if inbound from Execute/Verify/happy-path.
-3. **Structured handoff** — goal, prior, facts+source, open question, constraints (see template). Iron law constraint: no product fix without repro or `NOT-YET-REPRODUCED`.
-4. **Wire plan** — **default one entry leaf**:
+3. **Standards resolve (if-present)** — Theme 21:
+   - If `standards_modules` already pinned (e.g. from Implementation) → **skip** (document).
+   - Else if accepted host catalog → **Using `guide-standards`**; emit pointers for **Debug** (technical/safety as matched); attach to handoff. Do not paste bodies.
+   - Else → **no-op** (document).
+4. **Structured handoff** — goal, prior, facts+source, open question, constraints, plus standards pointers (see template). Iron law: no product fix without repro or `NOT-YET-REPRODUCED`.
+5. **Wire plan** — **default one entry leaf**:
    - `prove-only` → `debug-reproduce`
    - `investigate-fix` → `debug-systematic` (leaf may prefer reproduce inside spine)
    - `prove-then-fix` or **T-NYR** → optional wire `debug-reproduce` → `debug-systematic`
    - Named leaf → skip router
    - Intent/design gap → exit to `guide-design` / happy-path (not a Debug leaf)
-5. **Invoke** each selected leaf: announce **Using `<skill>`** and follow that skill. Do **not** paste Theme 9 law here.
-6. **Budgets** — Debug uses `debug-fix-cycles` (Theme 9); do **not** burn more Execute `verify-retry N=2`.
-7. **Stop** — summarize for human, happy-path, or return to Implementation; refuse PR/merge ceremony.
+6. **Invoke** each selected leaf: announce **Using `<skill>`** and follow that skill; pass `standards_modules` when present. Do **not** paste Theme 9 law here.
+7. **Budgets** — Debug uses `debug-fix-cycles` (Theme 9); do **not** burn more Execute `verify-retry N=2`.
+8. **Stop** — summarize for human, happy-path, or return to Implementation; refuse PR/merge ceremony.
 
 Read `references/guide-debug-checklist.md` **when** running a non-trivial wire or recovering mid-pocket.  
 Template SoT: Toolbelt `docs/templates/guide-debug.md`.
@@ -79,6 +84,7 @@ Template SoT: Toolbelt `docs/templates/guide-debug.md`.
 | Investigate / fix | **`debug-systematic`** |
 | Design wrong | `guide-design` |
 | Closeout readiness | `implementation-closeout` |
+| Which standards modules apply | **`guide-standards`** (if-present; Theme 21) |
 | Author surfaces | `author-cursor-surfaces` |
 | PR / CI / merge | **Host / human** — Phase 2 |
 
@@ -87,4 +93,5 @@ Template SoT: Toolbelt `docs/templates/guide-debug.md`.
 - Read `references/guide-debug-checklist.md` **when** wiring a session
 - SoT template: Toolbelt `docs/templates/guide-debug.md`
 - Theme 17: Toolbelt `docs/research/reports/theme-17-debug-router.md` (accepted)
+- Theme 21: Toolbelt `docs/research/reports/theme-21-standards-fanout.md` (accepted)
 - Leaf law: Theme 9 accepted report (via `debug-systematic` / `debug-reproduce`)

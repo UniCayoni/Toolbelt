@@ -14,7 +14,8 @@ description: >-
 
 Announce once: **Using `guide-research`**.
 
-Authority: Theme 12 accepted (`docs/research/reports/theme-12-research-scoping.md`).  
+Authority: Theme 12 accepted (`docs/research/reports/theme-12-research-scoping.md`);  
+Theme 21 fan-out (`docs/research/reports/theme-21-standards-fanout.md`).  
 **Companion** — does not own cite-or-omit, Method envelopes, S0–S18, or D0–D14.  
 **Draft ≠ law** (`draft-is-not-sot`).  
 Theme 14/20: Research pocket **guide** entry (`guide-research`; was `research-scope`).
@@ -40,17 +41,22 @@ Theme 14/20: Research pocket **guide** entry (`guide-research`; was `research-sc
 
 1. Classify: **simple** | **complex** | **theme/campaign** | user-forced scope.
 2. If **simple** and user did not ask to scope → recommend skip; Handoff to the right research skill.
-3. **Expand** — short bullets: what must be true / looked up / decided.
-4. **Atomize** — concept atoms → tracks (name, question, in/out, priority).
-5. **Depth lean** per track — default **normal**; do **not** auto-launch gatherer fleets.
-6. **Write** a campaign brief: copy `references/research-campaign-brief.md` (SoT: `docs/templates/research-campaign-brief.md`) into the host notes path when durable; otherwise fill the same fields in chat for a short pass.
-7. **Enough-to-start?** — agent proposes; **human accepts** before treating scope as ready for gather. Scope briefs stay `draft`/`proposed` until accept.
-8. **Handoff** — list next skill(s) per track; stop. Do not paste PROTOCOL or recon/docs spines here.
+3. **Standards resolve (if-present)** — Theme 21:
+   - If `standards_modules` already pinned this turn → **skip** (document).
+   - Else if accepted host catalog → **Using `guide-standards`**; select modules tagged for **research** / `guide-research` (principles / method inclinations — breadth, depth habits). Do **not** auto-load Impl technical modules unless the catalog row matches this pocket.
+   - Else → **no-op** (document). Empty shelf keeps research unbounded by default.
+4. **Expand** — short bullets: what must be true / looked up / decided (honor research inclinations if loaded).
+5. **Atomize** — concept atoms → tracks (name, question, in/out, priority).
+6. **Depth lean** per track — default **normal**; do **not** auto-launch gatherer fleets.
+7. **Write** a campaign brief: copy `references/research-campaign-brief.md` (SoT: `docs/templates/research-campaign-brief.md`) into the host notes path when durable; otherwise fill the same fields in chat for a short pass.
+8. **Enough-to-start?** — agent proposes; **human accepts** before treating scope as ready for gather. Scope briefs stay `draft`/`proposed` until accept.
+9. **Handoff** — list next skill(s) per track; include standards pointers if any; stop. Do not paste PROTOCOL or recon/docs spines here.
 
 ## Self-check
 
 - [ ] Announced Using `guide-research`
 - [ ] Complexity classified; skip documented if N/A
+- [ ] Standards resolve: done | no-op | already-pinned
 - [ ] Tracks have in/out (not vague labels only)
 - [ ] Depth is lean/suggestion only (no silent deep fleet)
 - [ ] Human gate recorded for enough-to-start
@@ -64,6 +70,7 @@ Theme 14/20: Research pocket **guide** entry (`guide-research`; was `research-sc
 - Auto-deep / unbounded explore from this skill
 - Treating unaccepted scope as design or plan law
 - Rewriting S0–S18 / D0–D14 here
+- Loading Impl naming/layout modules into research by default
 
 ## Handoffs
 
@@ -72,6 +79,7 @@ Theme 14/20: Research pocket **guide** entry (`guide-research`; was `research-sc
 | Graded notes / deep waves | `research-protocol` |
 | Codebase map | `research-codebase-recon` |
 | Product/docs pin | `research-docs` |
+| Which standards modules apply | **`guide-standards`** (if-present; Theme 21) |
 | After accepted research → design | `guide-design` |
 | Implementation pocket wire | `guide-implementation` |
 | Full ladder | `implementation-happy-path` |
@@ -82,4 +90,5 @@ Theme 14/20: Research pocket **guide** entry (`guide-research`; was `research-sc
 - Read `references/research-campaign-brief.md` **when** writing a durable scope/track board
 - SoT template: Toolbelt `docs/templates/research-campaign-brief.md`
 - Theme 12: Toolbelt `docs/research/reports/theme-12-research-scoping.md` (accepted)
+- Theme 21: Toolbelt `docs/research/reports/theme-21-standards-fanout.md` (accepted)
 - Depth law: `research-protocol` / `docs/templates/research-depth-modes.md`

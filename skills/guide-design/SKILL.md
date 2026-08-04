@@ -15,7 +15,8 @@ description: >-
 Announce once: **Using `guide-design`**.
 
 Authority: Theme 5 accepted (T5A method guidance). **Draft/proposed designs and ADRs ≠ accepted law.**  
-Theme 14/20: Design pocket **guide** entry (`guide-design`; was `design-process`).
+Theme 14/20: Design pocket **guide** entry (`guide-design`; was `design-process`).  
+Theme 21 fan-out (`docs/research/reports/theme-21-standards-fanout.md`).
 
 ## When to use
 
@@ -29,19 +30,23 @@ Simple work can still use a **short** design (a few sentences) + approval — sk
 
 ## Spine (do in order)
 
-1. **Explore context** — relevant files, docs, recent patterns in the host project (lightweight recon; use `research-codebase-recon` when the area is unfamiliar or large)
-2. **Scope check** — if the ask spans multiple independent subsystems, help decompose into sub-designs first; do not deep-design a platform in one pass
-3. **Clarify** — purpose, constraints, success criteria; **one question per message** when possible; prefer multiple-choice when it fits
-4. **Criteria before solutions** — what “good” means; do not lock stack/story yet
-5. **Options** — **2–3** real approaches with tradeoffs; **lead with your recommendation and why** (human still decides). When recommending, **lean toward**: (a) **quality** (sound structure, maintainability, honest tradeoffs), (b) **code readability** (clear boundaries, understandable units — not clever opacity), (c) **faithfulness to intent** (what this design is actually for — purpose/success criteria — over trendy stacks, drive-by scope, or unrelated refactors)
-6. **Present design in sections** — scale length to complexity; get approval after each section (or revise)
-7. **Critique** — pressure-test; amend; call out vibes-only / premature lock / drive-by unrelated refactors
-8. **Human decide** — you propose; **human is accountable**
-9. **Record**
+1. **Standards resolve (if-present)** — Theme 21:
+   - If `standards_modules` already pinned this turn → **skip** (document).
+   - Else if accepted host catalog → **Using `guide-standards`**; select modules tagged for **design** / `guide-design` (principles / design inclinations — e.g. option count, prototype vs production). Do **not** auto-load Impl technical modules unless the catalog row matches this pocket.
+   - Else → **no-op** (document). Empty shelf keeps Design flexible by default.
+2. **Explore context** — relevant files, docs, recent patterns in the host project (lightweight recon; use `research-codebase-recon` when the area is unfamiliar or large)
+3. **Scope check** — if the ask spans multiple independent subsystems, help decompose into sub-designs first; do not deep-design a platform in one pass
+4. **Clarify** — purpose, constraints, success criteria; **one question per message** when possible; prefer multiple-choice when it fits
+5. **Criteria before solutions** — what “good” means; do not lock stack/story yet
+6. **Options** — default **2–3** real approaches with tradeoffs unless loaded design-inclination modules say otherwise; **lead with your recommendation and why** (human still decides). When recommending, **lean toward**: (a) **quality** (sound structure, maintainability, honest tradeoffs), (b) **code readability** (clear boundaries, understandable units — not clever opacity), (c) **faithfulness to intent** (what this design is actually for — purpose/success criteria — over trendy stacks, drive-by scope, or unrelated refactors)
+7. **Present design in sections** — scale length to complexity; get approval after each section (or revise)
+8. **Critique** — pressure-test; amend; call out vibes-only / premature lock / drive-by unrelated refactors
+9. **Human decide** — you propose; **human is accountable**
+10. **Record**
    - Significant / multi-option locks → **`research-draft-adr`** → `docs/adr/NNNN-slug.md`
    - Broader feature shape (when useful) → short design note under host `docs/design/YYYY-MM-DD-<topic>-design.md` (user path overrides OK)
-10. **Self-review** (written artifacts): placeholders/TODOs, internal contradictions, scope too large, ambiguous requirements — fix before asking for final review
-11. **Gate** — only after approval proceed via **`guide-implementation`** (or leaves: **`implementation-plan`** → **`implementation-plan-verify`** → **`implementation-execute`** / `-subagents` → **`implementation-execute-verify`**). Trivial one-file work may skip durable plan/execute (intelligent exception)
+11. **Self-review** (written artifacts): placeholders/TODOs, internal contradictions, scope too large, ambiguous requirements — fix before asking for final review
+12. **Gate** — only after approval proceed via **`guide-implementation`** (or leaves: **`implementation-plan`** → **`implementation-plan-verify`** → **`implementation-execute`** / `-subagents` → **`implementation-execute-verify`**). Trivial one-file work may skip durable plan/execute (intelligent exception)
 
 ## Lanes (keep separate)
 
@@ -63,6 +68,8 @@ Simple work can still use a **short** design (a few sentences) + approval — sk
 - Treating chat plans as a substitute for ADR when significance triggers fire
 - Locking libraries/stacks from draft research alone
 - One mega-design for multiple independent subsystems
+- Loading Impl naming/layout modules into Design by default
+- Treating draft/proposed design-inclination modules as law
 
 ## Domain handoff
 
@@ -84,9 +91,11 @@ Simple work can still use a **short** design (a few sentences) + approval — sk
 | Validate plan before ready | `implementation-plan-verify` |
 | Execute | `implementation-execute` / `-subagents` + `implementation-execute-verify` |
 | Lock Decision | `research-draft-adr` |
+| Which standards / principles modules apply | **`guide-standards`** (if-present; Theme 21) |
 
 ## References
 
 - Read `references/guide-design-checklist.md` **when** running a full design session or recovering a skipped step
 - Transfer rationale: `docs/research/notes/theme-5-design/brainstorm-vs-design-process.md` (draft note; Theme 5 remains SoT)
 - Theme 5: Toolbelt `docs/research/reports/theme-5-design-pocket.md` (accepted)
+- Theme 21: Toolbelt `docs/research/reports/theme-21-standards-fanout.md` (accepted)

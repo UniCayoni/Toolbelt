@@ -1,13 +1,16 @@
 ---
 title: "Toolbelt guide-standards checklist"
 status: active
-aligned_with: docs/research/reports/theme-19-standards-apply.md
+aligned_with:
+  - docs/research/reports/theme-19-standards-apply.md
+  - docs/research/reports/theme-21-standards-fanout.md
 created: 2026-08-03
+updated: 2026-08-04
 ---
 
-# Standards-router checklist
+# Guide-standards checklist
 
-Authority: Theme 19 accepted. Used by skill `guide-standards`.  
+Authority: Theme 19 accepted; Theme 21 fan-out callers. Used by skill `guide-standards`.  
 **Compose only** — emit **pointers**; do not paste module rule tables here.
 
 ## Catalog gate
@@ -23,10 +26,15 @@ If absent / none accepted → STOP (no-op). Do not invent Toolbelt-universal sta
 
 ```text
 Action: author-skill | research-note | implement-code | design | plan | closeout | other
+Caller pocket guide (if any): guide-research | guide-design | guide-implementation | guide-debug | ambient | explicit
 Wording / user phrases:
 Skill id in use or next:
 Paths touched / likely:
 Perceived intent (if ambiguous → ask or core-only):
+Pocket lean:
+  research/design → principles / method-inclination modules for that pocket
+  implementation/debug → technical modules (naming/layout/tests/safety) matching paths
+  Do not auto-apply Impl technical modules on research/design entry unless catalog row matches
 ```
 
 ## Structured handoff
