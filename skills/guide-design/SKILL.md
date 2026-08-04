@@ -1,21 +1,21 @@
 ---
-name: design-process
+name: guide-design
 description: >-
-  Run Toolbelt’s design-before-implement loop: explore context, clarify (one
-  question at a time), criteria, 2–3 options/tradeoffs, sectional design
-  approval, optional design note + self-review, human decide, ADR when needed,
-  then implement. Use when designing features, architecture, creative systems,
-  planning before code, alternatives matrices, HITL design gates, or when the
-  user asks to design (not just build). Prefer this over jumping straight to
-  implementation.
+  Run Toolbelt’s design-before-implement loop (formerly design-process): explore
+  context, clarify (one question at a time), criteria, 2–3 options/tradeoffs,
+  sectional design approval, optional design note + self-review, human decide,
+  ADR when needed, then implement. Use when guide-design, design-process,
+  designing features, architecture, creative systems, planning before code,
+  alternatives matrices, HITL design gates, or when the user asks to design
+  (not just build). Prefer this over jumping straight to implementation.
 ---
 
-# Design process
+# Guide design
 
-Announce once: **Using `design-process`**.
+Announce once: **Using `guide-design`**.
 
 Authority: Theme 5 accepted (T5A method guidance). **Draft/proposed designs and ADRs ≠ accepted law.**  
-Theme 14: treated as Design **pocket router / entry** (de facto; name unchanged).
+Theme 14/20: Design pocket **guide** entry (`guide-design`; was `design-process`).
 
 ## When to use
 
@@ -41,7 +41,7 @@ Simple work can still use a **short** design (a few sentences) + approval — sk
    - Significant / multi-option locks → **`research-draft-adr`** → `docs/adr/NNNN-slug.md`
    - Broader feature shape (when useful) → short design note under host `docs/design/YYYY-MM-DD-<topic>-design.md` (user path overrides OK)
 10. **Self-review** (written artifacts): placeholders/TODOs, internal contradictions, scope too large, ambiguous requirements — fix before asking for final review
-11. **Gate** — only after approval proceed via **`implementation-router`** (or leaves: **`implementation-plan`** → **`implementation-plan-verify`** → **`implementation-execute`** / `-subagents` → **`implementation-execute-verify`**). Trivial one-file work may skip durable plan/execute (intelligent exception)
+11. **Gate** — only after approval proceed via **`guide-implementation`** (or leaves: **`implementation-plan`** → **`implementation-plan-verify`** → **`implementation-execute`** / `-subagents` → **`implementation-execute-verify`**). Trivial one-file work may skip durable plan/execute (intelligent exception)
 
 ## Lanes (keep separate)
 
@@ -79,7 +79,7 @@ Simple work can still use a **short** design (a few sentences) + approval — sk
 | Need | Use |
 |------|-----|
 | Full Toolbelt ladder (cold start / controller) | **`implementation-happy-path`** |
-| Implementation pocket wire (prefer) | **`implementation-router`** |
+| Implementation pocket wire (prefer) | **`guide-implementation`** |
 | Implementation plan (leaf) | `implementation-plan` |
 | Validate plan before ready | `implementation-plan-verify` |
 | Execute | `implementation-execute` / `-subagents` + `implementation-execute-verify` |
@@ -87,6 +87,6 @@ Simple work can still use a **short** design (a few sentences) + approval — sk
 
 ## References
 
-- Read `references/design-process-checklist.md` **when** running a full design session or recovering a skipped step
+- Read `references/guide-design-checklist.md` **when** running a full design session or recovering a skipped step
 - Transfer rationale: `docs/research/notes/theme-5-design/brainstorm-vs-design-process.md` (draft note; Theme 5 remains SoT)
 - Theme 5: Toolbelt `docs/research/reports/theme-5-design-pocket.md` (accepted)

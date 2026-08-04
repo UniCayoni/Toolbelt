@@ -1,5 +1,5 @@
 ---
-title: "Toolbelt implementation-router checklist"
+title: "Toolbelt guide-implementation checklist"
 status: active
 aligned_with: docs/research/reports/theme-14-pocket-routers.md
 created: 2026-07-31
@@ -8,7 +8,7 @@ updated: 2026-07-31
 
 # Implementation-router checklist
 
-Authority: Theme 14 accepted. Used by skill `implementation-router`.  
+Authority: Theme 14 accepted. Used by skill `guide-implementation`.  
 **Compose only** — invoke leaves via **Using `<skill>`**; do not paste Plan/Execute/Verify law here.
 
 ## Classifier
@@ -36,7 +36,7 @@ Constraints (e.g. no writes / files in scope):
 - [ ] implementation-plan-verify → Meta ready — or N/A
 - [ ] implementation-execute OR implementation-execute-subagents — or N/A
 - [ ] implementation-execute-verify (non-trivial / EOP) — or N/A
-- [ ] On verify-fail / unclear Critical → hand off **debug-router** (not owned here)
+- [ ] On verify-fail / unclear Critical → hand off **guide-debug** (not owned here)
 ```
 
 ## Stop

@@ -65,7 +65,7 @@ Toolbelt already has a strong internal change culture (T13A) but no discoverable
 ## 3. Culture to protect (from T13A)
 
 ```text
-research (± research-scope) → draft notes → human accept → author-cursor-surfaces
+research (± guide-research) → draft notes → human accept → author-cursor-surfaces
   → refresh + sync + Reload → optional E0 smokes → hand human
 PR/CI = Phase 2 (not happy-path owned)
 draft/proposed ≠ law

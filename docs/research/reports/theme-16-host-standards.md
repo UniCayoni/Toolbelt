@@ -48,7 +48,7 @@ Help hosts **define and maintain** principles + checkable standards feedstock th
 | D9 | **Brownfield derive:** recon (+ Theme 18 **S12b**) → recency window (default 12m / host override) + conflict tiebreak (**most recent non-one-off**) + light churn support + blame (respect `.git-blame-ignore-revs`) → quarantine legacy → **proposed** until human accept; dual-era via suppressions / touch-to-clean / format wave |
 | D10 | **Bind:** Plan/Execute/Closeout load profiles when present, skip when absent; AGENTS short pointer → profile/skill (Cursor/Claude/Codex patterns). AGENTS vs Team/Project/User conflict = **product-undefined GAP** |
 | D11 | Keep **`implementation-closeout`**; closeout criteria may reference standards/principles |
-| D12 | No always-on **standards bodies**; no auto-promote derive; no closeout rename this theme (**rename wontfix** 2026-08-03). **Amended Theme 19:** thin always-on **resolve gate** + `standards-router` allowed — see [`theme-19-standards-apply.md`](./theme-19-standards-apply.md) |
+| D12 | No always-on **standards bodies**; no auto-promote derive; no closeout rename this theme (**rename wontfix** 2026-08-03). **Amended Theme 19:** thin always-on **resolve gate** + `guide-standards` allowed — see [`theme-19-standards-apply.md`](./theme-19-standards-apply.md) |
 
 ## 3. Deep campaign method
 
@@ -95,7 +95,7 @@ Help hosts **define and maintain** principles + checkable standards feedstock th
 - Always-on **standards bodies** (full rule dumps in alwaysApply) — thin **resolve gate** is Theme 19, not this park  
 - Auto-promote brownfield derive  
 - Fat CI / ceremony as standards content  
-- global meta-router (unrelated; debug-router shipped Theme 17)
+- global meta-router (unrelated; guide-debug shipped Theme 17)
 
 **Closed parks:** Rename `implementation-closeout` → **wontfix** (2026-08-03) — [`parked/closeout-rename-wontfix.md`](../notes/parked/closeout-rename-wontfix.md).  
-**Apply layer:** Theme 19 — `standards-router` + catalog + `standards-resolve-gate`.
+**Apply layer:** Theme 19 — `guide-standards` + catalog + `standards-resolve-gate`.

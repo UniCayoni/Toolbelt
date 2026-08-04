@@ -1,17 +1,18 @@
 ---
-name: standards-router
+name: guide-standards
 description: >-
-  Resolve which host standards modules to load for the current ask: classify by
-  action, wording, skill, path, and intent, then emit standards_modules pointers
-  without pasting full rule bodies. Use when standards-router, which standards
-  apply, load coding standards modules, selective standards, or when the
-  standards-resolve-gate finds an accepted catalog. Prefer over dumping an entire
-  standards profile into context. Compose-only — not for authoring standards.
+  Resolve which host standards modules to load (formerly standards-router):
+  classify by action, wording, skill, path, and intent, then emit
+  standards_modules pointers without pasting full rule bodies. Use when
+  guide-standards, standards-router, which standards apply, load coding
+  standards modules, selective standards, or when the standards-resolve-gate
+  finds an accepted catalog. Prefer over dumping an entire standards profile
+  into context. Compose-only — not for authoring standards.
 ---
 
-# Standards router
+# Guide standards
 
-Announce once: **Using `standards-router`**.
+Announce once: **Using `guide-standards`**.
 
 Authority: Theme 19 accepted (`docs/research/reports/theme-19-standards-apply.md`).  
 Feedstock: Theme 16 (`author-standards` profiles).  
@@ -40,7 +41,7 @@ Feedstock: Theme 16 (`author-standards` profiles).
 5. **Load** — read the pointed module files (or pass paths into Task/subagent prompts). Prefer progressive disclosure; do not preload the entire catalog corpus.
 6. **Hand off** — continue the user’s work (Plan/Execute/etc.) with modules in context; if profiles need authoring → `author-standards`.
 
-Read `references/standards-router-checklist.md` **when** resolving a non-trivial ask.  
+Read `references/guide-standards-checklist.md` **when** resolving a non-trivial ask.  
 Catalog SoT templates: Toolbelt `docs/templates/standards-catalog.md`, `standards-module.md`.
 
 ## Classifier hints
@@ -74,7 +75,7 @@ Catalog SoT templates: Toolbelt `docs/templates/standards-catalog.md`, `standard
 
 ## References
 
-- Read `references/standards-router-checklist.md` **when** resolving modules
+- Read `references/guide-standards-checklist.md` **when** resolving modules
 - Read `references/standards-catalog.md` **when** creating/updating a host index (SoT: `docs/templates/standards-catalog.md`)
 - Read `references/standards-module.md` **when** adding a module stub (SoT: `docs/templates/standards-module.md`)
 - Theme 19: Toolbelt `docs/research/reports/theme-19-standards-apply.md` (accepted)

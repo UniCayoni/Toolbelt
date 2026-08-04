@@ -75,10 +75,10 @@ Record in Method: `depth: normal | deep` (and for deep: `waves`, `stop_reason`).
 
 | Need | Use |
 |------|-----|
-| Expand / atomize / tracks before gather | **`research-scope`** (companion — when complex, theme/campaign, or user asks) |
+| Expand / atomize / tracks before gather | **`guide-research`** (companion — when complex, theme/campaign, or user asks) |
 | Codebase map first | `research-codebase-recon` |
 | Product/docs pin | `research-docs` |
-| After accepted research → design/plan | `design-process` / `implementation-plan` |
+| After accepted research → design/plan | `guide-design` / `implementation-plan` |
 | Full Toolbelt ladder | **`implementation-happy-path`** |
 | Author Cursor surfaces from findings | `author-cursor-surfaces` |
 

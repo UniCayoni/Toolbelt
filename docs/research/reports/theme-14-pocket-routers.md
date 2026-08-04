@@ -27,7 +27,7 @@ amends:
 # Theme 14 — Pocket routers
 
 **Status:** **accepted** (method guidance) — 2026-07-31.  
-**Elevated:** `implementation-router` + `docs/templates/implementation-router.md`; happy-path thinned to chain pocket entries; packs **Routers / pocket entry** row.  
+**Elevated:** `guide-implementation` + `docs/templates/guide-implementation.md`; happy-path thinned to chain pocket entries; packs **Routers / pocket entry** row.  
 **Depth:** normal gather (T14A–E); no deep fleet.
 
 **Using `research-protocol`** · integrator.
@@ -37,9 +37,9 @@ amends:
 | # | Decision |
 |---|----------|
 | D1 | Theme id **`theme-14-pocket-routers`**; vocabulary **router** (not guide) |
-| D2 | Shape **O1** — new `implementation-router`; keep `research-scope` + `design-process` as de-facto pocket routers (document; no rename this theme) |
+| D2 | Shape **O1** — new `guide-implementation`; keep `guide-research` + `guide-design` as de-facto pocket routers (document; no rename this theme) |
 | D3 | Packs: first-class row **Routers / pocket entry**; Happy-path = chains routers |
-| D4 | Defer **`debug-router`** *(superseded by Theme 17 — shipped)* |
+| D4 | Defer **`guide-debug`** *(superseded by Theme 17 — shipped)* |
 | D5 | Implementation router = **pure select/wire** among fixed leaves (not a planner/decomposer) |
 | D6 | **Park** global always-on / meta `skill-router` |
 | D7 | Happy-path remains compose-only (Theme 10 D8); workers = one pocket; no always-on rule |
@@ -70,10 +70,10 @@ Loose use       → leaf or pocket router directly
 
 | Pocket | Router / entry (this elevate) |
 |--------|-------------------------------|
-| Research | `research-scope` (de facto; Theme 12) |
-| Design | `design-process` (de facto; Theme 5) |
-| Implementation | **`implementation-router`** (new) |
-| Debug | **`debug-router`** (Theme 17) |
+| Research | `guide-research` (de facto; Theme 12) |
+| Design | `guide-design` (de facto; Theme 5) |
+| Implementation | **`guide-implementation`** (new) |
+| Debug | **`guide-debug`** (Theme 17) |
 | Cross-pocket | `implementation-happy-path` |
 
 ---
@@ -82,11 +82,11 @@ Loose use       → leaf or pocket router directly
 
 | Surface | Status |
 |---------|--------|
-| `implementation-router` | **Shipped** |
-| `docs/templates/implementation-router.md` | **Shipped** |
+| `guide-implementation` | **Shipped** |
+| `docs/templates/guide-implementation.md` | **Shipped** |
 | Happy-path thin rewire | **Shipped** |
 | Packs Routers row | **Shipped** |
-| `debug-router` | **Shipped** (Theme 17) |
+| `guide-debug` | **Shipped** (Theme 17) |
 | Global skill-router | **Parked** |
 | Rename scope/process → `*-router` | **Parked** (optional later) |
 
@@ -96,7 +96,7 @@ Loose use       → leaf or pocket router directly
 
 - [x] Human accepted scope + O1 quality bundle — 2026-07-31  
 - [x] Integrated report accepted  
-- [x] Elevate `implementation-router` + thin happy-path + packs/README/CHANGELOG  
+- [x] Elevate `guide-implementation` + thin happy-path + packs/README/CHANGELOG  
 - [x] In-session E0 smokes I1 + H1 — **2/2 PASS**  
 - [x] Fresh-chat smokes I1 + H1 — **2/2 PASS** (`I1-fresh-20260731.md`, `H1-fresh-20260731.md`; delta note)  
 - [x] Operator: Reload + skills loaded (reported 2026-07-31)  

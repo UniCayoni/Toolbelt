@@ -13,7 +13,7 @@ disable-model-invocation: true
 
 Announce once: **Using `research-draft-adr`**.
 
-Explicit skill (`/research-draft-adr`). Prefer after `design-process` / research notes when possible.
+Explicit skill (`/research-draft-adr`). Prefer after `guide-design` / research notes when possible.
 
 ## House defaults (Theme 5)
 
@@ -39,7 +39,7 @@ Explicit skill (`/research-draft-adr`). Prefer after `design-process` / research
 
 | Need | Use |
 |------|-----|
-| Design options first | `design-process` / `design-technical` |
+| Design options first | `guide-design` / `design-technical` |
 | Evidence before locking | `research-protocol` / `research-docs` / `research-codebase-recon` |
 | After accept → plan | `implementation-plan` → `implementation-plan-verify` |
 

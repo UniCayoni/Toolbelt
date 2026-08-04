@@ -14,14 +14,14 @@ protocol: docs/PROTOCOL.md
 aligned_with:
   - docs/research/notes/theme-12-research-scoping/scope-normal-pass1.md
   - docs/research/notes/theme-12-research-scoping/campaign-brief.md
-  - skills/research-scope/SKILL.md
+  - skills/guide-research/SKILL.md
 supersedes: null
 ---
 
 # Theme 12 — Research scope companion
 
 **Status:** **accepted** (method guidance) — 2026-07-31.  
-**Elevated:** `research-scope` + `docs/templates/research-campaign-brief.md`.  
+**Elevated:** `guide-research` + `docs/templates/research-campaign-brief.md`.  
 **Depth:** normal compose (no deep gatherer fleet).
 
 **Using `research-protocol`** · integrator.  
@@ -33,7 +33,7 @@ supersedes: null
 |---|----------|
 | D1 | Theme id **`theme-12-research-scoping`** |
 | D2 | Scope = expand / atomize / tracks / enough only (no T1–T3 spine rewrite) |
-| D3 | Shape **B+C** — companion skill **`research-scope`** + campaign-brief template |
+| D3 | Shape **B+C** — companion skill **`guide-research`** + campaign-brief template |
 | D4 | Use when appropriate (complex / theme/campaign / user expand-first); not always-on |
 | D5 | Complexity ≠ depth (two axes) |
 | D6 | Enough-to-start = agent proposes + **human accepts** |
@@ -45,7 +45,7 @@ supersedes: null
 
 ## 1. Executive summary
 
-Themes 1–3 shipped recon, citation/provenance, and research-docs. Later campaigns invented track boards in practice; that step was not a Research skill. Theme 12 elevates **`research-scope`** as a **companion**: expand the concept, atomize into tracks, suggest depth, gate enough-to-start — then hand off to existing research surfaces. Composable in other orders when the user or controller wants.
+Themes 1–3 shipped recon, citation/provenance, and research-docs. Later campaigns invented track boards in practice; that step was not a Research skill. Theme 12 elevates **`guide-research`** as a **companion**: expand the concept, atomize into tracks, suggest depth, gate enough-to-start — then hand off to existing research surfaces. Composable in other orders when the user or controller wants.
 
 ---
 
@@ -58,8 +58,8 @@ Themes 1–3 shipped recon, citation/provenance, and research-docs. Later campai
 ## 3. Ladder touch (accepted)
 
 ```text
-[optional] research-scope  →  research-codebase-recon / research-docs / research-protocol
-        → design-process … (Theme 10 as-needed research preface unchanged)
+[optional] guide-research  →  research-codebase-recon / research-docs / research-protocol
+        → guide-design … (Theme 10 as-needed research preface unchanged)
 ```
 
 ---
@@ -68,7 +68,7 @@ Themes 1–3 shipped recon, citation/provenance, and research-docs. Later campai
 
 | Surface | Status |
 |---------|--------|
-| `research-scope` | **Shipped** |
+| `guide-research` | **Shipped** |
 | `docs/templates/research-campaign-brief.md` | **Shipped** |
 | Scoping inside `research-protocol` | **Rejected** (companion instead) |
 | Always-on rule | **Rejected** |
@@ -78,6 +78,6 @@ Themes 1–3 shipped recon, citation/provenance, and research-docs. Later campai
 
 ## 5. Acceptance checklist
 
-- [x] Human accepted compose brief (companion `research-scope`) — 2026-07-31  
+- [x] Human accepted compose brief (companion `guide-research`) — 2026-07-31  
 - [x] Elevate skill + template + Handoffs  
-- [ ] Operator: sync + Reload; optional `/research-scope` smoke  
+- [ ] Operator: sync + Reload; optional `/guide-research` smoke  

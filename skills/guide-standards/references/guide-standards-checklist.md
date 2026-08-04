@@ -1,5 +1,5 @@
 ---
-title: "Toolbelt standards-router checklist"
+title: "Toolbelt guide-standards checklist"
 status: active
 aligned_with: docs/research/reports/theme-19-standards-apply.md
 created: 2026-08-03
@@ -7,7 +7,7 @@ created: 2026-08-03
 
 # Standards-router checklist
 
-Authority: Theme 19 accepted. Used by skill `standards-router`.  
+Authority: Theme 19 accepted. Used by skill `guide-standards`.  
 **Compose only** — emit **pointers**; do not paste module rule tables here.
 
 ## Catalog gate

@@ -21,7 +21,7 @@ Orchestration only — chain **pocket routers / entries** via **Using `<skill>`*
 ```text
 Ask type: feature | bug | research-only | authoring | standards-resolve | trivial | implementation-only | closeout
 Entry skill / skip notes:
-  (standards modules → standards-router; author profiles → author-standards; ambient gate no-ops if no catalog)
+  (standards modules → guide-standards; author profiles → author-standards; ambient gate no-ops if no catalog)
 ```
 
 ## Progress
@@ -29,11 +29,11 @@ Entry skill / skip notes:
 ```text
 Happy-path Progress:
 - [ ] 0 Classified ask
-- [ ] 1 Research as needed — research-scope (optional) → research leaves — or N/A
-- [ ] 2 design-process → domain design → human accept — or skip documented
+- [ ] 1 Research as needed — guide-research (optional) → research leaves — or N/A
+- [ ] 2 guide-design → domain design → human accept — or skip documented
 - [ ] 3 research-draft-adr if locks — or N/A
-- [ ] 4 implementation-router (plan → plan-verify → execute|-subagents → execute-verify) — or N/A
-- [ ] 5 Debug branch if needed — debug-router (reproduce / systematic)
+- [ ] 4 guide-implementation (plan → plan-verify → execute|-subagents → execute-verify) — or N/A
+- [ ] 5 Debug branch if needed — guide-debug (reproduce / systematic)
 - [ ] 6 implementation-closeout (optional define/check) — or N/A / trivial skip
 - [ ] 7 Stop / human handoff (host ceremony; CI/Bugbot automation Phase 2)
 ```

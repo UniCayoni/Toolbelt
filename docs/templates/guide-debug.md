@@ -1,5 +1,5 @@
 ---
-title: "Toolbelt debug-router checklist"
+title: "Toolbelt guide-debug checklist"
 status: active
 aligned_with: docs/research/reports/theme-17-debug-router.md
 created: 2026-08-02
@@ -7,7 +7,7 @@ created: 2026-08-02
 
 # Debug-router checklist
 
-Authority: Theme 17 accepted. Used by skill `debug-router`.  
+Authority: Theme 17 accepted. Used by skill `guide-debug`.  
 **Compose only** — invoke leaves via **Using `<skill>`**; do not paste Theme 9 Debug law here.
 
 ## Classifier
@@ -43,6 +43,6 @@ Default = one entry leaf. Optional two-step only for explicit prove-then-fix / T
 
 ```text
 Exit: fixed+same-repro | NOT-YET-REPRODUCED | debug-fix-cycles exhausted → human
-      | return Implementation / happy-path | design-process handoff
+      | return Implementation / happy-path | guide-design handoff
 Do not: burn Execute verify-retry; open PR/merge; guess-fix
 ```

@@ -3,7 +3,7 @@ title: "Theme 11 — P0 smoke matrix"
 status: draft
 theme: theme-11-validation
 created: 2026-07-30
-updated: 2026-07-31
+updated: 2026-08-04
 authors: [coordinator]
 campaign_phase: phase_b_integrated
 aligned_with:
@@ -21,13 +21,14 @@ supersedes: null
 **Claim cards:** `claim-cards/`  
 **Controller summary:** [CONTROLLER-SUMMARY-20260730.md](./runs/CONTROLLER-SUMMARY-20260730.md)  
 **Phase B evaluation:** [phase-b-evaluation-20260730.md](./phase-b-evaluation-20260730.md) — **18/18 PASS**, 0 NEEDS REVISION (2026-07-30).  
-**Theme 12 delta (2026-07-31):** re-smoke R1–R3, H1 + new **R7** `research-scope` — all **PASS** (see `*-20260731.md`).  
-**Theme 14 delta (2026-07-31):** new **I1** `implementation-router` + H1 re-smoke — in-session **2/2** + fresh **2/2** = **4/4 PASS** ([theme-14-smoke-delta-20260731.md](./theme-14-smoke-delta-20260731.md)).  
+**Theme 12 delta (2026-07-31):** re-smoke R1–R3, H1 + new **R7** `guide-research` — all **PASS** (see `*-20260731.md`).  
+**Theme 14 delta (2026-07-31):** new **I1** `guide-implementation` + H1 re-smoke — in-session **2/2** + fresh **2/2** = **4/4 PASS** ([theme-14-smoke-delta-20260731.md](./theme-14-smoke-delta-20260731.md)).  
 **Theme 15 delta (2026-08-02):** new **C1** `implementation-closeout` — in-session + fresh **2/2 PASS**.  
 **Theme 16 delta (2026-08-02):** new **S1** `author-standards` — in-session + fresh **2/2 PASS**.  
-**Theme 17 delta (2026-08-02):** new **R8** `debug-router` — in-session + fresh **2/2 PASS**.  
+**Theme 17 delta (2026-08-02):** new **R8** `guide-debug` — in-session + fresh **2/2 PASS**.  
 **Theme 18 delta (2026-08-03):** new **R9** recon **S12b** / derive glue — in-session + fresh **2/2 PASS**.  
-**Theme 19 delta (2026-08-03):** new **S2** `standards-router` — in-session PASS; fresh optional / pending review.
+**Theme 19 delta (2026-08-03):** new **S2** `guide-standards` — in-session PASS; fresh optional / pending review.  
+**Theme 20 delta (2026-08-04):** re-smoke all five **`guide-*`** after rename — **5/5 PASS** ([CONTROLLER-SUMMARY-theme20-20260804.md](./runs/CONTROLLER-SUMMARY-theme20-20260804.md)).
 
 | ID | Surface | Lane | Fixture | Card | Run status |
 |----|---------|------|---------|------|------------|
@@ -39,8 +40,8 @@ supersedes: null
 | R4 | research-draft-adr | subagent | temp | [r4](./claim-cards/r4-research-draft-adr.md) | PASS (`R4-20260730.md`; not re-run) |
 | R5 | author-agents-md | subagent | temp | [r5](./claim-cards/r5-author-agents-md.md) | PASS (`R5-20260730.md`; not re-run) |
 | R6 | author-cursor-surfaces | subagent | temp | [r6](./claim-cards/r6-author-cursor-surfaces.md) | PASS (`R6-20260730.md`; not re-run) |
-| R7 | research-scope | subagent | none | [r7](./claim-cards/r7-research-scope.md) | PASS (`R7-20260731.md`) **Theme 12** |
-| D1 | design-process | subagent | none | [d1](./claim-cards/d1-design-process.md) | PASS (`D1-20260730.md`; not re-run) |
+| R7 | guide-research | subagent | none | [r7](./claim-cards/r7-research-scope.md) | PASS Theme 20 (`R7-theme20-20260804.md`); prior `R7-20260731.md` |
+| D1 | guide-design | subagent | none | [d1](./claim-cards/d1-design-process.md) | PASS Theme 20 (`D1-theme20-20260804.md`); prior `D1-20260730.md` |
 | D2 | design-technical | subagent | none | [d2](./claim-cards/d2-design-technical.md) | PASS (`D2-20260730.md`; not re-run) |
 | P1 | implementation-plan | subagent | smoke-app context | [p1](./claim-cards/p1-implementation-plan.md) | PASS (`P1-20260730.md`; not re-run) |
 | P2 | implementation-plan-verify | subagent | plan from P1 or stub | [p2](./claim-cards/p2-implementation-plan-verify.md) | PASS (`P2-20260730.md`; not re-run) |
@@ -50,11 +51,11 @@ supersedes: null
 | G1 | debug-systematic | subagent | copy of smoke-app | [g1](./claim-cards/g1-debug-systematic.md) | PASS (`G1-20260730.md`; not re-run) |
 | G2 | debug-reproduce | subagent | copy of smoke-app | [g2](./claim-cards/g2-debug-reproduce.md) | PASS (`G2-20260730.md`; not re-run) |
 | H1 | implementation-happy-path | fresh_chat | Toolbelt | [h1](./claim-cards/h1-implementation-happy-path.md) | PASS fresh (`H1-fresh-20260731.md`); prior in-session `H1-20260731-theme14.md` **Theme 14** |
-| I1 | implementation-router | either | none | [i1](./claim-cards/i1-implementation-router.md) | PASS fresh (`I1-fresh-20260731.md`); prior in-session `I1-20260731.md` **Theme 14** |
+| I1 | guide-implementation | either | none | [i1](./claim-cards/i1-implementation-router.md) | PASS Theme 20 (`I1-theme20-20260804.md`); prior fresh `I1-fresh-20260731.md` |
 | C1 | implementation-closeout | either | none | [c1](./claim-cards/c1-implementation-closeout.md) | PASS fresh (`C1-fresh-20260802.md`); prior in-session `C1-20260802.md` **Theme 15** |
 | S1 | author-standards | either | none | [s1](./claim-cards/s1-author-standards.md) | PASS fresh (`S1-fresh-20260802.md`); prior in-session `S1-20260802.md` **Theme 16** |
-| S2 | standards-router | either | t19-catalog artifact | [s2](./claim-cards/s2-standards-router.md) | in-session PASS (`S2-20260803.md`); fresh optional **Theme 19** |
-| R8 | debug-router | either | none | [r8](./claim-cards/r8-debug-router.md) | PASS fresh (`R8-fresh-20260802.md`); prior in-session `R8-20260802.md` **Theme 17** |
+| S2 | guide-standards | either | t19-catalog artifact | [s2](./claim-cards/s2-standards-router.md) | PASS Theme 20 (`S2-theme20-20260804.md`); prior `S2-20260803.md` |
+| R8 | guide-debug | either | none | [r8](./claim-cards/r8-debug-router.md) | PASS Theme 20 (`R8-theme20-20260804.md`); prior fresh `R8-fresh-20260802.md` |
 | R9 | recon S12b / derive glue | either | none | [r9](./claim-cards/r9-recon-history.md) | PASS fresh (`R9-fresh-20260803.md`); prior in-session `R9-20260803.md` **Theme 18** |
 
 **P1 (deferred):** design-systems / narrative / world-character deep smokes; research-before-write.

@@ -23,9 +23,9 @@ surface_id: H1
 | C3 | Lists compose order via existing skills (no pasted pocket law) | Invokes/links skills | **pass** |
 | C4 | Research as-needed preface | Can mark N/A | **pass** |
 | C5 | Workers = one pocket note for subagents | Stated | **pass** |
-| C6 | Optional `research-scope` when expand-first / tracks unclear (Theme 12) | Mentions scope only when appropriate; not mandatory on clear bug/feature | **pass** |
-| C7 | Feature path uses **`implementation-router`** for Implementation stage (Theme 14) | Does not re-list plan→execute leaves as duplicate SoT | **pass** |
-| C8 | Implementation-only asks prefer `implementation-router` over full ladder | Classifier table | **pass** |
+| C6 | Optional `guide-research` when expand-first / tracks unclear (Theme 12) | Mentions scope only when appropriate; not mandatory on clear bug/feature | **pass** |
+| C7 | Feature path uses **`guide-implementation`** for Implementation stage (Theme 14) | Does not re-list plan→execute leaves as duplicate SoT | **pass** |
+| C8 | Implementation-only asks prefer `guide-implementation` over full ladder | Classifier table | **pass** |
 
 ## Anti-patterns
 
@@ -33,7 +33,7 @@ surface_id: H1
 |---|----------|-----------|
 | A1 | Re-teach full Execute/Debug spines inline | **no** |
 | A2 | Skip human design gate without documenting skip | **no** |
-| A3 | Force `research-scope` on every research/bug path | **no** |
+| A3 | Force `guide-research` on every research/bug path | **no** |
 | A4 | Bypass Theme 14 by pasting old Implementation leaf ladder as SoT | **no** |
 
 ## Smoke

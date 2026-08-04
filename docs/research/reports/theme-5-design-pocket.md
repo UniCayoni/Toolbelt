@@ -36,7 +36,7 @@ supersedes: null
 | # | Decision |
 |---|----------|
 | 1 | Accept all of T5A+T5B+T5D as method guidance |
-| 2 | Elevate: design-process, design-technical, creative skills (split), draft≠accepted rule; **no UX skill** |
+| 2 | Elevate: guide-design, design-technical, creative skills (split), draft≠accepted rule; **no UX skill** |
 | 3 | Creative **split**: systems / narrative / world-character |
 | 4 | ADR house: `docs/adr/NNNN-slug.md`; status `proposed\|accepted\|deprecated\|superseded`; require **Considered Options** (+ pros/cons) before Decision |
 | 5 | Toolbelt Design skills **do not reference Superpowers**; Toolbelt process spine stands alone |
@@ -145,7 +145,7 @@ Elevated via `author-cursor-surfaces` after accept:
 
 | Surface | Track | Path |
 |---------|-------|------|
-| `design-process` | T5A | `skills/design-process/` |
+| `guide-design` | T5A | `skills/guide-design/` |
 | `design-technical` | T5B | `skills/design-technical/` |
 | `design-systems` | T5D | `skills/design-systems/` |
 | `design-narrative` | T5D | `skills/design-narrative/` |

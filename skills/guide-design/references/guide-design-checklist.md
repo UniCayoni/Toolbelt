@@ -6,7 +6,7 @@ aligned_with: docs/research/reports/theme-5-design-pocket.md
 
 # Design process checklist
 
-Use with skill `design-process`.
+Use with skill `guide-design`.
 
 - [ ] Context explored (files/docs/patterns as needed)
 - [ ] Multi-subsystem ask decomposed (if applicable)

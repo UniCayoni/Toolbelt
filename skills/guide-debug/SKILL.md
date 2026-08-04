@@ -1,27 +1,28 @@
 ---
-name: debug-router
+name: guide-debug
 description: >-
-  Pocket router for Toolbelt Debug: classify the ask, emit a wire plan over
-  debug-reproduce and/or debug-systematic with explicit skips, then invoke those
-  skills without restating Theme 9 law. Use when debug-router, which debug skill,
-  prove vs fix, T-VF T-UB T-MD T-CR T-NYR routing, after Execute N=2, or choosing
-  never-fix vs systematic investigate. Prefer over inventing ad-hoc Debug skill
-  order. Not for running the Debug spine itself.
+  Pocket guide for Toolbelt Debug (formerly debug-router): classify the ask,
+  emit a wire plan over debug-reproduce and/or debug-systematic with explicit
+  skips, then invoke those skills without restating Theme 9 law. Use when
+  guide-debug, debug-router, which debug skill, prove vs fix, T-VF T-UB T-MD
+  T-CR T-NYR routing, after Execute N=2, or choosing never-fix vs systematic
+  investigate. Prefer over inventing ad-hoc Debug skill order. Not for running
+  the Debug spine itself.
 ---
 
-# Debug router
+# Guide debug
 
-Announce once: **Using `debug-router`**.
+Announce once: **Using `guide-debug`**.
 
 Authority: Theme 17 accepted (`docs/research/reports/theme-17-debug-router.md`);  
 amends Theme 14 D4. Leaf law: Theme 9 (`debug-systematic` / `debug-reproduce`).  
 **Compose only.** **Draft ≠ law** (`draft-is-not-sot`).  
-**Selection ≠ solving** — this skill routes; leaves do the work.
+**Selection ≠ solving** — this skill guides; leaves do the work.
 
 ## When to use
 
 - Choosing between prove-only and investigate/fix
-- Happy-path Debug branch or `implementation-router` exit on verify-fail / unclear Critical
+- Happy-path Debug branch or `guide-implementation` exit on verify-fail / unclear Critical
 - User asks which Debug skill to run next
 - Seam triggers T-VF / T-UB / T-MD / T-CR / T-NYR when path is unclear
 
@@ -40,13 +41,13 @@ amends Theme 14 D4. Leaf law: Theme 9 (`debug-systematic` / `debug-reproduce`).
    - `investigate-fix` → `debug-systematic` (leaf may prefer reproduce inside spine)
    - `prove-then-fix` or **T-NYR** → optional wire `debug-reproduce` → `debug-systematic`
    - Named leaf → skip router
-   - Intent/design gap → exit to `design-process` / happy-path (not a Debug leaf)
+   - Intent/design gap → exit to `guide-design` / happy-path (not a Debug leaf)
 5. **Invoke** each selected leaf: announce **Using `<skill>`** and follow that skill. Do **not** paste Theme 9 law here.
 6. **Budgets** — Debug uses `debug-fix-cycles` (Theme 9); do **not** burn more Execute `verify-retry N=2`.
 7. **Stop** — summarize for human, happy-path, or return to Implementation; refuse PR/merge ceremony.
 
-Read `references/debug-router-checklist.md` **when** running a non-trivial wire or recovering mid-pocket.  
-Template SoT: Toolbelt `docs/templates/debug-router.md`.
+Read `references/guide-debug-checklist.md` **when** running a non-trivial wire or recovering mid-pocket.  
+Template SoT: Toolbelt `docs/templates/guide-debug.md`.
 
 ## Classifier hints
 
@@ -73,17 +74,17 @@ Template SoT: Toolbelt `docs/templates/debug-router.md`.
 | Need | Use |
 |------|-----|
 | Full Toolbelt ladder | `implementation-happy-path` |
-| Implementation pocket | `implementation-router` |
+| Implementation pocket | `guide-implementation` |
 | Prove / dossier | **`debug-reproduce`** |
 | Investigate / fix | **`debug-systematic`** |
-| Design wrong | `design-process` |
+| Design wrong | `guide-design` |
 | Closeout readiness | `implementation-closeout` |
 | Author surfaces | `author-cursor-surfaces` |
 | PR / CI / merge | **Host / human** — Phase 2 |
 
 ## References
 
-- Read `references/debug-router-checklist.md` **when** wiring a session
-- SoT template: Toolbelt `docs/templates/debug-router.md`
+- Read `references/guide-debug-checklist.md` **when** wiring a session
+- SoT template: Toolbelt `docs/templates/guide-debug.md`
 - Theme 17: Toolbelt `docs/research/reports/theme-17-debug-router.md` (accepted)
 - Leaf law: Theme 9 accepted report (via `debug-systematic` / `debug-reproduce`)

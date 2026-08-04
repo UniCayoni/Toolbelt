@@ -43,7 +43,7 @@ aligned_with:
 
 **Part A — trigger:** “Using `research-codebase-recon` for brownfield derive feedstock on Toolbelt: fill S12b (default 12m window). Do not implement code.”
 
-**Part B — skip:** “Using `research-codebase-recon`: I only need the path of `skills/debug-router/SKILL.md` before a one-line edit. Skip history if appropriate.”
+**Part B — skip:** “Using `research-codebase-recon`: I only need the path of `skills/guide-debug/SKILL.md` before a one-line edit. Skip history if appropriate.”
 
 **Part C — conflict:** “Using `author-standards` derive: two fictional eras conflict (old snake_case majority in cold tree vs recent camelCase in hot paths last 3 months). Apply Theme 18 tiebreak; mark proposed.”
 

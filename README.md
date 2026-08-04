@@ -1,6 +1,6 @@
 # Toolbelt
 
-Reusable Cursor **agent utility** plugin: research method (PROTOCOL grades, codebase recon, documentation research, **research-scope** companion, ADRs, `AGENTS.md` authoring, Cursor surface authoring, **host standards**), Design, Plan, Execute, **Verify gates**, **Debug**, and **happy-path** orchestration (`implementation-happy-path`).
+Reusable Cursor **agent utility** plugin: research method (PROTOCOL grades, codebase recon, documentation research, **guide-research** companion, ADRs, `AGENTS.md` authoring, Cursor surface authoring, **host standards**), Design, Plan, Execute, **Verify gates**, **Debug**, and **happy-path** orchestration (`implementation-happy-path`).
 
 **Scope:** agent method (research → design → plan → execute → verify → debug).
 
@@ -45,9 +45,9 @@ Operational load uses `~/.cursor/plugins/local/toolbelt`. Cursor `workspaceOpen`
 
 1. **Developer: Reload Window**
 2. **Customize** → Plugins: `toolbelt` (display name **Toolbelt**) is listed
-3. Skills: Research (8) + Design (5) + Plan + Plan-verify + Execute + Execute-subagents + Execute-verify + debug-systematic + debug-reproduce + **debug-router** + **standards-router** + happy-path + implementation-router + implementation-closeout + author-standards (**25** total)
+3. Skills: Research (8) + Design (5) + Plan + Plan-verify + Execute + Execute-subagents + Execute-verify + debug-systematic + debug-reproduce + **guide-debug** + **guide-standards** + happy-path + guide-implementation + implementation-closeout + author-standards (**25** total)
 4. Rules: grades + draft≠SoT + **standards-resolve-gate** always-on; explore-before-write available (intelligent)
-5. Smoke: `/implementation-plan`, `/implementation-execute`, `/design-process`, `/author-cursor-surfaces` (or Customize → Skills)
+5. Smoke: `/implementation-plan`, `/implementation-execute`, `/guide-design`, `/author-cursor-surfaces` (or Customize → Skills)
 
 ## After editing method SoT
 
@@ -85,10 +85,10 @@ docs/packs/      Pack index (Research / Design / Plan / Execute / Verify / Debug
 | `research-codebase-recon` | Unfamiliar repo / before non-trivial implementation |
 | `research-docs` | Third-party or product docs with version pin |
 | `research-protocol` | Full Method-envelope research notes; **normal** (default) vs **deep** theme campaigns |
-| `research-scope` | Companion: expand/atomize concept → tracks → enough-to-start before gather |
+| `guide-research` | Companion: expand/atomize concept → tracks → enough-to-start before gather |
 | `author-agents-md` | Create/revise `AGENTS.md` (`/` invoke) |
 | `author-standards` | Host principles + checkable standards profiles; brownfield derive (`/` invoke) |
-| `standards-router` | Selective host standards modules (pointers only; catalog if-present) |
+| `guide-standards` | Selective host standards modules (pointers only; catalog if-present) |
 | `research-draft-adr` | Record an architecture/process decision (`/` invoke) |
 | `author-cursor-surfaces` | Author/compose skills, rules, commands, hooks to Theme 4 standards (`/` invoke) |
 
@@ -96,7 +96,7 @@ docs/packs/      Pack index (Research / Design / Plan / Execute / Verify / Debug
 
 | Skill | Use when |
 |-------|----------|
-| `design-process` | Shared design spine + human gate |
+| `guide-design` | Shared design spine + human gate |
 | `design-technical` | Code architecture / stack / services |
 | `design-systems` | Game/creative systems |
 | `design-narrative` | Story / quests / interactive narrative |
@@ -106,8 +106,8 @@ docs/packs/      Pack index (Research / Design / Plan / Execute / Verify / Debug
 
 | Skill | Use when |
 |-------|----------|
-| `implementation-router` | Implementation pocket: wire plan → verify → execute → execute-verify |
-| `debug-router` | Debug pocket: wire prove vs investigate/fix (`debug-reproduce` / `debug-systematic`) |
+| `guide-implementation` | Implementation pocket: wire plan → verify → execute → execute-verify |
+| `guide-debug` | Debug pocket: wire prove vs investigate/fix (`debug-reproduce` / `debug-systematic`) |
 | `implementation-closeout` | Host closeout profile define/check (readiness; not PR merge) |
 | `implementation-happy-path` | Cold-start / controller: chain pocket routers/entries + optional closeout |
 | `implementation-plan` | Hybrid implementation plans for agents |

@@ -83,15 +83,15 @@ Default **serial**. Parallel writers only when the plan marks the task parallel-
 | Need | Use |
 |------|-----|
 | Full Toolbelt ladder (cold start / controller) | **`implementation-happy-path`** |
-| Implementation pocket wire / unclear next leaf | **`implementation-router`** |
-| No plan yet | `implementation-plan` (after `design-process` as needed) |
+| Implementation pocket wire / unclear next leaf | **`guide-implementation`** |
+| No plan yet | `implementation-plan` (after `guide-design` as needed) |
 | Multi-task / fresh implementers | `implementation-execute-subagents` |
 | Post-green / EOP converge | **`implementation-execute-verify`** |
 | Plan never validated | `implementation-plan-verify` |
 | Unfamiliar codebase before a task | `research-codebase-recon` (as-needed) |
-| Verify fails after N=2 / unclear root cause | Direct leaf OK (repro-first: no solid repro → **`debug-reproduce`**; repro in hand → **`debug-systematic`**); use **`debug-router`** when which path is unclear; escalate human if architecture |
-| User bug / major-deviation runtime | Direct leaf OK (repro-first) or **`debug-router`** if path unclear |
-| Unclear Critical from execute-verify | Direct leaf OK (repro-first) or **`debug-router`** before thrashing patches |
+| Verify fails after N=2 / unclear root cause | Direct leaf OK (repro-first: no solid repro → **`debug-reproduce`**; repro in hand → **`debug-systematic`**); use **`guide-debug`** when which path is unclear; escalate human if architecture |
+| User bug / major-deviation runtime | Direct leaf OK (repro-first) or **`guide-debug`** if path unclear |
+| Unclear Critical from execute-verify | Direct leaf OK (repro-first) or **`guide-debug`** before thrashing patches |
 | Host principles / standards feedstock | **`author-standards`** (respect accepted profiles when present; skip when absent) |
 | PR / CI / Bugbot | Phase 2 — not Execute |
 

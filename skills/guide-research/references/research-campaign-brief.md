@@ -7,7 +7,7 @@ created: 2026-07-31
 
 # Research campaign brief
 
-Authority: Theme 12 accepted. Used by skill **`research-scope`**.  
+Authority: Theme 12 accepted. Used by skill **`guide-research`**.  
 Companion only — does **not** replace `research-protocol` notes/grades or recon/docs checklists.
 
 **Glossary:** *Concept atoms* = researchable pieces → **tracks**. Not Theme 3 D11 checkable doc atoms (paths/APIs).

@@ -69,7 +69,7 @@ Profile SoT template: Toolbelt `docs/templates/closeout-profile.md`.
 | Need | Use |
 |------|-----|
 | Full ladder | `implementation-happy-path` |
-| Implementation wire | `implementation-router` |
+| Implementation wire | `guide-implementation` |
 | Missing design/plan/verify | respective leaf skills |
 | Host principles / standards feedstock | **`author-standards`** |
 | Method authoring | `author-cursor-surfaces` |

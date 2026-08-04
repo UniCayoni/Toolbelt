@@ -7,7 +7,7 @@ created: 2026-08-03
 
 # Standards catalog (index)
 
-Authority: Theme 19 accepted. Used by skill **`standards-router`** and rule **standards-resolve-gate**.  
+Authority: Theme 19 accepted. Used by skill **`guide-standards`** and rule **standards-resolve-gate**.  
 **Host-owned** — copy to e.g. `docs/standards/index.md` (path override OK).  
 **Purpose:** map work → **module paths**. Not the rules body.
 

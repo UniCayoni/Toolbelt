@@ -15,17 +15,17 @@ Mapping:
   docs/templates/plan-minimal.md → skills/implementation-plan/references/plan-minimal.md
   docs/templates/repro-light.md → skills/debug-reproduce/references/repro-light.md
   docs/templates/happy-path.md → skills/implementation-happy-path/references/implementation-happy-path-checklist.md
-  docs/templates/research-campaign-brief.md → skills/research-scope/references/research-campaign-brief.md
-  docs/templates/implementation-router.md → skills/implementation-router/references/implementation-router-checklist.md
+  docs/templates/research-campaign-brief.md → skills/guide-research/references/research-campaign-brief.md
+  docs/templates/guide-implementation.md → skills/guide-implementation/references/guide-implementation-checklist.md
   docs/templates/closeout-profile.md → skills/implementation-closeout/references/closeout-profile.md
   docs/templates/closeout-readiness-checklist.md → skills/implementation-closeout/references/closeout-readiness-checklist.md
   docs/templates/principles-profile.md → skills/author-standards/references/principles-profile.md
   docs/templates/standards-profile.md → skills/author-standards/references/standards-profile.md
   docs/templates/author-standards-checklist.md → skills/author-standards/references/author-standards-checklist.md
-  docs/templates/debug-router.md → skills/debug-router/references/debug-router-checklist.md
-  docs/templates/standards-router.md → skills/standards-router/references/standards-router-checklist.md
-  docs/templates/standards-catalog.md → skills/standards-router/references/standards-catalog.md
-  docs/templates/standards-module.md → skills/standards-router/references/standards-module.md
+  docs/templates/guide-debug.md → skills/guide-debug/references/guide-debug-checklist.md
+  docs/templates/guide-standards.md → skills/guide-standards/references/guide-standards-checklist.md
+  docs/templates/standards-catalog.md → skills/guide-standards/references/standards-catalog.md
+  docs/templates/standards-module.md → skills/guide-standards/references/standards-module.md
 
 Usage:
   python scripts/refresh-skill-references.py
@@ -57,11 +57,11 @@ COPIES: list[tuple[Path, Path]] = [
     ),
     (
         ROOT / "docs" / "templates" / "research-campaign-brief.md",
-        ROOT / "skills" / "research-scope" / "references" / "research-campaign-brief.md",
+        ROOT / "skills" / "guide-research" / "references" / "research-campaign-brief.md",
     ),
     (
-        ROOT / "docs" / "templates" / "implementation-router.md",
-        ROOT / "skills" / "implementation-router" / "references" / "implementation-router-checklist.md",
+        ROOT / "docs" / "templates" / "guide-implementation.md",
+        ROOT / "skills" / "guide-implementation" / "references" / "guide-implementation-checklist.md",
     ),
     (
         ROOT / "docs" / "templates" / "closeout-profile.md",
@@ -84,20 +84,20 @@ COPIES: list[tuple[Path, Path]] = [
         ROOT / "skills" / "author-standards" / "references" / "author-standards-checklist.md",
     ),
     (
-        ROOT / "docs" / "templates" / "debug-router.md",
-        ROOT / "skills" / "debug-router" / "references" / "debug-router-checklist.md",
+        ROOT / "docs" / "templates" / "guide-debug.md",
+        ROOT / "skills" / "guide-debug" / "references" / "guide-debug-checklist.md",
     ),
     (
-        ROOT / "docs" / "templates" / "standards-router.md",
-        ROOT / "skills" / "standards-router" / "references" / "standards-router-checklist.md",
+        ROOT / "docs" / "templates" / "guide-standards.md",
+        ROOT / "skills" / "guide-standards" / "references" / "guide-standards-checklist.md",
     ),
     (
         ROOT / "docs" / "templates" / "standards-catalog.md",
-        ROOT / "skills" / "standards-router" / "references" / "standards-catalog.md",
+        ROOT / "skills" / "guide-standards" / "references" / "standards-catalog.md",
     ),
     (
         ROOT / "docs" / "templates" / "standards-module.md",
-        ROOT / "skills" / "standards-router" / "references" / "standards-module.md",
+        ROOT / "skills" / "guide-standards" / "references" / "standards-module.md",
     ),
 ]
 

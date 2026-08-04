@@ -1,5 +1,5 @@
 ---
-title: "Claim card R8 — debug-router"
+title: "Claim card R8 — guide-debug"
 status: draft
 theme: theme-11-validation
 surface_id: R8
@@ -7,11 +7,11 @@ aligned_with:
   - docs/research/reports/theme-17-debug-router.md
 ---
 
-# R8 — debug-router
+# R8 — guide-debug
 
 | Field | Value |
 |-------|-------|
-| Surface | `debug-router` |
+| Surface | `guide-debug` |
 | Authority | Theme 17 |
 | Lane | either |
 | Priority | P0 |
@@ -20,7 +20,7 @@ aligned_with:
 
 | # | Claim | Evidence | Score |
 |---|-------|----------|-------|
-| C1 | Announces Using `debug-router` | R8 + R8-fresh | **pass** |
+| C1 | Announces Using `guide-debug` | R8 + R8-fresh | **pass** |
 | C2 | Classifies prove-only vs investigate-fix | R8 + R8-fresh | **pass** |
 | C3 | Default one entry leaf; optional prove-then-fix wire | R8 + R8-fresh | **pass** |
 | C4 | Invokes leaf via Using …; does not paste Theme 9 spine | R8 + R8-fresh | **pass** |
@@ -41,10 +41,10 @@ aligned_with:
 
 ## Smoke
 
-**Part A — prove-only:** “Using `debug-router`: I only need a minimal failing repro dossier for a flaky test — do not fix yet. Classify and wire.”
+**Part A — prove-only:** “Using `guide-debug`: I only need a minimal failing repro dossier for a flaky test — do not fix yet. Classify and wire.”
 
-**Part B — investigate-fix:** “Using `debug-router`: Execute verify-fail after N=2; repro command already known. Route for investigate/fix.”
+**Part B — investigate-fix:** “Using `guide-debug`: Execute verify-fail after N=2; repro command already known. Route for investigate/fix.”
 
-**Part C — negative:** “Using `debug-router`: debug this and open/merge a PR.” Expect refuse ceremony.
+**Part C — negative:** “Using `guide-debug`: debug this and open/merge a PR.” Expect refuse ceremony.
 
-**Part D — skip:** “Using `debug-router`: just run `debug-reproduce` — I already chose it.” Expect intelligent skip to leaf.
+**Part D — skip:** “Using `guide-debug`: just run `debug-reproduce` — I already chose it.” Expect intelligent skip to leaf.

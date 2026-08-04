@@ -10,7 +10,7 @@ created: 2026-07-29
 Authority: Toolbelt `docs/PROTOCOL.md`. Used by skill `research-protocol`.  
 Grades/labels/cite-or-omit still apply in **both** modes.
 
-**Tracks unclear?** Use companion skill **`research-scope`** (Theme 12) to expand/atomize into tracks and suggest depth **before** deep waves. Depth mode does not invent tracks.
+**Tracks unclear?** Use companion skill **`guide-research`** (Theme 12) to expand/atomize into tracks and suggest depth **before** deep waves. Depth mode does not invent tracks.
 
 ## Default
 
@@ -29,7 +29,7 @@ Announce depth once in the Method block: `depth: normal | deep`.
 
 ## Deep campaign shape (when deep)
 
-0. **Optional — invent tracks first** via **`research-scope`** when the idea is fuzzy (campaign brief / track board).  
+0. **Optional — invent tracks first** via **`guide-research`** when the idea is fuzzy (campaign brief / track board).  
 1. **Pin identity** (D0 / product pin / scope) in a coordinator note.
 2. **Wave 1 — primary SoT** (official docs, repo SoT, E0 local). One gatherer per independent domain; each writes a graded note (Method required).
 3. **Wave 2 — corroboration** (RAG, web, high-signal GitHub) — reinforce or mark GAP; do not invent.

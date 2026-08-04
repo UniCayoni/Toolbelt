@@ -1,5 +1,5 @@
 ---
-title: "Claim card R7 — research-scope"
+title: "Claim card R7 — guide-research"
 status: draft
 theme: theme-11-validation
 surface_id: R7
@@ -8,11 +8,11 @@ aligned_with:
   - docs/research/reports/theme-12-research-scoping.md
 ---
 
-# R7 — research-scope
+# R7 — guide-research
 
 | Field | Value |
 |-------|-------|
-| Surface | `research-scope` |
+| Surface | `guide-research` |
 | Authority | Theme 12 + skill |
 | Lane | subagent |
 | Priority | P0 (Theme 12 elevate) |
@@ -21,7 +21,7 @@ aligned_with:
 
 | # | Claim | Evidence | Score |
 |---|-------|----------|-------|
-| C1 | Announces Using `research-scope` | Exact announce | |
+| C1 | Announces Using `guide-research` | Exact announce | |
 | C2 | Classifies complexity | simple \| complex \| theme/campaign | |
 | C3 | Expands + atomizes into tracks with in/out | ≥2 tracks, in/out filled | |
 | C4 | Suggests depth lean; does not auto-launch deep fleet | depth lean stated; no gatherer fleet | |
@@ -38,4 +38,4 @@ aligned_with:
 
 ## Smoke
 
-**Prompt:** “Using `research-scope`, scope only (do not gather): we want to improve how Toolbelt agents pick research tracks for a fuzzy multi-surface theme. Output complexity, expand bullets, track table (in/out + depth lean), enough-to-start proposal for human, and next-skill handoffs. No research-protocol note.”
+**Prompt:** “Using `guide-research`, scope only (do not gather): we want to improve how Toolbelt agents pick research tracks for a fuzzy multi-surface theme. Output complexity, expand bullets, track table (in/out + depth lean), enough-to-start proposal for human, and next-skill handoffs. No research-protocol note.”

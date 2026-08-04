@@ -62,10 +62,10 @@ When filling the checklist, keep the copied note as the working artifact; re-ope
 
 | Need | Use |
 |------|-----|
-| Expand / tracks before recon | `research-scope` |
+| Expand / tracks before recon | `guide-research` |
 | Full graded multi-pass note | `research-protocol` |
 | Docs/API corroboration | `research-docs` |
-| After gate → design | `design-process` |
+| After gate → design | `guide-design` |
 | After gate → plan/implement | `implementation-plan` → verify → execute |
 | Brownfield standards derive (consumes S12b) | `author-standards` (`derive`) |
 | Full Toolbelt ladder | **`implementation-happy-path`** |

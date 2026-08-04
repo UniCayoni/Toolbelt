@@ -5,7 +5,7 @@ description: >-
   coding-standard constraints at design-time (with agents). Use when choosing
   architecture styles, modular monolith vs services, dependency boundaries,
   stack criteria, clean/standards as constraints, or feature shape before
-  implement. Pairs with design-process and research-draft-adr. Not a lint pack.
+  implement. Pairs with guide-design and research-draft-adr. Not a lint pack.
   Formerly technical-design.
 ---
 
@@ -13,7 +13,7 @@ description: >-
 
 Announce once: **Using `design-technical`**.
 
-Authority: Theme 5 accepted (T5B). Run **`design-process`** spine first for non-trivial work.
+Authority: Theme 5 accepted (T5B). Run **`guide-design`** spine first for non-trivial work.
 
 ## When to use
 
@@ -47,7 +47,7 @@ Thin guidance only (research non-P0): treat OS-specific hosting as a **construct
 
 | Need | Use |
 |------|-----|
-| Shared design spine / gate | `design-process` |
+| Shared design spine / gate | `guide-design` |
 | Lock Decision | `research-draft-adr` |
 | After accept → plan | `implementation-plan` → `implementation-plan-verify` → execute |
 

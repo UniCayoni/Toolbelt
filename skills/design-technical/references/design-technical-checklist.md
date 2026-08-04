@@ -6,9 +6,9 @@ aligned_with: docs/research/reports/theme-5-design-pocket.md
 
 # Technical design checklist
 
-Use with skill `design-technical` (after `design-process` spine).
+Use with skill `design-technical` (after `guide-design` spine).
 
-- [ ] design-process spine completed / human gate clear
+- [ ] guide-design spine completed / human gate clear
 - [ ] Boundaries & dependency direction stated
 - [ ] Options for deploy shape / stack if relevant (both sides when contested)
 - [ ] Clean/standards noted as constraints (no false SoT)

@@ -1,15 +1,15 @@
 ---
-title: "Claim card D1 — design-process"
+title: "Claim card D1 — guide-design"
 status: draft
 theme: theme-11-validation
 surface_id: D1
 ---
 
-# D1 — design-process
+# D1 — guide-design
 
 | Field | Value |
 |-------|-------|
-| Surface | `design-process` |
+| Surface | `guide-design` |
 | Authority | Theme 5 |
 | Lane | subagent |
 | Priority | P0 |
@@ -18,7 +18,7 @@ surface_id: D1
 
 | # | Claim | Evidence | Score |
 |---|-------|----------|-------|
-| C1 | Announces Using `design-process` | | |
+| C1 | Announces Using `guide-design` | | |
 | C2 | Runs shared spine + human gate | States need human accept | |
 | C3 | Routes to technical vs creative domain | Names next skill | |
 | C4 | Does not treat draft as accepted locks | | |
@@ -31,4 +31,4 @@ surface_id: D1
 
 ## Smoke
 
-**Prompt:** “Using `design-process`, for a tiny feature ‘fix smoke-app add() off-by-one’, produce a short design note with options + recommended Decision, status draft, and stop for human accept. Do not implement.”
+**Prompt:** “Using `guide-design`, for a tiny feature ‘fix smoke-app add() off-by-one’, produce a short design note with options + recommended Decision, status draft, and stop for human accept. Do not implement.”

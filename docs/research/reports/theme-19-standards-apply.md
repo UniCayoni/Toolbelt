@@ -31,17 +31,17 @@ amends:
 
 ## 1. Executive summary
 
-Theme 16 shipped **host standards feedstock** and soft Plan/Execute/Closeout bind. Theme 19 adds an **application process**: thin ambient **resolve gate** → small **`standards-router`** → **catalog/module pointers** → selective load — so agents do **not** stuff full standards into every context. Not writing Toolbelt coding-style content. Pocket-router fan-out of the same gate is **later** (T19J).
+Theme 16 shipped **host standards feedstock** and soft Plan/Execute/Closeout bind. Theme 19 adds an **application process**: thin ambient **resolve gate** → small **`guide-standards`** → **catalog/module pointers** → selective load — so agents do **not** stuff full standards into every context. Not writing Toolbelt coding-style content. Pocket-router fan-out of the same gate is **later** (T19J).
 
 ## 2. Elevation decisions (accepted)
 
 | # | Decision |
 |---|----------|
 | D1 | Theme id **`theme-19-standards-apply`** |
-| D2 | Shape **O1** (accepted lean): skill **`standards-router`** + catalog template + thin ambient rule |
+| D2 | Shape **O1** (accepted lean): skill **`guide-standards`** + catalog template + thin ambient rule |
 | D3 | **Compose-only** router: classify → `standards_modules[{id,path,reason}]`; do not paste module bodies; selection ≠ authoring |
 | D4 | **Catalog template** under `docs/templates/` (e.g. standards-catalog + module stub); one-file Theme 16 profile remains valid as a **single module** |
-| D5 | **Ambient gate** rule `alwaysApply: true`, body thin: if no accepted catalog/modules → **no-op**; else resolve via `standards-router` (or equivalent invoke). Never embed full standards in the rule |
+| D5 | **Ambient gate** rule `alwaysApply: true`, body thin: if no accepted catalog/modules → **no-op**; else resolve via `guide-standards` (or equivalent invoke). Never embed full standards in the rule |
 | D6 | **Amend Theme 16 D12:** forbid always-on *standards bodies*; allow always-on *resolve gate* |
 | D7 | Keep **`author-standards`** for principles / standards / derive / bind-check; D10 Plan/Execute/Closeout bind remains |
 | D8 | Classifier dimensions: action, wording, skill id, path globs, perceived intent (ask or core-only when ambiguous) |
@@ -57,7 +57,7 @@ Theme 16 shipped **host standards feedstock** and soft Plan/Execute/Closeout bin
 | Cursor / peers primary | Thin rules; don’t copy entire style guides; skills `references/` progressive; Claude/Codex keep AGENTS small | T19E |
 | RAG | Context engineering: select relevant context; Librarian/style-guide lookup; registry/catalog | T19F (`6daf3081…`, `4b9a08fc…`, `d51865d1…`) |
 | GitHub | Catalog indexes; thin AGENTS pointers; path globs; “read X when Y”; **agentops `skills/standards`** selective load (“do not preload entire corpus”) | T19G S1–S10 |
-| GAP | No widespread public skill id `standards-router`; empty-catalog no-op is Toolbelt design | T19G / T19E |
+| GAP | No widespread public skill id `guide-standards`; empty-catalog no-op is Toolbelt design | T19G / T19E |
 
 ## 4. Deep method
 

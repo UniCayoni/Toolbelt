@@ -6,7 +6,7 @@ description: >-
   Done-when + verify), serial_implement_review default, T0–T3 paste, light
   V1–V8 pre-exec checks, then implementation-plan-verify before Meta ready.
   Use when writing a plan, task breakdown, write-plan, planning before
-  implement, handoff packets for fresh agents, or after design-process gate.
+  implement, handoff packets for fresh agents, or after guide-design gate.
   Prefer over jumping straight to multi-file coding.
 ---
 
@@ -29,7 +29,7 @@ Authority: Theme 6 accepted (Plan method guidance). **Unapproved / draft plans �
 
 ## Preconditions
 
-1. Design gate passed (`design-process` or equivalent human approval) — or work is trivial enough to skip durable design+plan
+1. Design gate passed (`guide-design` or equivalent human approval) — or work is trivial enough to skip durable design+plan
 2. Consume **accepted** Decision / constraints / interfaces / success criteria / section IDs — cite paths; **do not** treat draft Design/ADR as locks
 3. If intent is ambiguous with multiple defensible outcomes → status `blocked` + reason `intent-gap` (**do not invent**)
 
@@ -70,8 +70,8 @@ Authority: Theme 6 accepted (Plan method guidance). **Unapproved / draft plans �
 | Next | Skill / action |
 |------|----------------|
 | Full Toolbelt ladder (cold start / controller) | **`implementation-happy-path`** |
-| Implementation pocket wire / unclear next leaf | **`implementation-router`** |
-| Need design first | `design-process` (then return here) |
+| Implementation pocket wire / unclear next leaf | **`guide-implementation`** |
+| Need design first | `guide-design` (then return here) |
 | Significant locks missing | `research-draft-adr` |
 | Unfamiliar codebase before planning | `research-codebase-recon` |
 | Validate plan before ready | **`implementation-plan-verify`** |

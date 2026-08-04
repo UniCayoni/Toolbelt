@@ -13,7 +13,7 @@ description: >-
 Announce once: **Using `design-systems`**.
 
 Authority: Theme 5 accepted (T5D systems). **Methods are plural — no single SoT.**  
-Run **`design-process`** spine first for non-trivial systems.
+Run **`guide-design`** spine first for non-trivial systems.
 
 ## When to use
 
@@ -35,7 +35,7 @@ MDA (Mechanics–Dynamics–Aesthetics) is one E1 lens among others (Schell tetr
 
 ## Agent role
 
-- Propose 2–3 system approaches with tradeoffs (`design-process`)
+- Propose 2–3 system approaches with tradeoffs (`guide-design`)
 - Critique for broken loops, dominant strategies, unfun dynamics
 - Human decides; record significant system locks (project doc or ADR if it binds tech)
 
@@ -43,7 +43,7 @@ MDA (Mechanics–Dynamics–Aesthetics) is one E1 lens among others (Schell tetr
 
 | Need | Use |
 |------|-----|
-| Shared design spine / gate | `design-process` |
+| Shared design spine / gate | `guide-design` |
 | Tech binding from systems | `design-technical` / `research-draft-adr` |
 | After accept → plan | `implementation-plan` → `implementation-plan-verify` |
 

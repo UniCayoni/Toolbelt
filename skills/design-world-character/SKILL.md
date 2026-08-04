@@ -12,7 +12,7 @@ description: >-
 Announce once: **Using `design-world-character`**.
 
 Authority: Theme 5 accepted (T5D world/character). Methods vary by medium.  
-Run **`design-process`** spine first for non-trivial setting/cast work.
+Run **`guide-design`** spine first for non-trivial setting/cast work.
 
 ## When to use
 
@@ -47,7 +47,7 @@ Anti-pattern: incoherent “everything” settings. Prefer focus (inside-out or 
 
 | Need | Use |
 |------|-----|
-| Shared design spine / gate | `design-process` |
+| Shared design spine / gate | `guide-design` |
 | Narrative / systems coupling | `design-narrative` / `design-systems` |
 | After accept → plan | `implementation-plan` → `implementation-plan-verify` |
 

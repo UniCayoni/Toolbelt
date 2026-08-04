@@ -8,7 +8,7 @@ Authority for this guide: accepted Theme 13 report — [`docs/research/reports/t
 
 1. **Draft is not law.** Notes/reports/designs/plans/ADRs with `status: draft` or `proposed` are **not** accepted sources of truth. Do not merge changes that treat them as SoT. See always-on rule `draft-is-not-sot` and [`docs/PROTOCOL.md`](./docs/PROTOCOL.md).
 2. **Cite-or-omit.** Research and design locks need evidence grades (E0–E4/U) and claim labels (FACT/CLAIM/INFERENCE/GAP/OPEN). Prefer `GAP`/`OPEN` over invention.
-3. **Human accept before method/skill law.** Pocket or skill changes that set Toolbelt method usually go through research (and often `research-scope` for fuzzy multi-surface work) → integrated report → **human accept** → elevate via **`author-cursor-surfaces`**. A green CI check (when we add CI later) does not replace accept.
+3. **Human accept before method/skill law.** Pocket or skill changes that set Toolbelt method usually go through research (and often `guide-research` for fuzzy multi-surface work) → integrated report → **human accept** → elevate via **`author-cursor-surfaces`**. A green CI check (when we add CI later) does not replace accept.
 4. **Domain-first skill names.** New skills: `{domain}-{stage?}-{action?}` kebab-case; YAML `name` **must** match the folder (`research-*`, `design-*`, `implementation-*`, `debug-*`, `author-*`). See [CHANGELOG.md](./CHANGELOG.md) rename table.
 5. **Disclose AI/agent assistance** on issues and PRs (what model/harness/plugins, or “hand-written”). See the pull request template.
 
@@ -60,10 +60,10 @@ Details: [README.md](./README.md).
 
 ## Research & design changes
 
-- Fuzzy / multi-surface themes: start with **`research-scope`** (track board + human enough-to-start).  
+- Fuzzy / multi-surface themes: start with **`guide-research`** (track board + human enough-to-start).  
 - Depth: default **normal**; **deep** only when asked or clearly needed ([`docs/templates/research-depth-modes.md`](./docs/templates/research-depth-modes.md)).  
-- Design: `design-process` → domain skill → **human accept** before plan/implement locks.  
-- Pocket routers / entry: `research-scope`, `design-process`, `implementation-router` (Theme 14). Closeout readiness: `implementation-closeout` (Theme 15) — host criteria + evidence; **not** merge/push. Happy-path chains those; CI/Bugbot/**ceremony automation** still Phase 2 / host.
+- Design: `guide-design` → domain skill → **human accept** before plan/implement locks.  
+- Pocket routers / entry: `guide-research`, `guide-design`, `guide-implementation` (Theme 14). Closeout readiness: `implementation-closeout` (Theme 15) — host criteria + evidence; **not** merge/push. Happy-path chains those; CI/Bugbot/**ceremony automation** still Phase 2 / host.
 
 ## Pull requests
 

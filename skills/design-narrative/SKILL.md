@@ -13,7 +13,7 @@ description: >-
 Announce once: **Using `design-narrative`**.
 
 Authority: Theme 5 accepted (T5D narrative). **No single story method is SoT.**  
-Run **`design-process`** spine first for non-trivial narrative work.
+Run **`guide-design`** spine first for non-trivial narrative work.
 
 ## When to use
 
@@ -43,7 +43,7 @@ Prefer designs that state **how beats touch game state** (flags, qualities, trig
 
 | Need | Use |
 |------|-----|
-| Shared design spine / gate | `design-process` |
+| Shared design spine / gate | `guide-design` |
 | Systems / world coupling | `design-systems` / `design-world-character` |
 | After accept → plan | `implementation-plan` → `implementation-plan-verify` |
 

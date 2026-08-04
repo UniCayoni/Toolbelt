@@ -1,23 +1,24 @@
 ---
-name: implementation-router
+name: guide-implementation
 description: >-
-  Pocket router for Toolbelt Implementation: classify the ask, emit a wire plan
-  over plan / plan-verify / execute / execute-subagents / execute-verify with
-  explicit skips, then invoke those skills without restating their law. Use when
+  Pocket guide for Toolbelt Implementation (formerly implementation-router):
+  classify the ask, emit a wire plan over plan / plan-verify / execute /
+  execute-subagents / execute-verify with explicit skips, then invoke those
+  skills without restating their law. Use when guide-implementation,
   implementation-router, which plan or execute skill, wire implementation
   pocket, after design accept before coding, or when choosing execute vs
   subagents vs verify-only. Prefer over inventing ad-hoc Implementation skill
   order. Not for writing plans or executing tasks itself.
 ---
 
-# Implementation router
+# Guide implementation
 
-Announce once: **Using `implementation-router`**.
+Announce once: **Using `guide-implementation`**.
 
 Authority: Theme 14 accepted (`docs/research/reports/theme-14-pocket-routers.md`).  
 **Compose only** — Plan / Execute / Verify SoT stays in Themes 6–8 skills.  
 **Draft ≠ law** (`draft-is-not-sot`).  
-**Selection ≠ solving** — this skill routes; leaves do the work.
+**Selection ≠ solving** — this skill guides; leaves do the work.
 
 ## When to use
 
@@ -38,11 +39,11 @@ Authority: Theme 14 accepted (`docs/research/reports/theme-14-pocket-routers.md`
 4. **Wire plan** — ordered leaves + explicit N/A skips. Default feature path:
    - `implementation-plan` → `implementation-plan-verify` → `implementation-execute` **or** `implementation-execute-subagents` → `implementation-execute-verify` (non-trivial / EOP).
 5. **Invoke** each selected leaf: announce **Using `<skill>`** and follow that skill. Do **not** paste its spine here.
-6. **On leaf exit** — if `blocked` / verify-fail / unclear Critical → hand off **`debug-router`**. If design was wrong → return toward `design-process` / happy-path classify — do not invent requirements.
+6. **On leaf exit** — if `blocked` / verify-fail / unclear Critical → hand off **`guide-debug`**. If design was wrong → return toward `guide-design` / happy-path classify — do not invent requirements.
 7. **Stop** — summarize wire outcome for human or for `implementation-happy-path` next stage.
 
-Read `references/implementation-router-checklist.md` **when** running a non-trivial wire or recovering mid-pocket.  
-Template SoT: Toolbelt `docs/templates/implementation-router.md`.
+Read `references/guide-implementation-checklist.md` **when** running a non-trivial wire or recovering mid-pocket.  
+Template SoT: Toolbelt `docs/templates/guide-implementation.md`.
 
 ## Classifier hints
 
@@ -54,7 +55,7 @@ Template SoT: Toolbelt `docs/templates/implementation-router.md`.
 | Multi-task / fresh agents | execute-subagents |
 | Greens done; EOP / converge | execute-verify |
 | One-file trivial | document trivial-skip; careful edit without durable plan |
-| Bug / verify-fail dominant | leave Implementation; **`debug-router`** |
+| Bug / verify-fail dominant | leave Implementation; **`guide-debug`** |
 
 ## Anti-patterns
 
@@ -70,17 +71,17 @@ Template SoT: Toolbelt `docs/templates/implementation-router.md`.
 | Need | Use |
 |------|-----|
 | Full Toolbelt ladder | `implementation-happy-path` |
-| Design not accepted | `design-process` |
+| Design not accepted | `guide-design` |
 | Plan / verify / execute leaves | `implementation-plan` → `implementation-plan-verify` → `implementation-execute` (+ `-subagents`, `-verify`) |
-| Debug pocket | **`debug-router`** |
-| Research unclear | `research-scope` / research leaves |
+| Debug pocket | **`guide-debug`** |
+| Research unclear | `guide-research` / research leaves |
 | Closeout readiness | `implementation-closeout` |
 | Host principles / standards | `author-standards` |
 | Author surfaces | `author-cursor-surfaces` |
 
 ## References
 
-- Read `references/implementation-router-checklist.md` **when** wiring a session
-- SoT template: Toolbelt `docs/templates/implementation-router.md`
+- Read `references/guide-implementation-checklist.md` **when** wiring a session
+- SoT template: Toolbelt `docs/templates/guide-implementation.md`
 - Theme 14: Toolbelt `docs/research/reports/theme-14-pocket-routers.md` (accepted)
 - Leaf law: Themes 6–8 accepted reports (via their skills)

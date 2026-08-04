@@ -57,11 +57,11 @@ Re-open `references/d0-d14-checklist.md` only when recovering missing D-steps; k
 
 | Need | Use |
 |------|-----|
-| Expand / tracks before docs research | `research-scope` |
+| Expand / tracks before docs research | `guide-research` |
 | Full Method-envelope note / deep campaign | `research-protocol` |
 | Code corroboration | `research-codebase-recon` |
 | Decision lock | `research-draft-adr` |
-| Design / plan after facts | `design-process` / `implementation-plan` |
+| Design / plan after facts | `guide-design` / `implementation-plan` |
 
 ## References
 

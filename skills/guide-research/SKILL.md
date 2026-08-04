@@ -1,23 +1,23 @@
 ---
-name: research-scope
+name: guide-research
 description: >-
-  Companion to Toolbelt research: expand a fuzzy idea, atomize into concept
-  tracks, suggest depth per track, and gate enough-to-start before gather. Use
-  when research-scope, expand the concept, atomize research, campaign brief,
-  track board, what should we research, unclear multi-surface theme, or before
-  deep/theme research when tracks are unknown. Prefer over inventing ad-hoc
-  track lists inside research-protocol. Not for writing graded notes or running
-  recon/docs checklists.
+  Companion to Toolbelt research (formerly research-scope): expand a fuzzy idea,
+  atomize into concept tracks, suggest depth per track, and gate enough-to-start
+  before gather. Use when guide-research, research-scope, expand the concept,
+  atomize research, campaign brief, track board, what should we research,
+  unclear multi-surface theme, or before deep/theme research when tracks are
+  unknown. Prefer over inventing ad-hoc track lists inside research-protocol.
+  Not for writing graded notes or running recon/docs checklists.
 ---
 
-# Research scope (companion)
+# Guide research (companion)
 
-Announce once: **Using `research-scope`**.
+Announce once: **Using `guide-research`**.
 
 Authority: Theme 12 accepted (`docs/research/reports/theme-12-research-scoping.md`).  
 **Companion** — does not own cite-or-omit, Method envelopes, S0–S18, or D0–D14.  
 **Draft ≠ law** (`draft-is-not-sot`).  
-Theme 14: treated as Research **pocket router / entry** (de facto; name unchanged).
+Theme 14/20: Research pocket **guide** entry (`guide-research`; was `research-scope`).
 
 ## When to use
 
@@ -49,7 +49,7 @@ Theme 14: treated as Research **pocket router / entry** (de facto; name unchange
 
 ## Self-check
 
-- [ ] Announced Using `research-scope`
+- [ ] Announced Using `guide-research`
 - [ ] Complexity classified; skip documented if N/A
 - [ ] Tracks have in/out (not vague labels only)
 - [ ] Depth is lean/suggestion only (no silent deep fleet)
@@ -72,8 +72,8 @@ Theme 14: treated as Research **pocket router / entry** (de facto; name unchange
 | Graded notes / deep waves | `research-protocol` |
 | Codebase map | `research-codebase-recon` |
 | Product/docs pin | `research-docs` |
-| After accepted research → design | `design-process` |
-| Implementation pocket wire | `implementation-router` |
+| After accepted research → design | `guide-design` |
+| Implementation pocket wire | `guide-implementation` |
 | Full ladder | `implementation-happy-path` |
 | Author surfaces from findings | `author-cursor-surfaces` |
 

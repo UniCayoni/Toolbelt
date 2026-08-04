@@ -1,5 +1,5 @@
 ---
-title: "Handoff S2 — standards-router smoke"
+title: "Handoff S2 — guide-standards smoke"
 status: draft
 ---
 

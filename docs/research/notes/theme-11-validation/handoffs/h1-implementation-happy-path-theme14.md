@@ -20,19 +20,19 @@ Run **Part A** first. Then B–E in the **same** chat after scoring A.
 
 > Using `implementation-happy-path`, classify and route: we need to fix smoke-app `add()` off-by-one end-to-end. Output classifier + checklist stages only; do not implement.
 
-Expect: **bug** → Debug leaves (`debug-reproduce` / `debug-systematic`); design/research skipped with reason; **not** forced through `implementation-router` first.
+Expect: **bug** → Debug leaves (`debug-reproduce` / `debug-systematic`); design/research skipped with reason; **not** forced through `guide-implementation` first.
 
 ### Part B — feature / Implementation via router (required)
 
 > Using `implementation-happy-path`, classify and route a non-trivial **feature** that still needs design then implementation. Checklist stages only; do not design or implement.
 
-Expect: stage for Implementation is **`implementation-router`** (not a re-listed plan→execute leaf dump as SoT).
+Expect: stage for Implementation is **`guide-implementation`** (not a re-listed plan→execute leaf dump as SoT).
 
 ### Part C — research campaign (required)
 
 > Using `implementation-happy-path`, classify and route: run a multi-surface theme campaign on “how agents should scope research tracks” — checklist stages only; do not gather.
 
-Expect: optional **`research-scope`** then research leaves; design only after accept.
+Expect: optional **`guide-research`** then research leaves; design only after accept.
 
 ### Part D — negative ADR-only (required)
 
@@ -44,13 +44,13 @@ Expect: authoring / `research-draft-adr` path — **not** mandatory full feature
 
 > Using `implementation-happy-path`: design is already accepted; wire **Implementation pocket only**.
 
-Expect: prefer **`implementation-router`** over running the entire Research→Design ladder.
+Expect: prefer **`guide-implementation`** over running the entire Research→Design ladder.
 
 ### Pass bar (quick)
 
 - Announces **Using `implementation-happy-path`**
 - Bug ≠ feature ≠ research ≠ authoring routing
-- Feature path uses **`implementation-router`** at Implementation stage (Theme 14 C7)
+- Feature path uses **`guide-implementation`** at Implementation stage (Theme 14 C7)
 - Implementation-only prefers router (C8)
 - No Execute/Debug method spines pasted
 - Workers = one pocket leaf called out
