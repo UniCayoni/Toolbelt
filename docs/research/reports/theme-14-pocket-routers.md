@@ -41,7 +41,7 @@ amends:
 | D3 | Packs: first-class row **Routers / pocket entry**; Happy-path = chains routers |
 | D4 | Defer **`guide-debug`** *(superseded by Theme 17 — shipped)* |
 | D5 | Implementation router = **pure select/wire** among fixed leaves (not a planner/decomposer) |
-| D6 | **Park** global always-on / meta `skill-router` |
+| D6 | Global always-on / meta `skill-router` **parked as always-on**; **reopened Theme 22** as opt-in skill **`guide-meta`** (not alwaysApply) — see [`theme-22-meta-guide.md`](./theme-22-meta-guide.md) |
 | D7 | Happy-path remains compose-only (Theme 10 D8); workers = one pocket; no always-on rule |
 | D8 | Structured handoff fields on routers (goal, prior, facts+source, open question, constraints) — checklist, not always-apply rule |
 
@@ -87,7 +87,7 @@ Loose use       → leaf or pocket router directly
 | Happy-path thin rewire | **Shipped** |
 | Packs Routers row | **Shipped** |
 | `guide-debug` | **Shipped** (Theme 17) |
-| Global skill-router | **Parked** |
+| Global skill-router | **Shipped Theme 22** as **`guide-meta`** (skill-only; not always-on) |
 | Rename scope/process → `*-router` | **Parked** (optional later) |
 
 ---

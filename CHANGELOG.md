@@ -8,6 +8,7 @@ Format inspired by [Keep a Changelog](https://keepachangelog.com/). Versioning f
 
 ### Added
 
+- Theme 22: **`guide-meta`** + template — thin global front door (classify → one next surface); **not** always-on
 - Theme 19: **`guide-standards`** + standards catalog/module templates + always-on thin **`standards-resolve-gate`** (selective module apply; empty/absent no-op)
 - Theme 18: recon conditional **S12b** (git history / recency) + `author-standards` derive conflict-tiebreak glue (default 12m window; host override)
 - Theme 12: companion skill `guide-research` + template `research-campaign-brief` (expand/atomize tracks before gather)

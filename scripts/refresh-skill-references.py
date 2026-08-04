@@ -26,6 +26,7 @@ Mapping:
   docs/templates/guide-standards.md → skills/guide-standards/references/guide-standards-checklist.md
   docs/templates/standards-catalog.md → skills/guide-standards/references/standards-catalog.md
   docs/templates/standards-module.md → skills/guide-standards/references/standards-module.md
+  docs/templates/guide-meta.md → skills/guide-meta/references/guide-meta-checklist.md
 
 Usage:
   python scripts/refresh-skill-references.py
@@ -98,6 +99,10 @@ COPIES: list[tuple[Path, Path]] = [
     (
         ROOT / "docs" / "templates" / "standards-module.md",
         ROOT / "skills" / "guide-standards" / "references" / "standards-module.md",
+    ),
+    (
+        ROOT / "docs" / "templates" / "guide-meta.md",
+        ROOT / "skills" / "guide-meta" / "references" / "guide-meta-checklist.md",
     ),
 ]
 

@@ -68,8 +68,8 @@ Templates / checklists / refresh mappings follow the new ids. Rule **`standards-
 ## 5. Explicit non-goals / parks
 
 - Dual-id aliases
-- Global meta-guide
-- T19J fan-out of resolve into other pocket guides (still later)
+- Global meta-guide → **shipped Theme 22** (`guide-meta`)
+- T19J fan-out → **shipped Theme 21**
 - Renaming Theme 14/17 **report files** or theme folder paths
 
 ## 6. Verify before accept

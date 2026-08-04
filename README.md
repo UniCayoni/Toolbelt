@@ -45,9 +45,9 @@ Operational load uses `~/.cursor/plugins/local/toolbelt`. Cursor `workspaceOpen`
 
 1. **Developer: Reload Window**
 2. **Customize** → Plugins: `toolbelt` (display name **Toolbelt**) is listed
-3. Skills: Research (8) + Design (5) + Plan + Plan-verify + Execute + Execute-subagents + Execute-verify + debug-systematic + debug-reproduce + **guide-debug** + **guide-standards** + happy-path + guide-implementation + implementation-closeout + author-standards (**25** total)
+3. Skills: Research + Design + Plan/Execute/Verify/Debug leaves + pocket **`guide-*`** + **`guide-meta`** + happy-path + closeout + author-standards (**26** total)
 4. Rules: grades + draft≠SoT + **standards-resolve-gate** always-on; explore-before-write available (intelligent)
-5. Smoke: `/implementation-plan`, `/implementation-execute`, `/guide-design`, `/author-cursor-surfaces` (or Customize → Skills)
+5. Smoke: `/guide-meta`, `/guide-design`, `/implementation-plan`, `/author-cursor-surfaces` (or Customize → Skills)
 
 ## After editing method SoT
 
@@ -63,7 +63,7 @@ Reload Window after sync. **Elevating or revising skills/rules:** use `/author-c
 ## Layout
 
 ```text
-skills/          Research + Design + Plan + Execute + Verify + Debug + Routers + Closeout + Host standards + Happy-path + authoring (25)
+skills/          Research + Design + Plan + Execute + Verify + Debug + guide-* + guide-meta + Closeout + Host standards + Happy-path + authoring (26)
 rules/           Grades + draft≠SoT + standards-resolve-gate (always); explore-before-write (intelligent)
 assets/          Logo and static assets (marketplace)
 docs/PROTOCOL.md Method law
@@ -106,10 +106,11 @@ docs/packs/      Pack index (Research / Design / Plan / Execute / Verify / Debug
 
 | Skill | Use when |
 |-------|----------|
+| `guide-meta` | Cold/fuzzy front door: which Toolbelt skill next (not always-on) |
 | `guide-implementation` | Implementation pocket: wire plan → verify → execute → execute-verify |
 | `guide-debug` | Debug pocket: wire prove vs investigate/fix (`debug-reproduce` / `debug-systematic`) |
 | `implementation-closeout` | Host closeout profile define/check (readiness; not PR merge) |
-| `implementation-happy-path` | Cold-start / controller: chain pocket routers/entries + optional closeout |
+| `implementation-happy-path` | Feature ladder / controller: chain pocket guides + optional closeout |
 | `implementation-plan` | Hybrid implementation plans for agents |
 | `implementation-plan-verify` | Graded plan validate before Meta `ready` |
 | `implementation-execute` | Execute approved plans (Done-when, N=2) |

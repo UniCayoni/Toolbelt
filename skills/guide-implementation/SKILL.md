@@ -30,7 +30,7 @@ Theme 21 fan-out (`docs/research/reports/theme-21-standards-fanout.md`).
 
 **Skip** (document): user already named a single leaf and scope is clear — invoke that leaf directly.
 
-**Out of scope:** Re-teaching Plan/Execute/Verify spines; task decomposition (that is `implementation-plan`); Debug method law; PR/CI; global skill discovery meta-router.
+**Out of scope:** Re-teaching Plan/Execute/Verify spines; task decomposition (that is `implementation-plan`); Debug method law; PR/CI; cross-pocket front door (**`guide-meta`**).
 
 ## Instructions
 

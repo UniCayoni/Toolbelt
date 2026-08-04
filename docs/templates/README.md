@@ -23,6 +23,7 @@ Reports:
 | Author/compose Cursor skills, rules, commands, hooks | `author-cursor-surfaces.md` |
 | Host principles / standards profiles | `principles-profile.md`, `standards-profile.md`, `author-standards-checklist.md` |
 | Standards apply (catalog / module / router) | `standards-catalog.md`, `standards-module.md`, `guide-standards.md` |
+| Global meta-guide checklist | `guide-meta.md` |
 | Debug pocket router checklist | `guide-debug.md` |
 
 ## Rules

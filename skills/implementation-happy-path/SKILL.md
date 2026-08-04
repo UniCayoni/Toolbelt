@@ -31,6 +31,7 @@ Authority: Theme 10 accepted (`docs/research/reports/theme-10-happy-path.md`);
 
 | Ask type | Entry |
 |----------|--------|
+| **Unclear / which Toolbelt skill?** | Prefer **`guide-meta`** first (Theme 22), then continue |
 | New / changed **feature** | Happy path below |
 | **Bug** / verify-fail / unclear Critical | **`guide-debug`** (return to design/plan if design wrong) |
 | **Research** / theme campaign | Research pocket entry (`guide-research` if tracks unclear) → research leaves; continue to design only after accept |
@@ -84,6 +85,7 @@ Template SoT: Toolbelt `docs/templates/happy-path.md`.
 
 | Need | Use |
 |------|-----|
+| Unclear which pocket / cold front door | **`guide-meta`** (Theme 22) |
 | Research pocket entry | `guide-research` |
 | Design pocket entry | `guide-design` |
 | Implementation pocket router | **`guide-implementation`** |
@@ -98,4 +100,5 @@ Template SoT: Toolbelt `docs/templates/happy-path.md`.
 - SoT template: Toolbelt `docs/templates/happy-path.md`
 - Theme 10: Toolbelt `docs/research/reports/theme-10-happy-path.md` (accepted)
 - Theme 14: Toolbelt `docs/research/reports/theme-14-pocket-routers.md` (accepted)
+- Theme 22: Toolbelt `docs/research/reports/theme-22-meta-guide.md` (accepted)
 - Pocket law: Themes 5–9 / 12 skills (via routers and leaves)

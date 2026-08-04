@@ -40,7 +40,7 @@ Closes Theme 19 **T19J**: pocket **`guide-*`** entries run Theme 19 **if-present
 | D4 | Pocket lean: research/design → principles / method-inclination tags; impl/debug → technical tags; no auto cross-apply |
 | D5 | Happy-path: guides own resolve; **do not** force four full reloads — carry pinned modules |
 | D6 | Ambient `standards-resolve-gate` unchanged (coexists) |
-| D7 | Parks unchanged: global meta-guide; dual-era schema v2; Toolbelt-universal style; host corpora as host action |
+| D7 | Parks: dual-era schema v2; Toolbelt-universal style; host corpora as host action. **Global meta-guide** → **shipped Theme 22** |
 | D8 | Smoke **S3** (or extend S2): pocket entry no-op + fixture pointers + already-pinned skip + pocket lean |
 
 ## 3. Surfaces
