@@ -3,6 +3,7 @@
 Status: aligned to integrated reports (Themes 1–3) + Theme 4 accepted (2026-07-29); SoT for Toolbelt plugin  
 Authority: `docs/PROTOCOL.md`  
 Reports:
+
 - Theme 1: `docs/research/reports/theme-1-codebase-research-for-agents.md`
 - Theme 2: `docs/research/reports/theme-2-agent-usable-documentation.md`
 - Theme 3: `docs/research/reports/theme-3-researching-documentation.md`

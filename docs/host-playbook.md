@@ -10,7 +10,7 @@ owner: Toolbelt maintainers
 # Toolbelt host playbook
 
 **Audience:** you installed Toolbelt in Cursor and want to **set up and use** it on a **host** project.  
-**Not:** contributor CI/merge ceremony ([CONTRIBUTING.md](../CONTRIBUTING.md)); learn-back after ship (Theme 24 — separate).  
+**Not:** contributor CI/merge ceremony ([CONTRIBUTING.md](../CONTRIBUTING.md)); post-ship harvest is **`author-learning`** (Theme 24 — separate; proposed-only).  
 **Catalog:** compact surface reference → [host-playbook-catalog.md](./host-playbook-catalog.md).  
 **Conflict rule:** if this playbook and a live `skills/*/SKILL.md` disagree, the **skill wins** — then fix this playbook.
 

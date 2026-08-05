@@ -16,6 +16,7 @@
 | C-T3 | `docs/research/sources/coordinator-t3-research-docs-kickoff.md` | Coordinator kickoff: PROTOCOL E3 exception, Docs as Code, drift |
 
 **Cross-links only (not re-researched):**  
+
 - Theme 1 report: `docs/research/reports/theme-1-codebase-research-for-agents.md` (docs as beacons; recon → verify)  
 - Theme 2 report: `docs/research/reports/theme-2-agent-usable-documentation.md` (Diátaxis layers; E1 docs vs E0; cite conflicts)
 

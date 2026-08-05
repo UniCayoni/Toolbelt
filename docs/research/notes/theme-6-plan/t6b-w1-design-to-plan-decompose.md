@@ -86,12 +86,14 @@ aligned_with:
 - `FACT` [E2] Theme 5 Design guidance: simple work may use a **short** design + approval; scale presentation length to complexity; multi-independent-subsystem asks → **sub-designs first** (atomize at design time before planning a mega-platform). [E2 path: `docs/research/reports/theme-5-design-pocket.md`; `skills/design-process/SKILL.md` “Simple work…” + scope check + sectional present — accessed 2026-07-29]
 - `FACT` [E0] Theme 5 transfer note (draft) retained “decompose-before-deep-design” and “scale-to-complexity” as strengths transferred into Toolbelt Design spine (not Plan elevation). [E0/E2 path: `docs/research/notes/theme-5-design/brainstorm-vs-design-process.md` §3–§5 — accessed 2026-07-29; Design SoT remains Theme 5 pocket]
 - `INFERENCE` [E4] **Scaling ladder for Plan (candidate):**
+
   | Complexity | Design input | Plan shape |
   |------------|--------------|------------|
   | Simple (few files, one clear outcome, accepted short design) | Short approved design / chat decision | Flat ordered SMART task list + acceptance checks; skip deep WBS tree |
   | Medium | Sectional approved design ± ADR | WBS 2–3 levels → vertical slices → SMART tasks; deps + file map |
   | Complex / multi-subsystem | Multiple accepted sub-designs + ADRs | Atomize: one plan (or plan chapter) per sub-design; integrate only at declared interfaces; SPIDR spikes for unknowns |
   Premises: Theme 5 scale/decompose E2; WBS depth heuristics E2; Wake Small/SMART E1; Cohn SPIDR E1.
+
 - `FACT` [E1] Cohn Spike: when approach is unclear, timebox research/prototype **without** delivering the feature; then split/implement with better knowledge. [E1: Cohn SPIDR — Mountain Goat URL — accessed 2026-07-29]
 - `FACT` [E2] Agent Mesh / SE: decomposability isolates errors and enables independent test/deploy of units; recursive handoff of subtasks is the agent analogue of modular breakdown. [E2: Alexandria corpus=`ai_llm_agents` source=`Agentic Mesh...` chunk_id=`6149f282290bb3ce49e2b7e0`]
 - `OPEN` Exact numeric sizing for agent sessions (e.g. “one PR per task”, token budgets) — not locked this wave; human/project heuristic until T6A/T6C corroborate.

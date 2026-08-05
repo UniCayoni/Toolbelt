@@ -28,7 +28,7 @@ amends: null
 
 ## 1. Executive summary
 
-Ships host-facing **setup + use** docs: cold path install → verify → **`guide-meta`** → pocket / happy-path flows; compact **catalog as reference** (not opening wall); maintenance contract so playbook does not drift from live skills. Explicitly **not** Theme 24 learn-back, Phase 2 CI doc-drift, or Superpowers always-bootstrap as Toolbelt law.
+Ships host-facing **setup + use** docs: cold path install → verify → **`guide-meta`** → pocket / happy-path flows; compact **catalog as reference** (not opening wall); maintenance contract so playbook does not drift from live skills. Explicitly **not** Theme 24 author-learning (workspace harvest), Phase 2 CI doc-drift, or Superpowers always-bootstrap as Toolbelt law.
 
 ## 2. Elevation decisions (accepted)
 

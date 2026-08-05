@@ -68,7 +68,7 @@ Evidence grades: E0 local observation · E1 primary · E2 secondary · E3 commun
 
 ## 7. Gaps & OPEN
 
-- 
+-
 
 ## 8. Implications (INFERENCE only)
 
@@ -78,4 +78,4 @@ Label clearly. Do **not** promote to design lock without separate acceptance.
 
 ## 9. Source list (deduped)
 
-1. 
+1.

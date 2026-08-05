@@ -29,9 +29,9 @@ Human accept scope: pending | accepted | revise
 What must be true / looked up / decided before gather?
 
 ```text
--
--
--
+- …
+- …
+- …
 ```
 
 ## Tracks

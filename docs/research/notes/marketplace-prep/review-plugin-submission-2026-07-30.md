@@ -135,7 +135,7 @@ Treat as **required before marketplace** so the public listing points at a contr
 
 Do in roughly this order:
 
-1. [x] Commit + **push** all pending Toolbelt work to `main` (incl. Theme 13 contributor files) — `b232e28` 
+1. [x] Commit + **push** all pending Toolbelt work to `main` (incl. Theme 13 contributor files) — `b232e28`
 2. [ ] Make **`UniCayoni/toolbelt` public** (Settings → General → Danger Zone / Change visibility)  
 3. [ ] Enable **Discussions** (Settings → Features)  
 4. [ ] Verify **Contributing** tab + **PR template** on GitHub  

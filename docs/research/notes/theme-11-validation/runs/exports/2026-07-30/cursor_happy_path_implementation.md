@@ -1,11 +1,12 @@
 # Happy path implementation
+
 _Exported on 7/30/2026 at 22:21:53 PDT from Cursor (3.13.25)_
 
 ---
 
 **User**
 
-@h1-implementation-happy-path.md (1-34) 
+@h1-implementation-happy-path.md (1-34)
 
 ---
 
@@ -51,4 +52,3 @@ Routes through the Toolbelt ladder: research (as needed) → `design-process` �
 ### Part C — ADR only
 
 Ask type authoring → `draft-adr`. Full feature ladder not mandatory.
-

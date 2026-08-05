@@ -1,11 +1,12 @@
 # Controller pocket smokes
+
 _Exported on 7/30/2026 at 22:20:38 PDT from Cursor (3.13.25)_
 
 ---
 
 **User**
 
-@controller-pocket-smokes.md (1-39) 
+@controller-pocket-smokes.md (1-39)
 
 ---
 
@@ -20,6 +21,7 @@ Matrix confirmed at `docs/research/notes/theme-11-validation/smoke-matrix.md`. L
 **Phase B controller online.** Matrix confirmed; U1/U2/H1 skipped per handoff.
 
 **Batch 1 running** (background):
+
 - [R1 research-protocol](a0a9f854-d2a3-4065-886d-d78e7d5f12e4)
 - [R2 codebase-recon](9a36c7d4-1782-442e-aad3-829680be3481)
 - [R3 docs-research](108033c5-7d91-485e-881f-88263fcd27ce)
@@ -122,6 +124,7 @@ Verdict: **PASS**. Run log: `docs/research/notes/theme-11-validation/runs/R2-202
 - **Run log:** `docs/research/notes/theme-11-validation/runs/R2-20260730.md`
 - **Summary:** as-needed recon → 19 skills, 4 rules, PROTOCOL at `docs/PROTOCOL.md`; C1–C4 pass, A1 clear.
 </response>
+
 output_path: c:\Users\Jonyc\.cursor\projects\d-Toolbelt\agent-transcripts\54e4a764-6b4b-4bff-a41c-51bef71d8fbb\subagents\9a36c7d4-1782-442e-aad3-829680be3481.jsonl
 </task>
 </system_notification>
@@ -227,8 +230,8 @@ detail: <user_visible_high_level_summary>
 <response>
 **Using `author-cursor-surfaces`**
 
-**Verdict:** PASS 
-**Run log:** `docs/research/notes/theme-11-validation/runs/R6-20260730.md` 
+**Verdict:** PASS
+**Run log:** `docs/research/notes/theme-11-validation/runs/R6-20260730.md`
 **Summary:** Draft `smoke-hello` skill frontmatter+outline only (under `runs/artifacts/`); C1–C4 pass; A1 not observed; no elevate / no `skills/` or `rules/` writes.
 </response>
 output_path: c:\Users\Jonyc\.cursor\projects\d-Toolbelt\agent-transcripts\54e4a764-6b4b-4bff-a41c-51bef71d8fbb\subagents\ccb9714d-d19e-4d97-a0fa-3800be748e27.jsonl
@@ -266,7 +269,7 @@ detail: <user_visible_high_level_summary>
 Verdict: **PASS**. Run log: `docs/research/notes/theme-11-validation/runs/D2-20260730.md`. One-line: technical-design announced, scoped architecture concerns for the add() off-by-one, skipped ADR, handed off to implementation-plan; no code edits (A1 clear).
 </user_visible_high_level_summary>
 <response>
-**PASS** — `docs/research/notes/theme-11-validation/runs/D2-20260730.md` 
+**PASS** — `docs/research/notes/theme-11-validation/runs/D2-20260730.md`
 technical-design announced; scoped architecture for add() off-by-one; skipped ADR; handed off to implementation-plan; no code (A1 clear).
 </response>
 output_path: c:\Users\Jonyc\.cursor\projects\d-Toolbelt\agent-transcripts\54e4a764-6b4b-4bff-a41c-51bef71d8fbb\subagents\4dafe3f9-38aa-48cd-9a20-a633a115366f.jsonl
@@ -345,6 +348,7 @@ P1 pocket smoke **PASS**. Run log: `docs/research/notes/theme-11-validation/runs
 | Run log | `docs/research/notes/theme-11-validation/runs/P1-20260730.md` |
 | Summary | Durable mini-plan for smoke-app `add()` off-by-one; C1–C5 pass; A1/A2 not observed. |
 | Plan path | `docs/research/notes/theme-11-validation/runs/artifacts/smoke-fix-add-plan.md` — **exists** (`True`) |
+
 </response>
 output_path: c:\Users\Jonyc\.cursor\projects\d-Toolbelt\agent-transcripts\54e4a764-6b4b-4bff-a41c-51bef71d8fbb\subagents\10731703-ce63-40a3-a093-ba83134de543.jsonl
 </task>
@@ -424,6 +428,7 @@ detail: <user_visible_high_level_summary>
 - **Run log:** `docs/research/notes/theme-11-validation/runs/G2-20260730.md`
 - **Summary:** Deterministic `add()` off-by-one proved via failing `python test_app.py`; dossier at `runs/artifacts/REPRO-smoke-add.md`; `app.py` untouched; C1–C4 pass, A1 not observed.
 </response>
+
 output_path: c:\Users\Jonyc\.cursor\projects\d-Toolbelt\agent-transcripts\54e4a764-6b4b-4bff-a41c-51bef71d8fbb\subagents\8540d81f-d8c8-47a3-9308-f1de73b42893.jsonl
 </task>
 </system_notification>
@@ -498,10 +503,11 @@ detail: <user_visible_high_level_summary>
 <response>
 **Controller return**
 
-- **Verdict:** PASS 
-- **Run log:** `docs/research/notes/theme-11-validation/runs/E1-20260730.md` 
+- **Verdict:** PASS
+- **Run log:** `docs/research/notes/theme-11-validation/runs/E1-20260730.md`
 - **Summary:** Copied fixture → fixed `add()` in work-e1 → Verify `ok` (attempt 1/N=2); C1–C4 pass, A1/A2 clear.
 </response>
+
 output_path: c:\Users\Jonyc\.cursor\projects\d-Toolbelt\agent-transcripts\54e4a764-6b4b-4bff-a41c-51bef71d8fbb\subagents\2b6fa288-1a7e-4794-b381-e3ea396a7a25.jsonl
 </task>
 </system_notification>
@@ -568,8 +574,8 @@ detail: <user_visible_high_level_summary>
 Verdict: **PASS**. Run log: `docs/research/notes/theme-11-validation/runs/E3-20260730.md`. Summary: E3 smoke announced the skill, rejected the thin fabricated done-claim under the evidence iron law, scored Evidence/Faithfulness/Readability with Critical/Important/Minor notes, kept Execute N=2 out of scope, and made no app edits (C1–C4 pass; A1 absent).
 </user_visible_high_level_summary>
 <response>
-**Verdict: PASS** 
-**Run log:** `docs/research/notes/theme-11-validation/runs/E3-20260730.md` 
+**Verdict: PASS**
+**Run log:** `docs/research/notes/theme-11-validation/runs/E3-20260730.md`
 **Summary:** E3 announced the skill, iron-lawed the thin fabricated done-claim, scored Evidence/Faithfulness/Readability with Critical/Important/Minor notes, kept Execute N=2 as a boundary, and did not edit app code (C1–C4 pass; A1 absent).
 </response>
 output_path: c:\Users\Jonyc\.cursor\projects\d-Toolbelt\agent-transcripts\54e4a764-6b4b-4bff-a41c-51bef71d8fbb\subagents\fd9287a7-827e-4926-a92b-dfc5076f1b5a.jsonl
@@ -592,8 +598,8 @@ E3 done — all in-scope smokes PASS. Updating the matrix and writing the contro
 **Note:** P2 skill inner verdict was PASS WITH NOTES; pocket smoke still PASS
 
 Updated:
+
 - `docs/research/notes/theme-11-validation/smoke-matrix.md`
 - `docs/research/notes/theme-11-validation/runs/CONTROLLER-SUMMARY-20260730.md`
 
 U1/U2/H1 were not run here; existing PASS logs from separate chats are reflected in the matrix.
-

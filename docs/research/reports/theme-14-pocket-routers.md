@@ -101,5 +101,4 @@ Loose use       → leaf or pocket router directly
 - [x] Fresh-chat smokes I1 + H1 — **2/2 PASS** (`I1-fresh-20260731.md`, `H1-fresh-20260731.md`; delta note)  
 - [x] Operator: Reload + skills loaded (reported 2026-07-31)  
 
-
 ---

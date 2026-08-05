@@ -25,15 +25,18 @@ Make `docs/research/fixtures/smoke-app/app.py` `add(a, b)` return the arithmetic
 ## Global constraints
 
 **Always:**
+
 - Change only the smoke-app `add` implementation behavior to match Decision: return `a + b`.
 - Keep the public signature `add(a: int, b: int) -> int`.
 - Verify with a runnable Python test command → clear pass/fail signal.
 
 **Block if:**
+
 - Design Decision is revoked or ambiguous (intent-gap).
 - Verify fails after N=2 enhanced local fixes → `blocked` + `verify-fail`.
 
 **Never / do-not:**
+
 - Redesign or edit Toolbelt `skills/` or `rules/`.
 - Expand scope beyond the off-by-one fix.
 - Invent Cursor private APIs.

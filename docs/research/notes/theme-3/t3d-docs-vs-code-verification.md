@@ -22,6 +22,7 @@ Out of scope: GreyMatter plugin stub/scaffolding; locking RAG libraries; MVP fea
 **Corpora observed (E0):** `software_engineering` (21 docs / 7712 chunks); `ai_llm_agents` (71 docs / 22720 chunks). [E0: MCP `list_corpora` observed 2026-07-27]
 
 **Alexandria queries (`software_engineering` unless noted):**
+
 1. `documentation drift bitrot rotting docs outdated documentation disagree with code` (k=14) — weak topical hit rate
 2. `doctests executable documentation docs as tests examples as contracts verification` (k=14)
 3. `outdated documentation comments inconsistent with code documentation debt maintain accuracy` (k=14)
@@ -32,6 +33,7 @@ Out of scope: GreyMatter plugin stub/scaffolding; locking RAG libraries; MVP fea
 **High-value `rag_fetch_chunk`:** `801784923370b6c3a0d358e9` (Clean Code comments/SoT); `19b65d1fd83a0a318bd1c898` (RSE JOSS-style checklist).
 
 **WebSearch terms:**
+
 - `documentation drift bitrot rotting docs codebase verification literature`
 - `docs as tests doctests executable documentation examples as contracts`
 - `rustdoc documentation tests code blocks executable docs as tests`
@@ -40,6 +42,7 @@ Out of scope: GreyMatter plugin stub/scaffolding; locking RAG libraries; MVP fea
 - `OpenAPI specification single source of truth documentation contract testing Dredd`
 
 **Primary URLs fetched / read this pass:**
+
 - Python `doctest` docs — https://docs.python.org/3/library/doctest.html
 - rustdoc Documentation tests — https://doc.rust-lang.org/rustdoc/write-documentation/documentation-tests.html
 - Write the Docs Documentation principles — https://www.writethedocs.org/guide/writing/docs-principles/
@@ -198,6 +201,7 @@ Still cited; not product locks.
 ## 7. Source list (deduped)
 
 **Alexandria / local**
+
 - `software_engineering` corpus (list_corpora 2026-07-27)
 - Clean Code (Martin) chunk `801784923370b6c3a0d358e9`
 - Research Software Engineering with Python chunk `19b65d1fd83a0a318bd1c898`
@@ -206,6 +210,7 @@ Still cited; not product locks.
 - Theme 1 notes `t1b`, `t1c`; Theme 2 notes `t2b`, `t2c`
 
 **Primary / official web**
+
 - Tan, Wagner & Treude, EMSE 2024 — https://link.springer.com/article/10.1007/s10664-023-10397-6
 - Baek, Krampf & Pradel, READU — https://arxiv.org/html/2607.15780v1
 - Python doctest — https://docs.python.org/3/library/doctest.html
@@ -217,4 +222,5 @@ Still cited; not product locks.
 - OpenAI Citation Formatting (via Theme 2) — https://developers.openai.com/api/docs/guides/citation-formatting
 
 **Secondary / discovery-only**
+
 - WebSearch hits on documentation rot blogs, Docsie glossary, Schemathesis guides, WTD newsletters — E3 unless re-fetched as primary

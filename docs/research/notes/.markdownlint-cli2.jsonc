@@ -1,0 +1,8 @@
+// Tier C research notes — table cells often contain `|` in prose/code
+{
+  "config": {
+    "MD055": false,
+    "MD056": false,
+    "MD058": false
+  }
+}

@@ -1,11 +1,12 @@
 # U2 research protocol grades
+
 _Exported on 7/30/2026 at 22:21:38 PDT from Cursor (3.13.25)_
 
 ---
 
 **User**
 
-@u2-research-protocol-grades.md (1-23) 
+@u2-research-protocol-grades.md (1-23)
 
 ---
 
@@ -32,4 +33,3 @@ Using `research-protocol` — short note written; private wire left as GAP (not 
 
 Run log: `docs/research/notes/theme-11-validation/runs/U2-20260730.md`  
 Artifact: `docs/research/notes/theme-11-validation/runs/artifacts/U2-research-note-20260730.md`
-

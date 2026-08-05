@@ -22,6 +22,7 @@ How multi-agent / coding-agent systems should **explore, research, and comprehen
 ### Exact questions queried
 
 **Probes (`rag_probe`):**
+
 1. How should multi-agent or coding agents explore and comprehend a codebase or workspace before documenting or implementing changes? (`ai_llm_agents` → weak; `software_engineering` → partial)
 2. agent exploration codebase research understanding before coding (`ai_llm_agents` → partial)
 3. multi-agent systems gather context observe environment before acting (`ai_llm_agents` → partial)
@@ -31,6 +32,7 @@ How multi-agent / coding-agent systems should **explore, research, and comprehen
 7. grep search before editing find patterns explore project structure list directory (`ai_llm_agents` → weak)
 
 **Queries (`rag_query`):**
+
 1. How should agents explore research and comprehend a codebase or workspace before documenting or implementing? (`ai_llm_agents`, k=14)
 2. How should AI coding agents explore and understand a codebase architecture before implementing changes? (`software_engineering`, k=14)
 3. multi-agent systems gather context observe environment research before acting (`ai_llm_agents`, k=12)
@@ -176,6 +178,7 @@ Reusable “research steps” **only where evidenced**:
 ## 7. Source list (deduped)
 
 **ai_llm_agents**
+
 - Designing Multi-Agent Systems… (Victor Dibia) — epub
 - AI Engineering… (Chip Huyen) — pdf
 - Building Applications with AI Agents… (Michael Albada) — pdf
@@ -188,9 +191,11 @@ Reusable “research steps” **only where evidenced**:
 - Building Natural Language and LLM Pipelines… (Laura Funderburk) — pdf (SWE-agent arXiv cite in further reading)
 
 **software_engineering**
+
 - Beyond Vibe Coding… (Addy Osmani) — epub
 
 **External primary referenced inside corpus (not fetched this pass)**
+
 - Yang et al., 2024. SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering. arXiv:2405.15793 — OPEN/E1 candidate
 - Yao et al., 2022. ReAct — cited via Huyen
 - Shinn et al., 2023. Reflexion — cited via Huyen/Albada

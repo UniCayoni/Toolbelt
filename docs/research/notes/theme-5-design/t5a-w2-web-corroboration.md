@@ -173,16 +173,19 @@ Label clearly. Do **not** promote to design lock without separate acceptance.
 ## Parent return summary
 
 **Corroborations**
+
 - Design-before-code / human gates: **strengthened** by Fowler Design-First (E1) and MIT CISR human accountability for strategic decisions (E1) — no longer Salesforce-only.
 - Plan-then-build: Cursor **official** Plan Mode docs (E1) close W1 “no official docs” gap and support checkpoint pattern.
 - ADR when-to-create: AWS PG + Nygard + Google Cloud (E1) give process triggers (significance / multi-option / undocumented).
 
 **Conflicts / weakenings**
+
 - Hetland (E3) still tensions with per-decision HITL — **OPEN**.
 - me2resh AgDR: **not corroborated**; single lineage; **homonym** Atomic Genesis Decision Record must not be merged.
 - AgDR create-when (broad, mid-session) vs AWS/Nygard significance bar — keep separate grades.
 
 **Residual OPEN for W3**
+
 - E0 Cursor Plan Mode UX / plan-path details; Plan Mode ≠ ADR options matrix.
 - Design-time encoding vs per-decision gates acceptance.
 - Alexandria surface (if scheduled); classical ATAM baseline still GAP.

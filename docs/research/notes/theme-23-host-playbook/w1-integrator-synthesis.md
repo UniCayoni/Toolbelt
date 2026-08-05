@@ -40,6 +40,7 @@ aligned_with:
 ## Convergent lean (proposed for human)
 
 ### Playbook SoT
+
 - Path: **`docs/host-playbook.md`**
 - Genre: host **setup + use** (Theme 23 brief) — not AWS “investigate” playbook, not Ansible
 
@@ -57,11 +58,13 @@ aligned_with:
 10. **Maintenance:** owner + last-updated; update when surfaces change  
 
 ### Maintenance contract (proposed)
+
 1. **`author-cursor-surfaces`** checklist: if skills/rules/templates change → update playbook and/or inventory appendix  
 2. **`CONTRIBUTING.md`** mirror line (alongside packs/README skill tables)  
 3. Conflict rule (gh): if playbook and live `SKILL.md` disagree → **live skill wins**; fix playbook  
 
 ### Explicit outs
+
 - Theme 24 learn-back  
 - Phase 2 CI doc-drift automation  
 - Superpowers mandatory session bootstrap as Toolbelt law  

@@ -43,8 +43,10 @@ Simple work can still use a **short** design (a few sentences) + approval — sk
 8. **Critique** — pressure-test; amend; call out vibes-only / premature lock / drive-by unrelated refactors
 9. **Human decide** — you propose; **human is accountable**
 10. **Record**
-   - Significant / multi-option locks → **`research-draft-adr`** → `docs/adr/NNNN-slug.md`
-   - Broader feature shape (when useful) → short design note under host `docs/design/YYYY-MM-DD-<topic>-design.md` (user path overrides OK)
+
+- Significant / multi-option locks → **`research-draft-adr`** → `docs/adr/NNNN-slug.md`
+- Broader feature shape (when useful) → short design note under host `docs/design/YYYY-MM-DD-<topic>-design.md` (user path overrides OK)
+
 11. **Self-review** (written artifacts): placeholders/TODOs, internal contradictions, scope too large, ambiguous requirements — fix before asking for final review
 12. **Gate** — only after approval proceed via **`guide-implementation`** (or leaves: **`implementation-plan`** → **`implementation-plan-verify`** → **`implementation-execute`** / `-subagents` → **`implementation-execute-verify`**). Trivial one-file work may skip durable plan/execute (intelligent exception)
 

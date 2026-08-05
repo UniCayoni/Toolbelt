@@ -1,0 +1,31 @@
+// Toolbelt markdownlint-cli2 — Theme 25 docs hygiene
+// Catch real hygiene without fighting skill tables, citations, or frontmatter+H1.
+{
+  "config": {
+    "default": true,
+    "MD013": false,
+    "MD060": false,
+    "MD033": false,
+    "MD041": false,
+    // Citations / CHANGELOG / research notes use bare URLs and repeated section titles
+    "MD034": false,
+    "MD024": false,
+    // YAML frontmatter then `# Title` is the house pattern
+    "MD025": false,
+    // Emphasis used as light callouts in notes
+    "MD036": false,
+    // Numbered steps often continue after fenced examples (1/2/3 across code)
+    "MD029": false,
+    // Research/report heading depth is intentional progressive disclosure
+    "MD001": false
+  },
+  "globs": [
+    "**/*.{md,mdc}"
+  ],
+  "ignores": [
+    "**/node_modules/**",
+    "**/.git/**",
+    "docs/archive/**"
+  ],
+  "gitignore": true
+}

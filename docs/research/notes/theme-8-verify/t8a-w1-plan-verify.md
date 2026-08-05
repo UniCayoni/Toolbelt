@@ -83,6 +83,7 @@ supersedes: null
 - `FACT` [E0] Toolbelt Plan spine today: write tasks → V1–V8 light → handoff execute; no graded companion phase. [E0: `skills/implementation-plan/SKILL.md` Spine 8–10]
 - `INFERENCE` [E4] Toolbelt-native phase for `implementation-plan-verify`: **after** durable plan body written (and after or wrapping V1–V8 — see §4.8), **before** Meta Status `ready` and **before** invoking `implementation-execute` / `-subagents`. Premises: (1) D5; (2) validating-plans + Spec Kit analyze placement; (3) Theme 6 status vocab.
 - `INFERENCE` [E4] Wiring candidates (design only; G4 OPEN for exact wording):
+
   | Pattern | Shape |
   |---------|-------|
   | **A. Orchestrator invoke** | `implementation-plan` spine ends with: run companion (or announce Using `implementation-plan-verify`) → only then set Meta `ready` |
@@ -99,6 +100,7 @@ supersedes: null
 - `FACT` [E1] Spec Kit analyze Coverage Gaps: requirements with zero tasks; tasks with no mapped requirement/story; buildable Success Criteria not reflected in tasks. Ambiguity: vague adjectives; unresolved placeholders. [E1: spec-kit `analyze.md` Detection Passes B/E — accessed 2026-07-30]
 - `GAP` validating-plans `references/` directory still **404** via GitHub API (deep checklist bodies unavailable). Use SKILL.md summaries only. [GAP: `gh api …/validating-plans/references` → HTTP 404 — 2026-07-30; corroborates Theme 6 G9 / D23 lean]
 - `INFERENCE` [E4] Toolbelt parallel specialist set (candidate atoms):
+
   | Parallel lane | Checks (Toolbelt-native) | Source atoms |
   |---------------|--------------------------|--------------|
   | **Reality** | Cited paths exist (or marked create); packages/APIs/commands real; verify commands available | validating-plans Reality; V4 |

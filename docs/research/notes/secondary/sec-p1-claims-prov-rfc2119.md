@@ -71,6 +71,7 @@ Out of scope: plugin stub, product locks, elevating skills.
   - **Agent** — something that bears some form of responsibility for an activity, an entity’s existence, or another agent’s activity. Common types: `prov:Person`, `prov:SoftwareAgent`, `prov:Organization`.
   [E1: PROV-DM §2.1.1, §2.1.3, §5.1.1–5.1.2, §5.3.1]
 - `FACT` [E1] — **Core relations** useful for notes:
+
   | Relation | Rough meaning |
   |----------|----------------|
   | `wasGeneratedBy` | Entity produced by an Activity |
@@ -81,6 +82,7 @@ Out of scope: plugin stub, product locks, elevating skills.
   | `actedOnBehalfOf` | Agent delegated responsibility |
   | `startedAtTime` / `endedAtTime` | Activity bounds |
   [E1: PROV-O Starting Point list; PROV-DM §2.1 tables]
+
 - `FACT` [E1] — **Expanded terms** especially useful for research writing: `wasQuotedFrom`, `wasRevisionOf`, `hadPrimarySource`, `Bundle` (provenance of provenance), `SoftwareAgent`. [E1: PROV-O Expanded list; PROV-DM §5.2 / §5.4]
 - `INFERENCE` [E4] — Map GreyMatter note concepts onto PROV **lightly** (vocabulary aid, not full RDF export by default):
 
@@ -176,6 +178,7 @@ Grounded in Theme 3 `t3d` candidate fields + PROTOCOL labels + READU-style contr
 ## 7. Source list (deduped)
 
 **Local (E0)**  
+
 - `d:\GreyMatter\docs\research\PROTOCOL.md`  
 - `d:\GreyMatter\docs\research\SECONDARY_PRIORITIES.md`  
 - `d:\GreyMatter\docs\research\reports\theme-2-agent-usable-documentation.md`  
@@ -187,6 +190,7 @@ Grounded in Theme 3 `t3d` candidate fields + PROTOCOL labels + READU-style contr
 - `d:\GreyMatter\docs\research\templates\claim-citation.md`  
 
 **Primary web (E1)**  
+
 - W3C PROV-DM — https://www.w3.org/TR/2013/REC-prov-dm-20130430/ (and https://www.w3.org/TR/prov-dm/)  
 - W3C PROV-O — https://www.w3.org/TR/prov-o/  
 - RFC 2119 — https://www.rfc-editor.org/rfc/rfc2119  
@@ -196,4 +200,5 @@ Grounded in Theme 3 `t3d` candidate fields + PROTOCOL labels + READU-style contr
 - ALCE / Azure file search — via Theme 2 `t2a` (not re-fetched this pass)
 
 **Alexandria**  
+
 - `rag_query` on PROV — no W3C PROV hit; unused for standard claims

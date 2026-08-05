@@ -103,4 +103,3 @@ draft/proposed ≠ law
 - [x] Human accepted this report (quality decisions D1–D9) — 2026-07-31  
 - [x] Elevate CONTRIBUTING + PR template + README/packs  
 - [ ] Operator GitHub/marketplace items — tracked in marketplace prep **Pre-marketplace operator checklist** ([`docs/research/notes/marketplace-prep/review-plugin-submission-2026-07-30.md`](../notes/marketplace-prep/review-plugin-submission-2026-07-30.md)): push, public repo, Discussions, Contributing/PR UI verify  
-

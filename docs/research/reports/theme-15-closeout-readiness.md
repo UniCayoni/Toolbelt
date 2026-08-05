@@ -81,4 +81,3 @@ See campaign notes T15A–G. Layer: method ladder → optional `implementation-c
 - [x] Elevate skill + template + happy-path/packs wire  
 - [x] In-session smoke C1 — **PASS** (`docs/research/notes/theme-11-validation/runs/C1-20260802.md`)  
 - [x] Fresh smoke C1 — **PASS** (`docs/research/notes/theme-11-validation/runs/C1-fresh-20260802.md`; transcript export reviewed)  
-

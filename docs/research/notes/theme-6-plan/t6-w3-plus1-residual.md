@@ -251,6 +251,7 @@ No Design re-research. Sources: elevated `design-process` skill + checklist; The
 **stop_reason:** `low_return_plus_one`
 
 ### Durable GAPs
+
 - Numeric paste-vs-link budget (W1→W3)
 - Portable task JSON schema SoT (W2)
 - validating-plans `references/*.md` unpublished (W2)
@@ -258,11 +259,13 @@ No Design re-research. Sources: elevated `design-process` skill + checklist; The
 - Cursor help/context fetch timeout (this pass)
 
 ### Closed / hardened (candidates only — not locks)
+
 - E1 progressive disclosure / JIT / Skills L1–L3 reconfirmed
 - E4 T0–T3 paste/link **tier candidates** (INFERENCE)
 - Checkable validation atoms V1–V8 from Claude / Spec Kit / BMAD / OpenSpec / validating-plans SKILL.md summary
 - Design→plan consume-field table from local Design E0/E2
 
 ### Out
+
 - No Plan / validating-plans skill elevation
 - No Superpowers git/TDD law

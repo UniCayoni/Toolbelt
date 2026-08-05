@@ -176,6 +176,7 @@ Signal ranking prioritizes **specificity to writing plans for coding agents**, t
 ## Return to parent (ranked shortlist + patterns + GAPs)
 
 **Ranked shortlist (plan-writing signal):**  
+
 1) Superpowers `writing-plans` · 2) Spec Kit plan+tasks · 3) OpenSpec tasks (schema) · 4) BMAD epics/stories + build-auto plan · 5) validating-plans (QA companion) · then Spec Kitty / forks / packaging / Overture.
 
 **Shared patterns:** self-contained header/constraints; file/code map; ordered checkbox or story units with paths; verify/AC; anti-placeholder / clarify-before-plan; requirements→task coverage; fresh-agent assumption.

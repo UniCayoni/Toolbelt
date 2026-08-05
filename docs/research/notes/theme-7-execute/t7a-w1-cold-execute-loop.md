@@ -91,6 +91,7 @@ supersedes: null
 - `FACT` [E2] Huyen: humans may validate plans or approve risky operations; agents should classify out-of-scope / IRRELEVANT rather than inventing impossible solutions; define automation level per action. [E2: Alexandria `ai_llm_agents` chunk_id=`b6593fb02989cd5782e58dcb`]
 - `FACT` [E2] Dibia (via Alexandria): agents need when-to-delegate-to-humans / approval for high-consequence actions; HITL adds latency but prevents catastrophic failure. [E2: Alexandria `ai_llm_agents` chunk_id=`3c79f29c291e453c073f7b79`]
 - `INFERENCE` [E4] Mapping for Toolbelt execute stop states (not elevated law):
+
   | Condition | Status / action |
   |-----------|-----------------|
   | Missing/ambiguous intent with multiple defensible outcomes | `blocked` + `intent-gap` → human; do not invent |
@@ -99,6 +100,7 @@ supersedes: null
   | Implementation would materially deviate from Goal / Never / out-of-scope / interfaces | stop → human HITL (major deviation); do not “improve” by inventing scope |
   | Task green (verify signal matched) | continue to next task — no mandatory HITL pause |
   Premises: Theme 6 vocab [E0]; Superpowers ask-don’t-guess [E0 structure]; campaign §7.1 [E0]; Huyen/Dibia HITL [E2].
+
 - `GAP` Formal definition of “major deviation” thresholds (e.g. file outside File Map, new dependency, API shape change). Searched: Theme 6 + brief. Result: directional only — OPEN for Execute skill text.
 - `GAP` Whether `verify-fail` implies immediate halt vs one local fix loop then halt. Searched: Superpowers “repeatedly”; Claude iterate-until-pass. Result: **conflict** logged §6 — no Toolbelt numeric budget.
 

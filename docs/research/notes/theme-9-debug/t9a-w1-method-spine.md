@@ -93,6 +93,7 @@ Community phase models (structure inventory; not Toolbelt law):
 ```
 
   Premises: pass2 spine [E0]; Superpowers four phases [E1]; reproduce-my-bug / bug-investigate-fix [E1]; Dooley order [E2]; brief quality lean [E0].
+
 - `OPEN` Exact numbering/labels in elevated skill(s) wait on F1 (A vs B) and F2 (names) — T9D owns surface packaging.
 
 ### 4.2 Axis 2 — Reproduce-before-fix iron law + `NOT-YET-REPRODUCED`

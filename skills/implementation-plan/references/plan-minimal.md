@@ -26,17 +26,20 @@ note: "House template for durable plans. Skill copies via refresh-skill-referenc
 ## Global constraints
 
 **Always:**
--
+
+- …
 
 **Block if:**
--
+
+- …
 
 **Never / do-not:**
--
+
+- …
 
 ## Out of scope
 
--
+- …
 
 ## Coverage map
 

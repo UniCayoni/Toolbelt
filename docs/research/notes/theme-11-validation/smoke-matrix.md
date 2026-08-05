@@ -70,6 +70,7 @@ supersedes: null
 | C1Δ | closeout → author-learning | either | none | [c1](./claim-cards/c1-implementation-closeout.md) Part D | **PASS** (`C1-theme24-20260805.md`) |
 
 **P0 coverage notes (2026-08-05 revisit):**
+
 - Full Phase B (U/R/D/P/E/G/H) remains green historically; not every leaf re-run each theme.
 - After Themes 23–24, **minimum regression set:** L1 (behavioral), M1 (+ Part E), C1 Part D, PB1 (E0), optional U1 draft≠SoT touch.
 - ID **H1** = happy-path only. Host playbook = **PB1** (do not reuse H1).

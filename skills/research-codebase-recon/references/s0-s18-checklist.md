@@ -45,9 +45,9 @@ Checklist maps 1:1 to report steps. Mark unmet items `GAP` rather than inventing
 
 ## S4 — Plan exploration agenda
 
-1. 
-2. 
-3. 
+1.
+2.
+3.
 
 Warn: no unbounded exploration without scope.
 

@@ -8,6 +8,7 @@ Format inspired by [Keep a Changelog](https://keepachangelog.com/). Versioning f
 
 ### Added
 
+- Theme 25: `.markdownlint-cli2.jsonc` — Toolbelt-tuned markdownlint (archive ignored); active tree clean at 0
 - Theme 24: **`author-learning`** + template — quality-gated harvest of host/workspace learnings into proposed feedstock (standards/skills/AGENTS/ADR); never auto-accept; optional evidence-warranted closeout handoff; not Toolbelt plugin self-modify
 - Theme 23: **`docs/host-playbook.md`** + **`docs/host-playbook-catalog.md`** — host setup/use (start at `guide-meta`); catalog as reference; maintenance via `author-cursor-surfaces` + CONTRIBUTING (live skill wins on conflict)
 - Theme 22: **`guide-meta`** + template — thin global front door (classify → one next surface); **not** always-on
@@ -22,6 +23,7 @@ Format inspired by [Keep a Changelog](https://keepachangelog.com/). Versioning f
 
 ### Changed
 
+- Theme 25: Tier A wording — host playbook points at Theme 24 **`author-learning`** (not learn-back); markdown autofix on live docs/skills/templates
 - Theme 21: T19J fan-out — all pocket **`guide-*`** run if-present **`guide-standards`** resolve (already-pinned skip; research/design lean principles modules; impl/debug lean technical). Single sync cutover.
 - Theme 20: pocket entry skills renamed to symmetric **`guide-*`** prefix (hard cutover; Reload Window after sync):
   - `research-scope` → `guide-research`

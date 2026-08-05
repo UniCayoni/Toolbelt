@@ -150,6 +150,7 @@ Label clearly. Do **not** promote to design lock without separate acceptance.
 ## 10. Parent return — short FACT / GAP summary
 
 **FACTS (design-time criteria candidates):**
+
 - Dependency Rule: source deps only inward; inner must not name outer; frameworks/UI/DB are outer details (Martin 2012 E1 + 2017 E2).
 - Boundary crossing uses DIP; pass simple inward-convenient data, not framework rows (E1/E2).
 - Component criteria: ADP (no cycles), SDP (depend toward stability), SAP (stable ≈ abstract) (Martin 2017 E2).

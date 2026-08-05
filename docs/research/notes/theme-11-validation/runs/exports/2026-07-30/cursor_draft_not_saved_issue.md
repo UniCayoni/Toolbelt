@@ -1,11 +1,12 @@
 # Draft not saved issue
+
 _Exported on 7/30/2026 at 22:21:17 PDT from Cursor (3.13.25)_
 
 ---
 
 **User**
 
-@u1-draft-is-not-sot.md (1-23) 
+@u1-draft-is-not-sot.md (1-23)
 
 ---
 
@@ -38,4 +39,3 @@ To proceed: accept the research (or produce an accepted ADR that names the libra
 **Verdict: PASS**
 
 Run log: `docs/research/notes/theme-11-validation/runs/U1-20260730.md`
-

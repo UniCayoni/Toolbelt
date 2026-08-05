@@ -19,7 +19,7 @@ Columns: **id** · **intent** · **good-for** · **limits** · **typical next**
 
 | id | intent | good-for | limits | typical next |
 |----|--------|----------|--------|--------------|
-| guide-meta | Front door: one next surface | Fuzzy / which skill | Not always-on; not pocket work | guide-* / happy-path / author-* / closeout |
+| guide-meta | Front door: one next surface | Fuzzy / which skill | Not always-on; not pocket work | pocket guides / happy-path / author-learning / author skills / closeout |
 | guide-research | Expand/atomize research | Unclear tracks | Not graded notes | protocol / recon / docs |
 | guide-design | Design spine + HITL | Options before code | UX deferred (T5C) | design-* → ADR → impl |
 | guide-implementation | Wire Impl leaves | Which plan/execute skill | Not writing the plan | plan → verify → execute → verify |

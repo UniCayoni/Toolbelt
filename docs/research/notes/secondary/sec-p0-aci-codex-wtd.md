@@ -18,6 +18,7 @@ Primary fetches (coordinator): arXiv API abstract + local PDF extract (later rem
 **FACT [E1]:** ACI = commands available to the LM **plus** how environment state is communicated back; also history/context management into a single LM input.
 
 **FACT [E1]:** Four design principles (paper §2):
+
 1. Actions simple / few options / concise docs
 2. Actions compact & efficient (high-order ops in few turns)
 3. Feedback informative but concise
@@ -38,6 +39,7 @@ Primary fetches (coordinator): arXiv API abstract + local PDF extract (later rem
 **Source:** https://developers.openai.com/codex/guides/agents-md (accessed 2026-07-28). [E1]
 
 **FACT [E1] Discovery order:**
+
 1. Global: `CODEX_HOME` (default `~/.codex`) — `AGENTS.override.md` else `AGENTS.md` (first non-empty only)
 2. Project: walk root → cwd; per directory `AGENTS.override.md` then `AGENTS.md` then `project_doc_fallback_filenames`; at most one file per directory
 3. Merge: root→cwd concatenation; closer files appear later (override earlier)
@@ -53,6 +55,7 @@ Primary fetches (coordinator): arXiv API abstract + local PDF extract (later rem
 **Source:** https://www.writethedocs.org/guide/tools/testing/ (accessed 2026-07-28). [E1]
 
 **FACT [E1]:** Recommend CI on each commit for docs. Categories:
+
 - **Build errors** (tool exit code; Sphinx nitpicky / Jekyll strict)
 - **Link testing** (Sphinx `linkcheck`, HTMLProofer, site crawlers)
 - **Style/lint** (Vale + style packs incl. MS/Google style implementations)

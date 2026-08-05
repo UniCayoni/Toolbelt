@@ -18,8 +18,8 @@
 
 ## Layout / architecture pointers
 
-- 
-- 
+-
+-
 
 ## Code conventions
 
@@ -27,17 +27,17 @@
 
 ## Testing / definition of done
 
-- 
-- 
+-
+-
 
 ## Boundaries (do-not)
 
-- 
-- 
+-
+-
 
 ## Security / secrets
 
-- 
+-
 
 ## When you change this file
 
