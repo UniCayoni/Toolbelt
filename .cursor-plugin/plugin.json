@@ -10,7 +10,7 @@
   "homepage": "https://github.com/UniCayoni/toolbelt",
   "repository": "https://github.com/UniCayoni/toolbelt",
   "license": "MIT",
-  "logo": "https://raw.githubusercontent.com/UniCayoni/Toolbelt/main/assets/logo.png",
+  "logo": "assets/logo.png",
   "keywords": [
     "toolbelt",
     "research",
