@@ -7,10 +7,10 @@
     "name": "Jonathan Cayuela",
     "email": "81636886+UniCayoni@users.noreply.github.com"
   },
-  "homepage": "https://github.com/UniCayoni/toolbelt",
-  "repository": "https://github.com/UniCayoni/toolbelt",
+  "homepage": "https://github.com/UniCayoni/Toolbelt",
+  "repository": "https://github.com/UniCayoni/Toolbelt",
   "license": "MIT",
-  "logo": "assets/logo.png",
+  "logo": "https://raw.githubusercontent.com/UniCayoni/Toolbelt/main/assets/logo.png",
   "keywords": [
     "toolbelt",
     "research",
