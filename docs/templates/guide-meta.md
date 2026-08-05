@@ -1,8 +1,11 @@
 ---
 title: "Toolbelt guide-meta checklist"
 status: active
-aligned_with: docs/research/reports/theme-22-meta-guide.md
+aligned_with:
+  - docs/research/reports/theme-22-meta-guide.md
+  - docs/research/reports/theme-23-host-playbook.md
 created: 2026-08-04
+updated: 2026-08-04
 ---
 
 # Guide-meta checklist
@@ -30,6 +33,16 @@ Next: guide-research | guide-design | guide-implementation | guide-debug
     | author-cursor-surfaces | implementation-closeout | <named-leaf>
     | none (document skip / out of scope)
 Reason (one line):
+Smallest sufficient?: yes | no (why larger entry)
+```
+
+## Anti-ceremony reminders
+
+```text
+- Prefer pocket guide over happy-path unless full feature ladder requested
+- Trivial one-file → none / careful edit (not the ladder)
+- guide-standards no-op when catalog absent = expected
+- Host setup / adopt Toolbelt → docs/host-playbook.md (not pasted into meta)
 ```
 
 ## Structured handoff

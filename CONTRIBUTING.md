@@ -55,15 +55,17 @@ Details: [README.md](./README.md).
 1. Clarify outcome with maintainers (Issue/Discussion) for non-trivial work.  
 2. Use **`author-cursor-surfaces`** (Theme 4): pushy description, `name`==folder, thin always-on rules, compose don’t paste other skills’ spines.  
 3. Wire Handoffs; update [docs/packs/README.md](./docs/packs/README.md) and README skill tables when adding surfaces.  
-4. Refresh references + sync + Reload; smoke the surface if you touched behavior (Theme 11 claim-card style is welcome).  
-5. Do **not** invent Cursor private APIs; use `research-docs` / `research-protocol` when unsure.
+4. **Host playbook (Theme 23):** update [docs/host-playbook.md](./docs/host-playbook.md) and/or [docs/host-playbook-catalog.md](./docs/host-playbook-catalog.md) when skills, rules, or host-facing templates change. If docs and live `SKILL.md` disagree, **live skill wins** — fix the playbook.  
+5. Refresh references + sync + Reload; smoke the surface if you touched behavior (Theme 11 claim-card style is welcome).  
+6. Do **not** invent Cursor private APIs; use `research-docs` / `research-protocol` when unsure.
 
 ## Research & design changes
 
 - Fuzzy / multi-surface themes: start with **`guide-research`** (track board + human enough-to-start).  
 - Depth: default **normal**; **deep** only when asked or clearly needed ([`docs/templates/research-depth-modes.md`](./docs/templates/research-depth-modes.md)).  
 - Design: `guide-design` → domain skill → **human accept** before plan/implement locks.  
-- Pocket routers / entry: `guide-research`, `guide-design`, `guide-implementation` (Theme 14). Closeout readiness: `implementation-closeout` (Theme 15) — host criteria + evidence; **not** merge/push. Happy-path chains those; CI/Bugbot/**ceremony automation** still Phase 2 / host.
+- Pocket routers / entry: `guide-meta`, `guide-research`, `guide-design`, `guide-implementation`, `guide-debug`, `guide-standards`. Closeout: `implementation-closeout` — readiness, **not** merge/push. Happy-path chains pocket guides; CI/Bugbot/**ceremony automation** still Phase 2 / host.  
+- **Host setup/use:** [docs/host-playbook.md](./docs/host-playbook.md) (consumers).
 
 ## Pull requests
 
@@ -79,6 +81,7 @@ Details: [README.md](./README.md).
 |-----|------|
 | [`docs/PROTOCOL.md`](./docs/PROTOCOL.md) | Research evidence grades |
 | [`docs/packs/README.md`](./docs/packs/README.md) | Pack inventory |
+| [`docs/host-playbook.md`](./docs/host-playbook.md) | Host setup & use (Theme 23) |
 | [`docs/research/reports/`](./docs/research/reports/) | Accepted theme method SoT |
 | [`CHANGELOG.md`](./CHANGELOG.md) | User-facing changes / renames |
 | Theme 13 report | Contributor workflow decisions |

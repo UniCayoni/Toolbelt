@@ -52,8 +52,9 @@ Explicit skill (`/author-cursor-surfaces`). **Author / compose** — not marketp
 5. **Toolbelt reinforce (required):** Apply checklist §3 — pushy descriptions, `name`==folder, conditional `references/`, correct `disable-model-invocation`, thin rules, known hook events only. Align with existing Toolbelt skill style (`announce Using …`, note output paths, cite-or-omit where research-related).
 6. **Compose mode:** Map outcome steps → existing skills/rules (checklist §4). Write an **orchestration** skill that invokes/links them; do **not** paste large bodies from other skills.
 7. **Write files** to the agreed paths (e.g. Toolbelt `skills/<name>/SKILL.md`, `rules/*.mdc`). Keep paths relative; no `..` traversal in plugin manifests.
-8. **Verify** per checklist §5 (Reload/Customize/`/` smoke as applicable). For Toolbelt plugin edits: refresh SoT refs if templates changed, then `sync-toolbelt-local-plugin.py` + Reload.
-9. Stop at **draft** unless the human accepts the surface as SoT.
+8. **Host playbook drift (Toolbelt plugin):** If you changed skills/rules/host-facing templates, update `docs/host-playbook.md` and/or `docs/host-playbook-catalog.md` per checklist §5 (Theme 23). Live `SKILL.md` wins on conflict.
+9. **Verify** per checklist §6 (Reload/Customize/`/` smoke as applicable). For Toolbelt plugin edits: refresh SoT refs if templates changed, then `sync-toolbelt-local-plugin.py` + Reload.
+10. Stop at **draft** unless the human accepts the surface as SoT.
 
 ## Output
 
@@ -72,7 +73,7 @@ Explicit skill (`/author-cursor-surfaces`). **Author / compose** — not marketp
 
 ## References
 
-- Read `references/author-cursor-surfaces.md` **when** authoring, composing, or migrating Cursor surfaces (checklist §0–§5)
+- Read `references/author-cursor-surfaces.md` **when** authoring, composing, or migrating Cursor surfaces (checklist §0–§7)
 - SoT template: Toolbelt `docs/templates/author-cursor-surfaces.md`
 - Theme 4 (accepted): Toolbelt `docs/research/reports/theme-4-cursor-plugin-components.md`
 - Related Toolbelt skills: `author-agents-md`, `research-draft-adr`, `research-protocol`

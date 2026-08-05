@@ -4,6 +4,8 @@ Reusable Cursor **agent utility** plugin: research method (PROTOCOL grades, code
 
 **Scope:** agent method (research → design → plan → execute → verify → debug).
 
+**Host setup & use:** [docs/host-playbook.md](./docs/host-playbook.md) · [surface catalog](./docs/host-playbook-catalog.md) · start with `/guide-meta`
+
 **Repo:** [github.com/UniCayoni/toolbelt](https://github.com/UniCayoni/toolbelt) · **License:** MIT · See [CHANGELOG.md](./CHANGELOG.md) · **Contribute:** [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## Install

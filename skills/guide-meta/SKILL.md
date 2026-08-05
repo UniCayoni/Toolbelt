@@ -1,14 +1,14 @@
 ---
 name: guide-meta
 description: >-
-  Global Toolbelt front door (meta-guide): classify a fuzzy or cold-start ask and
-  name exactly one next surface — a pocket guide-*, implementation-happy-path,
-  author-standards, author-cursor-surfaces, or implementation-closeout — then
-  hand off without doing that pocket’s work. Use when guide-meta, which Toolbelt
-  skill, where do I start, cold start, meta-router, skill router, unclear whether
-  research design implement or debug, or mixed multi-pocket asks. Prefer over
-  inventing an ad-hoc entry. Not always-on. Not for running pocket spines or
-  full happy-path itself.
+  Start here for Toolbelt: global front door (guide-meta). Classify a fuzzy or
+  cold-start ask and name exactly one next surface — pocket guide-*, 
+  implementation-happy-path, author-standards, author-cursor-surfaces, or
+  implementation-closeout — then hand off. Use when guide-meta, which Toolbelt
+  skill, where do I start, how do I use Toolbelt, cold start, meta-router,
+  skill router, unclear research vs design vs implement vs debug, or mixed
+  multi-pocket asks. Prefer over inventing an ad-hoc entry or forcing the full
+  happy-path. Not always-on. Not for running pocket spines itself.
 ---
 
 # Guide meta
@@ -22,7 +22,7 @@ reopens Theme 14 park of global skill-router as **opt-in skill only** (not alway
 
 ## When to use
 
-- Cold start / “which Toolbelt skill?” / “where do I start?”
+- Cold start / “which Toolbelt skill?” / “where do I start?” / “how do I use Toolbelt?”
 - Mixed or ambiguous asks spanning research vs design vs implementation vs debug
 - Controller wants a single front-door classify before pocket entry
 
@@ -30,16 +30,27 @@ reopens Theme 14 park of global skill-router as **opt-in skill only** (not alway
 **Skip:** mid-pocket recovery — use that pocket’s `guide-*`, not meta.  
 **Skip:** pure chat / greetings with no Toolbelt work.
 
-**Out of scope:** Always-on / ambient meta rule; multi-skill PIPELINE planning (that is `implementation-happy-path` + pocket guides); re-teaching pocket or leaf law; standards resolve bodies (`guide-standards`); PR/CI ceremony; global alwaysApply routing.
+**Out of scope:** Always-on / ambient meta rule; multi-skill PIPELINE planning (that is `implementation-happy-path` + pocket guides); re-teaching pocket or leaf law; standards resolve bodies (`guide-standards`); PR/CI ceremony; global alwaysApply routing. Host setup narrative lives in Toolbelt `docs/host-playbook.md` — point hosts there; do not paste the playbook into this skill.
 
 ## Instructions
 
 1. **Classify** ask (see checklist): `feature-ladder` | `research` | `design` | `implementation-pocket` | `debug` | `standards-resolve` | `standards-author` | `author-surfaces` | `closeout` | `leaf-direct` | `trivial` | `unclear` | `out-of-toolbelt`.
 2. If **named skill already** → document skip; invoke that skill (or leaf).
-3. **Pick exactly one next surface** from the allowlist (classifier hints below). Prefer the **smallest** sufficient entry (pocket guide over full happy-path unless the user wants the full feature ladder).
+3. **Pick exactly one next surface** from the allowlist. Prefer the **smallest sufficient entry** (see examples). Do **not** default every ask to happy-path.
 4. **Structured handoff** — goal, prior, facts+source, open question, constraints (see template).
 5. **Invoke** the next skill: announce **Using `<skill>`** and follow it — or stop after naming it if the user only asked which skill. Do **not** paste that skill’s spine here.
 6. **Stop** — do not chain further pockets inside meta. Happy-path / pocket guides own multi-stage wires.
+
+### Smallest sufficient entry (anti-ceremony)
+
+| Ask shape | Prefer | Avoid |
+|-----------|--------|-------|
+| “Which skill?” / mixed cold ask | `guide-meta` → one pocket guide | Jumping straight into full ladder |
+| Full new feature, unfamiliar | `implementation-happy-path` | Skipping design accept |
+| Design already accepted; need plan/execute wire | `guide-implementation` | Full happy-path from research |
+| Flaky test / prove bug | `guide-debug` | Happy-path + design theater |
+| One-line typo / one-file obvious tweak | Document **trivial**; edit carefully | Durable plan + verify ladder |
+| “Which standards apply?” | `guide-standards` (no-op if no catalog — **expected**) | Inventing Toolbelt style law |
 
 Read `references/guide-meta-checklist.md` **when** the ask is ambiguous or recovering a bad entry.  
 Template SoT: Toolbelt `docs/templates/guide-meta.md`.
@@ -60,6 +71,7 @@ Template SoT: Toolbelt `docs/templates/guide-meta.md`.
 | User named one leaf clearly | that leaf (skip meta) |
 | One-file trivial tweak | document trivial; careful edit (no durable ladder) |
 | Unclear after classify | ask **one** clarifying question, then re-classify |
+| Host setup / how do I adopt Toolbelt | Point to `docs/host-playbook.md` (then `/guide-meta` for work) |
 
 ## Anti-patterns
 
@@ -79,10 +91,12 @@ Template SoT: Toolbelt `docs/templates/guide-meta.md`.
 | Author standards / surfaces | `author-standards` / `author-cursor-surfaces` |
 | Closeout readiness | `implementation-closeout` |
 | Named leaf | that leaf directly |
+| Host setup / adopt Toolbelt | Toolbelt **`docs/host-playbook.md`** (+ catalog) |
 
 ## References
 
 - Read `references/guide-meta-checklist.md` **when** classifying a non-trivial entry
 - SoT template: Toolbelt `docs/templates/guide-meta.md`
+- Host playbook: Toolbelt `docs/host-playbook.md` (Theme 23)
 - Theme 22: Toolbelt `docs/research/reports/theme-22-meta-guide.md` (accepted)
 - Theme 14 park context: `docs/research/reports/theme-14-pocket-routers.md` (D6 → skill-only reopen)

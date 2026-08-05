@@ -1,12 +1,14 @@
 ---
 name: implementation-happy-path
 description: >-
-  Orchestrate Toolbelt’s end-to-end happy path: classify the ask, then chain
-  pocket routers / entries (guide-research, guide-design, guide-implementation,
-  guide-debug) plus optional ADR — without restating pocket law. Use when
-  happy-path, toolbelt workflow, full feature pipeline, cold-start ladder, where
-  do I start, or controller routing for subagent development. Prefer over
-  inventing an ad-hoc multi-skill order.
+  Orchestrate Toolbelt’s end-to-end feature ladder: classify, then chain pocket
+  guide-* entries (research → design → implementation → debug) plus optional
+  ADR and closeout — without restating pocket law. Use when happy-path,
+  toolbelt workflow, full feature pipeline, end-to-end feature, cold-start
+  ladder, or controller routing across pockets. For “which skill?” / fuzzy
+  entry prefer guide-meta first. Prefer over inventing an ad-hoc multi-skill
+  order. Not for single-pocket wire (use guide-implementation / guide-debug)
+  or trivial one-file tweaks.
 ---
 
 # Implementation happy-path
@@ -14,16 +16,16 @@ description: >-
 Announce once: **Using `implementation-happy-path`**.
 
 Authority: Theme 10 accepted (`docs/research/reports/theme-10-happy-path.md`);  
-**composition amended** by Theme 14 / 17 / 21 (`theme-14-pocket-routers`, `theme-17-guide-debug`, `theme-21-standards-fanout`).  
-**Compose only** — pocket SoT stays in Themes 5–9 / 12 / 14 / 17 / 21 skills. **Draft ≠ law** (`draft-is-not-sot`).
+**composition amended** by Theme 14 / 17 / 21 / 22 (`theme-14-pocket-routers`, `theme-17-guide-debug`, `theme-21-standards-fanout`, `theme-22-meta-guide`).  
+**Compose only** — pocket SoT stays in Themes 5–9 / 12 / 14 / 17 / 21 / 22 skills. **Draft ≠ law** (`draft-is-not-sot`).
 
-**Identity:** Thin **cross-pocket caller** for cold agents and subagent **controllers**. Chains **pocket routers / entries**, not a dump of every leaf. Not a method pocket. Not an always-on rule. Not PR/CI packaging.
+**Identity:** Thin **cross-pocket caller** for **feature ladders** and subagent **controllers**. Chains **pocket routers / entries**, not a dump of every leaf. Not a method pocket. Not an always-on rule. Not PR/CI packaging. Not the default for every ask — **`guide-meta`** picks smaller doors when the full ladder is overkill.
 
 ## When to use
 
-- Starting non-trivial feature work and needing the Toolbelt ladder order
+- Starting **non-trivial feature** work and needing the Toolbelt ladder order
 - Controller / parent agent routing stages across Research → Design → Implementation → Debug
-- User asks for happy-path / full workflow / “which Toolbelt skills in what order”
+- User asks for happy-path / full workflow / end-to-end feature
 
 **Do not use as the only skill inside a worker** implementing a single task — give workers one pocket skill (or one leaf).
 
@@ -32,15 +34,19 @@ Authority: Theme 10 accepted (`docs/research/reports/theme-10-happy-path.md`);
 | Ask type | Entry |
 |----------|--------|
 | **Unclear / which Toolbelt skill?** | Prefer **`guide-meta`** first (Theme 22), then continue |
-| New / changed **feature** | Happy path below |
+| New / changed **feature** (full ladder) | Happy path below |
 | **Bug** / verify-fail / unclear Critical | **`guide-debug`** (return to design/plan if design wrong) |
 | **Research** / theme campaign | Research pocket entry (`guide-research` if tracks unclear) → research leaves; continue to design only after accept |
 | **Author** skill/rule/command | `author-cursor-surfaces` |
 | **Host principles / standards (author)** | **`author-standards`** |
-| **Which standards modules apply** | **`guide-standards`** (ambient gate may trigger; no-op if no accepted catalog) |
-| **Trivial** one-file tweak | Document skip of durable Design/Plan; implement carefully |
+| **Which standards modules apply** | **`guide-standards`** (ambient gate may trigger; **no-op if no catalog — expected**, not an error) |
+| **Trivial** one-file tweak | Document skip of durable Design/Plan; implement carefully — **do not** run this ladder |
 | **Implementation pocket only** | Prefer **`guide-implementation`** (no full ladder) |
 | **Closeout / ship-ready check** | **`implementation-closeout`** (readiness — not PR ceremony) |
+
+### Anti-ceremony
+
+Happy-path is for **features that need the chain**. If the ask is one pocket, one leaf, or trivial — classify away (or send through **`guide-meta`**). Skipping Research/Design when documented is correct; inventing stages for ceremony is not.
 
 ## Happy path (feature)
 

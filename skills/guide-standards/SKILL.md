@@ -29,6 +29,7 @@ Feedstock: Theme 16 (`author-standards` profiles).
 - User asks to load relevant coding standards without the whole corpus
 
 **Skip** (document): no catalog / no accepted modules → **no-op** (not an error).  
+**Empty shelf is normal** on hosts that have not authored standards yet — silence means “no host modules,” not “Toolbelt failed.” To create feedstock → `author-standards` (human accept before law).  
 **Skip:** modules already pinned for this turn with clear paths.  
 **Skip:** user only wants to *author* standards → `author-standards`.
 

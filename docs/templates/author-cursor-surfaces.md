@@ -1,8 +1,11 @@
 ---
 title: "Author Cursor surfaces checklist (skills / rules / commands / hooks)"
 status: active
-aligned_with: docs/research/reports/theme-4-cursor-plugin-components.md
+aligned_with:
+  - docs/research/reports/theme-4-cursor-plugin-components.md
+  - docs/research/reports/theme-23-host-playbook.md
 created: 2026-07-29
+updated: 2026-08-04
 ---
 
 # Author Cursor surfaces — checklist
@@ -87,7 +90,17 @@ Record: scaffold used? `yes (name)` / `no` / `GAP (unavailable)`.
 
 Prefer **orchestration skill** (numbered steps + “Using X”) over copying other skills’ bodies.
 
-## 5 — Verify (honest)
+## 5 — Host playbook drift (Toolbelt plugin — Theme 23)
+
+When changing **skills**, **rules**, or **host-facing templates** in the Toolbelt plugin:
+
+- [ ] Update [`docs/host-playbook.md`](../host-playbook.md) and/or [`docs/host-playbook-catalog.md`](../host-playbook-catalog.md) (intent / limits / start-here still true)
+- [ ] If playbook and live `SKILL.md` would disagree → fix the playbook (**live skill wins**)
+- [ ] Update `docs/packs/README.md` + README skill tables ([CONTRIBUTING.md](../../CONTRIBUTING.md))
+
+Skip this section for host-only `.cursor/` work that does not change the Toolbelt plugin.
+
+## 6 — Verify (honest)
 
 - [ ] Paths relative; under plugin/project layout
 - [ ] Local: sync/reload or project discovery; Customize shows skill/rule
@@ -95,7 +108,7 @@ Prefer **orchestration skill** (numbered steps + “Using X”) over copying oth
 - [ ] No secrets in repo; plugin `${VAR}` only if MCP/variables in scope
 - [ ] Human accepts before treating as SoT
 
-## 6 — Out of scope / defer
+## 7 — Out of scope / defer
 
 - Marketplace submission audit → create-plugin `review-plugin-submission` if available  
 - Full plugin scaffold from zero → create-plugin scaffold / `plugin-template`  
