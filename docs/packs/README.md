@@ -2,7 +2,7 @@
 
 | Pack | Status | Surfaces |
 |------|--------|----------|
-| **Research** | shipped | `research-codebase-recon` (**S12b** history/recency — Theme 18), `research-docs`, `research-protocol`, **`guide-research`** (Theme 12 companion), `author-agents-md`, `research-draft-adr`, `author-cursor-surfaces`, **`author-standards`** (Theme 16; derive consumes S12b) |
+| **Research** | shipped | `research-codebase-recon` (**S12b** history/recency — Theme 18), `research-docs`, `research-protocol`, **`guide-research`** (Theme 12 companion), `author-agents-md`, `research-draft-adr`, `author-cursor-surfaces`, **`author-standards`** (Theme 16; derive consumes S12b), **`author-learning`** (Theme 24; quality-gated harvest → proposed host feedstock) |
 | **Design** | shipped (Theme 5 accept) | `guide-design`, `design-technical`, `design-systems`, `design-narrative`, `design-world-character`; rule `draft-is-not-sot` (includes draft design ≠ accepted). **UX (T5C) deferred** |
 | **Plan** | shipped (Theme 6 accept + elevate) | `implementation-plan` (+ wire to `implementation-plan-verify`); template `docs/templates/plan-minimal.md`; house path `docs/plans/`; rule `draft-is-not-sot` (draft plans ≠ law). See `docs/research/reports/theme-6-plan-pocket.md` |
 | **Execute** | shipped (Theme 7 accept + elevate) | `implementation-execute`, `implementation-execute-subagents` (+ wire to `implementation-execute-verify` + Debug handoffs); consumes `docs/plans/` + Theme 6 Plan law. See `docs/research/reports/theme-7-execute-pocket.md` |
@@ -15,5 +15,6 @@
 | **Validation / E0 smokes** | shipped (Theme 11 accept; no new elevation) | P0 E0 smokes + Theme 12/14 deltas. Evidence `docs/research/notes/theme-11-validation/runs/`. See `docs/research/reports/theme-11-validation.md` |
 | **Contributor / GitHub** | shipped (Theme 13 docs) | Root [`CONTRIBUTING.md`](../../CONTRIBUTING.md) + [`.github/pull_request_template.md`](../../.github/pull_request_template.md). **CI / Bugbot ceremony automation still Phase 2.** See Theme 13 report |
 | **Host playbook** | shipped (Theme 23) | [`docs/host-playbook.md`](../host-playbook.md) + [`docs/host-playbook-catalog.md`](../host-playbook-catalog.md). Install → `guide-meta` → flows; catalog as reference. Maintenance via `author-cursor-surfaces` + CONTRIBUTING. See [`theme-23-host-playbook.md`](../research/reports/theme-23-host-playbook.md) |
+| **Author-learning** | shipped (Theme 24) | **`author-learning`** + template — quality-gated harvest of host/workspace learnings → proposed standards/skills/AGENTS/ADR; never auto-accept; not Toolbelt plugin self-modify. See [`theme-24-author-learning.md`](../research/reports/theme-24-author-learning.md) |
 
 Keep new rules **intelligent / opt-in** by default except thin always-on (draft≠SoT). Elevate further surfaces only after accepted research. UX skills wait on [`docs/research/notes/theme-5-design/t5c-ux-placeholder.md`](../research/notes/theme-5-design/t5c-ux-placeholder.md).

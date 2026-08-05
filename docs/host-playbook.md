@@ -3,7 +3,7 @@ title: "Toolbelt host playbook"
 status: active
 aligned_with: docs/research/reports/theme-23-host-playbook.md
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-05
 owner: Toolbelt maintainers
 ---
 
@@ -88,6 +88,7 @@ Intelligent (not always-on): `research-before-write` — soft explore-before-edi
 | Prove or fix a bug | `guide-debug` → `debug-reproduce` / `debug-systematic` |
 | Which host standards apply | `guide-standards` (no-op if no catalog) |
 | Write host standards | `author-standards` (proposed until accept) |
+| Harvest lessons into proposed host feedstock | `author-learning` (quality gate; never auto-accept) |
 | Author a Cursor skill/rule | `author-cursor-surfaces` |
 | Ship-ready check (not merge) | `implementation-closeout` |
 
@@ -110,4 +111,4 @@ When Toolbelt **skills, rules, or host-facing templates** change:
 2. Follow `author-cursor-surfaces` checklist (host-playbook item).  
 3. Update packs/README + README skill tables ([CONTRIBUTING.md](../CONTRIBUTING.md)).  
 
-**Owner:** Toolbelt maintainers · **Updated:** 2026-08-04 (Theme 23).
+**Owner:** Toolbelt maintainers · **Updated:** 2026-08-05 (Theme 24 author-learning).

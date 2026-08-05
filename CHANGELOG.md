@@ -8,6 +8,7 @@ Format inspired by [Keep a Changelog](https://keepachangelog.com/). Versioning f
 
 ### Added
 
+- Theme 24: **`author-learning`** + template — quality-gated harvest of host/workspace learnings into proposed feedstock (standards/skills/AGENTS/ADR); never auto-accept; optional evidence-warranted closeout handoff; not Toolbelt plugin self-modify
 - Theme 23: **`docs/host-playbook.md`** + **`docs/host-playbook-catalog.md`** — host setup/use (start at `guide-meta`); catalog as reference; maintenance via `author-cursor-surfaces` + CONTRIBUTING (live skill wins on conflict)
 - Theme 22: **`guide-meta`** + template — thin global front door (classify → one next surface); **not** always-on
 - Theme 19: **`guide-standards`** + standards catalog/module templates + always-on thin **`standards-resolve-gate`** (selective module apply; empty/absent no-op)

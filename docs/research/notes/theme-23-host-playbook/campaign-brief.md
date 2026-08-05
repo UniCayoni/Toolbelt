@@ -13,7 +13,7 @@ aligned_with:
   - docs/templates/research-campaign-brief.md
   - docs/research/reports/theme-22-meta-guide.md
   - docs/research/reports/theme-13-contributor-workflow.md
-  - docs/research/notes/theme-24-learn-back/campaign-brief.md
+  - docs/research/notes/theme-24-author-learning/campaign-brief.md
   - docs/packs/README.md
 supersedes:
   - docs/research/notes/theme-23-host-loop/campaign-brief.md

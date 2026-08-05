@@ -19,8 +19,8 @@ Authority: Theme 22 accepted. Used by skill `guide-meta`.
 ```text
 Ask class:
   feature-ladder | research | design | implementation-pocket | debug
-  | standards-resolve | standards-author | author-surfaces | closeout
-  | leaf-direct | trivial | unclear | out-of-toolbelt
+  | standards-resolve | standards-author | author-learning | author-surfaces
+  | closeout | leaf-direct | trivial | unclear | out-of-toolbelt
 Named skill already?: yes (which) | no
 Ambiguity: high | medium | low
 ```
@@ -30,8 +30,8 @@ Ambiguity: high | medium | low
 ```text
 Next: guide-research | guide-design | guide-implementation | guide-debug
     | guide-standards | implementation-happy-path | author-standards
-    | author-cursor-surfaces | implementation-closeout | <named-leaf>
-    | none (document skip / out of scope)
+    | author-learning | author-cursor-surfaces | implementation-closeout
+    | <named-leaf> | none (document skip / out of scope)
 Reason (one line):
 Smallest sufficient?: yes | no (why larger entry)
 ```

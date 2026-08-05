@@ -2,7 +2,7 @@
   "name": "toolbelt",
   "displayName": "Toolbelt",
   "version": "0.1.0",
-  "description": "Reusable Cursor agent utility: research method + Design + Plan + Execute + Verify + Debug + guide-meta front door + guide-* pocket entry + selective host standards apply + closeout readiness + host standards authoring + happy-path orchestration + host playbook. Not a Brain/RAG product.",
+  "description": "Reusable Cursor agent utility: research method + Design + Plan + Execute + Verify + Debug + guide-meta front door + guide-* pocket entry + selective host standards apply + closeout readiness + host standards authoring + author-learning harvest + happy-path orchestration + host playbook. Not a Brain/RAG product.",
   "author": {
     "name": "Jonathan Cayuela",
     "email": "81636886+UniCayoni@users.noreply.github.com"
@@ -33,6 +33,7 @@
     "implementation-closeout",
     "closeout",
     "author-standards",
+    "author-learning",
     "guide-standards",
     "standards",
     "principles",

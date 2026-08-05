@@ -41,6 +41,7 @@ Authority: Theme 15 accepted (`docs/research/reports/theme-15-closeout-readiness
    - Every non-N/A needs an **evidence locator** (path, command+signal, accept record, run log) or explicit waiver (who/why/date).
    - **Do not invent greens.** Unproven → `blocked` or list under “NOT verified”.
    - Emit overall verdict + gaps; if `ready`, hand **human** for host ceremony.
+   - **Author-learning (Theme 24):** only if the check surfaced **citable friction or durable lessons** (locators exist), offer optional handoff to **`author-learning`** for quality-gated proposed feedstock. If nothing durable to cite → **skip** (anti-ceremony). Never auto-run harvest; never auto-accept.
 5. **Stop** — do not open PRs or push from this skill.
 
 Read `references/closeout-readiness-checklist.md` **when** running a full define or check session.  
@@ -72,6 +73,7 @@ Profile SoT template: Toolbelt `docs/templates/closeout-profile.md`.
 | Implementation wire | `guide-implementation` |
 | Missing design/plan/verify | respective leaf skills |
 | Host principles / standards feedstock | **`author-standards`** |
+| Quality-gated harvest of lessons (proposed only) | **`author-learning`** — only when citable friction exists |
 | Method authoring | `author-cursor-surfaces` |
 | GitHub ceremony | **Host / human** — not this skill |
 

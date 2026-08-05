@@ -47,7 +47,7 @@ Operational load uses `~/.cursor/plugins/local/toolbelt`. Cursor `workspaceOpen`
 
 1. **Developer: Reload Window**
 2. **Customize** → Plugins: `toolbelt` (display name **Toolbelt**) is listed
-3. Skills: Research + Design + Plan/Execute/Verify/Debug leaves + pocket **`guide-*`** + **`guide-meta`** + happy-path + closeout + author-standards (**26** total)
+3. Skills: Research + Design + Plan/Execute/Verify/Debug leaves + pocket **`guide-*`** + **`guide-meta`** + happy-path + closeout + author-standards + **`author-learning`** (**27** total)
 4. Rules: grades + draft≠SoT + **standards-resolve-gate** always-on; explore-before-write available (intelligent)
 5. Smoke: `/guide-meta`, `/guide-design`, `/implementation-plan`, `/author-cursor-surfaces` (or Customize → Skills)
 
@@ -65,7 +65,7 @@ Reload Window after sync. **Elevating or revising skills/rules:** use `/author-c
 ## Layout
 
 ```text
-skills/          Research + Design + Plan + Execute + Verify + Debug + guide-* + guide-meta + Closeout + Host standards + Happy-path + authoring (26)
+skills/          Research + Design + Plan + Execute + Verify + Debug + guide-* + guide-meta + Closeout + Host standards + author-learning + Happy-path + authoring (27)
 rules/           Grades + draft≠SoT + standards-resolve-gate (always); explore-before-write (intelligent)
 assets/          Logo and static assets (marketplace)
 docs/PROTOCOL.md Method law
@@ -90,6 +90,7 @@ docs/packs/      Pack index (Research / Design / Plan / Execute / Verify / Debug
 | `guide-research` | Companion: expand/atomize concept → tracks → enough-to-start before gather |
 | `author-agents-md` | Create/revise `AGENTS.md` (`/` invoke) |
 | `author-standards` | Host principles + checkable standards profiles; brownfield derive (`/` invoke) |
+| `author-learning` | Quality-gated harvest → proposed host skills/standards/AGENTS (`/` invoke; never auto-accept) |
 | `guide-standards` | Selective host standards modules (pointers only; catalog if-present) |
 | `research-draft-adr` | Record an architecture/process decision (`/` invoke) |
 | `author-cursor-surfaces` | Author/compose skills, rules, commands, hooks to Theme 4 standards (`/` invoke) |

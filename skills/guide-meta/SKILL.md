@@ -3,12 +3,13 @@ name: guide-meta
 description: >-
   Start here for Toolbelt: global front door (guide-meta). Classify a fuzzy or
   cold-start ask and name exactly one next surface — pocket guide-*, 
-  implementation-happy-path, author-standards, author-cursor-surfaces, or
-  implementation-closeout — then hand off. Use when guide-meta, which Toolbelt
-  skill, where do I start, how do I use Toolbelt, cold start, meta-router,
-  skill router, unclear research vs design vs implement vs debug, or mixed
-  multi-pocket asks. Prefer over inventing an ad-hoc entry or forcing the full
-  happy-path. Not always-on. Not for running pocket spines itself.
+  implementation-happy-path, author-standards, author-learning,
+  author-cursor-surfaces, or implementation-closeout — then hand off. Use when
+  guide-meta, which Toolbelt skill, where do I start, how do I use Toolbelt,
+  cold start, meta-router, skill router, unclear research vs design vs
+  implement vs debug, or mixed multi-pocket asks. Prefer over inventing an
+  ad-hoc entry or forcing the full happy-path. Not always-on. Not for running
+  pocket spines itself.
 ---
 
 # Guide meta
@@ -34,7 +35,7 @@ reopens Theme 14 park of global skill-router as **opt-in skill only** (not alway
 
 ## Instructions
 
-1. **Classify** ask (see checklist): `feature-ladder` | `research` | `design` | `implementation-pocket` | `debug` | `standards-resolve` | `standards-author` | `author-surfaces` | `closeout` | `leaf-direct` | `trivial` | `unclear` | `out-of-toolbelt`.
+1. **Classify** ask (see checklist): `feature-ladder` | `research` | `design` | `implementation-pocket` | `debug` | `standards-resolve` | `standards-author` | `author-learning` | `author-surfaces` | `closeout` | `leaf-direct` | `trivial` | `unclear` | `out-of-toolbelt`.
 2. If **named skill already** → document skip; invoke that skill (or leaf).
 3. **Pick exactly one next surface** from the allowlist. Prefer the **smallest sufficient entry** (see examples). Do **not** default every ask to happy-path.
 4. **Structured handoff** — goal, prior, facts+source, open question, constraints (see template).
@@ -66,6 +67,7 @@ Template SoT: Toolbelt `docs/templates/guide-meta.md`.
 | Bug / verify-fail / prove vs fix | `guide-debug` |
 | Which host standards modules apply | `guide-standards` |
 | Write/derive host standards | `author-standards` |
+| Harvest lessons → proposed host feedstock | `author-learning` |
 | Author skill/rule/command | `author-cursor-surfaces` |
 | Ship-ready / closeout check | `implementation-closeout` |
 | User named one leaf clearly | that leaf (skip meta) |
@@ -88,7 +90,7 @@ Template SoT: Toolbelt `docs/templates/guide-meta.md`.
 |------|-----|
 | Full feature ladder | **`implementation-happy-path`** |
 | Research / Design / Impl / Debug / Standards resolve | matching **`guide-*`** |
-| Author standards / surfaces | `author-standards` / `author-cursor-surfaces` |
+| Author standards / learning harvest / surfaces | `author-standards` / `author-learning` / `author-cursor-surfaces` |
 | Closeout readiness | `implementation-closeout` |
 | Named leaf | that leaf directly |
 | Host setup / adopt Toolbelt | Toolbelt **`docs/host-playbook.md`** (+ catalog) |

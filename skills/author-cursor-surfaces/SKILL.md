@@ -67,6 +67,7 @@ Explicit skill (`/author-cursor-surfaces`). **Author / compose** — not marketp
 | Need | Use |
 |------|-----|
 | AGENTS.md house docs | `author-agents-md` |
+| Quality-gated harvest → proposed host feedstock | `author-learning` |
 | Decision record | `research-draft-adr` |
 | Unknown Cursor API facts | `research-docs` / `research-protocol` |
 | Marketplace audit | create-plugin `review-plugin-submission` (not this skill) |

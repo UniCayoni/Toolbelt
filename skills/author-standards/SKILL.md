@@ -76,6 +76,7 @@ Profile SoTs: `references/principles-profile.md`, `references/standards-profile.
 |------|-----|
 | AGENTS.md pointer / budgets | `author-agents-md` |
 | Cursor skill/rule packaging | `author-cursor-surfaces` |
+| Harvest session lessons → proposed feedstock | **`author-learning`** (quality gate; then hand back here after accept) |
 | Codebase recon for derive | `research-codebase-recon` |
 | Which modules to load (apply) | **`guide-standards`** |
 | Architecture locks | `research-draft-adr` / `guide-design` |

@@ -63,6 +63,7 @@ Columns: **id** · **intent** · **good-for** · **limits** · **typical next**
 |----|--------|----------|--------|--------------|
 | implementation-closeout | Host readiness check | Ship-ready evidence | Not merge/push/PR | human ceremony |
 | author-standards | Write/derive host profiles | Principles + standards | Not Toolbelt-universal law | guide-standards after accept |
+| author-learning | Quality-gated harvest → proposed feedstock | Session/closeout lessons → host skills/standards/AGENTS | Never auto-accept; not Toolbelt plugin skills | author-standards / author-cursor-surfaces / agents-md / ADR after accept |
 | author-agents-md | AGENTS.md | House ops bootstrap | Keep standards as pointers | author-cursor-surfaces |
 | author-cursor-surfaces | Author skills/rules/hooks | New Cursor surfaces | Explicit `/`; not marketplace audit | agents-md / research-docs |
 

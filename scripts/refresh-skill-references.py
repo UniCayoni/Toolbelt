@@ -104,6 +104,10 @@ COPIES: list[tuple[Path, Path]] = [
         ROOT / "docs" / "templates" / "guide-meta.md",
         ROOT / "skills" / "guide-meta" / "references" / "guide-meta-checklist.md",
     ),
+    (
+        ROOT / "docs" / "templates" / "author-learning.md",
+        ROOT / "skills" / "author-learning" / "references" / "author-learning.md",
+    ),
 ]
 
 
