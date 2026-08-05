@@ -22,3 +22,6 @@ credentials.json
 
 # Cursor local workspace noise (keep .cursor-plugin/)
 .cursor/
+
+# Local editor tasks / settings (maintainer helpers; promote later if desired)
+.vscode/

@@ -31,6 +31,7 @@ def main() -> int:
             "__pycache__",
             "*.pyc",
             ".cursor",
+            ".vscode",
         ),
     )
     print(f"OK synced -> {LOCAL_PLUGIN}")
