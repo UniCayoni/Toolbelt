@@ -64,7 +64,7 @@ Do **not** submit to marketplace until G0 (public) is done. Local/private distri
 | G2 | Verify Contributing tab + PR template in GitHub UI | operator after public |
 | G3 | Reload → Customize → Plugins: **27** skills; spot `/guide-meta`, `/author-learning` | operator (local sync already 27) |
 | G4 | Confirm marketplace name `toolbelt` free at submit | operator |
-| G5 | Optional: bump `0.1.0` → `1.0.0` for first listing | decide at submit |
+| G5 | Bump `0.1.0` → `1.0.0` for first listing | **done** 2026-08-05 — submitted / under review |
 
 Publish URL: https://cursor.com/marketplace/publish
 

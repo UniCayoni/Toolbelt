@@ -6,6 +6,10 @@ Format inspired by [Keep a Changelog](https://keepachangelog.com/). Versioning f
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-08-05
+
+First marketplace submission cut. Method surface through Themes 1–25 (research → design → plan → execute → verify → debug; guides; standards; closeout; happy-path; host playbook; author-learning; docs hygiene).
+
 ### Added
 
 - Theme 25: `.markdownlint-cli2.jsonc` — Toolbelt-tuned markdownlint (archive ignored); active tree clean at 0
@@ -23,6 +27,7 @@ Format inspired by [Keep a Changelog](https://keepachangelog.com/). Versioning f
 
 ### Changed
 
+- Version **0.1.0 → 1.0.0** for first marketplace listing
 - Theme 25: Tier A wording — host playbook points at Theme 24 **`author-learning`** (not learn-back); markdown autofix on live docs/skills/templates
 - Theme 21: T19J fan-out — all pocket **`guide-*`** run if-present **`guide-standards`** resolve (already-pinned skip; research/design lean principles modules; impl/debug lean technical). Single sync cutover.
 - Theme 20: pocket entry skills renamed to symmetric **`guide-*`** prefix (hard cutover; Reload Window after sync):
