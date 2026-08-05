@@ -3,13 +3,14 @@ title: "review-plugin-submission — Toolbelt (2026-07-30)"
 status: draft
 theme: marketplace-prep
 created: 2026-07-30
-updated: 2026-07-31
+updated: 2026-08-05
 authors: [reviewer]
 prep_applied: 2026-07-30
 aligned_with:
   - skills review-plugin-submission (create-plugin plugin)
   - https://cursor.com/docs/reference/plugins.md
   - docs/research/reports/theme-13-contributor-workflow.md
+  - docs/research/notes/marketplace-prep/pre-ship-check-20260805.md
 supersedes: null
 ---
 
@@ -21,8 +22,8 @@ supersedes: null
 
 ## Final recommendation
 
-**In-repo packaging P1** largely done (2026-07-30+). Theme 13 contributor docs elevated (2026-07-31).  
-**Still not submitted.** Blockers are mostly **operator / GitHub Settings** — see **§ Pre-marketplace operator checklist** below.  
+**In-repo packaging READY** (re-check 2026-08-05: 27 skills, Themes 23–25 on `main`).  
+**Still not submitted.** Blocker: repo **private** + Discussions off — see [pre-ship-check-20260805.md](./pre-ship-check-20260805.md).  
 Publish when ready: [marketplace/publish](https://cursor.com/marketplace/publish).
 
 ---
