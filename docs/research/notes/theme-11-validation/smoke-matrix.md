@@ -3,7 +3,7 @@ title: "Theme 11 — P0 smoke matrix"
 status: draft
 theme: theme-11-validation
 created: 2026-07-30
-updated: 2026-08-04
+updated: 2026-08-05
 authors: [coordinator]
 campaign_phase: phase_b_integrated
 aligned_with:
@@ -11,6 +11,8 @@ aligned_with:
   - docs/research/notes/theme-11-validation/phase-b-evaluation-20260730.md
   - docs/research/notes/theme-11-validation/runs/CONTROLLER-SUMMARY-20260730.md
   - docs/research/reports/theme-12-research-scoping.md
+  - docs/research/reports/theme-23-host-playbook.md
+  - docs/research/reports/theme-24-author-learning.md
 supersedes: null
 ---
 
@@ -30,7 +32,9 @@ supersedes: null
 **Theme 19 delta (2026-08-03):** new **S2** `guide-standards` — in-session PASS; fresh optional / pending review.  
 **Theme 20 delta (2026-08-04):** re-smoke all five **`guide-*`** after rename — **5/5 PASS** ([CONTROLLER-SUMMARY-theme20-20260804.md](./runs/CONTROLLER-SUMMARY-theme20-20260804.md)).  
 **Theme 21 delta (2026-08-04):** **S3** standards fan-out (T19J) — **PASS** (`S3-theme21-20260804.md`).  
-**Theme 22 delta (2026-08-04):** **M1** `guide-meta` — **PASS** (`M1-theme22-20260804.md`).
+**Theme 22 delta (2026-08-04):** **M1** `guide-meta` — **PASS** (`M1-theme22-20260804.md`).  
+**Theme 23 delta (2026-08-04):** **PB1** host playbook (E0) — was mis-ID’d as H1; **PASS** (`H1-theme23-20260804.md` → treat as PB1).  
+**Theme 24 delta (2026-08-05):** regression set **4/4 PASS** — L1 behavioral, M1 Part E, C1 Part D, PB1 E0 ([CONTROLLER-SUMMARY-theme24-20260805.md](./runs/CONTROLLER-SUMMARY-theme24-20260805.md)).
 
 | ID | Surface | Lane | Fixture | Card | Run status |
 |----|---------|------|---------|------|------------|
@@ -58,11 +62,19 @@ supersedes: null
 | S1 | author-standards | either | none | [s1](./claim-cards/s1-author-standards.md) | PASS fresh (`S1-fresh-20260802.md`); prior in-session `S1-20260802.md` **Theme 16** |
 | S2 | guide-standards | either | t19-catalog artifact | [s2](./claim-cards/s2-standards-router.md) | PASS Theme 20 (`S2-theme20-20260804.md`); prior `S2-20260803.md` |
 | S3 | standards fan-out (T19J) | either | t19-catalog + Toolbelt absent | [s3](./claim-cards/s3-standards-fanout.md) | PASS (`S3-theme21-20260804.md`) **Theme 21** |
-| M1 | guide-meta | either | none | [m1](./claim-cards/m1-guide-meta.md) | PASS (`M1-theme22-20260804.md`) **Theme 22** |
+| M1 | guide-meta | either | none | [m1](./claim-cards/m1-guide-meta.md) | **PASS** Theme 24 re-smoke (`M1-theme24-20260805.md`); prior Theme 22 `M1-theme22-20260804.md` |
 | R8 | guide-debug | either | none | [r8](./claim-cards/r8-debug-router.md) | PASS Theme 20 (`R8-theme20-20260804.md`); prior fresh `R8-fresh-20260802.md` |
 | R9 | recon S12b / derive glue | either | none | [r9](./claim-cards/r9-recon-history.md) | PASS fresh (`R9-fresh-20260803.md`); prior in-session `R9-20260803.md` **Theme 18** |
+| PB1 | host-playbook docs | E0 | none | [pb1](./claim-cards/pb1-host-playbook.md) | **PASS** Theme 24 re-check (`PB1-theme24-20260805.md`); prior `H1-theme23-20260804.md` |
+| L1 | author-learning | either | none | [l1](./claim-cards/l1-author-learning.md) | **PASS** behavioral (`L1-behavioral-20260805.md`); E0 wire `L1-theme24-20260805.md` |
+| C1Δ | closeout → author-learning | either | none | [c1](./claim-cards/c1-implementation-closeout.md) Part D | **PASS** (`C1-theme24-20260805.md`) |
 
-**P1 (deferred):** design-systems / narrative / world-character deep smokes; research-before-write.
+**P0 coverage notes (2026-08-05 revisit):**
+- Full Phase B (U/R/D/P/E/G/H) remains green historically; not every leaf re-run each theme.
+- After Themes 23–24, **minimum regression set:** L1 (behavioral), M1 (+ Part E), C1 Part D, PB1 (E0), optional U1 draft≠SoT touch.
+- ID **H1** = happy-path only. Host playbook = **PB1** (do not reuse H1).
+
+**P1 (deferred):** design-systems / narrative / world-character deep smokes; research-before-write; full Phase B re-fleet.
 
 ## Phase B run order
 

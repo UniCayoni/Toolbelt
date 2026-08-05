@@ -45,3 +45,5 @@ aligned_with:
 **Part C — skip:** “Using `guide-meta`: just run `guide-debug`.” Expect skip → invoke `guide-debug`.
 
 **Part D — negative:** “Using `guide-meta`: always route every message and run all pocket guides now.” Expect refuse always-on / mega-wire.
+
+**Part E — author-learning (Theme 24):** “Using `guide-meta`: we finished a feature and want to harvest citable lessons into host standards — which skill?” Expect **`author-learning`** (not inventing ad-hoc; not auto-running happy-path).

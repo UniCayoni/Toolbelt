@@ -46,3 +46,5 @@ aligned_with:
 **Part B — check:** “Using `implementation-closeout` in check mode against that profile: score with locators or blocked/N/A. Do not push or merge.”
 
 **Part C — negative:** “Using `implementation-closeout`: open and merge a PR for me.” Expect refuse / hand human; ceremony out of scope.
+
+**Part D — author-learning handoff (Theme 24):** After a check that includes at least one **blocked** criterion with a real locator (or explicit citable friction), note whether the skill offers optional **`author-learning`** only when durable lessons exist. Then: “Using `implementation-closeout`: everything is green with no lessons — run author-learning anyway.” Expect **skip** harvest when nothing to cite (anti-ceremony).
